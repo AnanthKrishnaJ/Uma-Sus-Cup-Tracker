@@ -1,0 +1,44 @@
+Match at 9981:
+9976: </div>
+9977: ${race.partialResults ? '<div style="background:var(--warning, #f39c12); color:white; padding:10px; border-radius:5px; font-weight:bold; margin-bottom:15px;">⚠️ PARTIAL RESULTS AVAILABLE - Only confirmed top placements are shown below.</div>' : ''}
+9978: ${race.images?.length ? `<div class="race-gallery">${race.images.slice(0, 4).map((image, index) => `<a href="javascript:void(0)" onclick="openGallery('${race.images.join(',')}', ${index})"><img src="${image}" alt="Sus Cup ${race.cupNumber} result screenshot ${index + 1}" loading="lazy" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'><rect width=\'300\' height=\'200\' fill=\'%23eee\'/><text x=\'150\' y=\'100\' font-size=\'16\' text-anchor=\'middle\' fill=\'%23999\'>Screenshot Missing</text></svg>';"></a>`).join('')}</div>` : ''}
+9979: `;
+9980: 
+9981: if (race.scenarioWinners || race.specialWinners) {
+9982: const winners = race.scenarioWinners || race.specialWinners;
+9983: html += `<div style="margin: 20px 0; background: var(--surface-light); border-radius: 8px; padding: 15px; border-left: 4px solid var(--accent);">
+9984: <h3 style="margin-bottom: 12px; font-size: 1.2rem; color: var(--accent);">Special Category Winners</h3>
+9985: <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">`;
+9986: 
+9987: for (const [category, winner] of Object.entries(winners)) {
+9988: const participant = race.participants.find(p => p.uma === winner.uma && p.player === winner.player);
+9989: const umaId = participant ? participant.umaId : '';
+9990: 
+9991: html += `
+9992: <div style="background: var(--surface); padding: 12px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+9993: <div style="font-weight: 800; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 5px; text-transform: uppercase;">${category}</div>
+9994: <div style="display: flex; align-items: center; gap: 10px;">
+9995: ${this.getUmaImage(umaId)}
+----------------------------------------
+Match at 9982:
+9977: ${race.partialResults ? '<div style="background:var(--warning, #f39c12); color:white; padding:10px; border-radius:5px; font-weight:bold; margin-bottom:15px;">⚠️ PARTIAL RESULTS AVAILABLE - Only confirmed top placements are shown below.</div>' : ''}
+9978: ${race.images?.length ? `<div class="race-gallery">${race.images.slice(0, 4).map((image, index) => `<a href="javascript:void(0)" onclick="openGallery('${race.images.join(',')}', ${index})"><img src="${image}" alt="Sus Cup ${race.cupNumber} result screenshot ${index + 1}" loading="lazy" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'><rect width=\'300\' height=\'200\' fill=\'%23eee\'/><text x=\'150\' y=\'100\' font-size=\'16\' text-anchor=\'middle\' fill=\'%23999\'>Screenshot Missing</text></svg>';"></a>`).join('')}</div>` : ''}
+9979: `;
+9980: 
+9981: if (race.scenarioWinners || race.specialWinners) {
+9982: const winners = race.scenarioWinners || race.specialWinners;
+9983: html += `<div style="margin: 20px 0; background: var(--surface-light); border-radius: 8px; padding: 15px; border-left: 4px solid var(--accent);">
+9984: <h3 style="margin-bottom: 12px; font-size: 1.2rem; color: var(--accent);">Special Category Winners</h3>
+9985: <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">`;
+9986: 
+9987: for (const [category, winner] of Object.entries(winners)) {
+9988: const participant = race.participants.find(p => p.uma === winner.uma && p.player === winner.player);
+9989: const umaId = participant ? participant.umaId : '';
+9990: 
+9991: html += `
+9992: <div style="background: var(--surface); padding: 12px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+9993: <div style="font-weight: 800; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 5px; text-transform: uppercase;">${category}</div>
+9994: <div style="display: flex; align-items: center; gap: 10px;">
+9995: ${this.getUmaImage(umaId)}
+9996: <div>
+----------------------------------------

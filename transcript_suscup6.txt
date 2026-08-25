@@ -1,0 +1,123 @@
+Created At: 2026-08-24T17:48:16+05:30
+Completed At: 2026-08-24T17:48:16+05:30
+
+				The command exited with code 0.
+				Output:
+				SUS CUP 6 images: [
+                        "images/races/6.1.png",
+                        "images/races/6.2.png",
+                        "images/races/6.3.png",
+                        "images/races/6.4.png"
+                    ]
+SUS CUP 1 images before object: [
+                        "suscupimages1-10/suscup1.1.png",
+                        "suscupimages1-10/suscup1.2.png",
+                        "suscupimages1-10/suscup1.3.png",
+                        "suscupimages1-10/suscup1.4.png",
+                        {
+Replaced SUS CUP 5 pos 14: True
+Found Tokai in SUS CUP 1: "cupNumber": "1",
+                    "name": "G1 Tokyo Yushun (Japanese Derby)",
+                    "date": "2025-08-11",
+                    "images": [
+                        "suscupimages1-10/suscup1.1.png",
+                        "suscupimages1-10/suscup1.2.png",
+                        "suscupimages1-10/suscup1.3.png",
+                        "suscupimages1-10/suscup1.4.png",
+                        {
+                            "id": 11,
+                            "cupNumber": "SUS CUP 11 - GP Round 3/3",
+                            "name": "Japan Cup",
+                            "date": "2025-09-21",
+                            "time": "19:03",
+                            "roomId": "3936 9926",
+                            "race": "Japan Cup",
+                            "course": "Tokyo Turf",
+                            "surface": "Turf",
+                            "distance": "2400m",
+                            "distanceType": "Medium",
+                            "direction": "Left-handed",
+                            "weather": "Random",
+                            "ground": "Random",
+                            "mood": "Random",
+                            "rankLimit": "No Rank Limit",
+                            "specialRule": "GP Round 3/3 (Same characters as GP R1 & R2)",
+                            "images": [
+                                "suscup11-20/11.1.png",
+                                "suscup11-20/11.2.png",
+                                "suscup11-20/11.3.png",
+                                "suscup11-20/11.4.png"
+                            ],
+                            "participants": [
+                                {
+                                    "pos": 1,
+                                    "uma": "Narita Taishin",
+                                    "umaId": "narita-taishin",
+                                    "player": "Cyciesta",
+                                    "number": 1,
+                                    "rank": "A",
+                                    "title": "The GOAT",
+                                    "strategy": "End",
+                                    "time": "2:21.4",
+                                    "pop": 2,
+                                    "version": "Original / Default",
+                                    "participantType": "Playable Uma",
+                                    "characterUrl": "https://gametora.com/umamusume/characters/narita-taishin"
+                                },
+                                {
+                                    "pos": 2,
+                                    "uma": "Symboli Rudolf",
+                                    "umaId": "symboli-rudolf",
+                                    "player": "Cyciesta",
+                                    "number": 11,
+                                    "rank": "A+",
+                                    "title": "Emperor",
+                                    "strategy": "Pace",
+                                    "pop": 1,
+                                    "version": "Original / Default",
+                                    "participantType": "Playable Uma",
+                                    "characterUrl": "https://gametora.com/umamusume/characters/symboli-rudolf"
+                                },
+                                {
+                                    "pos": 3,
+                                    "uma": "El Condor Pasa",
+                                    "umaId": "el-condor-pasa",
+                                    "player": "agnes",
+                                    "number": 4,
+                                    "rank": "A",
+                                    "title": "Finals Champion",
+                                    "strategy": "Late",
+                                    "pop": 3,
+                                    "version": "Original / Default",
+                                    "participantType": "Playable Uma",
+                                    "characterUrl": "https://gametora.com/umamusume/characters/el-condor-pasa"
+                                },
+                                {
+                                    "pos": 4,
+                                    "uma": "Grass Wonder",
+                                    "umaId": "grass-wonder",
+                                    "player": "agnes",
+                                    "number": 17,
+                                    "rank": "A",
+                                    "title": "Steamy Solidarity",
+                                    "strategy": "Late",
+                                    "pop": 4,
+                                    "version": "Original / Default",
+                                    "participantType": "Playable Uma",
+                                    "characterUrl": "https://gametora.com/umamusume/characters/grass-wonder"
+                                },
+                                {
+                                    "pos": 5,
+                                    "uma": "Tokai Teio",
+                                    "umaId": "tokai-teio-beyond",
+                                    "player": "Jiinxye",
+                                    "number": 8,
+                                    "rank": "A",
+                                    "title": "Finals Champion",
+                                    "strategy": "Pace",
+                                    "pop": 9,
+                                    "version": "[Beyond the Horizon]",
+                                    "participantType": "Playable Uma",
+                                    "characterUrl": "https://gametora.com/umamusume/characters/100302-tokai-teio"
+                                }
+

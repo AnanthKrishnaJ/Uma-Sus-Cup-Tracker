@@ -1,0 +1,82 @@
+<div id="galleryModal" class="gallery-modal">
+        <span class="gallery-close" onclick="closeGallery()">&times;</span>
+        <div class="gallery-nav prev" onclick="changeGalleryImage(-1)">&#10094;</div>
+        <img class="gallery-modal-content" id="galleryImage">
+        <div class="gallery-nav next" onclick="changeGalleryImage(1)">&#10095;</div>
+    </div>
+
+    <script>
+        const INITIAL_DATA = {
+    "winners": [
+        {
+            "cup": "Sus Cup 6",
+            "trainer": "Cyclobly",
+            "uma": "Gold Ship",
+            "version": "Original / Default",
+            "url": "https://gametora.com/umamusume/characters/100101-gold-ship",
+            "race": "UNIQUE EPITHETS / STEAMY SOLIDARITY",
+            "date": "2025-09-03",
+            "result": "2:29.0"
+        },
+        {
+            "cup": "Sus Cup 11",
+            "trainer": "Cyciesta",
+            "uma": "Narita Taishin",
+            "umaId": "narita-taishin",
+            "version": "Original / Default",
+            "url": "https://gametora.com/umamusume/characters/103301-narita-taishin",
+            "race": "Japan Cup",
+            "date": "2025-09-21",
+            "result": "2:21.4"
+        },
+        {
+            "cup": "Sus Cup 6",
+            "trainer": "Cyciesta",
+            "uma": "Gold Ship",
+            "umaId": "gold-ship",
+            "version": "Original / Default",
+            "url": "https://gametora.com/umamusume/characters/100101-gold-ship",
+            "race": "UNIQUE EPITHETS / STEAMY SOLIDARITY",
+            "date": "2025-09-03",
+            "result": "2:29.0"
+        },
+        {
+            "cup": "Sus Cup 1",
+            "trainer": "GohanXGAMER",
+            "uma": "Oguri Cap",
+            "umaId": "oguri-cap",
+            "version": "Standard / Original",
+            "url": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+            "race": "G1 Tokyo Yushun (Japanese Derby)",
+            "date": "2025-08-11",
+            "result": "2:22.5"
+        },
+        {
+            "cup": "Sus Cup 3",
+            "trainer": "Yves",
+            "uma": "Oguri Cap",
+            "umaId": "oguri-cap",
+            "version": "Original / Default",
+            "url": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+            "race": "Champions Cup",
+            "date": "2025-08-21",
+            "result": "1:48.2"
+        },
+        {
+            "cup": "Sus Cup 4",
+            "trainer": "Yves",
+            "uma": "Nice Nature",
+            "umaId": "nice-nature",
+            "version": "Original / Default",
+            "url": "https://gametora.com/umamusume/characters/106001-nice-nature",
+            "race": "Hopeful Stakes",
+            "date": "2025-08-25",
+            "result": "1:56.6"
+        },
+        {
+            "cup": "Sus Cup 5",
+            "trainer": "Agnes",
+            "uma": "Super Creek",
+            "umaId": "super-creek",
+            "version": "Original / Default",
+            "url": "https://gametora.com/umamus

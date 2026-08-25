@@ -1,0 +1,369 @@
+## Sus Cup 1 — G1 Tokyo Yushun (Japanese Derby)
+
+**Date:** 2025-08-11
+**Race time:** 19:06
+**Room ID:** 1662 1798
+**Track:** Tokyo Turf
+**Distance:** 2400m — Medium
+**Direction:** Left
+**Weather:** Sunny
+**Ground:** Firm
+**Condition:** Firm
+**Mood:** Great
+**Season:** Spring
+**Rank limit:** A Rank Max
+
+| Pos | Uma                               | Trainer     | No. | Rank | Title             | Style | Time/Gap   | Fav |
+| --: | --------------------------------- | ----------- | --: | ---- | ----------------- | ----- | ---------- | --: |
+|   1 | Oguri Cap                         | GohanXGAMER |   7 | B+   | Ideal Idol        | Pace  | **2:22.5** |   8 |
+|   2 | Mihono Bourbon                    | Jiinxye     |   2 | B+   | Steamy Solidarity | Front | 1 3/4 L    |   7 |
+|   3 | T.M. Opera O                      | Yves        |  15 | A    | The GOAT          | Pace  | 1 1/4 L    |   3 |
+|   4 | Gold Ship                         | Agnes       |   4 | A    | Unpredictable     | End   | 3 L        |   1 |
+|   5 | Agnes Tachyon                     | Cyciesta    |  17 | A    | Epoch Pioneer     | Pace  | 3 L        |   5 |
+|   6 | Tokai Teio                        | Cruzi       |   8 | B+   | Monarch           | Pace  | 3 L        |   6 |
+|   7 | Symboli Rudolf                    | Agnes       |   9 | A    | Fan Favorite      | Late  | 1 L        |   2 |
+|   8 | Narita Taishin                    | Cyciesta    |  16 | A    | The GOAT          | End   | 1 L        |   4 |
+|   9 | Revival Lyric                     | NPC         |   1 | C+   | —                 | Front | 3/4 L      |  14 |
+|  10 | Marine Seagull                    | NPC         |  13 | C+   | —                 | Late  | 3/4 L      |  17 |
+|  11 | T.M. Opera O                      | Jiinxye     |  14 | B    | Finals Champion   | Pace  | 3/4 L      |   9 |
+|  12 | Reverent                          | NPC         |  18 | C+   | —                 | End   | 3/4 L      |  15 |
+|  13 | Cithara Rhythm                    | NPC         |   5 | C+   | —                 | Pace  | 1/2 L      |  12 |
+|  14 | Grass Wonder                      | GohanXGAMER |   6 | B    | Finals Champion   | Late  | 1 1/4 L    |  10 |
+|  15 | Silence Suzuka                    | Cruzi       |  11 | B+   | Finals Champion   | Front | 1 1/4 L    |  11 |
+|  16 | Bravo Deux                        | NPC         |  10 | C+   | —                 | Front | Neck       |  16 |
+|  17 | Mejiro McQueen [End of the Skies] | Nadav       |  12 | C+   | Tenno Sweep       | Pace  | Neck       |  18 |
+|  18 | Vodka                             | Nadav       |   3 | B    | Double Tiara      | Pace  | 8 L        |  13 |
+
+
+
+## Sus Cup 2 — Oka Sho
+
+**Subtitle:** Mile Front Runners
+**Date:** 2025-08-19
+**Race time:** 19:19
+**Room ID:** 6695 4191
+**Track:** Hanshin Turf
+**Distance:** 1600m — Mile
+**Direction:** Right / Outer
+**Weather:** Sunny
+**Ground:** Firm
+**Condition:** Firm
+**Mood:** Great
+**Season:** Spring
+**Rank limit:** A Rank
+**Entry rule:** Maximum 2 entries per person
+
+| Pos | Uma               | Trainer     | No. | Rank | Title            | Style | Time/Gap   | Fav |
+| --: | ----------------- | ----------- | --: | ---- | ---------------- | ----- | ---------- | --: |
+|   1 | Daiwa Scarlet     | GohanXGAMER |   1 | B+   | The GOAT         | Front | **1:30.9** |   4 |
+|   2 | Sakura Bakushin O | Agnes       |  15 | B+   | Steam Solidarity | Front | 1 L        |   7 |
+|   3 | Mihono Bourbon    | Jiinxye     |  16 | B+   | Steam Solidarity | Front | 1 L        |   2 |
+|   4 | Silence Suzuka    | GohanXGAMER |  12 | B+   | Finals Champion  | Front | Head       |   6 |
+|   5 | Venabulum         | NPC         |   9 | C+   | —                | Pace  | Neck       |   9 |
+|   6 | Jewel Onyx        | NPC         |   5 | C+   | —                | End   | Neck       |  13 |
+|   7 | Maruzensky        | Cruzi       |  10 | B+   | Finals Champion  | Front | Nose       |   8 |
+|   8 | Basal Shoot       | NPC         |   3 | C+   | —                | Late  | Neck       |  15 |
+|   9 | Keyboard Rhythm   | NPC         |   2 | C+   | —                | Pace  | Nose       |  10 |
+|  10 | Hearty Letter     | NPC         |   4 | C+   | —                | Front | Nose       |  11 |
+|  11 | Mihono Bourbon    | Cruzi       |  18 | A    | Finals Champion  | Front | Neck       |   5 |
+|  12 | Silence Suzuka    | Jiinxye     |   8 | B+   | Finals Champion  | Front | Neck       |  14 |
+|  13 | Krasnaya          | NPC         |   7 | C+   | —                | Front | 1/2 L      |  16 |
+|  14 | Silence Suzuka    | Agnes       |   6 | B+   | Finals Champion  | Front | 1 L        |   3 |
+|  15 | Maruzensky        | Cyciesta    |  17 | A    | Legendary Diva   | Front | 1 1/2 L    |   1 |
+|  16 | Mihono Bourbon    | Nadav       |  13 | C+   | G1 Winner        | Front | 1 1/2 L    |  18 |
+|  17 | Daiwa Scarlet     | Nadav       |  11 | C+   | G1 Winner        | Front | 1 1/2 L    |  17 |
+|  18 | Sakura Bakushin O | Cyciesta    |  14 | A    | Finals Champion  | Front | Nose       |  12 |
+
+ 
+
+## Sus Cup 3 — Champions Cup
+
+**Subtitle:** MILE DIRT
+**Date:** 2025-08-21
+**Race time:** 18:37
+**Room ID:** 9612 9828
+**Track:** Chukyo Dirt
+**Distance:** 1800m — Mile
+**Direction:** Left
+**Weather:** Random
+**Ground:** Random
+**Condition:** Firm
+**Mood:** Great
+**Rank limit:** A Rank Max
+**Entry rule:** 2 entries per player
+
+| Pos | Uma             | Trainer     | No. | Rank | Title             | Style | Time/Gap   | Fav |
+| --: | --------------- | ----------- | --: | ---- | ----------------- | ----- | ---------- | --: |
+|   1 | Oguri Cap       | Yves        |  15 | A    | Ideal Idol        | Pace  | **1:48.2** |   3 |
+|   2 | Smart Falcon    | Yves        |   8 | A    | Record Holder     | Front | 2 1/2 L    |   2 |
+|   3 | Taiki Shuttle   | Agnes       |  11 | A    | Finals Champion   | Pace  | 2 1/2 L    |   5 |
+|   4 | El Condor Pasa  | Cruzi       |  12 | A    | The GOAT          | Pace  | Neck       |   7 |
+|   5 | Haru Urara      | Cyciesta    |   9 | A    | Finals Champion   | Late  | 1 1/2 L    |   1 |
+|   6 | El Condor Pasa  | Agnes       |   2 | B+   | Steamy Solidarity | Late  | 1/2 L      |   8 |
+|   7 | Haru Urara      | Cruzi       |   5 | B+   | Finals Champion   | Late  | 1 1/4 L    |   6 |
+|   8 | Dunna           | NPC         |   4 | C+   | —                 | Pace  | 1 1/4 L    |  13 |
+|   9 | Gold Chouchou   | NPC         |   1 | C+   | —                 | End   | 3/4 L      |  11 |
+|  10 | Oguri Cap       | Cyciesta    |   7 | A    | Steamy Solidarity | Pace  | 3/4 L      |   4 |
+|  11 | Oguri Cap       | GohanXGAMER |  14 | A    | Finals Champion   | Pace  | Neck       |  10 |
+|  12 | Haru Urara      | GohanXGAMER |   6 | C+   | G1 Winner         | Late  | 1 L        |   9 |
+|  13 | Chalemie Rhythm | NPC         |   3 | C+   | —                 | Pace  | Neck       |  12 |
+|  14 | Haru Urara      | Nadav       |  16 | C+   | G1 Winner         | Late  | 5 L        |  15 |
+|  15 | Aqua Spring     | NPC         |  10 | C+   | —                 | Front | 3/4 L      |  14 |
+|  16 | Vodka           | Nadav       |  13 | B    | Double Tiara      | Pace  | Distance   |  16 |
+
+## Sus Cup 4 — Hopeful Stakes
+
+**Subtitle:** 1 Runner + 1 Debuffer
+**Date:** 2025-08-25
+**Race time:** 18:38
+**Room ID:** 9651 9168
+**Track:** Nakayama Turf
+**Distance:** 2000m — Medium
+**Direction:** Right / Inner
+**Weather:** Random
+**Ground:** Random
+**Condition:** Firm
+**Mood:** Great
+**Rank limit:** A Rank Max
+**Entry rule:** 1 Runner + 1 Debuffer
+
+| Pos | Uma              | Trainer     | No. | Rank | Title           | Style | Time/Gap   | Fav |
+| --: | ---------------- | ----------- | --: | ---- | --------------- | ----- | ---------- | --: |
+|   1 | Nice Nature      | Yves        |   8 | A    | Finals Champion | Pace  | **1:56.6** |   4 |
+|   2 | Gold Ship        | Cyciesta    |  14 | A    | The GOAT        | End   | 2 1/2 L    |   1 |
+|   3 | El Condor Pasa   | Cruzi       |   4 | A    | The GOAT        | Pace  | 1 3/4 L    |   7 |
+|   4 | Silence Suzuka   | Agnes       |   6 | A    | Legendary Diva  | Front | Head       |   5 |
+|   5 | Agnes Tachyon    | Yves        |   5 | A    | The GOAT        | Late  | 5 L        |   6 |
+|   6 | Nice Nature      | Agnes       |   9 | B+   | Finals Champion | Late  | 2 L        |   2 |
+|   7 | Bridge Comp      | NPC         |   7 | C+   | —               | End   | 1 1/2 L    |  15 |
+|   8 | Muruga           | NPC         |  11 | C+   | —               | Pace  | 1 L        |  10 |
+|   9 | Mechanical Vapor | NPC         |  10 | C+   | —               | Late  | Neck       |  13 |
+|  10 | Insight Catch    | NPC         |   3 | C+   | —               | Front | 3/4 L      |  12 |
+|  11 | Ribbon Carol     | NPC         |   1 | B    | —               | Pace  | 1/2 L      |  11 |
+|  12 | Symboli Rudolf   | Cyciesta    |  12 | A    | Way of Kings    | Late  | 1/2 L      |   3 |
+|  13 | Super Creek      | GohanXGAMER |   2 | B    | Speedy Stayer   | Pace  | 1 1/4 L    |  18 |
+|  14 | Mayano Top Gun   | GohanXGAMER |  13 | B+   | Finals Champion | Front | Head       |   8 |
+|  15 | King Halo        | Cruzi       |  15 | B+   | Finals Champion | Late  | Nose       |   9 |
+|  16 | Navigate Light   | NPC         |  17 | C+   | —               | Front | 3/4 L      |  17 |
+|  17 | Mini Lotus       | NPC         |  18 | C+   | —               | Front | 4 L        |  16 |
+|  18 | Summer Bonfire   | NPC         |  16 | C+   | —               | End   | 3/4 L      |  14 |
+
+
+
+## Sus Cup 5 — Tenno Sho (Spring)
+
+**Subtitle:** Gemini Cup Open League Training
+**Date:** 2025-08-27
+**Race time:** 18:44
+**Room ID:** 6084 0589
+**Track:** Kyoto Turf
+**Distance:** 3200m — Long
+**Direction:** Right / Outer
+**Weather:** Random
+**Ground:** Random
+**Condition:** Random
+**Mood:** Great
+**Rank limit:** B Rank Max
+**Entry rule:** 2 entries per person
+
+| Pos | Uma                               | Trainer     | No. | Rank | Title               | Style | Time/Gap   | Fav |
+| --: | --------------------------------- | ----------- | --: | ---- | ------------------- | ----- | ---------- | --: |
+|   1 | Super Creek                       | Agnes       |   5 | B    | G1 Hunter           | Pace  | **3:15.6** |   4 |
+|   2 | Tokai Teio                        | Jiinxye     |   1 | B    | Double Crown        | Pace  | Distance   |   1 |
+|   3 | Mejiro McQueen [End of the Skies] | Nadav       |  18 | C+   | Tenno Sweep         | Pace  | 7 L        |  17 |
+|   4 | Marsyas                           | NPC         |  13 | C+   | —                   | Late  | 5 L        |  11 |
+|   5 | Black Tipped                      | NPC         |  10 | C+   | —                   | End   | 3/4 L      |   8 |
+|   6 | Symboli Rudolf                    | Cyciesta    |  11 | B    | G1 Hunter           | Pace  | 3 L        |  15 |
+|   7 | Biwa Hayahide                     | GohanXGAMER |   4 | B    | Finals Champion     | Pace  | 1 L        |   3 |
+|   8 | Breeze Chopper                    | NPC         |   3 | C+   | —                   | Front | Neck       |  12 |
+|   9 | Speechless Hack                   | NPC         |  17 | C+   | —                   | Pace  | 3 L        |   7 |
+|  10 | T.M. Opera O                      | Jiinxye     |   2 | B    | Finals Champion     | Pace  | 1/2 L      |   2 |
+|  11 | Yggdra Valley                     | NPC         |  12 | C+   | —                   | Late  | 1 L        |  10 |
+|  12 | Agnes Tachyon                     | Cruzi       |   8 | B    | G1 Winner           | Pace  | 3 L        |  13 |
+|  13 | Flute Rhythm                      | NPC         |  14 | C+   | —                   | Front | 2 1/2 L    |   6 |
+|  14 | Tokai Teio                        | Cyciesta    |   7 | B    | Turf Terror         | Pace  | Neck       |   5 |
+|  15 | Grass Wonder                      | Agnes       |  15 | B    | G1 Winner           | Pace  | 1 L        |  14 |
+|  16 | Gold Ship                         | Cruzi       |   9 | B    | December Domination | End   | 8 L        |   9 |
+|  17 | Nice Nature                       | GohanXGAMER |  16 | B    | Silver Collector    | Late  | Head       |  16 |
+|  18 | Mihono Bourbon                    | Nadav       |   6 | C+   | G1 Winner           | Front | 3/4 L      |  18 |
+
+
+
+## Sus Cup 6 — UNIQUE EPITHETS / STEAMY SOLIDARITY
+
+**Date:** 2025-09-03
+**Race time:** 18:18
+**Room ID:** 9075 4387
+**Track:** Nakayama Turf
+**Distance:** 2500m — Long
+**Direction:** Right / Inner
+**Weather:** Random
+**Ground:** Great
+**Condition:** Great
+**Mood:** Great
+**Season:** Random
+**Rank restriction:** No rank restriction specified
+
+| Pos | Uma             | Trainer     | No. | Rank | Title             | Style | Time/Gap   | Fav |
+| --: | --------------- | ----------- | --: | ---- | ----------------- | ----- | ---------- | --: |
+|   1 | Gold Ship       | Cyclobly    |  14 | A    | The GOAT          | End   | **2:29.0** |   5 |
+|   2 | Mejiro McQueen  | Jiinxye     |   7 | B+   | Steamy Solidarity | Pace  | 1 1/4 L    |   2 |
+|   3 | Symboli Rudolf  | Agnes       |  12 | A    | Emperor           | Pace  | 1 1/4 L    |   3 |
+|   4 | Gold Ship       | Yves        |  10 | A    | The GOAT          | End   | 2 L        |   7 |
+|   5 | Mayano Top Gun  | Agnes       |   1 | A    | Free Spirit       | End   | 3/4 L      |   6 |
+|   6 | Keyboard Rhythm | NPC         |   8 | B    | Keyboard Rhythm   | End   | 5 L        |  11 |
+|   7 | Tokai Teio      | Jiinxye     |   5 | A    | Steamy Solidarity | Pace  | 3/4 L      |   4 |
+|   8 | Ogress          | NPC         |   3 | B    | Ogress            | End   | 2 1/2 L    |   9 |
+|   9 | Oguri Cap       | Cyclobly    |  13 | A    | Legendary Diva    | Pace  | 3 L        |   1 |
+|  10 | Agnes Tachyon   | Cruzi       |  15 | B+   | Steamy Solidarity | Pace  | Head       |  13 |
+|  11 | Ribbon Nocturne | NPC         |   9 | B    | Ribbon Nocturne   | Pace  | Head       |  12 |
+|  12 | Maleficus       | NPC         |   4 | B    | Maleficus         | Late  | 1 3/4 L    |  15 |
+|  13 | Nice Nature     | Yves        |  16 | A    | Finals Champion   | Late  | 5 L        |   8 |
+|  14 | Oguri Cap       | GohanXGAMER |   6 | A    | Finals Champion   | Pace  | 2 1/2 L    |  10 |
+|  15 | Super Creek     | GohanXGAMER |   2 | B    | Speedy Stayer     | Pace  | 2 L        |  16 |
+|  16 | Tokai Teio      | Cruzi       |  11 | B+   | Monarch           | Pace  | 3/4 L      |  14 |
+
+ 
+
+## Sus Cup 7 — Takarazuka Kinen
+
+**Subtitle:** Pace Chaser Medium
+**Date:** 2025-09-06
+**Race time:** 19:11
+**Room ID:** 2184 9318
+**Track:** Hanshin Turf
+**Distance:** 2200m — Medium
+**Direction:** Right
+**Weather:** Random
+**Ground:** Random
+**Mood:** Great
+**Rank limit:** A Rank Max
+
+| Pos | Uma             | Trainer  | No. | Rank | Title             | Style | Time/Gap   | Fav |
+| --: | --------------- | -------- | --: | ---- | ----------------- | ----- | ---------- | --: |
+|   1 | Agnes Tachyon   | Agnes    |   9 | B+   | Finals Champion   | Pace  | **2:09.2** |   6 |
+|   2 | Symboli Rudolf  | Cyciesta |   6 | A    | The GOAT          | Pace  | Neck       |   4 |
+|   3 | Agnes Tachyon   | Agnes    |   1 | A    | True Way of Kings | Pace  | 3 L        |   5 |
+|   4 | Tokai Teio      | Cyciesta |  11 | A    | Legendary Diva    | Pace  | 3 1/2 L    |   2 |
+|   5 | Mejiro McQueen  | Ananth   |   7 | B+   | The GOAT          | Pace  | Neck       |   8 |
+|   6 | TM Opera O      | Jiinxye  |   8 | A    | Finals Champion   | Pace  | 1 1/2 L    |   3 |
+|   7 | Vihuela Rhythm  | NPC      |  13 | B    | —                 | End   | 1 1/2 L    |  15 |
+|   8 | Tokai Teio      | Jiinxye  |  10 | A    | Monarch           | Pace  | 1/2 L      |   1 |
+|   9 | Kumbhakarna     | NPC      |  16 | B    | —                 | Late  | 1/2 L      |  12 |
+|  10 | Insight Catch   | NPC      |   5 | B    | —                 | Late  | 1 L        |  11 |
+|  11 | Clarinet Rhythm | NPC      |   2 | B    | —                 | End   | 3/4 L      |  16 |
+|  12 | Batabata        | NPC      |  12 | C+   | —                 | Pace  | 1 L        |   9 |
+|  13 | El Condor Pasa  | Agnes    |  14 | A    | Phantom Bird      | Pace  | 1/2 L      |   7 |
+|  14 | Compromise      | NPC      |   4 | B    | —                 | Front | Neck       |  14 |
+|  15 | Tudor Garden    | NPC      |  18 | B    | —                 | Pace  | 3 L        |  10 |
+|  16 | Nice Nature     | Cruzi    |   3 | B+   | Finals Champion   | Pace  | 2 L        |  18 |
+|  17 | Tropical Sky    | NPC      |  17 | B    | —                 | Front | 3/4 L      |  13 |
+|  18 | Oguri Cap       | Ananth   |  15 | B+   | Finals Champion   | Pace  | Distance   |  17 |
+
+ 
+
+## Sus Cup 8 — Father-Daughter Duo
+
+**Date:** 2025-09-14
+**Race time:** 18:40
+**Room ID:** 5923 6031
+**Race:** Osaka Hai
+**Track:** Hanshin Turf
+**Distance:** 2000m — Medium
+**Direction:** Right
+**Weather:** Random
+**Ground:** Random
+**Mood:** Random
+**Rank limit:** Rank Max
+**Special rule:** Agnes Tachyon and Daiwa Scarlet Only
+
+| Pos | Uma             | Trainer  | No. | Rank | Title             | Style | Time/Gap   | Fav |
+| --: | --------------- | -------- | --: | ---- | ----------------- | ----- | ---------- | --: |
+|   1 | Agnes Tachyon   | Agnes    |  16 | A    | True Way of Kings | Pace  | **1:56.7** |   1 |
+|   2 | Agnes Tachyon   | Jiinxye  |   9 | A    | Way of Kings      | Pace  | Head       |   5 |
+|   3 | Daiwa Scarlet   | Cyciesta |   6 | A    | Legendary Diva    | Pace  | 1 1/4 L    |   2 |
+|   4 | Daiwa Scarlet   | Agnes    |  12 | A    | The GOAT          | Front | 1 L        |   7 |
+|   5 | Daiwa Scarlet   | Cruzi    |   8 | B+   | Steamy Solidarity | Front | Neck       |  10 |
+|   6 | Agnes Tachyon   | Cruzi    |   1 | A    | Finals Champion   | Pace  | 1/2 L      |   6 |
+|   7 | Agnes Tachyon   | Cyciesta |   4 | A    | The GOAT          | Late  | 1 3/4 L    |   3 |
+|   8 | Aquafall        | NPC      |   5 | B    | —                 | Pace  | 1 3/4 L    |   9 |
+|   9 | Dropping Link   | NPC      |  11 | C+   | —                 | Late  | 1 1/4 L    |  11 |
+|  10 | Silver Sazanka  | NPC      |  10 | C+   | —                 | Late  | Neck       |   8 |
+|  11 | Avec Dream      | NPC      |   7 | C+   | —                 | Front | 1/2 L      |  15 |
+|  12 | Daiwa Scarlet   | Jiinxye  |  15 | A    | Miss Perfect      | Front | Head       |   4 |
+|  13 | Breeze Chopper  | NPC      |  14 | B    | —                 | Pace  | Nose       |  13 |
+|  14 | Lovely Patricia | NPC      |   2 | C+   | —                 | Front | 3/4 L      |  12 |
+|  15 | Fairies Echo    | NPC      |  13 | C+   | —                 | Front | Neck       |  14 |
+|  16 | Stenz           | NPC      |   3 | C+   | —                 | Pace  | Neck       |  16 |
+
+## Sus Cup 9 — Japanese Oaks
+
+**Date:** 2025-09-17
+**Race time:** 19:00
+**Room ID:** 0000 0000
+**Track:** Tokyo Turf
+**Distance:** 2400m — Medium
+**Direction:** Left
+**Weather:** Random
+**Ground:** Firm
+**Mood:** Random
+**Rank limit:** Rank Max
+**Special rule:** None
+
+| Pos | Uma            | Trainer     | No. | Rank | Title           | Style | Time/Gap   | Fav |
+| --: | -------------- | ----------- | --: | ---- | --------------- | ----- | ---------- | --: |
+|   1 | Seiun Sky      | Cruzi       |   4 | A    | Finals Champion | Front | **2:21.4** |   7 |
+|   2 | Grass Wonder   | agnes       |  13 | A    | The GOAT        | Late  | Nose       |   2 |
+|   3 | Symboli Rudolf | Cyciesta    |  15 | A    | The GOAT        | Pace  | 1/2 L      |   3 |
+|   4 | Tokai Teio     | Jiinxye     |  17 | A    | Monarch         | Pace  | 1 1/2 L    |   1 |
+|   5 | Agnes Tachyon  | Cruzi       |   7 | A    | Finals Champion | Pace  | 3 L        |   5 |
+|   6 | El Condor Pasa | agnes       |  11 | A    | Phantom Bird    | Late  | 2 1/2 L    |   8 |
+|   7 | Agnes Tachyon  | Cyciesta    |  12 | A    | The GOAT        | Late  | 1 1/4 L    |   6 |
+|   8 | Jewel Coral    | NPC         |  10 | C+   | —               | Late  | 6 L        |  13 |
+|   9 | T.M. Opera O   | Jiinxye     |   9 | A    | Undefeated      | Pace  | Head       |   4 |
+|  10 | Duo Targe      | NPC         |   8 | B    | —               | Pace  | 3 L        |  14 |
+|  11 | Unknown NPC 1  | NPC         |   2 | B    | —               | Pace  | —          |   — |
+|  12 | Unknown NPC 2  | NPC         |   — | —    | —               | —     | —          |   — |
+|  13 | Unknown NPC 3  | NPC         |   — | —    | —               | —     | —          |   — |
+|  14 | Mejiro McQueen | Ananth      |   1 | B+   | The GOAT        | Pace  | Nose       |   9 |
+|  15 | Mini Cactus    | NPC         |   6 | C+   | —               | Pace  | 1 1/2 L    |  15 |
+|  16 | Super Creek    | GohanXGAMER |   5 | B    | G1 Winner       | Pace  | 4 L        |  17 |
+|  17 | Oguri Cap      | GohanXGAMER |  14 | A    | Finals Champion | Pace  | 2 1/2 L    |  10 |
+|  18 | Curren Chan    | Ananth      |  16 | B+   | Finals Champion | Pace  | Distance   |  18 |
+
+
+
+## Sus Cup 10 — Tokyo Yushun (Japanese Derby)
+
+**Date:** 2025-09-19
+**Race time:** 19:01
+**Room ID:** 5332 5040
+**Track:** Tokyo Turf
+**Distance:** 2400m — Medium
+**Direction:** Left
+**Weather:** Random
+**Ground:** Firm
+**Mood:** Random
+**Rank limit:** Rank Max
+**Special rule:** None
+
+| Pos | Uma              | Trainer     | No. | Rank | Title             | Style | Time/Gap   | Fav |
+| --: | ---------------- | ----------- | --: | ---- | ----------------- | ----- | ---------- | --: |
+|   1 | Grass Wonder     | agnes       |   1 | A    | Steamy Solidarity | Late  | **2:20.8** |   4 |
+|   2 | Symboli Rudolf   | Cyciesta    |   6 | A    | Emperor           | End   | 3/4 L      |   9 |
+|   3 | Oguri Cap        | GohanXGAMER |  17 | A    | Ideal Idol        | Pace  | 3/4 L      |   7 |
+|   4 | Agnes Tachyon    | Cruzi       |  10 | A    | Finals Champion   | Pace  | 3 L        |   3 |
+|   5 | Narita Taishin   | Cyciesta    |   4 | A    | The GOAT          | End   | 4 L        |   1 |
+|   6 | Seiun Sky        | Cruzi       |  14 | A    | Finals Champion   | Front | 1 1/2 L    |   8 |
+|   7 | El Condor Pasa   | agnes       |   9 | A    | Finals Champion   | Late  | 2 1/2 L    |   2 |
+|   8 | Zipangu Applause | NPC         |   3 | B    | —                 | Front | 1 1/4 L    |  12 |
+|   9 | T.M. Opera O     | Jiinxye     |  16 | A    | Finals Champion   | Pace  | 1 L        |   5 |
+|  10 | Bridge Comp      | NPC         |   5 | B    | —                 | Late  | 1 1/4 L    |  16 |
+|  11 | Tokai Teio       | Jiinxye     |  11 | A    | Monarch           | Pace  | 3/4 L      |   6 |
+|  12 | Harp Rhythm      | NPC         |  13 | B    | —                 | Late  | Neck       |  11 |
+|  13 | Super Creek      | GohanXGAMER |   2 | B+   | Double Crown      | Pace  | 1 L        |  15 |
+|  14 | Lime Chouchou    | NPC         |   8 | C+   | —                 | Pace  | 3 1/2 L    |  13 |
+|  15 | Girly Smile      | NPC         |  15 | B    | —                 | End   | Nose       |  14 |
+|  16 | Tetrabiblos      | NPC         |  18 | B    | —                 | Pace  | 3 1/2 L    |  17 |
+|  17 | Mejiro McQueen   | Ananth      |   7 | B+   | The GOAT          | Pace  | 3 L        |  10 |
+|  18 | Curren Chan      | Ananth      |  12 | B+   | Finals Champion   | Late  | Distance   |  18 |

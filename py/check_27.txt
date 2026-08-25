@@ -1,0 +1,36 @@
+Cup 27.1 | Nishino Flower | umaId: 105101 | characterUrl: None
+Cup 27.1 | Mihono Bourbon | umaId: 102602 | characterUrl: None
+Cup 27.1 | Taiki Shuttle | umaId: 101002 | characterUrl: None
+Cup 27.1 | Daiwa Scarlet | umaId: daiwa-scarlet | characterUrl: None
+Cup 27.1 | Taiki Shuttle | umaId: 101002 | characterUrl: None
+Cup 27.1 | Fine Motion | umaId: fine-motion | characterUrl: None
+Cup 27.1 | Nice Nature | umaId: 106002 | characterUrl: None
+Cup 27.1 | Taiki Shuttle | umaId: 101002 | characterUrl: None
+Cup 27.1 | Nishino Flower | umaId: 105101 | characterUrl: None
+Cup 27.1 | Fuji Kiseki | umaId: fuji-kiseki | characterUrl: None
+Cup 27.1 | Agnes Digital | umaId: 101902 | characterUrl: None
+Cup 27.1 | Seeking the Pearl | umaId: 104201 | characterUrl: None
+Cup 27.1 | Seiun Sky | umaId: seiun-sky | characterUrl: None
+Cup 27.1 | Air Groove | umaId: 101801 | characterUrl: None
+Cup 27.1 | Gold Ship | umaId: 100702 | characterUrl: None
+Cup 27.1 | Kitasan Black | umaId: kitasan-black | characterUrl: None
+Cup 27.1 | Meisho Doto | umaId: meisho-doto | characterUrl: None
+Cup 27.1 | Eishin Flash | umaId: eishin-flash | characterUrl: None
+Cup 27.2 | Air Groove | umaId: 101801 | characterUrl: None
+Cup 27.2 | Nice Nature | umaId: 106002 | characterUrl: None
+Cup 27.2 | Kitasan Black | umaId: kitasan-black | characterUrl: None
+Cup 27.2 | Taiki Shuttle | umaId: 101002 | characterUrl: None
+Cup 27.2 | Gold Ship | umaId: 100702 | characterUrl: None
+Cup 27.2 | Seiun Sky | umaId: seiun-sky | characterUrl: None
+Cup 27.2 | Agnes Digital | umaId: 101902 | characterUrl: None
+Cup 27.2 | Eishin Flash | umaId: eishin-flash | characterUrl: None
+Cup 27.2 | Fine Motion | umaId: fine-motion | characterUrl: None
+Cup 27.2 | Meisho Doto | umaId: meisho-doto | characterUrl: None
+Cup 27.2 | Fuji Kiseki | umaId: fuji-kiseki | characterUrl: None
+Cup 27.2 | Mihono Bourbon | umaId: 102602 | characterUrl: None
+Cup 27.2 | Daiwa Scarlet | umaId: daiwa-scarlet | characterUrl: None
+Cup 27.2 | Seeking the Pearl | umaId: 104201 | characterUrl: None
+Cup 27.2 | Taiki Shuttle | umaId: 101002 | characterUrl: None
+Cup 27.2 | Nishino Flower | umaId: 105101 | characterUrl: None
+Cup 27.2 | Taiki Shuttle | umaId: 101002 | characterUrl: None
+Cup 27.2 | Nishino Flower | umaId: 105101 | characterUrl: None

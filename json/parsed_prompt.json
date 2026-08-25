@@ -1,0 +1,714 @@
+{
+    "16": [
+        {
+            "pos": 1,
+            "uma": "Vodka",
+            "player": "agnes",
+            "number": "14",
+            "fav": "No. 8",
+            "style": "Late",
+            "result": "1:29.9"
+        },
+        {
+            "pos": 2,
+            "uma": "Oguri Cap",
+            "player": "GohanXGAMER",
+            "number": "5",
+            "fav": "No. 3",
+            "style": "Pace",
+            "result": "1 1/2 L"
+        },
+        {
+            "pos": 3,
+            "uma": "Silence Suzuka",
+            "player": "GohanXGAMER",
+            "number": "9",
+            "fav": "No. 4",
+            "style": "Front",
+            "result": "Neck"
+        },
+        {
+            "pos": 4,
+            "uma": "Oguri Cap",
+            "player": "Jiinxye",
+            "number": "6",
+            "fav": "No. 16",
+            "style": "Pace",
+            "result": "1 L"
+        },
+        {
+            "pos": 5,
+            "uma": "Hishi Amazon",
+            "player": "Yves",
+            "number": "18",
+            "fav": "No. 5",
+            "style": "End",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 6,
+            "uma": "El Condor Pasa",
+            "player": "Cruzi",
+            "number": "15",
+            "fav": "No. 10",
+            "style": "Pace",
+            "result": "1 L"
+        },
+        {
+            "pos": 7,
+            "uma": "Silence Suzuka",
+            "player": "Cruzi",
+            "number": "12",
+            "fav": "No. 1",
+            "style": "Front",
+            "result": "3/4 L"
+        },
+        {
+            "pos": 8,
+            "uma": "Sakura Bakushin O",
+            "player": "agnes",
+            "number": "3",
+            "fav": "No. 11",
+            "style": "Front",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 9,
+            "uma": "Narita Brian",
+            "player": "Jiinxye",
+            "number": "2",
+            "fav": "No. 9",
+            "style": "Pace",
+            "result": "Nose"
+        },
+        {
+            "pos": 10,
+            "uma": "Silence Suzuka",
+            "player": "Yves",
+            "number": "8",
+            "fav": "No. 12",
+            "style": "Front",
+            "result": "1 1/4 L"
+        },
+        {
+            "pos": 11,
+            "uma": "Book of Sugar",
+            "player": "Not shown",
+            "number": "11",
+            "fav": "No. 14",
+            "style": "Late",
+            "result": "1 L"
+        },
+        {
+            "pos": 12,
+            "uma": "El Condor Pasa",
+            "player": "agnes",
+            "number": "7",
+            "fav": "No. 7",
+            "style": "Late",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 13,
+            "uma": "Grass Wonder",
+            "player": "GohanXGAMER",
+            "number": "16",
+            "fav": "No. 18",
+            "style": "Late",
+            "result": "Nose"
+        },
+        {
+            "pos": 14,
+            "uma": "Smart Falcon",
+            "player": "Yves",
+            "number": "4",
+            "fav": "No. 6",
+            "style": "Front",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 15,
+            "uma": "Pan Pacific",
+            "player": "Not shown",
+            "number": "17",
+            "fav": "No. 15",
+            "style": "Pace",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 16,
+            "uma": "Grass Wonder",
+            "player": "Cruzi",
+            "number": "1",
+            "fav": "\u2014",
+            "style": "\u2014",
+            "result": "\u2014"
+        },
+        {
+            "pos": 17,
+            "uma": "Maruzensky",
+            "player": "Jiinxye",
+            "number": "10",
+            "fav": "\u2014",
+            "style": "\u2014",
+            "result": "\u2014"
+        },
+        {
+            "pos": 18,
+            "uma": "Mihono Bourbon",
+            "player": "Ananth",
+            "number": "13",
+            "fav": "\u2014",
+            "style": "\u2014",
+            "result": "\u2014"
+        }
+    ],
+    "17": [
+        {
+            "pos": 1,
+            "uma": "Nice Nature",
+            "player": "GohanXGAMER",
+            "number": "7",
+            "fav": "No. 2",
+            "style": "Late",
+            "result": "3:02.2"
+        },
+        {
+            "pos": 2,
+            "uma": "Nice Nature",
+            "player": "Ananth",
+            "number": "13",
+            "fav": "No. 6",
+            "style": "Pace",
+            "result": "1 L"
+        },
+        {
+            "pos": 3,
+            "uma": "Nice Nature",
+            "player": "agnes",
+            "number": "16",
+            "fav": "No. 9",
+            "style": "Late",
+            "result": "2 L"
+        },
+        {
+            "pos": 4,
+            "uma": "Gold Ship",
+            "player": "Cruzi",
+            "number": "12",
+            "fav": "No. 3",
+            "style": "End",
+            "result": "Nose"
+        },
+        {
+            "pos": 5,
+            "uma": "Winning Ticket",
+            "player": "agnes",
+            "number": "8",
+            "fav": "No. 7",
+            "style": "Late",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 6,
+            "uma": "T.M. Opera O",
+            "player": "Yves",
+            "number": "10",
+            "fav": "No. 8",
+            "style": "Pace",
+            "result": "1 1/4 L"
+        },
+        {
+            "pos": 7,
+            "uma": "Matikanefukukitaru",
+            "player": "GohanXGAMER",
+            "number": "14",
+            "fav": "No. 1",
+            "style": "Late",
+            "result": "Nose"
+        },
+        {
+            "pos": 8,
+            "uma": "Mayano Top Gun",
+            "player": "Cruzi",
+            "number": "6",
+            "fav": "No. 4",
+            "style": "Late",
+            "result": "3/4 L"
+        },
+        {
+            "pos": 9,
+            "uma": "Mayano Top Gun",
+            "player": "Yves",
+            "number": "4",
+            "fav": "No. 13",
+            "style": "Pace",
+            "result": "4 L"
+        },
+        {
+            "pos": 10,
+            "uma": "Biwa Hayahide",
+            "player": "agnes",
+            "number": "1",
+            "fav": "No. 11",
+            "style": "Pace",
+            "result": "3 L"
+        },
+        {
+            "pos": 11,
+            "uma": "Agnes Tachyon",
+            "player": "Ananth",
+            "number": "2",
+            "fav": "No. 5",
+            "style": "Late",
+            "result": "2 1/2 L"
+        },
+        {
+            "pos": 12,
+            "uma": "Symboli Rudolf",
+            "player": "Yves",
+            "number": "3",
+            "fav": "No. 14",
+            "style": "Pace",
+            "result": "3/4 L"
+        },
+        {
+            "pos": 13,
+            "uma": "Torch and Book",
+            "player": "Not shown",
+            "number": "9",
+            "fav": "No. 16",
+            "style": "Pace",
+            "result": "8 L"
+        },
+        {
+            "pos": 14,
+            "uma": "Set Your Record",
+            "player": "Not shown",
+            "number": "18",
+            "fav": "No. 17",
+            "style": "Pace",
+            "result": "5 L"
+        },
+        {
+            "pos": 15,
+            "uma": "Grass Wonder",
+            "player": "Ananth",
+            "number": "17",
+            "fav": "No. 10",
+            "style": "Late",
+            "result": "1 L"
+        },
+        {
+            "pos": 16,
+            "uma": "Breeze Glider",
+            "player": "Not shown",
+            "number": "5",
+            "fav": "No. 18",
+            "style": "Front",
+            "result": "Head"
+        },
+        {
+            "pos": 17,
+            "uma": "Symboli Rudolf",
+            "player": "Cruzi",
+            "number": "11",
+            "fav": "No. 12",
+            "style": "Late",
+            "result": "Distance"
+        },
+        {
+            "pos": 18,
+            "uma": "Out of Black",
+            "player": "Not shown",
+            "number": "15",
+            "fav": "No. 15",
+            "style": "Front",
+            "result": "Head"
+        }
+    ],
+    "18": [
+        {
+            "pos": 1,
+            "uma": "Nice Nature",
+            "player": "GohanXGAMER",
+            "number": "7",
+            "fav": "No. 2",
+            "style": "Late",
+            "result": "3:02.2"
+        },
+        {
+            "pos": 2,
+            "uma": "Nice Nature",
+            "player": "Ananth",
+            "number": "13",
+            "fav": "No. 6",
+            "style": "Pace",
+            "result": "1 L"
+        },
+        {
+            "pos": 3,
+            "uma": "Nice Nature",
+            "player": "agnes",
+            "number": "16",
+            "fav": "No. 9",
+            "style": "Late",
+            "result": "2 L"
+        },
+        {
+            "pos": 4,
+            "uma": "Gold Ship",
+            "player": "Cruzi",
+            "number": "12",
+            "fav": "No. 3",
+            "style": "End",
+            "result": "Nose"
+        },
+        {
+            "pos": 5,
+            "uma": "Winning Ticket",
+            "player": "agnes",
+            "number": "8",
+            "fav": "No. 7",
+            "style": "Late",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 6,
+            "uma": "T.M. Opera O",
+            "player": "Yves",
+            "number": "10",
+            "fav": "No. 8",
+            "style": "Pace",
+            "result": "1 1/4 L"
+        },
+        {
+            "pos": 7,
+            "uma": "Matikanefukukitaru",
+            "player": "GohanXGAMER",
+            "number": "14",
+            "fav": "No. 1",
+            "style": "Late",
+            "result": "Nose"
+        },
+        {
+            "pos": 8,
+            "uma": "Mayano Top Gun",
+            "player": "Cruzi",
+            "number": "6",
+            "fav": "No. 4",
+            "style": "Late",
+            "result": "3/4 L"
+        },
+        {
+            "pos": 9,
+            "uma": "Mayano Top Gun",
+            "player": "Yves",
+            "number": "4",
+            "fav": "No. 13",
+            "style": "Pace",
+            "result": "4 L"
+        },
+        {
+            "pos": 10,
+            "uma": "Biwa Hayahide",
+            "player": "agnes",
+            "number": "1",
+            "fav": "No. 11",
+            "style": "Pace",
+            "result": "3 L"
+        },
+        {
+            "pos": 11,
+            "uma": "Agnes Tachyon",
+            "player": "Ananth",
+            "number": "2",
+            "fav": "No. 5",
+            "style": "Late",
+            "result": "2 1/2 L"
+        },
+        {
+            "pos": 12,
+            "uma": "Symboli Rudolf",
+            "player": "Yves",
+            "number": "3",
+            "fav": "No. 14",
+            "style": "Pace",
+            "result": "3/4 L"
+        },
+        {
+            "pos": 13,
+            "uma": "Torch and Book",
+            "player": "Not shown",
+            "number": "9",
+            "fav": "No. 16",
+            "style": "Pace",
+            "result": "8 L"
+        },
+        {
+            "pos": 14,
+            "uma": "Set Your Record",
+            "player": "Not shown",
+            "number": "18",
+            "fav": "No. 17",
+            "style": "Pace",
+            "result": "5 L"
+        },
+        {
+            "pos": 15,
+            "uma": "Grass Wonder",
+            "player": "Ananth",
+            "number": "17",
+            "fav": "No. 10",
+            "style": "Late",
+            "result": "1 L"
+        },
+        {
+            "pos": 16,
+            "uma": "Breeze Glider",
+            "player": "Not shown",
+            "number": "5",
+            "fav": "No. 18",
+            "style": "Front",
+            "result": "Head"
+        },
+        {
+            "pos": 17,
+            "uma": "Symboli Rudolf",
+            "player": "Cruzi",
+            "number": "11",
+            "fav": "No. 12",
+            "style": "Late",
+            "result": "Distance"
+        },
+        {
+            "pos": 18,
+            "uma": "Out of Black",
+            "player": "Not shown",
+            "number": "15",
+            "fav": "No. 15",
+            "style": "Front",
+            "result": "Head"
+        }
+    ],
+    "19": [
+        {
+            "pos": 1,
+            "uma": "Gold City",
+            "player": "Ananth",
+            "number": "6",
+            "fav": "No. 6",
+            "style": "Pace",
+            "result": "1:56.8"
+        },
+        {
+            "pos": 2,
+            "uma": "T.M. Opera O",
+            "player": "Jiinxye",
+            "number": "4",
+            "fav": "No. 7",
+            "style": "Pace",
+            "result": "3/4 L"
+        },
+        {
+            "pos": 3,
+            "uma": "Agnes Tachyon",
+            "player": "agnes",
+            "number": "13",
+            "fav": "No. 1",
+            "style": "Pace",
+            "result": "3 L"
+        },
+        {
+            "pos": 4,
+            "uma": "Gold Ship",
+            "player": "Cruzi",
+            "number": "18",
+            "fav": "No. 11",
+            "style": "End",
+            "result": "Nose"
+        },
+        {
+            "pos": 5,
+            "uma": "Gold Ship",
+            "player": "Ananth",
+            "number": "15",
+            "fav": "No. 8",
+            "style": "End",
+            "result": "Neck"
+        },
+        {
+            "pos": 6,
+            "uma": "**Not fully shown in the screenshots provided**",
+            "player": "",
+            "number": "",
+            "fav": "",
+            "style": "",
+            "result": ""
+        }
+    ],
+    "20": [
+        {
+            "pos": 1,
+            "uma": "Mejiro McQueen",
+            "player": "Cyclobly",
+            "number": "11",
+            "fav": "No. 6",
+            "style": "Pace",
+            "result": "1:56.3"
+        },
+        {
+            "pos": 2,
+            "uma": "Eishin Flash",
+            "player": "Yves",
+            "number": "4",
+            "fav": "No. 10",
+            "style": "Late",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 3,
+            "uma": "Mayano Top Gun",
+            "player": "Yves",
+            "number": "17",
+            "fav": "No. 2",
+            "style": "End",
+            "result": "1 L"
+        },
+        {
+            "pos": 4,
+            "uma": "Agnes Digital",
+            "player": "Cruzi",
+            "number": "3",
+            "fav": "No. 5",
+            "style": "Late",
+            "result": "1 L"
+        },
+        {
+            "pos": 5,
+            "uma": "Narita Taishin",
+            "player": "Cyclobly",
+            "number": "1",
+            "fav": "No. 8",
+            "style": "End",
+            "result": "Neck"
+        },
+        {
+            "pos": 6,
+            "uma": "Gold City",
+            "player": "Ananth",
+            "number": "16",
+            "fav": "No. 12",
+            "style": "Pace",
+            "result": "Head"
+        },
+        {
+            "pos": 7,
+            "uma": "Symboli Rudolf",
+            "player": "Cyclobly",
+            "number": "18",
+            "fav": "No. 1",
+            "style": "Late",
+            "result": "Head"
+        },
+        {
+            "pos": 8,
+            "uma": "Agnes Tachyon",
+            "player": "agnes",
+            "number": "5",
+            "fav": "No. 3",
+            "style": "Pace",
+            "result": "Head"
+        },
+        {
+            "pos": 9,
+            "uma": "Mejiro Ryan",
+            "player": "Ananth",
+            "number": "15",
+            "fav": "No. 9",
+            "style": "Late",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 10,
+            "uma": "Gold Ship",
+            "player": "Cruzi",
+            "number": "10",
+            "fav": "No. 4",
+            "style": "End",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 11,
+            "uma": "Mihono Bourbon",
+            "player": "Ananth",
+            "number": "2",
+            "fav": "No. 14",
+            "style": "Front",
+            "result": "Neck"
+        },
+        {
+            "pos": 12,
+            "uma": "Meisho Doto",
+            "player": "Yves",
+            "number": "12",
+            "fav": "No. 13",
+            "style": "Pace",
+            "result": "Head"
+        },
+        {
+            "pos": 13,
+            "uma": "King Halo",
+            "player": "agnes",
+            "number": "12",
+            "fav": "No. 11",
+            "style": "Late",
+            "result": "1 1/4 L"
+        },
+        {
+            "pos": 14,
+            "uma": "Silence Suzuka",
+            "player": "agnes",
+            "number": "6",
+            "fav": "No. 15",
+            "style": "Front",
+            "result": "3/4 L"
+        },
+        {
+            "pos": 15,
+            "uma": "Seiun Sky",
+            "player": "Cruzi",
+            "number": "9",
+            "fav": "No. 7",
+            "style": "Front",
+            "result": "1/2 L"
+        },
+        {
+            "pos": 16,
+            "uma": "Neptunus",
+            "player": "Not shown",
+            "number": "14",
+            "fav": "No. 18",
+            "style": "End",
+            "result": "4 L"
+        },
+        {
+            "pos": 17,
+            "uma": "Maleficus",
+            "player": "Not shown",
+            "number": "8",
+            "fav": "No. 16",
+            "style": "Front",
+            "result": "4 L"
+        },
+        {
+            "pos": 18,
+            "uma": "Ribbon Virelai",
+            "player": "Not shown",
+            "number": "13",
+            "fav": "No. 17",
+            "style": "Front",
+            "result": "1 3/4 L"
+        }
+    ]
+}

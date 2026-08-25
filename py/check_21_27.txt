@@ -1,0 +1,108 @@
+Cup 21 | Agnes Tachyon | umaId: agnes-tachyon | characterUrl: None
+Cup 21 | Oguri Cap | umaId: oguri-cap | characterUrl: None
+Cup 21 | Oguri Cap | umaId: oguri-cap | characterUrl: None
+Cup 21 | Gold Ship | umaId: gold-ship | characterUrl: None
+Cup 21 | Gold Ship | umaId: gold-ship | characterUrl: None
+Cup 21 | Admire Vega | umaId: admire-vega | characterUrl: None
+Cup 21 | Oguri Cap | umaId: oguri-cap | characterUrl: None
+Cup 21 | Narita Taishin | umaId: narita-taishin | characterUrl: None
+Cup 21 | Tamamo Cross | umaId: tamamo-cross | characterUrl: None
+Cup 21 | Mayano Top Gun | umaId: mayano-top-gun | characterUrl: None
+Cup 21 | Meisho Doto | umaId: meisho-doto | characterUrl: None
+Cup 21 | Not shown | umaId: not-shown | characterUrl: None
+Cup 21 | Not shown | umaId: not-shown | characterUrl: None
+Cup 21 | Matikanefukukitaru | umaId: matikanefukukitaru | characterUrl: None
+Cup 21 | Grass Wonder | umaId: grass-wonder | characterUrl: None
+Cup 21 | Meisho Doto | umaId: meisho-doto | characterUrl: None
+Cup 21 | Seiun Sky | umaId: seiun-sky | characterUrl: None
+Cup 21 | Nice Nature | umaId: nice-nature | characterUrl: None
+Cup 22 | Mejiro Dober | umaId: mejiro-dober | characterUrl: None
+Cup 22 | Oguri Cap | umaId: 100602 | characterUrl: None
+Cup 22 | Maruzensky | umaId: maruzensky | characterUrl: None
+Cup 22 | Admire Vega | umaId: admire-vega | characterUrl: None
+Cup 22 | Agnes Tachyon | umaId: agnes-tachyon | characterUrl: None
+Cup 22 | Oguri Cap | umaId: 100602 | characterUrl: None
+Cup 22 | Narita Taishin | umaId: narita-taishin | characterUrl: None
+Cup 22 | Symboli Rudolf | umaId: symboli-rudolf | characterUrl: None
+Cup 22 | Fuji Kiseki | umaId: fuji-kiseki | characterUrl: None
+Cup 22 | Special Week | umaId: special-week | characterUrl: None
+Cup 22 | Gold Ship | umaId: gold-ship | characterUrl: None
+Cup 22 | Vodka | umaId: vodka | characterUrl: None
+Cup 22 | Oguri Cap | umaId: 100602 | characterUrl: None
+Cup 22 | Grass Wonder | umaId: grass-wonder | characterUrl: None
+Cup 22 | Mejiro Ryan | umaId: mejiro-ryan | characterUrl: None
+Cup 22 | Winning Ticket | umaId: winning-ticket | characterUrl: None
+Cup 22 | Special Week | umaId: special-week | characterUrl: None
+Cup 22 | Super Creek | umaId: super-creek | characterUrl: None
+Cup 23 | Mejiro Dober | umaId: mejiro-dober | characterUrl: None
+Cup 23 | Oguri Cap | umaId: 100602 | characterUrl: None
+Cup 23 | Maruzensky | umaId: maruzensky | characterUrl: None
+Cup 23 | Admire Vega | umaId: admire-vega | characterUrl: None
+Cup 23 | Agnes Tachyon | umaId: agnes-tachyon | characterUrl: None
+Cup 23 | Oguri Cap | umaId: 100602 | characterUrl: None
+Cup 23 | Narita Taishin | umaId: narita-taishin | characterUrl: None
+Cup 23 | Symboli Rudolf | umaId: symboli-rudolf | characterUrl: None
+Cup 23 | Fuji Kiseki | umaId: fuji-kiseki | characterUrl: None
+Cup 23 | Special Week | umaId: special-week | characterUrl: None
+Cup 23 | Mini Daisy | umaId: mini-daisy | characterUrl: None
+Cup 23 | Reed Photobook | umaId: reed-photobook | characterUrl: None
+Cup 23 | Chief Purser | umaId: chief-purser | characterUrl: None
+Cup 23 | Takeoff Plane | umaId: takeoff-plane | characterUrl: None
+Cup 23 | Farm Volition | umaId: farm-volition | characterUrl: None
+Cup 23 | Coincidence | umaId: coincidence | characterUrl: None
+Cup 23 | Waltz Step | umaId: waltz-step | characterUrl: None
+Cup 23 | Missing Nights | umaId: missing-nights | characterUrl: None
+Cup 24 | Oguri Cap | umaId: 100602 | characterUrl: None
+Cup 24 | Seiun Sky | umaId: seiun-sky | characterUrl: None
+Cup 24 | Mihono Bourbon | umaId: mihono-bourbon | characterUrl: None
+Cup 24 | Symboli Rudolf | umaId: symboli-rudolf | characterUrl: None
+Cup 24 | Seiun Sky | umaId: seiun-sky | characterUrl: None
+Cup 24 | Rice Shower | umaId: rice-shower | characterUrl: None
+Cup 24 | Special Week | umaId: special-week | characterUrl: None
+Cup 24 | Gold City | umaId: gold-city | characterUrl: None
+Cup 24 | Super Creek | umaId: super-creek | characterUrl: None
+Cup 24 | Tokai Teio | umaId: tokai-teio | characterUrl: None
+Cup 24 | Gold City | umaId: gold-city | characterUrl: None
+Cup 24 | Gold City | umaId: gold-city | characterUrl: None
+Cup 24 | Mayano Top Gun | umaId: mayano-top-gun | characterUrl: None
+Cup 24 | Air Groove | umaId: air-groove | characterUrl: None
+Cup 24 | El Condor Pasa | umaId: el-condor-pasa | characterUrl: None
+Cup 24 | Special Week | umaId: special-week | characterUrl: None
+Cup 24 | Biwa Hayahide | umaId: biwa-hayahide | characterUrl: None
+Cup 24 | Tamaxchi | umaId: tamaxchi | characterUrl: None
+Cup 25 | Oguri Cap | umaId: 100602 | characterUrl: None
+Cup 25 | Seiun Sky | umaId: 102002 | characterUrl: None
+Cup 25 | Mihono Bourbon | umaId: 102602 | characterUrl: None
+Cup 25 | Symboli Rudolf | umaId: 101702 | characterUrl: None
+Cup 25 | Seiun Sky | umaId: 102002 | characterUrl: None
+Cup 25 | Rice Shower | umaId: 103002 | characterUrl: None
+Cup 25 | Special Week | umaId: 100102 | characterUrl: None
+Cup 25 | Gold City | umaId: 104002 | characterUrl: None
+Cup 25 | Super Creek | umaId: 104502 | characterUrl: None
+Cup 25 | Tokai Teio | umaId: 100302 | characterUrl: None
+Cup 25 | Gold City | umaId: 104002 | characterUrl: None
+Cup 25 | Gold City | umaId: 104002 | characterUrl: None
+Cup 25 | Mayano Top Gun | umaId: 102402 | characterUrl: None
+Cup 25 | Air Groove | umaId: 101802 | characterUrl: None
+Cup 25 | El Condor Pasa | umaId: 101402 | characterUrl: None
+Cup 25 | Special Week | umaId: 100102 | characterUrl: None
+Cup 25 | Biwa Hayahide | umaId: 102302 | characterUrl: None
+Cup 25 | Tamaxchi | umaId: tamaxchi | characterUrl: None
+Cup 26 | Special Week | umaId: special-week | characterUrl: None
+Cup 26 | Oguri Cap | umaId: oguri-cap | characterUrl: None
+Cup 26 | Agnes Tachyon | umaId: agnes-tachyon | characterUrl: None
+Cup 26 | Mejiro Dober | umaId: mejiro-dober | characterUrl: None
+Cup 26 | Silence Suzuka | umaId: silence-suzuka | characterUrl: None
+Cup 26 | Agnes Digital | umaId: 101901 | characterUrl: None
+Cup 26 | Maruzensky | umaId: maruzensky | characterUrl: None
+Cup 26 | Tokai Teio | umaId: tokai-teio-beyond | characterUrl: None
+Cup 26 | Seiun Sky | umaId: seiun-sky | characterUrl: None
+Cup 26 | Admire Vega | umaId: admire-vega | characterUrl: None
+Cup 26 | Mayano Top Gun | umaId: 102402 | characterUrl: None
+Cup 26 | Gold Ship | umaId: 100702 | characterUrl: None
+Cup 26 | T.M. Opera O | umaId: t-m-opera-o | characterUrl: None
+Cup 26 | Air Shakur | umaId: 103601 | characterUrl: None
+Cup 26 | Gold City | umaId: 104002 | characterUrl: https://gametora.com/umamusume/characters/104001-gold-city
+Cup 26 | Oishii Parfait | umaId: oishii-parfait | characterUrl: None
+Cup 26 | Coronet Rhythm | umaId: coronet-rhythm | characterUrl: None
+Cup 26 | Tropical Sky | umaId: tropical-sky | characterUrl: None

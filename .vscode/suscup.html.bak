@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUS CUP - Discord Race Tracker</title>
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        :root {
+            --bg-color: #f1f1ef;
+            --card-bg: #ffffff;
+            --text-main: #101010;
+            --text-muted: #6f6f6b;
+            --primary: #111111;
+            --primary-hover: #3a3a38;
+            --accent-dark: #111111;
+            --accent-light: #e8e8e5;
+            --gold: #b7b7af;
+            --silver: #d9d9d5;
+            --bronze: #8d8d86;
+            --rank-s: #111111;
+            --rank-a: #4b4b48;
+            --rank-b: #888883;
+            --rank-c: #c9c9c4;
+            --radius-lg: 6px;
+            --radius-md: 4px;
+            --radius-sm: 3px;
+            --shadow: 0 14px 40px rgba(0, 0, 0, 0.06);
+            --shadow-hover: 0 18px 45px rgba(0, 0, 0, 0.12);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Manrope', sans-serif;
+            background: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+        }
+
+        h1, h2, h3, h4 { font-weight: 800; letter-spacing: 0; }
+        h2, h3 { font-family: 'Playfair Display', serif; }
+
+        /* --- SIDEBAR --- */
+        .sidebar {
+            width: 280px;
+            background: #111111;
+            position: fixed;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 30px 20px;
+            border-right: 1px solid #292929;
+            z-index: 100;
+        }
+
+        .logo-area { margin-bottom: 40px; padding: 0 10px; }
+        .logo-area h1 { font-size: 2.2rem; color: #fff; line-height: 1.1; }
+        .logo-area p { font-size: 0.68rem; color: #999; font-weight: 700; margin-top: 10px; letter-spacing: 2px; }
+
+        .nav-links { list-style: none; flex: 1; }
+        .nav-links a {
+            display: flex; align-items: center; gap: 15px;
+            padding: 16px 20px; text-decoration: none;
+            color: #999; font-weight: 700; font-size: 0.82rem;
+            border-radius: 3px; margin-bottom: 8px; transition: all 0.2s; letter-spacing: .4px;
+        }
+        .nav-links a:hover { background: #292929; color: #fff; }
+        .nav-links a.active { background: var(--accent-dark); color: white; }
+        
+        .nav-links a.btn-add {
+            background: #fff; color: #111; justify-content: center; 
+            margin-top: 20px; box-shadow: none;
+        }
+        .nav-links a.btn-add:hover { background: #d4d4d0; color: #111; transform: translateY(-2px); }
+
+        .sidebar-bottom { display: flex; justify-content: center; gap: 10px; padding-top: 20px; }
+        .sidebar-bottom button {
+            background: #292929; border: none; width: 40px; height: 40px; border-radius: 3px;
+            cursor: pointer; transition: 0.2s; color: #fff; font-size: 0.9rem;
+        }
+        .sidebar-bottom button:hover { background: #444; }
+
+        /* --- MAIN CONTENT --- */
+        .main-content {
+            margin-left: 280px;
+            padding: 40px 50px;
+            flex: 1;
+            max-width: 1400px;
+        }
+
+        .view-section { display: none; animation: fadeIn 0.4s ease-out; }
+        .view-section.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+
+        .page-header { margin-bottom: 30px; display: flex; justify-content: space-between; align-items: flex-end; }
+        .page-header h2 { font-size: 2.5rem; }
+        .page-header p { color: var(--text-muted); font-weight: 700; font-size: 1.1rem; }
+
+        /* --- UI COMPONENTS --- */
+        .card {
+            background: var(--card-bg); border-radius: var(--radius-lg);
+            padding: 30px; box-shadow: var(--shadow); margin-bottom: 30px; border: 1px solid #dededb;
+        }
+
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+
+        /* Pill List Items (Inspired by daily routine UI) */
+        .list-item {
+            display: flex; align-items: center; padding: 20px 25px;
+            background: #ffffff; border-radius: var(--radius-md); margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02); transition: 0.2s;
+            border: 1px solid #dededb; cursor: pointer;
+        }
+        .list-item:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); border-color: #111; }
+        
+        .avatar-circle {
+            width: 55px; height: 55px; border-radius: 3px; background: var(--accent-light);
+            color: var(--primary); display: flex; align-items: center; justify-content: center;
+            font-weight: 900; font-size: 1.4rem; margin-right: 20px; overflow: hidden;
+            border: 2px solid #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        
+        .item-content { flex: 1; }
+        .item-title { font-weight: 800; font-size: 1.05rem; color: var(--text-main); margin-bottom: 2px; }
+        .item-subtitle { font-weight: 700; font-size: 0.95rem; color: var(--text-muted); }
+        
+        .item-right { text-align: right; }
+        .item-value { font-weight: 900; font-size: 1.5rem; color: var(--text-main); }
+        .item-label { font-weight: 700; font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; }
+
+        /* Stats Blocks */
+        .stat-block {
+            background: var(--card-bg); padding: 25px; border-radius: var(--radius-md);
+            box-shadow: var(--shadow); text-align: left; border-bottom: 3px solid var(--accent-dark);
+        }
+        .stat-block .val { font-size: 2.5rem; font-weight: 900; color: var(--text-main); line-height: 1; }
+        .stat-block .lbl { font-size: 0.9rem; font-weight: 800; color: var(--text-muted); margin-top: 8px; text-transform: uppercase; }
+
+        /* Badges */
+        .badge { padding: 4px 10px; border-radius: 2px; font-size: 0.68rem; font-weight: 800; color: white; display: inline-block; letter-spacing: 1px; }
+        .badge-a { background: var(--rank-a); }
+        .badge-b { background: var(--rank-b); }
+        .badge-c { background: var(--rank-c); }
+        .badge-s { background: var(--rank-s); }
+        
+        .rank-diff { display: inline-flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1rem; width: 50px; }
+        .diff-up { color: #7cb342; }
+        .diff-down { color: #e53935; }
+        .diff-new { color: var(--primary); font-size: 0.8rem; }
+        .diff-none { color: #bcaaa4; }
+
+        /* Forms */
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; font-weight: 800; margin-bottom: 8px; color: var(--text-main); }
+        .form-control {
+            width: 100%; padding: 15px 20px; border: 1px solid #d4d4d0; border-radius: var(--radius-sm);
+            font-family: 'Manrope'; font-weight: 600; font-size: 1rem; color: var(--text-main);
+            background: #fafaf8; transition: 0.2s;
+        }
+        .form-control:focus { border-color: var(--primary); background: #ffffff; outline: none; }
+        
+        .btn {
+            padding: 15px 30px; border-radius: 3px; border: none; font-family: 'Manrope'; 
+            font-weight: 900; font-size: 1.1rem; cursor: pointer; transition: 0.2s;
+        }
+        .btn-primary { background: var(--primary); color: white; box-shadow: none; }
+        .btn-primary:hover { background: var(--primary-hover); transform: translateY(-2px); }
+        .btn-outline { background: transparent; border: 2px solid var(--accent-dark); color: var(--accent-dark); }
+        .btn-outline:hover { background: var(--accent-dark); color: white; }
+
+        /* Race Participant Rows */
+        .participant-row {
+            display: grid; grid-template-columns: 80px 1fr 1fr 80px 100px; gap: 15px; 
+            align-items: end; padding: 20px; background: #fafaf8; border-radius: var(--radius-md); 
+            margin-bottom: 15px; border: 1px solid #dededb;
+        }
+
+        .dashboard-hero { display: grid; grid-template-columns: 1.15fr .85fr; min-height: 255px; overflow: hidden; padding: 0; background: #111; color: #fff; border: none; }
+        .dashboard-hero-copy { padding: 38px 40px; display: flex; flex-direction: column; justify-content: space-between; }
+        .eyebrow { font-family: 'DM Mono', monospace; text-transform: uppercase; letter-spacing: 2px; font-size: .68rem; color: #a8a8a2; }
+        .dashboard-hero h2 { font-size: clamp(2rem, 4vw, 3.5rem); line-height: .98; max-width: 480px; color: #fff; }
+        .dashboard-hero p { color: #b5b5b0; font-size: .9rem; max-width: 380px; }
+        .official-art { min-height: 255px; background: #444 url('https://img.youtube.com/vi/dbKYZHvhlJ8/maxresdefault.jpg') center/cover; position: relative; }
+        .official-art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, #111 0%, transparent 45%); }
+        .source-link { color: #999; font-size: .68rem; text-decoration: none; letter-spacing: .5px; }
+        .source-link:hover { color: #fff; }
+        .uma-image { width: 55px; height: 55px; object-fit: contain; object-position: center; margin-right: 20px; border: 2px solid #fff; background: #e8e8e5; }
+        .uma-image-large { width: min(360px, 100%); height: auto; max-height: none; object-fit: contain; object-position: center; border: 2px solid #111; background: #e8e8e5; margin: 0 auto 15px; display: block; }
+        .npc-face { object-fit: cover; object-position: center 22%; border-radius: 50%; }
+        .record-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 22px; }
+        .record-count { font-family: 'DM Mono', monospace; font-size: .68rem; color: var(--text-muted); letter-spacing: 1px; }
+        .record-winner { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .record-winner > div { border-left: 2px solid var(--text-main); padding-left: 14px; }
+        .record-winner strong, .record-winner span { display: block; }
+        .record-winner strong { font-size: 1.05rem; }
+        .record-winner span { color: var(--text-muted); font-size: .72rem; margin-top: 5px; }
+        .race-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 18px; color: #b5b5b0; font-family: 'DM Mono', monospace; font-size: .68rem; }
+        .race-gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 30px; }
+        .race-gallery a { display: block; overflow: hidden; border: 1px solid #dededb; background: #fff; }
+        .race-gallery img { width: 100%; aspect-ratio: 9 / 16; display: block; object-fit: cover; transition: transform .25s ease; }
+        .race-gallery a:hover img { transform: scale(1.03); }
+        .intro-copy { max-width: 820px; color: var(--text-muted); line-height: 1.8; }
+        .intro-copy p { margin-bottom: 16px; }
+        .intro-list { columns: 2; margin: 10px 0 18px 20px; color: var(--text-muted); line-height: 1.9; }
+        .creator-credit { border-top: 1px solid #dededb; margin-top: 20px; padding-top: 15px; font-family: 'DM Mono', monospace; font-size: .72rem; letter-spacing: 1px; text-transform: uppercase; }
+        .timeline { position: relative; margin-left: 12px; padding-left: 28px; border-left: 2px solid #dededb; }
+        .timeline-item { position: relative; margin-bottom: 22px; }
+        .timeline-item::before { content: ''; position: absolute; left: -36px; top: 18px; width: 12px; height: 12px; border-radius: 50%; background: var(--primary); border: 3px solid var(--bg-color); }
+        .info-section h3 { margin-bottom: 12px; }
+        .info-section p, .info-section li { color: var(--text-muted); line-height: 1.75; }
+        .info-section ul { margin: 0 0 18px 20px; }
+        @media (max-width: 768px) { .intro-list { columns: 1; } }
+
+        @media (max-width: 768px) {
+            .dashboard-hero { grid-template-columns: 1fr; }
+            .official-art { min-height: 150px; }
+            .dashboard-hero-copy { min-height: 230px; padding: 28px; }
+            .record-winner { grid-template-columns: 1fr; gap: 16px; }
+            .race-gallery { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 1024px) {
+            .sidebar { width: 100px; padding: 20px 10px; }
+            .logo-area h1, .logo-area p, .nav-links span { display: none; }
+            .nav-links a { justify-content: center; padding: 15px; }
+            .main-content { margin-left: 100px; max-width: calc(100vw - 100px); padding: 30px; }
+            .grid-4, .grid-3 { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 768px) {
+            .sidebar { display: none; }
+            .main-content { margin-left: 0; max-width: 100vw; padding: 20px; }
+            .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+            .participant-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+        <div class="logo-area">
+            <h1>SUS<br>CUP</h1>
+            <p>RACE TRACKER</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" data-nav="dashboard" class="active"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
+            <li><a href="#" data-nav="history"><i class="fa-solid fa-trophy"></i> <span>Sus Cups</span></a></li>
+            <li><a href="#" data-nav="archive"><i class="fa-solid fa-flag-checkered"></i> <span>Race Archive</span></a></li>
+            <li><a href="#" data-nav="players"><i class="fa-solid fa-medal"></i> <span>Hall of Fame</span></a></li>
+            <li><a href="#" data-nav="umas"><i class="fa-solid fa-horse-head"></i> <span>Umas</span></a></li>
+            <li><a href="#" data-nav="info"><i class="fa-solid fa-circle-info"></i> <span>Info</span></a></li>
+            <li><a href="#" data-nav="add-race" class="btn-add"><i class="fa-solid fa-plus"></i> <span>New Race</span></a></li>
+        </ul>
+        <div class="sidebar-bottom">
+            <button onclick="App.exportData()" title="Export JSON"><i class="fa-solid fa-download"></i></button>
+            <button onclick="document.getElementById('import-file').click()" title="Import JSON"><i class="fa-solid fa-upload"></i></button>
+            <button onclick="App.resetData()" title="Reset Database" style="color:var(--primary);"><i class="fa-solid fa-rotate-right"></i></button>
+            <input type="file" id="import-file" style="display:none;" accept=".json" onchange="App.importData(event)">
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        
+        <!-- DASHBOARD VIEW -->
+        <div id="view-dashboard" class="view-section active">
+            <div class="page-header">
+                <div>
+                    <h2>Overview</h2>
+                    <p>Track your progress and insights</p>
+                </div>
+            </div>
+
+            <section class="card dashboard-hero">
+                <div class="dashboard-hero-copy">
+                    <span class="eyebrow">Official Uma Musume archive / 001</span>
+                    <h2>Race day, recorded in monochrome.</h2>
+                    <div>
+                        <p>Your private Sus Cup record for every player, finish, and Uma.</p>
+                        <a class="source-link" href="https://gametora.com/umamusume/characters" target="_blank" rel="noopener">View GameTora character directory &rarr;</a>
+                    </div>
+                </div>
+                <a class="official-art" href="https://umamusume.com/" target="_blank" rel="noopener" aria-label="Open the official Uma Musume website"></a>
+            </section>
+
+            <section class="card">
+                <div class="record-heading"><span class="eyebrow">The archive / about the series</span><span class="record-count">CREATED BY ANANTH</span></div>
+                <h3 style="font-size:2rem; margin-bottom:15px;">What is Sus Cup?</h3>
+                <div class="intro-copy">
+                    <p>Sus Cup is a community-organized Uma Musume tournament series created to record and celebrate competitive races between players.</p>
+                    <p>The tournament tracker was made as a complete historical archive for every Sus Cup, preserving each race's details, participants, Uma Musume entries, complete results, champions, and all-time records.</p>
+                    <p>Each Sus Cup has its own race conditions, track, distance, participants, and final results. The purpose of this website is to ensure that every tournament remains permanently documented and that the achievements of players and their Umas are remembered.</p>
+                    <strong>The tracker records:</strong>
+                    <ul class="intro-list">
+                        <li>Every Sus Cup tournament</li><li>Race dates and room IDs</li><li>Track and race conditions</li><li>All participating players</li><li>All Uma Musume entries</li><li>Complete finishing positions</li><li>NPC/Mob Uma participants</li><li>Character versions and special outfits</li><li>Individual Sus Cup champions</li><li>All-time winning players and Umas</li><li>Full tournament history</li>
+                    </ul>
+                    <p>This website is not based on a points system. Its purpose is to create a permanent historical record of the Sus Cup tournament series and celebrate every race, competitor, champion, and winning Uma.</p>
+                </div>
+                <div class="creator-credit">Sus Cup Tournament Tracker &nbsp;|&nbsp; Created and maintained by Ananth</div>
+            </section>
+
+            <div class="grid-2" style="margin-bottom:30px;">
+                <div class="card" id="latest-cup-summary"></div>
+                <div class="card">
+                    <span class="eyebrow">Complete tournament archive</span>
+                    <h3 style="font-size:1.7rem; margin:15px 0 10px;">Every race, every finish</h3>
+                    <p class="intro-copy">Browse the full Sus Cup history, including race conditions, all runner entries, NPC/Mob Umas, champions, and final positions.</p>
+                    <button class="btn btn-outline" style="margin-top:18px;" onclick="App.navigate('archive')">Open Race Archive <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="grid-4" style="margin-bottom: 40px;" id="dash-stats"></div>
+            <div class="card" id="championship-record"></div>
+
+            <div class="grid-2">
+                <div>
+                    <h3 style="margin-bottom: 20px; display:flex; align-items:center; gap:10px;"><i class="fa-solid fa-trophy" style="color:var(--primary)"></i> Player Rankings</h3>
+                    <div id="dash-player-list"></div>
+                    <button class="btn btn-outline" style="width:100%; margin-top:10px;" onclick="App.navigate('players')">See All Players</button>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 20px; display:flex; align-items:center; gap:10px;"><i class="fa-solid fa-star" style="color:var(--gold)"></i> Top Umas</h3>
+                    <div id="dash-uma-list"></div>
+                    <button class="btn btn-outline" style="width:100%; margin-top:10px;" onclick="App.navigate('umas')">See All Umas</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUS CUP HISTORY VIEW -->
+        <div id="view-history" class="view-section">
+            <div class="page-header"><div><h2>Sus Cup History</h2><p>Every tournament, preserved in chronological order</p></div></div>
+            <div class="timeline" id="history-timeline"></div>
+        </div>
+
+        <!-- RACE ARCHIVE VIEW -->
+        <div id="view-archive" class="view-section">
+            <div class="page-header">
+                <div>
+                    <h2>Race Archive</h2>
+                    <p>Complete history of all Sus Cup events</p>
+                </div>
+            </div>
+            <div class="grid-2" id="archive-grid"></div>
+        </div>
+
+        <!-- INFO VIEW -->
+        <div id="view-info" class="view-section">
+            <div class="page-header"><div><h2>About Sus Cup</h2><p>The record behind the races</p></div></div>
+            <div id="info-content"></div>
+        </div>
+
+        <!-- RACE DETAIL VIEW -->
+        <div id="view-race-detail" class="view-section">
+            <button class="btn btn-outline" style="margin-bottom:20px; padding: 10px 20px;" onclick="App.navigate('archive')"><i class="fa-solid fa-arrow-left"></i> Back</button>
+            <div id="race-detail-content"></div>
+        </div>
+
+        <!-- PLAYERS VIEW -->
+        <div id="view-players" class="view-section">
+            <div class="page-header">
+                <h2>Leaderboard</h2>
+                <p>Overall player standings</p>
+                <input type="text" id="search-players" class="form-control" style="margin-top:15px; width:100%;" placeholder="Search trainers..." oninput="App.renderPlayers()">
+            </div>
+            <div id="full-player-list"></div>
+        </div>
+
+        <!-- UMAS VIEW -->
+        <div id="view-umas" class="view-section">
+            <div class="page-header">
+                <h2>Uma Database</h2>
+                <p>Performance statistics by character</p>
+                <input type="text" id="search-umas" class="form-control" style="margin-top:15px; width:100%;" placeholder="Search Umas..." oninput="App.renderUmas()">
+            </div>
+            <div id="full-uma-list"></div>
+        </div>
+        
+        <!-- PROFILE VIEW -->
+        <div id="view-profile" class="view-section">
+            <button class="btn btn-outline" style="margin-bottom:20px; padding: 10px 20px;" onclick="App.navigate('dashboard')"><i class="fa-solid fa-arrow-left"></i> Back</button>
+            <div id="profile-content"></div>
+        </div>
+
+        <!-- ADD RACE VIEW -->
+        <div id="view-add-race" class="view-section">
+            <div class="page-header">
+                <h2>New Race</h2>
+                <p>Record a new Sus Cup event</p>
+            </div>
+            <div class="card">
+                <form id="form-add-race">
+                    <div class="grid-4">
+                        <div class="form-group"><label>Cup Number</label><input type="text" id="ar-cup" class="form-control" required placeholder="e.g. 2"></div>
+                        <div class="form-group"><label>Race Name</label><input type="text" id="ar-name" class="form-control" required placeholder="e.g. Arima Kinen"></div>
+                        <div class="form-group"><label>Date</label><input type="date" id="ar-date" class="form-control" required></div>
+                        <div class="form-group"><label>Distance (m)</label><input type="number" id="ar-dist" class="form-control" required placeholder="2400"></div>
+                    </div>
+                    
+                    <h3 style="margin: 30px 0 20px;">Participants</h3>
+                    <div id="runners-container"></div>
+                    <button type="button" class="btn btn-outline" style="margin-bottom: 30px;" onclick="App.addRunnerRow()"><i class="fa-solid fa-plus"></i> Add Runner</button>
+
+                    <div style="text-align: right; border-top: 2px solid #f2ebe1; padding-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Save Race Results</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        const INITIAL_DATA = {
+            winners: [
+                { cup: "Sus Cup 1", trainer: "GohanXGAMER", uma: "Oguri Cap", version: "Standard / Original", url: "https://gametora.com/umamusume/characters/100601-oguri-cap", race: "G1 Tokyo Yushun (Japanese Derby)", date: "2025-08-11", result: "2:22.5" },
+                { cup: "Sus Cup 3", trainer: "Yves", uma: "Oguri Cap", version: "Original / Default", url: "https://gametora.com/umamusume/characters/100601-oguri-cap", race: "Champions Cup", date: "2025-08-21", result: "1:48.2" },
+                { cup: "Sus Cup 4", trainer: "Yves", uma: "Nice Nature", version: "Original / Default", url: "https://gametora.com/umamusume/characters/106001-nice-nature", race: "Hopeful Stakes", date: "2025-08-25", result: "1:56.6" }
+            ],
+            championships: { "Oguri Cap": 2, "Nice Nature": 1 },
+            races: [{
+                id: 1, cupNumber: "1", name: "G1 Tokyo Yushun (Japanese Derby)", date: "2025-08-11", 
+                images: ["suscupimages/suscup1.1.png", "suscupimages/suscup1.2.png", "suscupimages/suscup1.3.png", "suscupimages/suscup1.4.png"],
+                time: "19:06", roomId: "1662 1798", course: "Tokyo", surface: "Turf", distance: 2400,
+                distanceType: "Medium", direction: "Left", weather: "Sunny", ground: "Firm", condition: "Firm",
+                mood: "Great", season: "Spring", restriction: "A Rank Max",
+                participants: [
+                    { pos: 1, uma: "Oguri Cap", player: "GohanXGAMER", number: 7, rank: "B+", title: "Ideal Idol", strategy: "Pace", gap: "2:22.5", pop: 8 },
+                    { pos: 2, uma: "Mihono Bourbon", player: "Jiinxye", number: 2, rank: "B+", title: "Steamy Solidarity", strategy: "Front", gap: "1 3/4 L", pop: 7 },
+                    { pos: 3, uma: "T.M. Opera O", player: "Yves", number: 15, rank: "A", title: "The GOAT", strategy: "Pace", gap: "1 1/4 L", pop: 3 },
+                    { pos: 4, uma: "Gold Ship", player: "agnes", number: 4, rank: "A", title: "Unpredictable", strategy: "End", gap: "3 L", pop: 1 },
+                    { pos: 5, uma: "Agnes Tachyon", player: "Cyclobly", number: 17, rank: "A", title: "Epoch Pioneer", strategy: "Pace", gap: "3 L", pop: 5 },
+                    { pos: 6, uma: "Tokai Teio", player: "Cruzi", number: 8, rank: "B+", title: "Monarch", strategy: "Pace", gap: "3 L", pop: 6 },
+                    { pos: 7, uma: "Symboli Rudolf", player: "agnes", number: 9, rank: "A", title: "Fan Favorite", strategy: "Late", gap: "1 L", pop: 2 },
+                    { pos: 8, uma: "Narita Taishin", player: "Cyclobly", number: 16, rank: "A", title: "The GOAT", strategy: "End", gap: "1 L", pop: 4 },
+                    { pos: 9, uma: "Revival Lyric", player: "NPC", number: 1, rank: "C+", title: "", strategy: "Front", gap: "3/4 L", pop: 14 },
+                    { pos: 10, uma: "Marine Seagull", player: "NPC", number: 13, rank: "C+", title: "", strategy: "Late", gap: "3/4 L", pop: 17 },
+                    { pos: 11, uma: "T.M. Opera O", player: "Jiinxye", number: 14, rank: "B", title: "Finals Champion", strategy: "Pace", gap: "3/4 L", pop: 9 },
+                    { pos: 12, uma: "Reverent", player: "NPC", number: 18, rank: "C+", title: "", strategy: "End", gap: "3/4 L", pop: 15 },
+                    { pos: 13, uma: "Cithara Rhythm", player: "NPC", number: 5, rank: "C+", title: "", strategy: "Pace", gap: "1/2 L", pop: 12 },
+                    { pos: 14, uma: "Grass Wonder", player: "GohanXGAMER", number: 6, rank: "B", title: "Finals Champion", strategy: "Late", gap: "1 1/4 L", pop: 10 },
+                    { pos: 15, uma: "Silence Suzuka", player: "Cruzi", number: 11, rank: "B+", title: "Finals Champion", strategy: "Front", gap: "1 1/4 L", pop: 11 },
+                    { pos: 16, uma: "Bravo Deux", player: "NPC", number: 10, rank: "C+", title: "", strategy: "Front", gap: "Neck", pop: 16 },
+                    { pos: 17, uma: "Mejiro McQueen [End of the Skies ]", player: "Nadav", number: 12, rank: "C+", title: "Tenno Sweep", strategy: "Pace", gap: "Neck", pop: 18 },
+                    { pos: 18, uma: "Vodka", player: "Nadav", number: 3, rank: "B", title: "Double Tiara", strategy: "Pace", gap: "8 L", pop: 13 }
+                ]
+            }, {
+                id: 2, cupNumber: "2", cupName: "Sus Cup 2", subtitle: "Mile Front Runners",
+                images: ["suscupimages/suscup2.1.png", "suscupimages/suscup2.2.png", "suscupimages/suscup2.3.png", "suscupimages/suscup2.4.png"],
+                name: "Oka Sho", date: "2025-08-19", time: "19:19", roomId: "6695 4191",
+                grade: "G1", course: "Hanshin", surface: "Turf", distance: 1600,
+                distanceType: "Mile", direction: "Right", courseLayout: "Outer", weather: "Sunny",
+                ground: "Firm", condition: "Firm", mood: "Great", season: "Spring",
+                restriction: "A Rank", entryRule: "Maximum 2 entries per person", participants: [
+                    { pos: 1, uma: "Daiwa Scarlet", player: "GohanXGAMER", number: 1, rank: "B+", title: "The GOAT", strategy: "Front", time: "1:30.9", pop: 4, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/daiwa-scarlet" },
+                    { pos: 2, uma: "Sakura Bakushin O", player: "Agnes", number: 15, rank: "B+", title: "Steam Solidarity", strategy: "Front", gap: "1 L", pop: 7, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/sakura-bakushin-o" },
+                    { pos: 3, uma: "Mihono Bourbon", player: "Jiinxye", number: 16, rank: "B+", title: "Steam Solidarity", strategy: "Front", gap: "1 L", pop: 2, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/mihono-bourbon" },
+                    { pos: 4, uma: "Silence Suzuka", player: "GohanXGAMER", number: 12, rank: "B+", title: "Finals Champion", strategy: "Front", gap: "Head", pop: 6, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/silence-suzuka" },
+                    { pos: 5, uma: "Venabulum", player: "NPC", number: 9, rank: "C+", strategy: "Pace", gap: "Neck", pop: 9, participantType: "NPC Uma", characterUrl: null, imageUrl: null },
+                    { pos: 6, uma: "Jewel Onyx", player: "NPC", number: 5, rank: "C+", strategy: "End", gap: "Neck", pop: 13, participantType: "NPC Uma", characterUrl: null, imageUrl: null },
+                    { pos: 7, uma: "Maruzensky", player: "Cruzi", number: 10, rank: "B+", title: "Finals Champion", strategy: "Front", gap: "Nose", pop: 8, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/maruzensky" },
+                    { pos: 8, uma: "Basal Shoot", player: "NPC", number: 3, rank: "C+", strategy: "Late", gap: "Neck", pop: 15, participantType: "NPC Uma", characterUrl: null, imageUrl: null },
+                    { pos: 9, uma: "Keyboard Rhythm", player: "NPC", number: 2, rank: "C+", strategy: "Pace", gap: "Nose", pop: 10, participantType: "NPC Uma", characterUrl: null, imageUrl: null },
+                    { pos: 10, uma: "Hearty Letter", player: "NPC", number: 4, rank: "C+", strategy: "Front", gap: "Nose", pop: 11, participantType: "NPC Uma", characterUrl: null, imageUrl: null },
+                    { pos: 11, uma: "Mihono Bourbon", player: "Cruzi", number: 18, rank: "A", title: "Finals Champion", strategy: "Front", gap: "Neck", pop: 5, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/mihono-bourbon" },
+                    { pos: 12, uma: "Silence Suzuka", player: "Jiinxye", number: 8, rank: "B+", title: "Finals Champion", strategy: "Front", gap: "Neck", pop: 14, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/silence-suzuka" },
+                    { pos: 13, uma: "Krasnaya", player: "NPC", number: 7, rank: "C+", strategy: "Front", gap: "1/2 L", pop: 16, participantType: "NPC Uma", characterUrl: null, imageUrl: null },
+                    { pos: 14, uma: "Silence Suzuka", player: "Agnes", number: 6, rank: "B+", title: "Finals Champion", strategy: "Front", gap: "1 L", pop: 3, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/silence-suzuka" },
+                    { pos: 15, uma: "Maruzensky", player: "Cyclobly", number: 17, rank: "A", title: "Legendary Diva", strategy: "Front", gap: "1 1/2 L", pop: 1, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/maruzensky" },
+                    { pos: 16, uma: "Mihono Bourbon", player: "Nadav", number: 13, rank: "C+", title: "G1 Winner", strategy: "Front", gap: "1 1/2 L", pop: 18, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/mihono-bourbon" },
+                    { pos: 17, uma: "Daiwa Scarlet", player: "Nadav", number: 11, rank: "C+", title: "G1 Winner", strategy: "Front", gap: "1 1/2 L", pop: 17, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/daiwa-scarlet" },
+                    { pos: 18, uma: "Sakura Bakushin O", player: "Cyclobly", number: 14, rank: "A", title: "Finals Champion", strategy: "Front", gap: "Nose", pop: 12, participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/sakura-bakushin-o" }
+                ]
+            }, {
+                id: 3, cupNumber: "3", cupName: "SUS CUP 3", subtitle: "MILE DIRT",
+                images: ["suscupimages/suscup3.1.png", "suscupimages/suscup3.2.png", "suscupimages/suscup3.3.png", "suscupimages/suscup3.4.png"],
+                name: "Champions Cup", date: "2025-08-21", time: "18:37", roomId: "9612 9828",
+                grade: "G1", course: "Chukyo", surface: "Dirt", distance: 1800,
+                distanceType: "Mile", direction: "Left", weather: "Random",
+                ground: "Random", condition: "Firm", mood: "Great", season: "Not specified", restriction: "A Rank Max",
+                entryRule: "2 entries per player", participants: [
+                    { pos: 1, uma: "Oguri Cap", player: "Yves", number: 15, rank: "A", title: "Ideal Idol", strategy: "Pace", time: "1:48.2", pop: 3, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/oguri-cap" },
+                    { pos: 2, uma: "Smart Falcon", player: "Yves", number: 8, rank: "A", title: "Record Holder", strategy: "Front", gap: "2 1/2 L", pop: 2, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/smart-falcon" },
+                    { pos: 3, uma: "Taiki Shuttle", player: "agnes", number: 11, rank: "A", title: "Finals Champion", strategy: "Pace", gap: "2 1/2 L", pop: 5, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/taiki-shuttle" },
+                    { pos: 4, uma: "El Condor Pasa", player: "Cruzi", number: 12, rank: "A", title: "The GOAT", strategy: "Pace", gap: "Neck", pop: 7, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/el-condor-pasa" },
+                    { pos: 5, uma: "Haru Urara", player: "Cyclobly", number: 9, rank: "A", title: "Finals Champion", strategy: "Late", gap: "1 1/2 L", pop: 1, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/haru-urara" },
+                    { pos: 6, uma: "El Condor Pasa", player: "agnes", number: 2, rank: "B+", title: "Steamy Solidarity", strategy: "Late", gap: "1/2 L", pop: 8, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/el-condor-pasa" },
+                    { pos: 7, uma: "Haru Urara", player: "Cruzi", number: 5, rank: "B+", title: "Finals Champion", strategy: "Late", gap: "1 1/4 L", pop: 6, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/haru-urara" },
+                    { pos: 8, uma: "Dunna", player: "NPC", number: 4, rank: "C+", strategy: "Pace", gap: "1 1/4 L", pop: 13, participantType: "NPC Uma" },
+                    { pos: 9, uma: "Gold Chouchou", player: "NPC", number: 1, rank: "C+", strategy: "End", gap: "3/4 L", pop: 11, participantType: "NPC Uma" },
+                    { pos: 10, uma: "Oguri Cap", player: "Cyclobly", number: 7, rank: "A", title: "Steamy Solidarity", strategy: "Pace", gap: "3/4 L", pop: 4, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/oguri-cap" },
+                    { pos: 11, uma: "Oguri Cap", player: "GohanXGAMER", number: 14, rank: "A", title: "Finals Champion", strategy: "Pace", gap: "Neck", pop: 10, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/oguri-cap" },
+                    { pos: 12, uma: "Haru Urara", player: "GohanXGAMER", number: 6, rank: "C+", title: "G1 Winner", strategy: "Late", gap: "1 L", pop: 9, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/haru-urara" },
+                    { pos: 13, uma: "Chalemie Rhythm", player: "NPC", number: 3, rank: "C+", strategy: "Pace", gap: "Neck", pop: 12, participantType: "NPC Uma" },
+                    { pos: 14, uma: "Haru Urara", player: "Nadav", number: 16, rank: "C+", title: "G1 Winner", strategy: "Late", gap: "5 L", pop: 15, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/haru-urara" },
+                    { pos: 15, uma: "Aqua Spring", player: "NPC", number: 10, rank: "C+", strategy: "Front", gap: "3/4 L", pop: 14, participantType: "NPC Uma" },
+                    { pos: 16, uma: "Vodka", player: "Nadav", number: 13, rank: "B", title: "Double Tiara", strategy: "Pace", gap: "Distance", pop: 16, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/vodka" }
+                ]
+            }, {
+                id: 4, cupNumber: "4", cupName: "Sus Cup 4", subtitle: "1 Runner + 1 Debuffer",
+                images: ["suscupimages/suscup4.1.png", "suscupimages/suscup4.2.png", "suscupimages/suscup4.3.png", "suscupimages/suscup4.4.png"],
+                name: "Hopeful Stakes", date: "2025-08-25", time: "18:38", roomId: "9651 9168",
+                grade: "G1", course: "Nakayama", surface: "Turf", distance: 2000,
+                distanceType: "Medium", direction: "Right-handed / Inner", weather: "Random",
+                ground: "Random", condition: "Firm", mood: "Great", season: "Not specified", restriction: "A Rank Max",
+                entryRule: "1 Runner + 1 Debuffer", participants: [
+                    { pos: 1, uma: "Nice Nature", player: "Yves", number: 8, rank: "A", title: "Finals Champion", strategy: "Pace", time: "1:56.6", pop: 4, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/106001-nice-nature" },
+                    { pos: 2, uma: "Gold Ship", player: "Cyclobly", number: 14, rank: "A", title: "The GOAT", strategy: "End", gap: "2 1/2 L", pop: 1, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/gold-ship" },
+                    { pos: 3, uma: "El Condor Pasa", player: "Cruzi", number: 4, rank: "A", title: "The GOAT", strategy: "Pace", gap: "1 3/4 L", pop: 7, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/el-condor-pasa" },
+                    { pos: 4, uma: "Silence Suzuka", player: "agnes", number: 6, rank: "A", title: "Legendary Diva", strategy: "Front", gap: "Head", pop: 5, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/silence-suzuka" },
+                    { pos: 5, uma: "Agnes Tachyon", player: "Yves", number: 5, rank: "A", title: "The GOAT", strategy: "Late", gap: "5 L", pop: 6, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/agnes-tachyon" },
+                    { pos: 6, uma: "Nice Nature", player: "agnes", number: 9, rank: "B+", title: "Finals Champion", strategy: "Late", gap: "2 L", pop: 2, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/106001-nice-nature" },
+                    { pos: 7, uma: "Bridge Comp", player: "NPC", number: 7, rank: "C+", strategy: "End", gap: "1 1/2 L", pop: 15, participantType: "NPC Uma" },
+                    { pos: 8, uma: "Muruga", player: "NPC", number: 11, rank: "C+", strategy: "Pace", gap: "1 L", pop: 10, participantType: "NPC Uma" },
+                    { pos: 9, uma: "Mechanical Vapor", player: "NPC", number: 10, rank: "C+", strategy: "Late", gap: "Neck", pop: 13, participantType: "NPC Uma" },
+                    { pos: 10, uma: "Insight Catch", player: "NPC", number: 3, rank: "C+", strategy: "Front", gap: "3/4 L", pop: 12, participantType: "NPC Uma" },
+                    { pos: 11, uma: "Ribbon Carol", player: "NPC", number: 1, rank: "B", strategy: "Pace", gap: "1/2 L", pop: 11, participantType: "NPC Uma" },
+                    { pos: 12, uma: "Symboli Rudolf", player: "Cyclobly", number: 12, rank: "A", title: "Way of Kings", strategy: "Late", gap: "1/2 L", pop: 3, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/symboli-rudolf" },
+                    { pos: 13, uma: "Super Creek", player: "GohanXGAMER", number: 2, rank: "B", title: "Speedy Stayer", strategy: "Pace", gap: "1 1/4 L", pop: 18, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/super-creek" },
+                    { pos: 14, uma: "Mayano Top Gun", player: "GohanXGAMER", number: 13, rank: "B+", title: "Finals Champion", strategy: "Front", gap: "Head", pop: 8, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/mayano-top-gun" },
+                    { pos: 15, uma: "King Halo", player: "Cruzi", number: 15, rank: "B+", title: "Finals Champion", strategy: "Late", gap: "Nose", pop: 9, version: "Original / Default", participantType: "Playable Uma", characterUrl: "https://gametora.com/umamusume/characters/king-halo" },
+                    { pos: 16, uma: "Navigate Light", player: "NPC", number: 17, rank: "C+", strategy: "Front", gap: "3/4 L", pop: 17, participantType: "NPC Uma" },
+                    { pos: 17, uma: "Mini Lotus", player: "NPC", number: 18, rank: "C+", strategy: "Front", gap: "4 L", pop: 16, participantType: "NPC Uma" },
+                    { pos: 18, uma: "Summer Bonfire", player: "NPC", number: 16, rank: "C+", strategy: "End", gap: "3/4 L", pop: 14, participantType: "NPC Uma" }
+                ]
+            }]
+        };
+
+        const UMA_PROFILES = {
+            "Oguri Cap": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/100601-oguri-cap", id: 100601 },
+            "Mihono Bourbon": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/102601-mihono-bourbon", id: 102601 },
+            "T.M. Opera O": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/101501-tm-opera-o", id: 101501 },
+            "Gold Ship": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/100701-gold-ship", id: 100701 },
+            "Agnes Tachyon": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/103201-agnes-tachyon", id: 103201 },
+            "Tokai Teio": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/100301-tokai-teio", id: 100301 },
+            "Symboli Rudolf": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/101701-symboli-rudolf", id: 101701 },
+            "Narita Taishin": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/105001-narita-taishin", id: 105001 },
+            "Grass Wonder": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/101101-grass-wonder", id: 101101 },
+            "Silence Suzuka": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/100201-silence-suzuka", id: 100201 },
+            "Mejiro McQueen [End of the Skies ]": { version: "[End of the Skies] / Anime Collab", url: "https://gametora.com/umamusume/characters/101302-mejiro-mcqueen", id: 101302 },
+            "Vodka": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/100801-vodka", id: 100801 },
+            "El Condor Pasa": { version: "Original / Default", url: "https://gametora.com/umamusume/characters/el-condor-pasa", id: 101401 },
+            "Taiki Shuttle": { version: "Original / Default", url: "https://gametora.com/umamusume/characters/taiki-shuttle", id: 101001 },
+            "Haru Urara": { version: "Original / Default", url: "https://gametora.com/umamusume/characters/haru-urara", id: 103801 },
+            "Smart Falcon": { version: "Original / Default", url: "https://gametora.com/umamusume/characters/smart-falcon", id: 104601 },
+            "Nice Nature": { version: "Original / Default", url: "https://gametora.com/umamusume/characters/106001-nice-nature", id: 105201 },
+            "Super Creek": { version: "Original / Default", url: "https://gametora.com/umamusume/characters/super-creek", id: 101201 },
+            "Mayano Top Gun": { version: "Original / Default", url: "https://gametora.com/umamusume/characters/mayano-top-gun", id: 100501 },
+            "King Halo": { version: "Original / Default", url: "https://gametora.com/umamusume/characters/king-halo", id: 102001 },
+            "Daiwa Scarlet": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/daiwa-scarlet", id: 100901 },
+            "Sakura Bakushin O": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/sakura-bakushin-o", id: 104101 },
+            "Maruzensky": { version: "Standard / Original", url: "https://gametora.com/umamusume/characters/maruzensky", id: 100401 }
+        };
+
+        const NPC_PROFILES = {
+            "Revival Lyric": { name: "Revival Lyric", japaneseName: "リバイバルリリック", type: "NPC Uma", characterUrl: "https://mobumamusume.net/%E3%83%AA%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB%E3%83%AA%E3%83%AA%E3%83%83%E3%82%AF/", alternativeSourceUrl: "https://z.wikiwiki.jp/rnf0njoslv454htx/topic/370", imageUrl: "https://mobumamusume.net/wp-content/uploads/2021/05/%E3%83%AA%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB%E3%83%AA%E3%83%AA%E3%83%83%E3%82%AF2.png", imageSource: "Revival Lyric face image from the dedicated Mobu Musume character page" },
+            "Marine Seagull": { name: "Marine Seagull", type: "NPC Uma", characterUrl: "https://mobumamusume.net/%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%B7%E3%83%BC%E3%82%AC%E3%83%AB/", imageUrl: "https://mobumamusume.net/wp-content/uploads/2021/09/%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%B7%E3%83%BC%E3%82%AC%E3%83%AB-164x300.jpg", imageSource: "Marine Seagull image from the dedicated Mobu Musume character page" },
+            "Reverent": { name: "Reverent", type: "NPC Uma", characterUrl: "https://mobumamusume.net/name_list/", imageUrl: "", imageSource: "No verified dedicated character image available yet" },
+            "Cithara Rhythm": { name: "Cithara Rhythm", type: "NPC Uma", characterUrl: "https://mobumamusume.net/name_list/", imageUrl: "", imageSource: "No verified dedicated character image available yet" },
+            "Bravo Deux": { name: "Bravo Deux", type: "NPC Uma", characterUrl: "https://mobumamusume.net/name_list/", imageUrl: "", imageSource: "No verified dedicated character image available yet" }
+            ,"Venabulum": { name: "Venabulum", type: "NPC Uma", characterUrl: null, imageUrl: null }
+            ,"Jewel Onyx": { name: "Jewel Onyx", type: "NPC Uma", characterUrl: null, imageUrl: null }
+            ,"Basal Shoot": { name: "Basal Shoot", type: "NPC Uma", characterUrl: null, imageUrl: null }
+            ,"Keyboard Rhythm": { name: "Keyboard Rhythm", type: "NPC Uma", characterUrl: null, imageUrl: null }
+            ,"Hearty Letter": { name: "Hearty Letter", type: "NPC Uma", characterUrl: null, imageUrl: null }
+            ,"Krasnaya": { name: "Krasnaya", type: "NPC Uma", characterUrl: null, imageUrl: null }
+            ,"Dunna": { name: "Dunna", type: "NPC Uma", characterUrl: "https://umamusu.wiki/Game%3AMob_Umamusume", imageUrl: "", imageSource: "Name verified against the Umamusume Wiki mob-racer directory" }
+            ,"Gold Chouchou": { name: "Gold Chouchou", type: "NPC Uma", characterUrl: "https://umamusu.wiki/Game%3AMob_Umamusume", imageUrl: "", imageSource: "Name verified against the Umamusume Wiki mob-racer directory" }
+            ,"Chalemie Rhythm": { name: "Chalemie Rhythm", type: "NPC Uma", characterUrl: "https://umamusu.wiki/Game%3AMob_Umamusume", imageUrl: "", imageSource: "Name verified against the Umamusume Wiki mob-racer directory" }
+            ,"Aqua Spring": { name: "Aqua Spring", type: "NPC Uma", characterUrl: "https://mobumamusume.net/%E3%82%A2%E3%82%AF%E3%82%A2%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0/", imageUrl: "https://mobumamusume.net/wp-content/uploads/2021/07/%E3%82%A2%E3%82%AF%E3%82%A2%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%92.png", imageSource: "Aqua Spring close-up from the dedicated Mobu Musume character page" }
+            ,"Bridge Comp": { name: "Bridge Comp", type: "NPC Uma", characterUrl: "https://mobumamusume.net/%E3%83%96%E3%83%AA%E3%83%83%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%97/", imageUrl: "https://mobumamusume.net/wp-content/uploads/2021/08/%E3%83%96%E3%83%AA%E3%83%83%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%97_le2.jpg" }
+            ,"Navigate Light": { name: "Navigate Light", type: "NPC Uma", characterUrl: "https://mobumamusume.net/%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%83%88%E3%83%A9%E3%82%A4%E3%83%88/", imageUrl: "https://mobumamusume.net/wp-content/uploads/2021/09/%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%83%88%E3%83%A9%E3%82%A4%E3%83%88.jpg" }
+            ,"Mini Lotus": { name: "Mini Lotus", type: "NPC Uma", characterUrl: "https://mobumamusume.net/%E3%83%9F%E3%83%8B%E3%83%AD%E3%83%BC%E3%82%BF%E3%82%B9/", imageUrl: "https://mobumamusume.net/wp-content/uploads/2021/09/%E3%83%9F%E3%83%8B%E3%83%AD%E3%83%BC%E3%82%BF%E3%82%B9.jpg" }
+            ,"Summer Bonfire": { name: "Summer Bonfire", type: "NPC Uma", characterUrl: "https://mobumamusume.net/%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%9C%E3%83%B3%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2/", imageUrl: "https://mobumamusume.net/wp-content/uploads/2021/10/%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%9C%E3%83%B3%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2_2.jpg" }
+            ,"Muruga": { name: "Muruga", type: "NPC Uma", characterUrl: "https://umamusu.wiki/Game%3AMob_Umamusume", imageUrl: null }
+            ,"Mechanical Vapor": { name: "Mechanical Vapor", type: "NPC Uma", characterUrl: "https://umamusu.wiki/Game%3AMob_Umamusume", imageUrl: null }
+            ,"Insight Catch": { name: "Insight Catch", type: "NPC Uma", characterUrl: "https://umamusu.wiki/Game%3AMob_Umamusume", imageUrl: null }
+            ,"Ribbon Carol": { name: "Ribbon Carol", type: "NPC Uma", characterUrl: "https://umamusu.wiki/Game%3AMob_Umamusume", imageUrl: null }
+        };
+
+        const CHARACTER_PROFILES = { ...UMA_PROFILES, ...NPC_PROFILES };
+
+        const App = {
+            data: null, stats: null, runnerCount: 0,
+
+            init() {
+                this.loadData();
+                this.setupNavigation();
+                this.setupForm();
+                this.navigate('dashboard');
+            },
+
+            loadData() {
+                const local = localStorage.getItem('sus_cup_db');
+                if (local) this.data = JSON.parse(local);
+                else { this.data = JSON.parse(JSON.stringify(INITIAL_DATA)); this.saveData(); }
+                this.migrateHistoricalRecord();
+                this.calculateStats();
+            },
+
+            migrateHistoricalRecord() {
+                const sourceRace = INITIAL_DATA.races[0];
+                let race = this.data.races.find(item => item.id === sourceRace.id);
+                if (!race) {
+                    race = JSON.parse(JSON.stringify(sourceRace));
+                    this.data.races.unshift(race);
+                } else {
+                    Object.assign(race, {
+                        cupNumber: sourceRace.cupNumber, name: sourceRace.name, date: sourceRace.date,
+                        images: [...sourceRace.images],
+                        time: sourceRace.time, roomId: sourceRace.roomId, course: sourceRace.course,
+                        surface: sourceRace.surface, distance: sourceRace.distance, distanceType: sourceRace.distanceType,
+                        direction: sourceRace.direction, weather: sourceRace.weather, ground: sourceRace.ground,
+                        condition: sourceRace.condition, mood: sourceRace.mood, season: sourceRace.season,
+                        restriction: sourceRace.restriction,
+                        participants: JSON.parse(JSON.stringify(sourceRace.participants))
+                    });
+                }
+                race.participants = race.participants.map(participant => ({
+                    ...participant,
+                    version: CHARACTER_PROFILES[participant.uma]?.version,
+                    characterUrl: CHARACTER_PROFILES[participant.uma]?.characterUrl || CHARACTER_PROFILES[participant.uma]?.url,
+                    imageUrl: CHARACTER_PROFILES[participant.uma]?.imageUrl || "",
+                    participantType: CHARACTER_PROFILES[participant.uma]?.type || "Uma Musume"
+                }));
+                INITIAL_DATA.races.slice(1).forEach(sourceRace => {
+                    const existingRace = this.data.races.find(item => item.id === sourceRace.id);
+                    if (!existingRace) this.data.races.push(JSON.parse(JSON.stringify(sourceRace)));
+                    else if (sourceRace.id >= 3) Object.assign(existingRace, JSON.parse(JSON.stringify(sourceRace)));
+                    else if (sourceRace.images) existingRace.images = [...sourceRace.images];
+                });
+                const seededCups = new Set(INITIAL_DATA.winners.map(winner => winner.cup));
+                const customWinners = (this.data.winners || []).filter(winner => !seededCups.has(winner.cup));
+                this.data.winners = [...INITIAL_DATA.winners.map(winner => JSON.parse(JSON.stringify(winner))), ...customWinners];
+                this.data.championships = this.data.winners.reduce((championships, winner) => {
+                    if (!NPC_PROFILES[winner.uma] && winner.type !== 'NPC Uma') {
+                        championships[winner.uma] = (championships[winner.uma] || 0) + 1;
+                    }
+                    return championships;
+                }, {});
+                this.data.npcs = Object.values(NPC_PROFILES).map(npc => ({ ...npc }));
+                this.data.winners = this.data.winners.map(winner => ({
+                    ...winner,
+                    version: winner.version || CHARACTER_PROFILES[winner.uma]?.version,
+                    url: winner.url || CHARACTER_PROFILES[winner.uma]?.characterUrl || CHARACTER_PROFILES[winner.uma]?.url,
+                    race: winner.race || race.name,
+                    result: winner.result || race.participants.find(participant => participant.pos === 1)?.gap
+                }));
+                localStorage.setItem('sus_cup_db', JSON.stringify(this.data));
+            },
+
+            saveData() {
+                localStorage.setItem('sus_cup_db', JSON.stringify(this.data));
+                this.calculateStats();
+            },
+
+            resetData() {
+                if(confirm("Reset all data back to the demo SUS CUP 1 database?")) {
+                    localStorage.removeItem('sus_cup_db');
+                    this.loadData(); this.navigate('dashboard');
+                }
+            },
+
+            exportData() {
+                const str = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.data));
+                const a = document.createElement('a');
+                a.href = str; a.download = "sus_cup_backup.json"; a.click();
+            },
+
+            importData(e) {
+                const file = e.target.files[0];
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = (ev) => {
+                    try {
+                        const parsed = JSON.parse(ev.target.result);
+                        if(parsed.races) { this.data = parsed; this.saveData(); this.navigate('dashboard'); }
+                    } catch(err) { alert("Invalid JSON file."); }
+                    e.target.value = '';
+                };
+                reader.readAsText(file);
+            },
+
+            // --- STATISTICS ENGINE ---
+            calculateStats() {
+                const current = this.buildLeaderboards(this.data.races);
+                const previous = this.data.races.length > 1 ? this.buildLeaderboards(this.data.races.slice(0, -1)) : { players: [] };
+                
+                const prevRanks = {};
+                previous.players.forEach((p, idx) => prevRanks[p.name] = idx + 1);
+
+                current.players.forEach((p, idx) => {
+                    p.rank = idx + 1;
+                    const prev = prevRanks[p.name];
+                    if (prev) { p.prevRank = prev; p.diff = prev - p.rank; }
+                    else { p.prevRank = null; p.diff = 'NEW'; }
+                });
+
+                current.umas.forEach((u, idx) => u.rank = idx + 1);
+
+                this.stats = {
+                    totalRaces: this.data.races.length,
+                    totalPlayers: current.players.length,
+                    totalUmas: current.umas.length,
+                    players: current.players,
+                    umas: current.umas
+                };
+            },
+
+            buildLeaderboards(racesArray) {
+                const players = {}; const umas = {};
+
+                racesArray.forEach(race => {
+                    race.participants.forEach(p => {
+                        if(!players[p.player]) players[p.player] = { name: p.player, runs:0, w:0, podiums:0, sumPos:0, history:[] };
+                        const pl = players[p.player];
+                        pl.runs++; pl.sumPos += p.pos;
+                        if(p.pos===1) pl.w++;
+                        if(p.pos<=3) pl.podiums++;
+                        pl.history.push({ race: race.name, cup: race.cupNumber, uma: p.uma, pos: p.pos });
+
+                        if(!umas[p.uma]) umas[p.uma] = { name: p.uma, runs:0, w:0, podiums:0, sumPos:0, users:{}, history:[] };
+                        const um = umas[p.uma];
+                        um.runs++; um.sumPos += p.pos;
+                        if(p.pos===1) um.w++;
+                        if(p.pos<=3) um.podiums++;
+                        if(!um.users[p.player]) um.users[p.player] = 0;
+                        um.users[p.player]++;
+                        um.history.push({ race: race.name, cup: race.cupNumber, player: p.player, pos: p.pos });
+                    });
+                });
+
+                const sortedPlayers = Object.values(players).map(p => ({
+                    ...p, winRate: ((p.w/p.runs)*100).toFixed(0), avgFinish: (p.sumPos/p.runs).toFixed(1)
+                })).sort((a,b) => b.w - a.w || b.podiums - a.podiums || a.sumPos - b.sumPos);
+
+                const sortedUmas = Object.values(umas).map(u => ({
+                    ...u, winRate: ((u.w/u.runs)*100).toFixed(0), avgFinish: (u.sumPos/u.runs).toFixed(1),
+                    bestPlayer: Object.keys(u.users).reduce((a, b) => u.users[a] > u.users[b] ? a : b)
+                })).sort((a,b) => b.w - a.w || b.podiums - a.podiums || b.runs - a.runs);
+
+                return { players: sortedPlayers, umas: sortedUmas };
+            },
+
+            // --- UI LOGIC ---
+            setupNavigation() {
+                document.querySelectorAll('a[data-nav]').forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault(); this.navigate(e.currentTarget.dataset.nav);
+                    });
+                });
+            },
+
+            navigate(view) {
+                document.querySelectorAll('.view-section').forEach(v => v.classList.remove('active'));
+                document.querySelectorAll('a[data-nav]').forEach(v => v.classList.remove('active'));
+                
+                const targetView = document.getElementById(`view-${view}`);
+                if(targetView) targetView.classList.add('active');
+                
+                const targetLink = document.querySelector(`a[data-nav="${view}"]`);
+                if(targetLink) targetLink.classList.add('active');
+
+                if(view === 'dashboard') this.renderDashboard();
+                if(view === 'history') this.renderHistory();
+                if(view === 'archive') this.renderArchive();
+                if(view === 'info') this.renderInfo();
+                if(view === 'players') this.renderPlayers();
+                if(view === 'umas') this.renderUmas();
+                window.scrollTo(0,0);
+            },
+
+            getBadge(rank) {
+                const r = (rank || 'C').toUpperCase();
+                let cls = 'badge-c';
+                if(r.includes('S')) cls = 'badge-s';
+                else if(r.includes('A')) cls = 'badge-a';
+                else if(r.includes('B')) cls = 'badge-b';
+                return `<span class="badge ${cls}">${r}</span>`;
+            },
+
+            getInitials(name) { return name.substring(0,2).toUpperCase(); },
+
+            getUmaImage(name, large = false) {
+                const profile = CHARACTER_PROFILES[name];
+                if (profile?.imageUrl) {
+                    const cls = `${large ? 'uma-image-large' : 'uma-image'}${NPC_PROFILES[name] ? ' npc-face' : ''}`;
+                    return `<img class="${cls}" src="${profile.imageUrl}" alt="${name}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'), { className: 'avatar-circle', textContent: '${this.getInitials(name)}' }))">`;
+                }
+                const id = profile?.id;
+                if (!id) return `<div class="avatar-circle">${this.getInitials(name)}</div>`;
+                const base = `https://gametora.com/images/umamusume/characters/chara_stand_${String(id).substring(0, 4)}_${id}.png`;
+                const cls = large ? 'uma-image-large' : 'uma-image';
+                return `<img class="${cls}" src="${base}" alt="${name}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'), { className: 'avatar-circle', textContent: '${this.getInitials(name)}' }))">`;
+            },
+
+            getRankHtml(diff) {
+                if(diff === 'NEW') return `<span class="rank-diff diff-new">NEW</span>`;
+                if(diff > 0) return `<span class="rank-diff diff-up"><i class="fa-solid fa-caret-up"></i> ${diff}</span>`;
+                if(diff < 0) return `<span class="rank-diff diff-down"><i class="fa-solid fa-caret-down"></i> ${Math.abs(diff)}</span>`;
+                return `<span class="rank-diff diff-none"><i class="fa-solid fa-minus"></i></span>`;
+            },
+
+            renderDashboard() {
+                const latestRace = [...this.data.races].sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+                const latestWinner = latestRace?.participants.find(p => p.pos === 1);
+                document.getElementById('latest-cup-summary').innerHTML = `
+                    <span class="eyebrow">Latest champion</span>
+                    <h3 style="font-size:1.7rem; margin:15px 0 8px;">${latestRace ? `Sus Cup ${latestRace.cupNumber} / ${latestRace.name}` : 'No races recorded'}</h3>
+                    <p style="font-weight:800; margin-bottom:8px;">${latestWinner?.player || 'Not recorded'} • ${latestWinner?.uma || 'Not recorded'}</p>
+                    <p style="color:var(--text-muted); font-size:.85rem;">${latestRace ? `${latestRace.date} at ${latestRace.time} • ${latestRace.course} ${latestRace.distance}m ${latestRace.surface}` : ''}</p>
+                `;
+                document.getElementById('dash-stats').innerHTML = `
+                    <div class="stat-block"><div class="val">${this.stats.totalRaces}</div><div class="lbl">Total Cups</div></div>
+                    <div class="stat-block"><div class="val">${this.stats.totalPlayers}</div><div class="lbl">Active Players</div></div>
+                    <div class="stat-block"><div class="val">${this.stats.totalUmas}</div><div class="lbl">Umas Fielded</div></div>
+                `;
+
+                const championshipWinners = this.data.winners.filter(winner => !NPC_PROFILES[winner.uma] && winner.type !== 'NPC Uma');
+                const winnerRows = championshipWinners.map(winner => `
+                    <div><strong>${winner.cup}</strong><span>${winner.date}</span></div>
+                    <div><strong>${winner.trainer}</strong><span>Champion Trainer</span></div>
+                    <div><strong>${winner.uma}</strong><span>${winner.version || 'Version not recorded'} / ${this.data.championships[winner.uma] || 0} Championship${this.data.championships[winner.uma] === 1 ? '' : 's'}</span></div>
+                `).join('');
+                document.getElementById('championship-record').innerHTML = `
+                    <div class="record-heading"><span class="eyebrow">All-time championship record</span><span class="record-count">${championshipWinners.length} CUP${championshipWinners.length === 1 ? '' : 'S'}</span></div>
+                    <div class="record-winner">${winnerRows}</div>
+                `;
+
+                // Render Top Players (Pill List)
+                let phtml = '';
+                this.stats.players.slice(0, 5).forEach(p => {
+                    phtml += `
+                        <div class="list-item" onclick="App.showPlayer('${p.name}')">
+                            <div class="avatar-circle" style="background:#f4ece1; color:var(--text-main); font-size:1rem;">#${p.rank}</div>
+                            <div class="item-content">
+                                <div class="item-title">${p.name}</div>
+                                <div class="item-subtitle">${p.w} Wins • ${p.podiums} Podiums</div>
+                            </div>
+                            <div class="item-right">
+                                <div class="item-value">${p.w} wins</div>
+                                ${this.getRankHtml(p.diff)}
+                            </div>
+                        </div>`;
+                });
+                document.getElementById('dash-player-list').innerHTML = phtml;
+
+                // Render Top Umas
+                let uhtml = '';
+                this.stats.umas.filter(u => !NPC_PROFILES[u.name]).slice(0, 5).forEach(u => {
+                    uhtml += `
+                        <div class="list-item" onclick="App.showUma('${u.name}')">
+                            ${this.getUmaImage(u.name)}
+                            <div class="item-content">
+                                <div class="item-title">${u.name}</div>
+                                <div class="item-subtitle">Best: ${u.bestPlayer}</div>
+                            </div>
+                            <div class="item-right">
+                                <div class="item-value" style="color:var(--primary)">${u.w} Wins</div>
+                                <div class="item-label">${u.winRate}% WR</div>
+                            </div>
+                        </div>`;
+                });
+                document.getElementById('dash-uma-list').innerHTML = uhtml;
+            },
+
+            renderHistory() {
+                const winners = this.data.winners || [];
+                const html = [...this.data.races].sort((a, b) => new Date(a.date) - new Date(b.date)).map(race => {
+                    const winner = winners.find(item => item.cup === `Sus Cup ${race.cupNumber}`) || race.participants.find(p => p.pos === 1);
+                    return `<div class="timeline-item"><div class="card" style="margin-bottom:0; cursor:pointer;" onclick="App.showRaceDetail(${race.id})">
+                        <span class="badge" style="background:var(--accent-dark);">SUS CUP ${race.cupNumber}</span>
+                        <h3 style="font-size:1.35rem; margin:12px 0 5px;">${race.name}</h3>
+                        <p style="color:var(--text-muted); font-weight:700;">${race.date} • ${race.course} ${race.distance}m ${race.surface}</p>
+                        <p style="margin-top:12px; font-weight:800;">Winner: ${winner?.trainer || winner?.player || 'Not recorded'} • ${winner?.uma || 'Not recorded'}</p>
+                    </div></div>`;
+                }).join('');
+                document.getElementById('history-timeline').innerHTML = html;
+            },
+
+            renderInfo() {
+                document.getElementById('info-content').innerHTML = `
+                    <section class="card info-section"><h3>About Sus Cup</h3>
+                        <p>Sus Cup is a community Uma Musume tournament series where players compete under different race conditions and rules for each event.</p>
+                        <p>Every Sus Cup can feature different:</p><ul><li>Tracks and race distances</li><li>Surfaces, weather, and ground conditions</li><li>Entry formats and rank limits</li><li>Race strategies and tournament rules</li></ul>
+                        <p>Each tournament is recorded individually to preserve its complete history.</p>
+                    </section>
+                    <section class="card info-section"><h3>About the Tracker</h3>
+                        <p>The Sus Cup Tournament Tracker was created to serve as a permanent archive for the tournament series.</p>
+                        <p>It preserves tournament information, player participation, Uma Musume entries, character versions, special dresses/outfits, NPC/Mob Uma runners, complete race results, champions, winning Umas, and all-time records.</p>
+                    </section>
+                    <section class="card info-section"><h3>Why This Was Made</h3>
+                        <p>The Sus Cup Tournament Tracker was created so that every Sus Cup race has a permanent place in history.</p>
+                        <p>Instead of race results being lost after an event, this tracker preserves the full record of each tournament — from the race conditions and participants to the final 1st through 18th positions.</p>
+                        <p>It also celebrates the players and Uma Musume that became champions throughout the history of Sus Cup.</p>
+                    </section>
+                    <section class="card info-section"><h3>History</h3><p>Explore the chronological tournament timeline in <a href="#" onclick="event.preventDefault(); App.navigate('history');">Sus Cup History</a>.</p></section>
+                    <section class="card info-section"><h3>Recording Rules</h3>
+                        <p><strong>Actual race results are the primary historical record.</strong></p>
+                        <p>If registered entries differ from the final race result, the actual result is preserved. All 18 finishing positions are preserved whenever available. NPC/Mob Uma runners are part of the official race record, character images must match the correct Uma, special versions are recorded when identifiable, and no results are invented or estimated.</p>
+                    </section>
+                    <section class="card info-section"><h3>Created By</h3><p style="font-size:1.2rem; font-weight:800; color:var(--text-main);">Ananth</p><p>The Sus Cup Tournament Tracker was created and maintained by Ananth as a dedicated historical archive for the Sus Cup tournament series.</p></section>
+                `;
+            },
+
+            renderArchive() {
+                let html = '';
+                [...this.data.races].reverse().forEach(race => {
+                    const winner = race.participants.find(p=>p.pos===1);
+                    html += `
+                        <div class="card" style="cursor:pointer;" onclick="App.showRaceDetail(${race.id})">
+                            <div style="display:flex; justify-content:space-between; margin-bottom:15px;">
+                                <span class="badge" style="background:var(--accent-dark)">SUS CUP ${race.cupNumber}</span>
+                                <span style="font-size:0.85rem; font-weight:800; color:var(--text-muted)">${race.date}</span>
+                            </div>
+                            <h3 style="font-size:1.4rem; margin-bottom:5px;">${race.name}</h3>
+                            <p style="font-weight:700; color:var(--text-muted); margin-bottom:20px;">${race.course} ${race.surface} ${race.distance}m</p>
+                            <div class="list-item" style="margin:0; padding:15px; border-color:var(--gold); border-left:4px solid var(--gold);">
+                                ${this.getUmaImage(winner?.uma || '')}
+                                <div class="item-content">
+                                    <div class="item-title" style="font-size:1rem;">${winner?.uma || 'Unknown'}</div>
+                                    <div class="item-subtitle" style="font-size:0.8rem;">${winner?.player || ''}${winner?.version ? ` &bull; ${winner.version}` : ''}</div>
+                                </div>
+                            </div>
+                        </div>`;
+                });
+                document.getElementById('archive-grid').innerHTML = html;
+            },
+
+            showRaceDetail(id) {
+                const race = this.data.races.find(r => r.id === id);
+                if(!race) return;
+                const sorted = [...race.participants].sort((a,b) => a.pos - b.pos);
+                const raceMeta = [
+                    race.date && `${race.date}${race.time ? ` / ${race.time}` : ''}`,
+                    race.roomId && `ROOM ${race.roomId}`,
+                    race.grade,
+                    race.distanceType && `${race.distanceType} / ${race.direction || 'Direction not recorded'}`,
+                    race.courseLayout,
+                    race.weather && `WEATHER SETTING: ${race.weather}`,
+                    race.ground && `GROUND SETTING: ${race.ground}`,
+                    race.condition && `RACE CONDITION: ${race.condition}`,
+                    race.mood && `MOOD: ${race.mood}`,
+                    race.restriction && `LIMIT: ${race.restriction}`,
+                    race.entryRule
+                ].filter(Boolean);
+                
+                let html = `
+                    <div class="card" style="background:var(--accent-dark); color:white;">
+                        <span class="badge" style="background:var(--primary); margin-bottom:10px;">SUS CUP ${race.cupNumber}</span>
+                        <h2 style="font-size:2rem; margin-bottom:10px; color:white;">${race.name}</h2>
+                        <p style="font-weight:700; opacity:0.8;">${race.cupName || `SUS CUP ${race.cupNumber}`}${race.subtitle ? ` &mdash; ${race.subtitle}` : ''}</p>
+                        <p style="font-weight:700; opacity:0.8; margin-top:6px;">${race.course} ${race.surface} ${race.distance}m</p>
+                        <div class="race-meta">${raceMeta.map(item => `<span>${item}</span>`).join('')}</div>
+                    </div>
+                    ${race.images?.length ? `<div class="race-gallery">${race.images.map((image, index) => `<a href="${image}" target="_blank" rel="noopener"><img src="${image}" alt="Sus Cup ${race.cupNumber} result screenshot ${index + 1}" loading="lazy"></a>`).join('')}</div>` : ''}
+                `;
+
+                sorted.forEach(p => {
+                    let style = ''; let medal = p.pos;
+                    if(p.pos===1) { style = 'border-left: 5px solid var(--gold); background: #fffcf0;'; medal = '🥇'; }
+                    else if(p.pos===2) { style = 'border-left: 5px solid var(--silver);'; medal = '🥈'; }
+                    else if(p.pos===3) { style = 'border-left: 5px solid var(--bronze);'; medal = '🥉'; }
+                    
+                    html += `
+                        <div class="list-item" style="${style}">
+                            <div style="font-size:1.8rem; font-weight:900; width:50px; text-align:center; margin-right:15px;">${medal}</div>
+                            <div class="avatar-circle" style="width:45px;height:45px;font-size:1rem;background:#eee;color:#333;">${p.number}</div>
+                            ${this.getUmaImage(p.uma)}
+                            <div class="item-content">
+                                <div style="display:flex; align-items:center; gap:10px; margin-bottom:4px;">
+                                    <div class="item-title">${p.uma}</div>
+                                    ${this.getBadge(p.rank)}
+                                </div>
+                                <div class="item-subtitle">${p.player === 'NPC' ? 'NPC / Mob Uma' : `Trainer: ${p.player}`} &bull; ${p.strategy || 'Strategy not recorded'} &bull; ${p.version || (NPC_PROFILES[p.uma] ? 'NPC Uma' : CHARACTER_PROFILES[p.uma]?.version || 'Version not recorded')}</div>
+                                <div class="item-label" style="margin-top:4px;">${p.title ? `TITLE: ${p.title}` : 'NPC / Mob Uma'} &bull; RUNNER NO. ${p.number}</div>
+                            </div>
+                            <div class="item-right">
+                                <div class="item-value" style="font-size:1.1rem;">${p.gap || p.time || ''}</div>
+                                <div class="item-label">Pop: ${p.pop}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+                document.getElementById('race-detail-content').innerHTML = html;
+                this.navigate('race-detail');
+            },
+
+            renderPlayers() {
+                const query = (document.getElementById('search-players')?.value || '').toLowerCase();
+                let html = '';
+                this.stats.players.filter(p => p.name.toLowerCase().includes(query)).forEach(p => {
+                    html += `
+                        <div class="list-item" onclick="App.showPlayer('${p.name}')">
+                            <div class="avatar-circle" style="background:white; border:2px solid #eee;">#${p.rank}</div>
+                            <div class="item-content">
+                                <div class="item-title">${p.name}</div>
+                                <div class="item-subtitle">Wins: ${p.w} | Podiums: ${p.podiums} | Avg: ${p.avgFinish}</div>
+                            </div>
+                            <div class="item-right">
+                                <div class="item-value">${p.w} wins</div>
+                                ${this.getRankHtml(p.diff)}
+                            </div>
+                        </div>`;
+                });
+                document.getElementById('full-player-list').innerHTML = html;
+            },
+
+            renderUmas() {
+                const query = (document.getElementById('search-umas')?.value || '').toLowerCase();
+                let html = '';
+                this.stats.umas.filter(u => u.name.toLowerCase().includes(query)).forEach(u => {
+                    html += `
+                        <div class="list-item" onclick="App.showUma('${u.name}')">
+                            ${this.getUmaImage(u.name)}
+                            <div class="item-content">
+                                <div class="item-title">${u.name}</div>
+                                <div class="item-subtitle">Runs: ${u.runs} | ${CHARACTER_PROFILES[u.name]?.version || 'NPC Uma'} | Best Player: ${u.bestPlayer}</div>
+                            </div>
+                            <div class="item-right">
+                                <div class="item-value" style="color:var(--primary)">${u.w} Wins</div>
+                                <div class="item-label">${u.winRate}% WR</div>
+                            </div>
+                        </div>`;
+                });
+                document.getElementById('full-uma-list').innerHTML = html;
+            },
+
+            showPlayer(name) {
+                const p = this.stats.players.find(x => x.name === name);
+                if(!p) return;
+                
+                const umaCounts = {};
+                p.history.forEach(h => {
+                    if(!umaCounts[h.uma]) umaCounts[h.uma] = { runs: 0, wins: 0 };
+                    umaCounts[h.uma].runs++;
+                    if(h.pos === 1) umaCounts[h.uma].wins++;
+                });
+                const topUmas = Object.entries(umaCounts).map(([uname, stats]) => ({ name: uname, ...stats })).sort((a,b) => b.runs - a.runs || b.wins - a.wins);
+                const topUma = topUmas.length > 0 ? topUmas[0].name : "None";
+                
+                const championships = (this.data.winners || []).filter(w => w.trainer === name && !NPC_PROFILES[w.uma] && w.type !== 'NPC Uma').length;
+                
+                let html = `
+                    <div class="card" style="text-align:center;">
+                        <div class="avatar-circle" style="width:80px;height:80px;font-size:2rem;margin:0 auto 15px;background:var(--primary);color:white;">${this.getInitials(p.name)}</div>
+                        <h2 style="font-size:2.5rem; margin-bottom:10px;">${p.name}</h2>
+                        <div style="font-weight:900; font-size:1.2rem; color:var(--text-muted);">RANK #${p.rank} &nbsp;•&nbsp; ${p.w} WINS</div>
+                    </div>
+                    <div class="grid-4" style="margin-bottom:15px;">
+                        <div class="stat-block"><div class="val">${p.runs}</div><div class="lbl">Races</div></div>
+                        <div class="stat-block"><div class="val">${p.w}</div><div class="lbl">Wins</div></div>
+                        <div class="stat-block"><div class="val">${p.podiums}</div><div class="lbl">Podiums</div></div>
+                        <div class="stat-block"><div class="val">${p.winRate}%</div><div class="lbl">Win Rate</div></div>
+                    </div>
+                    <div class="grid-4" style="margin-bottom:30px;">
+                        <div class="stat-block"><div class="val">${p.avgFinish}</div><div class="lbl">Avg Pos</div></div>
+                        <div class="stat-block"><div class="val" style="font-size:1.2rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${topUma}">${topUma}</div><div class="lbl">Top Uma</div></div>
+                        <div class="stat-block"><div class="val">${championships}</div><div class="lbl">Championships</div></div>
+                        <div class="stat-block"><div class="val">${topUmas.length}</div><div class="lbl">Unique Umas</div></div>
+                    </div>
+                    
+                    <h3 style="margin-bottom:20px;">Top Umas Used</h3>
+                    <div style="margin-bottom:30px;">
+                        ${topUmas.slice(0, 3).map(tu => `
+                            <div class="list-item" onclick="App.showUma('${tu.name}')" style="cursor:pointer;">
+                                ${this.getUmaImage(tu.name)}
+                                <div class="item-content">
+                                    <div class="item-title">${tu.name}</div>
+                                    <div class="item-subtitle">${tu.runs} Runs</div>
+                                </div>
+                                <div class="item-right">
+                                    <div class="item-value">${tu.wins} Wins</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <h3 style="margin-bottom:20px;">Race History</h3>
+                `;
+                [...p.history].reverse().forEach(h => {
+                    html += `
+                        <div class="list-item">
+                            <div class="avatar-circle" style="background:${h.pos==1?'var(--gold)':h.pos==2?'var(--silver)':h.pos==3?'var(--bronze)':'#eee'}; color:${h.pos<=3?'white':'#333'}">${h.pos}</div>
+                            <div class="item-content">
+                                <div class="item-title">${h.uma}</div>
+                                <div class="item-subtitle">${h.race} (Cup ${h.cup})</div>
+                            </div>
+                        </div>
+                    `;
+                });
+                document.getElementById('profile-content').innerHTML = html;
+                this.navigate('profile');
+            },
+
+            showUma(name) {
+                const u = this.stats.umas.find(x => x.name === name);
+                if(!u) return;
+                let html = `
+                    <div class="card" style="text-align:center;">
+                        ${this.getUmaImage(u.name, true)}
+                        <h2 style="font-size:2.5rem; margin-bottom:10px;">${u.name}</h2>
+                        <div style="font-weight:700; color:var(--text-muted); margin-bottom:10px;">${UMA_PROFILES[u.name]?.version || 'NPC entry'}</div>
+                        <div style="font-weight:900; font-size:1.2rem; color:var(--primary);">POPULARITY RANK #${u.rank}</div>
+                    </div>
+                    <div class="grid-4" style="margin-bottom:30px;">
+                        <div class="stat-block"><div class="val">${u.runs}</div><div class="lbl">Races</div></div>
+                        <div class="stat-block"><div class="val">${u.w}</div><div class="lbl">Wins</div></div>
+                        <div class="stat-block"><div class="val">${u.winRate}%</div><div class="lbl">Win Rate</div></div>
+                        <div class="stat-block"><div class="val">${u.avgFinish}</div><div class="lbl">Avg Pos</div></div>
+                    </div>
+                    <h3 style="margin-bottom:20px;">Race History</h3>
+                `;
+                [...u.history].reverse().forEach(h => {
+                    html += `
+                        <div class="list-item">
+                            <div class="avatar-circle" style="background:${h.pos==1?'var(--gold)':h.pos==2?'var(--silver)':h.pos==3?'var(--bronze)':'#eee'}; color:${h.pos<=3?'white':'#333'}">${h.pos}</div>
+                            <div class="item-content">
+                                <div class="item-title">${h.player}</div>
+                                <div class="item-subtitle">${h.race} (Cup ${h.cup})</div>
+                            </div>
+                        </div>
+                    `;
+                });
+                document.getElementById('profile-content').innerHTML = html;
+                this.navigate('profile');
+            },
+
+            // --- ADD RACE FORM ---
+            setupForm() {
+                const container = document.getElementById('runners-container');
+                container.innerHTML = '';
+                this.runnerCount = 0;
+                for(let i=1; i<=18; i++) this.addRunnerRow(i);
+                
+                document.getElementById('form-add-race').onsubmit = (e) => {
+                    e.preventDefault(); this.saveNewRace();
+                };
+            },
+
+            addRunnerRow(forcePos = null) {
+                this.runnerCount++;
+                const pos = forcePos || this.runnerCount;
+                const div = document.createElement('div');
+                div.className = 'participant-row';
+                div.innerHTML = `
+                    <div class="form-group" style="margin:0"><label>Pos</label><input type="number" class="form-control r-pos" required value="${pos}"></div>
+                    <div class="form-group" style="margin:0"><label>Uma Musume</label><input type="text" class="form-control r-uma" placeholder="Name"></div>
+                    <div class="form-group" style="margin:0"><label>Player</label><input type="text" class="form-control r-player" placeholder="Discord Name"></div>
+                    <div class="form-group" style="margin:0"><label>Rank</label><select class="form-control r-rank"><option>SS</option><option>S</option><option>A</option><option>B+</option><option>B</option><option>C+</option><option>C</option></select></div>
+                    <div class="form-group" style="margin:0"><label>Gap/Time</label><input type="text" class="form-control r-gap" placeholder="e.g 2 L"></div>
+                `;
+                document.getElementById('runners-container').appendChild(div);
+            },
+
+            saveNewRace() {
+                const entries = document.querySelectorAll('.participant-row');
+                const participants = [];
+
+                entries.forEach(entry => {
+                    const uma = entry.querySelector('.r-uma').value.trim();
+                    const player = entry.querySelector('.r-player').value.trim();
+                    if(!uma || !player) return; // skip empty rows
+
+                    participants.push({
+                        pos: parseInt(entry.querySelector('.r-pos').value),
+                        uma: uma, player: player,
+                        rank: entry.querySelector('.r-rank').value,
+                        gap: entry.querySelector('.r-gap').value.trim(),
+                        strategy: "Pace", pop: Math.floor(Math.random() * 18) + 1 // defaults for simplicity in form
+                    });
+                });
+
+                if(participants.length === 0) return alert("Add at least one runner.");
+
+                const newRace = {
+                    id: Date.now(),
+                    cupNumber: document.getElementById('ar-cup').value,
+                    name: document.getElementById('ar-name').value,
+                    date: document.getElementById('ar-date').value,
+                    distance: document.getElementById('ar-dist').value,
+                    course: "Unknown", surface: "Turf", weather: "Sunny", condition: "Firm",
+                    participants: participants
+                };
+
+                this.data.races.push(newRace);
+                this.saveData();
+                alert("Race saved successfully!");
+                document.getElementById('form-add-race').reset();
+                this.navigate('archive');
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => { App.init(); });
+    </script>
+</body>
+</html>

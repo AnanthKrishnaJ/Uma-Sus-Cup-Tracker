@@ -1,0 +1,57 @@
+showPlayer(name) {
+                const p = this.stats.players.find(x => x.name === name);
+                if (!p) return;
+
+                // Group Umas used by this player
+                const umasUsed = {};
+                p.history.forEach(h => {
+                    if (!umasUsed[h.umaId]) {
+                        umasUsed[h.umaId] = {
+                            umaId: h.umaId, name: h.uma, runs: 0, wins: 0, secondPlaces: 0, thirdPlaces: 0, podiums: 0,
+                            sumPos: 0, bestFinish: 99, worstFinish: 0, firstCup: h.cup, latestCup: h.cup
+                        };
+                    }
+                    const um = umasUsed[h.umaId];
+                    um.runs++;
+                    um.sumPos += h.pos;
+                    if (h.pos === 1) um.w++;
+                    if (h.pos === 2) um.secondPlaces++;
+                    if (h.pos === 3) um.thirdPlaces++;
+                    if (h.pos <= 3) um.podiums++;
+                    if (h.pos < um.bestFinish) um.bestFinish = h.pos;
+                    if (h.pos > um.worstFinish) um.worstFinish = h.pos;
+                    um.latestCup = h.cup;
+                });
+
+                let umaList = Object.values(umasUsed).map(um => ({
+                    ...um,
+                    winRate: ((um.w / um.runs) * 100).toFixed(1),
+                    avgFinish: (um.sumPos / um.runs).toFixed(2)
+                }));
+
+                umaList.sort((a, b) => b.w - a.w || (b.w / b.runs) - (a.w / a.runs) || b.podiums - a.podiums || a.avgFinish - b.avgFinish || b.runs - a.runs);
+                const bestUma = umaList.length > 0 ? umaList[0] : null;
+
+                const mostUsedUma = [...umaList].sort((a, b) => b.runs - a.runs || a.avgFinish - b.avgFinish)[0];
+
+                const championships = (this.data.winners || []).filter(w => w.trainer === name && !NPC_PROFILES[w.uma] && w.type !== 'NPC Uma').length;
+
+                // Determine Achievements
+                let achievements = [];
+                if (championships > 0) achievements.push({ icon: '🏆', title: 'Sus Cup Champion', desc: `Won ${championships} Championship${championships > 1 ? 's' : ''}` });
+                if (p.w >= 10) achievements.push({ icon: '🌟', title: 'Decade of Dominance', desc: 'Achieved 10 or more race wins' });
+                if (p.podiums >= 20) achievements.push({ icon: '🥈', title: 'Podium Regular', desc: 'Secured 20 or more podium finishes' });
+                if (p.maxWinStreak >= 3) achievements.push({ icon: '🔥', title: 'Unstoppable', desc: `Achieved a ${p.maxWinStreak}-race win streak` });
+                if (p.uniqueUmasCount >= 10) achievements.push({ icon: '🎭', title: 'Versatile Trainer', desc: 'Fielded 10 or more unique Umas' });
+
+                let html = `
+                    <div class="card" style="margin-bottom:20px; display:flex; flex-wrap:wrap; gap:20px; align-items:center;">
+                        <div class="avatar-circle" style="width:100px; height:100px; font-size:3rem; background:var(--primary); color:white; flex-shrink:0;">${this.getInitials(p.name)}</div>
+                        <div style="flex-grow:1;">
+                            <div style="text-transform:uppercase; font-size:0.85rem; letter-spacing:2px; font-weight:800; color:var(--text-muted);">Trainer Profile</div>
+                            <div style="display:flex; justify-content:space-between; align-items:flex-start; width:100%;">
+                                <h2 style="font-size:3rem; margin:0 0 10px 0; line-height:1;">${p.name}</h2>
+                                <button onclick="window.generatePlayerCard('${p.name}')" class="btn" style="background:var(--primary); color:white; padding:8px 16px; border-radius:8px; border:none; cursor:pointer; font-weight:bold; box-shadow:0 4px 6px rgba(0,0,0,0.1);"><i class="fa-solid fa-camera"></i> Generate Card</button>
+                            </div>
+                            <div style="display:flex; flex-wrap:wrap; gap:15px; font-size:0.9rem;">
+           
