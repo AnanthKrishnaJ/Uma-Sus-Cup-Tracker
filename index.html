@@ -11366,6 +11366,9 @@
                     font-weight: 800; font-size: 1.8rem; color: #fff; margin-bottom: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
                     overflow: hidden; position: relative;
                 }
+                .cp-avatar-wrap img, .cp-avatar-wrap .avatar-circle {
+                    width: 100% !important; height: 100% !important; object-fit: cover !important; border: none !important; margin: 0 !important; max-width: none !important; border-radius: 50% !important;
+                }
                 .cp-card.p1 .cp-avatar-wrap { background: linear-gradient(135deg, var(--cp-1), #ff5a68); }
                 .cp-card.p2 .cp-avatar-wrap { background: linear-gradient(135deg, var(--cp-2), #5ca0cc); }
                 .cp-name { font-size: 1.6rem; font-weight: 800; color: var(--text-main); margin: 0 0 5px 0; }
@@ -11579,9 +11582,9 @@
         const bestUma1 = getBestUma(p1);
         const bestUma2 = getBestUma(p2);
         const bu1_wr = bestUma1.runs > 0 ? ((bestUma1.wins / bestUma1.runs) * 100).toFixed(1) : 0;
-        const bu1_pr = bestUma1.runs > 0 ? ((bestUma1.podiums / bestUma1.runs) * 100).toFixed(1) : 0;
+        const bu1_pr = bestUma1.runs > 0 ? ((bestUma1.pods / bestUma1.runs) * 100).toFixed(1) : 0;
         const bu2_wr = bestUma2.runs > 0 ? ((bestUma2.wins / bestUma2.runs) * 100).toFixed(1) : 0;
-        const bu2_pr = bestUma2.runs > 0 ? ((bestUma2.podiums / bestUma2.runs) * 100).toFixed(1) : 0;
+        const bu2_pr = bestUma2.runs > 0 ? ((bestUma2.pods / bestUma2.runs) * 100).toFixed(1) : 0;
 
         const generateAvatarHTML = (p, bestUma) => {
             if (bestUma && bestUma.name && bestUma.name !== '—') {
@@ -11685,7 +11688,7 @@
                         <div class="cp-best-uma-label">Best Uma</div>
                         ${bestUma1.name !== 'None' ? `<div style="display:flex; justify-content:center; margin: 5px 0;">` + this.getUmaImage(bestUma1.umaId, bestUma1.name).replace('class="uma-image"', 'class="uma-image" style="margin-right:0; width:50px; height:50px; border-radius:50%; border: 2px solid var(--accent-color);"') + `</div>` : ''}
                         <div class="cp-best-uma-name">${bestUma1.name}</div>
-                        <div class="cp-best-uma-stats">${bestUma1.runs} Races &bull; ${bestUma1.wins} Wins &bull; ${bestUma1.podiums || bestUma1.pods || 0} Podiums<br>${bu1_wr}% Win Rate &bull; ${bu1_pr}% Podium Rate</div>
+                        <div class="cp-best-uma-stats">${bestUma1.runs} Races &bull; ${bestUma1.wins} Wins &bull; ${bestUma1.pods} Podiums<br>${bu1_wr}% Win Rate &bull; ${bu1_pr}% Podium Rate</div>
                     </div>
                 </div>
                 
@@ -11738,7 +11741,7 @@
                         <div class="cp-best-uma-label">Best Uma</div>
                         ${bestUma2.name !== 'None' ? `<div style="display:flex; justify-content:center; margin: 5px 0;">` + this.getUmaImage(bestUma2.umaId, bestUma2.name).replace('class="uma-image"', 'class="uma-image" style="margin-right:0; width:50px; height:50px; border-radius:50%; border: 2px solid var(--accent-color);"') + `</div>` : ''}
                         <div class="cp-best-uma-name">${bestUma2.name}</div>
-                        <div class="cp-best-uma-stats">${bestUma2.runs} Races &bull; ${bestUma2.wins} Wins &bull; ${bestUma2.podiums || bestUma2.pods || 0} Podiums<br>${bu2_wr}% Win Rate &bull; ${bu2_pr}% Podium Rate</div>
+                        <div class="cp-best-uma-stats">${bestUma2.runs} Races &bull; ${bestUma2.wins} Wins &bull; ${bestUma2.pods} Podiums<br>${bu2_wr}% Win Rate &bull; ${bu2_pr}% Podium Rate</div>
                     </div>
                 </div>
             </div>
@@ -12188,8 +12191,8 @@
                             </div>
                             <div style="display:flex; flex-wrap:wrap; gap:15px; font-size:0.9rem;">
                                 <div><i class="fa-solid fa-flag-checkered" style="color:var(--text-muted)"></i> <strong>${p.runs}</strong> Races</div>
-                                <div><i class="fa-solid fa-horse-head" style="color:var(--text-muted)"></i> <strong>${p.uniqueUmas.size}</strong> Unique Umas</div>
-                                <div><i class="fa-regular fa-calendar" style="color:var(--text-muted)"></i> Active: Cup <strong>${p.firstCup}</strong> to <strong>${p.latestCup}</strong></div>
+                                <div><i class="fa-solid fa-horse-head" style="color:var(--text-muted)"></i> <strong>${p.uniqueUmas ? p.uniqueUmas.size : Object.keys(umasUsed).length}</strong> Unique Umas</div>
+                                <div><i class="fa-regular fa-calendar" style="color:var(--text-muted)"></i> Active: Cup <strong>${p.firstCup || (sortedHistory.length ? sortedHistory[0].cup : '-')}</strong> to <strong>${p.latestCup || (sortedHistory.length ? sortedHistory[sortedHistory.length - 1].cup : '-')}</strong></div>
                                 <div><i class="fa-solid fa-medal" style="color:var(--text-muted)"></i> Best Finish: <strong>${p.bestFinish}</strong></div>
                             </div>
                         </div>
@@ -12202,12 +12205,14 @@
                             <h3 style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">Performance Metrics</h3>
                             <div class="grid-2">
                                 <div class="stat-block"><div class="val" style="color:var(--gold)">${p.w}</div><div class="lbl">Wins (1st)</div></div>
+                                <div class="stat-block"><div class="val">${p.winRate}%</div><div class="lbl">Win Rate</div></div>
                                 <div class="stat-block"><div class="val" style="color:var(--silver)">${p.secondPlaces}</div><div class="lbl">2nd Places</div></div>
                                 <div class="stat-block"><div class="val" style="color:var(--bronze)">${p.thirdPlaces}</div><div class="lbl">3rd Places</div></div>
+                                <div class="stat-block"><div class="val" style="color:var(--primary)">${p.podiums}</div><div class="lbl">Podiums (Top 3)</div></div>
+                                <div class="stat-block"><div class="val">${p.podiumRate}%</div><div class="lbl">Podium Rate</div></div>
                                 <div class="stat-block"><div class="val">${finishCounts[4]}</div><div class="lbl">4th Places</div></div>
                                 <div class="stat-block"><div class="val">${finishCounts[5]}</div><div class="lbl">5th Places</div></div>
                                 <div class="stat-block"><div class="val">${finishCounts['6+']}</div><div class="lbl">6th+ Places</div></div>
-                                <div class="stat-block"><div class="val">${p.winRate}%</div><div class="lbl">Win Rate</div></div>
                                 <div class="stat-block"><div class="val">${worstFinishOverall}</div><div class="lbl">Worst Finish</div></div>
                                 <div class="stat-block" style="grid-column: span 2;"><div class="val" style="font-size: 1.2rem;">${bestTrack.name !== 'None' ? bestTrack.name : 'N/A'}</div><div class="lbl">Best Track (${bestTrack.wins}W)</div></div>
                             </div>
@@ -12380,12 +12385,12 @@
                             datasets: [{
                                 label: p.name,
                                 data: [
-                                    parseFloat(p.winRate),
-                                    parseFloat(p.top2Rate),
-                                    parseFloat(p.top3Rate),
-                                    parseFloat(p.top5Rate),
-                                    parseFloat(p.consistencyScore),
-                                    parseFloat(p.experienceScore)
+                                    parseFloat(p.winRate || 0),
+                                    parseFloat(p.top2Rate || p.podiumRate || 0),
+                                    parseFloat(p.top3Rate || p.podiumRate || 0),
+                                    parseFloat(p.top5Rate || 0),
+                                    parseFloat(p.consistencyScore || 0),
+                                    parseFloat(p.experienceScore || 0)
                                 ],
                                 backgroundColor: 'rgba(255, 107, 107, 0.2)',
                                 borderColor: '#ff6b6b',
@@ -12770,10 +12775,10 @@ App.calculateStats = function() {
         race.participants.forEach(p => {
             if (!players[p.player]) {
                 players[p.player] = {
-                    name: p.player, runs: 0, w: 0, secondPlaces: 0, thirdPlaces: 0, podiums: 0, sumPos: 0, 
+                    name: p.player, runs: 0, w: 0, secondPlaces: 0, thirdPlaces: 0, fourthPlaces: 0, fifthPlaces: 0, podiums: 0, top4: 0, top5: 0, sumPos: 0, 
                     bestFinish: 99, worstFinish: 0, bestTime: 9999, totalTime: 0, timeCount: 0, points: 0,
                     styles: { 'Front Runner': { runs:0, w:0, pod:0, sumPos:0, bestTime:9999 }, 'Pace Chaser': { runs:0, w:0, pod:0, sumPos:0, bestTime:9999 }, 'Late Surger': { runs:0, w:0, pod:0, sumPos:0, bestTime:9999 }, 'End Closer': { runs:0, w:0, pod:0, sumPos:0, bestTime:9999 } },
-                    tracks: {}, styleEvolution: [], history: []
+                    tracks: {}, styleEvolution: [], history: [], umaStats: {}
                 };
             }
             const pl = players[p.player];
@@ -12782,7 +12787,11 @@ App.calculateStats = function() {
             if (p.pos === 1) pl.w++;
             if (p.pos === 2) pl.secondPlaces++;
             if (p.pos === 3) pl.thirdPlaces++;
+            if (p.pos === 4) pl.fourthPlaces++;
+            if (p.pos === 5) pl.fifthPlaces++;
             if (p.pos <= 3) pl.podiums++;
+            if (p.pos <= 4) pl.top4++;
+            if (p.pos <= 5) pl.top5++;
             if (p.pos < pl.bestFinish) pl.bestFinish = p.pos;
             if (p.pos > pl.worstFinish) pl.worstFinish = p.pos;
 
@@ -12819,7 +12828,12 @@ App.calculateStats = function() {
                 if (pTime < 9000 && pTime < pl.tracks[race.course].bestTime) pl.tracks[race.course].bestTime = pTime;
             }
 
-            pl.history.push({ race: race.name, cup: race.cupNumber, uma: p.uma, pos: p.pos, time: p.time, strategy: style, pop: p.pop });
+            if (!pl.umaStats[p.umaId]) pl.umaStats[p.umaId] = { name: p.uma, runs: 0, wins: 0, podiums: 0 };
+            pl.umaStats[p.umaId].runs++;
+            if (p.pos === 1) pl.umaStats[p.umaId].wins++;
+            if (p.pos <= 3) pl.umaStats[p.umaId].podiums++;
+
+            pl.history.push({ race: race.name, cup: race.cupNumber, umaId: p.umaId, uma: p.uma, pos: p.pos, time: p.time, strategy: style, pop: p.pop });
 
             if (!umas[p.umaId]) umas[p.umaId] = { umaId: p.umaId, name: p.uma, runs: 0, w: 0, podiums: 0, sumPos: 0, users: {}, history: [] };
             const um = umas[p.umaId];
@@ -12832,8 +12846,17 @@ App.calculateStats = function() {
         });
     });
 
+    const maxRuns = Object.values(players).reduce((max, pl) => Math.max(max, pl.runs), 1);
     const sortedPlayers = Object.values(players).map(p => {
         const avgFinish = p.sumPos / p.runs;
+        let variance = 0;
+        p.history.forEach(h => { variance += Math.pow(h.pos - avgFinish, 2); });
+        const stdDev = p.runs > 0 ? Math.sqrt(variance / p.runs) : 0;
+        let consistency = 100 - (stdDev / 9 * 100);
+        if (consistency < 0) consistency = 0;
+        if (consistency > 100) consistency = 100;
+        if (p.runs === 1) consistency = 50;
+        let experience = p.runs > 0 ? (p.runs / maxRuns) * 100 : 0;
         const avgTime = p.timeCount > 0 ? p.totalTime / p.timeCount : 9999;
         
         let favTrack = { name: '-', runs: 0 };
@@ -12869,8 +12892,13 @@ App.calculateStats = function() {
             ...p, 
             avgFinish: avgFinish.toFixed(2), 
             avgTime: avgTime,
-            winRate: ((p.w / p.runs) * 100).toFixed(1),
-            podiumRate: ((p.podiums / p.runs) * 100).toFixed(1),
+            winRate: p.runs > 0 ? ((p.w / p.runs) * 100).toFixed(1) : "0.0",
+            top2Rate: p.runs > 0 ? (((p.w + p.secondPlaces) / p.runs) * 100).toFixed(1) : "0.0",
+            top3Rate: p.runs > 0 ? ((p.podiums / p.runs) * 100).toFixed(1) : "0.0",
+            top5Rate: p.runs > 0 ? ((p.top5 / p.runs) * 100).toFixed(1) : "0.0",
+            podiumRate: p.runs > 0 ? ((p.podiums / p.runs) * 100).toFixed(1) : "0.0",
+            consistencyScore: consistency.toFixed(1),
+            experienceScore: experience.toFixed(1),
             favTrack: favTrack.name, bestTrack: bestTrack.name,
             favStyle: favStyle.name, leastStyle: leastStyle.name, bestStyle: bestStyle.name
         };
