@@ -1,0 +1,224 @@
+﻿
+> old_index.html:986:        <div id="view-dashboard" class="view-section active">
+  old_index.html:987:            <div class="page-header">
+  old_index.html:988:                <div>
+  old_index.html:989:                    <h2>Overview</h2>
+  old_index.html:990:                    <p>Track your progress and insights</p>
+  old_index.html:991:                </div>
+  old_index.html:992:            </div>
+  old_index.html:993:
+  old_index.html:994:            <section class="card dashboard-hero">
+  old_index.html:995:                <div class="dashboard-hero-copy">
+  old_index.html:996:                    <span class="eyebrow">Offical sus cups uma musume archive</span>
+  old_index.html:997:                    <h2>Race day, recorded in monochrome.</h2>
+  old_index.html:998:                    <div>
+  old_index.html:999:                        <p>Your private Sus Cup record for every player, finish, and Uma.</p>
+  old_index.html:1000:                    </div>
+  old_index.html:1001:                </div>
+  old_index.html:1002:                <a class="official-art" href="https://umamusume.com/" target="_blank" 
+rel="noopener"
+  old_index.html:1003:                    aria-label="Open the official Uma Musume website"></a>
+  old_index.html:1004:            </section>
+  old_index.html:1005:
+  old_index.html:1006:            <section class="card">
+  old_index.html:1007:                <div class="record-heading"><span class="eyebrow">The archive / about the 
+series</span><span
+  old_index.html:1008:                        class="record-count">CREATED BY ANANTH</span></div>
+  old_index.html:1009:                <h3 style="font-size:2rem; margin-bottom:15px;">What is Sus Cup?</h3>
+  old_index.html:1010:                <div class="intro-copy">
+  old_index.html:1011:                    <p>Sus Cup is a community-organized Uma Musume tournament series created to 
+record and celebrate
+  old_index.html:1012:                        competitive races between players.</p>
+  old_index.html:1013:                    <p>The tournament tracker was made as a complete historical archive for 
+every Sus Cup, preserving
+  old_index.html:1014:                        each race's details, participants, Uma Musume entries, complete results, 
+champions, and all-time
+  old_index.html:1015:                        records.</p>
+  old_index.html:1016:                    <p>Each Sus Cup has its own race conditions, track, distance, participants, 
+and final results. The
+  old_index.html:1017:                        purpose of this website is to ensure that every tournament remains 
+permanently documented and
+  old_index.html:1018:                        that the achievements of players and their Umas are remembered.</p>
+  old_index.html:1019:                    <strong>The tracker records:</strong>
+  old_index.html:1020:                    <ul class="intro-list">
+  old_index.html:1021:                        <li>Every Sus Cup tournament</li>
+  old_index.html:1022:                        <li>Race dates and room IDs</li>
+  old_index.html:1023:                        <li>Track and race conditions</li>
+  old_index.html:1024:                        <li>All participating players</li>
+  old_index.html:1025:                        <li>All Uma Musume entries</li>
+  old_index.html:1026:                        <li>Complete finishing positions</li>
+  old_index.html:1027:                        <li>NPC/Mob Uma participants</li>
+  old_index.html:1028:                        <li>Character versions and special outfits</li>
+  old_index.html:1029:                        <li>Individual Sus Cup champions</li>
+  old_index.html:1030:                        <li>All-time winning players and Umas</li>
+  old_index.html:1031:                        <li>Full tournament history</li>
+  old_index.html:1032:                    </ul>
+  old_index.html:1033:                    <p>This website is not based on a points system. Its purpose is to create a 
+permanent historical
+  old_index.html:1034:                        record of the Sus Cup tournament series and celebrate every race, 
+competitor, champion, and
+  old_index.html:1035:                        winning Uma.</p>
+  old_index.html:1036:                </div>
+  old_index.html:1037:                <div class="creator-credit">Sus Cup Tournament Tracker &nbsp;|&nbsp; Created and 
+maintained by Ananth
+  old_index.html:1038:                </div>
+  old_index.html:1039:            </section>
+  old_index.html:1040:
+  old_index.html:1041:            <div class="grid-2" style="margin-bottom:30px;">
+  old_index.html:1042:                <div class="card" id="latest-cup-summary"></div>
+  old_index.html:1043:                <div class="card">
+  old_index.html:1044:                    <span class="eyebrow">Complete tournament archive</span>
+  old_index.html:1045:                    <h3 style="font-size:1.7rem; margin:15px 0 10px;">Every race, every 
+finish</h3>
+  old_index.html:1046:                    <p class="intro-copy">Browse the full Sus Cup history, including race 
+conditions, all runner
+  old_index.html:1047:                        entries, NPC/Mob Umas, champions, and final positions.</p>
+  old_index.html:1048:                    <button class="btn btn-outline" style="margin-top:18px;" 
+onclick="App.navigate('archive')">Open Race
+  old_index.html:1049:                        Archive <i class="fa-solid fa-arrow-right"></i></button>
+  old_index.html:1050:                </div>
+  old_index.html:1051:            </div>
+  old_index.html:1052:
+  old_index.html:1053:            <div class="grid-4" style="margin-bottom: 40px;" id="dash-stats"></div>
+  old_index.html:1054:            <div class="card" id="championship-record"></div>
+  old_index.html:1055:
+  old_index.html:1056:            <div class="grid-2">
+  old_index.html:1057:                <div>
+  old_index.html:1058:                    <h3 style="margin-bottom: 20px; display:flex; align-items:center; 
+gap:10px;"><i
+  old_index.html:1059:                            class="fa-solid fa-trophy" style="color:var(--primary)"></i> Player 
+Rankings</h3>
+  old_index.html:1060:                    <div id="dash-player-list"></div>
+  old_index.html:1061:                    <button class="btn btn-outline" style="width:100%; margin-top:10px;"
+  old_index.html:1062:                        onclick="App.navigate('players')">See All Players</button>
+  old_index.html:1063:                </div>
+  old_index.html:1064:                <div>
+  old_index.html:1065:                    <h3 style="margin-bottom: 20px; display:flex; align-items:center; 
+gap:10px;"><i
+  old_index.html:1066:                            class="fa-solid fa-star" style="color:var(--gold)"></i> Top Umas</h3>
+  old_index.html:1067:                    <div id="dash-uma-list"></div>
+  old_index.html:1068:                    <button class="btn btn-outline" style="width:100%; margin-top:10px;"
+  old_index.html:1069:                        onclick="App.navigate('umas')">See All Umas</button>
+  old_index.html:1070:                </div>
+  old_index.html:1071:            </div>
+  old_index.html:1072:        </div>
+  old_index.html:1073:
+  old_index.html:1074:        <!-- SUS CUP HISTORY VIEW -->
+  old_index.html:1075:        <div id="view-history" class="view-section">
+  old_index.html:1076:            <div class="page-header">
+  old_index.html:1077:                <div>
+  old_index.html:1078:                    <h2>Sus Cup History</h2>
+  old_index.html:1079:                    <p>Every tournament, preserved in chronological order</p>
+  old_index.html:1080:                </div>
+  old_index.html:1081:            </div>
+  old_index.html:1082:            <div class="timeline" id="history-timeline"></div>
+  old_index.html:1083:        </div>
+  old_index.html:1084:
+  old_index.html:1085:        <!-- RACE ARCHIVE VIEW -->
+  old_index.html:1086:        <div id="view-archive" class="view-section">
+  old_index.html:1087:            <div class="page-header">
+  old_index.html:1088:                <div>
+  old_index.html:1089:                    <h2>Race Archive</h2>
+  old_index.html:1090:                    <p>Complete history of all Sus Cup events</p>
+  old_index.html:1091:                </div>
+  old_index.html:1092:            </div>
+  old_index.html:1093:            <div class="card" style="margin-bottom: 20px;">
+  old_index.html:1094:                <div class="grid-4" style="gap: 15px;">
+  old_index.html:1095:                    <div class="form-group" style="margin-bottom:0;">
+  old_index.html:1096:                        <label style="font-size:0.8rem; margin-bottom:5px;">Search</label>
+  old_index.html:1097:                        <input type="text" id="filter-search" class="form-control" 
+style="padding:10px;"
+  old_index.html:1098:                            placeholder="Search..." oninput="App.renderArchive()">
+  old_index.html:1099:                    </div>
+  old_index.html:1100:                    <div class="form-group" style="margin-bottom:0;">
+  old_index.html:1101:                        <label style="font-size:0.8rem; margin-bottom:5px;">Course</label>
+  old_index.html:1102:                        <select id="filter-course" class="form-control" style="padding:10px;"
+  old_index.html:1103:                            onchange="App.renderArchive()">
+  old_index.html:1104:                            <option value="">All</option>
+  old_index.html:1105:                            <option value="Tokyo">Tokyo</option>
+  old_index.html:1106:                            <option value="Nakayama">Nakayama</option>
+  old_index.html:1107:                            <option value="Hanshin">Hanshin</option>
+  old_index.html:1108:                            <option value="Kyoto">Kyoto</option>
+  old_index.html:1109:                            <option value="Chukyo">Chukyo</option>
+  old_index.html:1110:                            <option value="Ohi">Ohi</option>
+  old_index.html:1111:                        </select>
+  old_index.html:1112:                    </div>
+  old_index.html:1113:                    <div class="form-group" style="margin-bottom:0;">
+  old_index.html:1114:                        <label style="font-size:0.8rem; margin-bottom:5px;">Surface</label>
+  old_index.html:1115:                        <select id="filter-surface" class="form-control" style="padding:10px;"
+  old_index.html:1116:                            onchange="App.renderArchive()">
+  old_index.html:1117:                            <option value="">All</option>
+  old_index.html:1118:                            <option value="Turf">Turf</option>
+  old_index.html:1119:                            <option value="Dirt">Dirt</option>
+  old_index.html:1120:                        </select>
+  old_index.html:1121:                    </div>
+  old_index.html:1122:                    <div class="form-group" style="margin-bottom:0;">
+  old_index.html:1123:                        <label style="font-size:0.8rem; margin-bottom:5px;">Distance</label>
+  old_index.html:1124:                        <select id="filter-distance" class="form-control" style="padding:10px;"
+  old_index.html:1125:                            onchange="App.renderArchive()">
+  old_index.html:1126:                            <option value="">All</option>
+  old_index.html:1127:                            <option value="Sprint">Sprint</option>
+  old_index.html:1128:                            <option value="Mile">Mile</option>
+  old_index.html:1129:                            <option value="Medium">Medium</option>
+  old_index.html:1130:                            <option value="Long">Long</option>
+  old_index.html:1131:                        </select>
+  old_index.html:1132:                    </div>
+  old_index.html:1133:                </div>
+  old_index.html:1134:            </div>
+  old_index.html:1135:            <div class="grid-2" id="archive-grid"></div>
+  old_index.html:1136:        </div>
+  old_index.html:1137:
+  old_index.html:1138:        <!-- INFO VIEW -->
+  old_index.html:1139:        <div id="view-info" class="view-section">
+  old_index.html:1140:            <div class="page-header">
+  old_index.html:1141:                <div>
+  old_index.html:1142:                    <h2>About Sus Cup</h2>
+  old_index.html:1143:                    <p>The record behind the races</p>
+  old_index.html:1144:                </div>
+  old_index.html:1145:            </div>
+  old_index.html:1146:            <div id="info-content"></div>
+  old_index.html:1147:        </div>
+  old_index.html:1148:
+  old_index.html:1149:        <!-- RACE DETAIL VIEW -->
+  old_index.html:1150:        <div id="view-race-detail" class="view-section">
+  old_index.html:1151:            <button class="btn btn-outline" style="margin-bottom:20px; padding: 10px 20px;"
+  old_index.html:1152:                onclick="App.navigate('archive')"><i class="fa-solid fa-arrow-left"></i> 
+Back</button>
+  old_index.html:1153:            <div id="race-detail-content"></div>
+  old_index.html:1154:        </div>
+  old_index.html:1155:
+  old_index.html:1156:        <!-- PLAYERS VIEW -->
+  old_index.html:1157:        <div id="view-players" class="view-section">
+  old_index.html:1158:            <div class="page-header">
+  old_index.html:1159:                <h2>Leaderboard</h2>
+  old_index.html:1160:                <p>Overall player standings</p>
+  old_index.html:1161:                <input type="text" id="search-players" class="form-control" 
+style="margin-top:15px; width:100%;"
+  old_index.html:1162:                    placeholder="Search trainers..." oninput="App.renderPlayers()">
+  old_index.html:1163:            </div>
+  old_index.html:1164:            <div id="full-player-list"></div>
+  old_index.html:1165:        </div>
+  old_index.html:1166:
+  old_index.html:1167:        <!-- UMAS VIEW -->
+  old_index.html:1168:        <div id="view-umas" class="view-section">
+  old_index.html:1169:            <div class="page-header">
+  old_index.html:1170:                <h2>Uma Database</h2>
+  old_index.html:1171:                <p>Performance statistics by character</p>
+  old_index.html:1172:                <div style="display: flex; gap: 10px; margin-top: 15px;">
+  old_index.html:1173:                    <input type="text" id="search-umas" class="form-control" style="flex: 1;"
+  old_index.html:1174:                        placeholder="Search Umas..." oninput="App.renderUmas()">
+  old_index.html:1175:                    <select id="filter-uma-type" class="form-control" style="width: 170px;" 
+onchange="App.renderUmas()">
+  old_index.html:1176:                        <option value="playable">Real Umas Only</option>
+  old_index.html:1177:                        <option value="npc">NPC Umas</option>
+  old_index.html:1178:                        <option value="all">All</option>
+  old_index.html:1179:                    </select>
+  old_index.html:1180:                </div>
+  old_index.html:1181:            </div>
+  old_index.html:1182:            <div id="full-uma-list"></div>
+  old_index.html:1183:        </div>
+  old_index.html:1184:
+  old_index.html:1185:        <!-- PROFILE VIEW -->
+  old_index.html:1186:        <div id="view-profile" class="view-section">
+
+

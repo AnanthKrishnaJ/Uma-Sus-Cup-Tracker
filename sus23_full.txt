@@ -1,0 +1,108 @@
+<USER_REQUEST>
+give every sus cup its name it showuld show it on the race archieve 
+Perfect — the **complete authoritative Sus Cup naming list** is now:
+
+1. **Sus Cup 1 — The Start**
+2. **Sus Cup 2 — Mile Front Runners**
+3. **Sus Cup 3 — Mile Dirt**
+4. **Sus Cup 4 — 1 Runner + 1 Debuffer**
+5. **Sus Cup 5 — Gemini Cup Open League Training**
+6. **Sus Cup 6 — Unique Epithets / Steamy Solidarity**
+7. **Sus Cup 7 — Pace Chaser Medium**
+8. **Sus Cup 8 — Father-Daughter duo**
+9. **Sus Cup 9 — GP Round 1/3**
+10. **Sus Cup 10 — GP Round 2/3**
+11. **Sus Cup 11 — GP Round 3/3**
+12. **Sus Cup 12 — Frontend Race**
+13. **Sus Cup 13 — Haru Leading**
+14. **Sus Cup 14 — Graded Open Leo CM**
+15. **Sus Cup 15 — Triple Front Runners**
+16. **Sus Cup 16 — Mixed Class Race**
+17. **Sus Cup 17 — Gutsy Race**
+18. **Sus Cup 18 — SSR Race**
+19. **Sus Cup 19 — Gold Skills**
+20. **Sus Cup 20 — All Style**
+21. **Sus Cup 21 — Spark Race**
+22. **Sus Cup 22 — Cross Career Race**
+23. **Sus Cup 23 — Mixed Rarity Race**
+24. **Sus Cup 24 — Solo Queue Race**
+25. **Sus Cup 25 — Fashion Statement Race**
+26. **Sus Cup 26 — Grand Live Sussery**
+27. **Sus Cup 27 — Multi CM Sussing**
+28. **Sus Cup 28 — Triple Threat**
+
+
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-27T10:41:34+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\index.html (LANGUAGE_HTML)
+Cursor is on line: 1
+Other open documents:
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py\extract_sus_cup_26.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py\fix_active_ui.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py_scripts\check_npc_cups.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py_scripts\update_winners_images.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py_scripts\tables.md (LANGUAGE_MARKDOWN)
+</ADDITIONAL_METADATA>
+<USER_REQUEST>
+Special Category Winners
+3* winner Jiinxye (1st Narita Taishin)
+2* winner Agnes (9th Air Groove)
+1* winner Shadow Amber (2nd Agnes Tachyon
+for suscup 23
+## Sus Cup 23 — Full Race Details
+
+**Result:** 4th
+**Race:** G1 Satsuki Sho
+**Track:** Nakayama Turf 2000m (Medium)
+**Direction / Layout:** Right / Inner
+**Ground:** Firm ☀️
+**Race issue:** **Low Power** — *“It looks like your trainee had trouble breaking out from traffic.”*
+
+| Pos.   | No. | Uma                | Rank | Title               | Trainer      | Style | Finish / Gap |   Fav |
+| ------ | --: | ------------------ | ---- | ------------------- | ------------ | ----- | ------------ | ----: |
+| 🥇 1st |  16 | **Narita Taishin** | SS   | Phenomenal          | Jinxy        | End   | **1:56.1**   |    17 |
+| 🥈 2nd |  18 | **Agnes Tachyon**  | S    | Leading the Charge  | Shadow Amber | Pace  | **1 L**      |     8 |
+| 🥉 3rd |   5 | **Mihono Bourbon** | SS   | Leading the Charge  | Cruzi        | Front | Head         |    11 |
+| 4th ⭐  |   1 | **King Halo**      | S+   | Goddess             | **agnes**    | Late  | Head         |     7 |
+| 5th    |   9 | **Nice Nature**    | SS   | Leading the Charge  | Cyclobly     | Late  | 1 1/2 L      |     3 |
+| 6th    |   6 | **Agnes Tachyon**  | S+   | Leading the Charge  | Cruzi        | Pace  | Head         |     5 |
+| 7th    |  10 | **T.M. Opera O**   | S+   | Centurial Overlord  | **agnes**    | Pace  | Nose         | **1** |
+| 8th    |  13 | **Oguri Cap**      | S    | Ideal Idol          | Shadow Amber | Pace  | Nose         |     6 |
+| 9th    |  12 | **Air Groove**     | S    | Empress             | **agnes**    | Late  | Head         |    16 |
+| 10th   |   4 | **Eishin Flash**   | SS   | Leading the Charge  | **Ananth**   | Pace  | 1 L          |    13 |
+| 11th   |  11 | **Gold Ship**      | S    | Unpredictable       | Cruzi        | End   | 3/4 L        |     9 |
+| 12th   |  14 | **Vodka**          | S    | Goddess             | Jinxy        | Late  | Neck         |    10 |
+| 13th   |   7 | **Oguri Cap**      | SS   | Leading the Charge  | Cyclobly     | Pace  | 1/2 L        |     4 |
+| 14th   |  15 | **Grass Wonder**   | SS   | Leading the Charge  | Cyclobly     | Late  | Nose         | **2** |
+| 15th   |   8 | **Mejiro Ryan**    | A+   | Mesmerizing Muscle  | Haji         | Late  | 1/2 L        |    12 |
+| 16th   |  17 | **Winning Ticket** | S    | Herald of a New Age | Jinxy        | Late  | 3/4 L        |    14 |
+| 17th   |   3 | **Special Week**   | S    | Leading the Charge  | Haji         | Pace  | 1 3/4 L      |    15 |
+| 18th   |   2 | **Super Creek**    | A+   | Legendary Diva      | Haji         | Pace  | 1 1/4 L      |    18 |
+
+### Result summary
+
+* **Winner:** Narita Taishin — Jinxy — **1:56.1**
+* **Your runner:** **King Halo, No. 1**
+* **Trainer:** agnes
+* **Finish:** **4th**
+* **Gap to 3rd:** Head
+* **Gap to winner:** the screenshots only show the individual finish time/gap format, so the exact cumulative gap to 1st isn't explicitly displayed.
+* **Favourite:** T.M. Opera O was **No. 1 Fav** but finished **7th**.
+* **Biggest overperformance:** Narita Taishin won from **17th favourite**.
+* **Main race factor:** King Halo received the **Low Power** warning and had trouble getting out of traffic, making the 4th-place finish especially notable.
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-27T21:59:00+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\index.html (LANGUAGE_HTML)
+Cursor is on line: 11637
+Other open documents:
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\fix_cup22.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\index.html (LANGUAGE_HTML)
+</ADDITIONAL_METADATA>

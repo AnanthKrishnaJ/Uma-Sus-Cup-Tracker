@@ -1,0 +1,80 @@
+--- Sus Cup 22 ---
+{
+      "id": 22,
+      "cupNumber": 22,
+      "cupName": "Sus Cup 22 — Cross Career Race",
+      "name": "G1 Satsuki Sho",
+      "date": "15 March 2026, 18:30",
+      "roomId": "8386 3137",
+      "race": "Tenno Sho (Spring)",
+      "course": "Kyoto Turf",
+      "surface": "Turf",
+      "distance": "3200m",
+      "distanceType": "Long",
+      "direction": "Right",
+      "weather": "Rainy",
+      "ground": "Heavy",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "1 URA Finale, 1 Unity Cup, 1 Trackblazer runner. 3 entries per person.",
+      "scenarioWinners": {
+        "URA Finale": {
+          "player": "guest club member",
+          "uma": "Gold Ship",
+          "pos": 4
+        },
+--- Sus Cup 23 ---
+{
+      "id": 23,
+      "cupNumber": 23,
+      "cupName": "Sus Cup 23 — Mixed Rarity Race",
+      "name": "G1 Satsuki Sho",
+      "date": "03 April 2026, 18:32",
+      "roomId": "7419 1111",
+      "race": "Satsuki Sho",
+      "course": "Nakayama Turf",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Right",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "1x 1★, 1x 2★, 1x 3★ initial rarity runners. Unique runners only.",
+      "rarityWinners": {
+        "3-Star": {
+          "player": "Jiinxye",
+          "uma": "Narita Taishin",
+          "pos": 1
+        },
+--- Sus Cup 24 ---
+{
+      "id": 24,
+      "cupNumber": 24,
+      "cupName": "Sus Cup 24 — Solo Queue Race",
+      "name": "G1 Satsuki Sho",
+      "date": "05 April 2026, 11:43",
+      "roomId": "8244 6062",
+      "race": "Satsuki Sho",
+      "course": "Nakayama Turf",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Right",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Great",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "Solo Queue Race. 1 runner per person. Unique runner only. Taking reservations.",
+      "images": [
+        "suscupimages21-30/24.1.png",
+        "suscupimages21-30/24.2.png",
+        "suscupimages21-30/24.3.png",
+        "suscupimages21-30/24.4.png"
+      ],
+      "registeredRunners": [
+        {
+          "player": "Agnes",
+          "uma": "Symboli Rudolf"
+        },

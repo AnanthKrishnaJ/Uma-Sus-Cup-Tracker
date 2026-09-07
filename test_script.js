@@ -1,7812 +1,8442 @@
 
         const INITIAL_DATA = {
-    "winners": [
-        {
-            "cup": "Sus Cup 6",
-            "trainer": "Cyclobly",
-            "uma": "Gold Ship",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/100101-gold-ship",
-            "race": "UNIQUE EPITHETS / STEAMY SOLIDARITY",
-            "date": "2025-09-03",
-            "result": "2:29.0"
-        },
-        {
-            "cup": "Sus Cup 11",
-            "trainer": "Cyciesta",
-            "uma": "Narita Taishin",
-            "umaId": "narita-taishin",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/103301-narita-taishin",
-            "race": "Japan Cup",
-            "date": "2025-09-21",
-            "result": "2:21.4"
-        },
-        {
-            "cup": "Sus Cup 6",
-            "trainer": "Cyciesta",
-            "uma": "Gold Ship",
-            "umaId": "gold-ship",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/100101-gold-ship",
-            "race": "UNIQUE EPITHETS / STEAMY SOLIDARITY",
-            "date": "2025-09-03",
-            "result": "2:29.0"
-        },
-        {
-            "cup": "Sus Cup 1",
-            "trainer": "GohanXGAMER",
-            "uma": "Oguri Cap",
-            "umaId": "oguri-cap",
-            "version": "Standard / Original",
-            "url": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-            "race": "G1 Tokyo Yushun (Japanese Derby)",
-            "date": "2025-08-11",
-            "result": "2:22.5"
-        },
-        {
-            "cup": "Sus Cup 3",
-            "trainer": "Yves",
-            "uma": "Oguri Cap",
-            "umaId": "oguri-cap",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-            "race": "Champions Cup",
-            "date": "2025-08-21",
-            "result": "1:48.2"
-        },
-        {
-            "cup": "Sus Cup 4",
-            "trainer": "Yves",
-            "uma": "Nice Nature",
-            "umaId": "nice-nature",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/106001-nice-nature",
-            "race": "Hopeful Stakes",
-            "date": "2025-08-25",
-            "result": "1:56.6"
-        },
-        {
-            "cup": "Sus Cup 5",
-            "trainer": "Agnes",
-            "uma": "Super Creek",
-            "umaId": "super-creek",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/104501-super-creek",
-            "race": "Tenno Sho (Spring)",
-            "date": "2025-08-27",
-            "result": "3:15.6"
-        },
-        {
-            "cup": "Sus Cup 7",
-            "trainer": "Agnes",
-            "uma": "Agnes Tachyon",
-            "umaId": "agnes-tachyon",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-            "race": "Takarazuka Kinen",
-            "date": "2025-09-06",
-            "result": "2:09.2"
-        },
-        {
-            "cup": "Sus Cup 8",
-            "trainer": "Agnes",
-            "uma": "Agnes Tachyon",
-            "umaId": "agnes-tachyon",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-            "race": "Osaka Hai",
-            "date": "2025-09-14",
-            "result": "1:56.7"
-        },
-        {
-            "cup": "Sus Cup 9",
-            "trainer": "Cruzi",
-            "uma": "Seiun Sky",
-            "umaId": "seiun-sky",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/102001-seiun-sky",
-            "race": "Japanese Oaks",
-            "date": "2025-09-17",
-            "result": "2:21.4"
-        },
-        {
-            "cup": "Sus Cup 10",
-            "trainer": "agnes",
-            "uma": "Grass Wonder",
-            "umaId": "grass-wonder",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/101101-grass-wonder",
-            "race": "Tokyo Yushun (Japanese Derby)",
-            "date": "2025-09-19",
-            "result": "2:20.8"
-        },
-        {
-            "cup": "Sus Cup 11",
-            "trainer": "Cyciesta",
-            "uma": "Narita Taishin",
-            "umaId": "narita-taishin",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/103301-narita-taishin",
-            "race": "Japan Cup",
-            "date": "2025-09-21",
-            "result": "2:21.4"
-        },
-        {
-            "cup": "Sus Cup 16",
-            "trainer": "Agnes",
-            "uma": "Vodka",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/vodka",
-            "race": "Oka Sho",
-            "date": "16 November 2025, 18:31",
-            "result": "1:29.9",
-            "umaId": "vodka",
-            "rankLabel": "A+ Winner"
-        },
-        {
-            "cup": "Sus Cup 16",
-            "trainer": "GohanXGAMER",
-            "uma": "Silence Suzuka",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/silence-suzuka",
-            "race": "Oka Sho",
-            "date": "16 November 2025, 18:31",
-            "result": "Neck",
-            "umaId": "silence-suzuka",
-            "rankLabel": "A Winner"
-        },
-        {
-            "cup": "Sus Cup 16",
-            "trainer": "Jiinxye",
-            "uma": "Oguri Cap",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-            "race": "Oka Sho",
-            "date": "16 November 2025, 18:31",
-            "result": "",
-            "umaId": "oguri-cap",
-            "rankLabel": "B+ Winner"
-        },
-        {
-            "cup": "Sus Cup 17",
-            "trainer": "Agnes",
-            "uma": "Symboli Rudolf",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/101701-symboli-rudolf",
-            "race": "Tenno Sho (Autumn)",
-            "date": "08 December 2025, 18:34",
-            "result": "1:57.8",
-            "umaId": "symboli-rudolf",
-            "rankLabel": "Triple Guts Winner"
-        },
-        {
-            "cup": "Sus Cup 17",
-            "trainer": "Cruzi",
-            "uma": "Agnes Digital",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/101901-agnes-digital",
-            "race": "Tenno Sho (Autumn)",
-            "date": "08 December 2025, 18:34",
-            "result": "1 L",
-            "umaId": "101901",
-            "rankLabel": "Double Guts Winner"
-        },
-        {
-            "cup": "Sus Cup 17",
-            "trainer": "Agnes",
-            "uma": "T.M. Opera O",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/t-m-opera-o",
-            "race": "Tenno Sho (Autumn)",
-            "date": "08 December 2025, 18:34",
-            "result": "Neck",
-            "umaId": "t-m-opera-o",
-            "rankLabel": "Single Guts Winner"
-        },
-        {
-            "cup": "Sus Cup 18",
-            "trainer": "GohanXGAMER",
-            "uma": "Nice Nature",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/nice-nature",
-            "race": "Kikuka Sho",
-            "date": "20 December 2025, 19:03",
-            "result": "3:02.2",
-            "umaId": "nice-nature",
-            "rankLabel": "Triple SSR Winner"
-        },
-        {
-            "cup": "Sus Cup 18",
-            "trainer": "Ananth",
-            "uma": "Nice Nature",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/nice-nature",
-            "race": "Kikuka Sho",
-            "date": "20 December 2025, 19:03",
-            "result": "1 L",
-            "umaId": "nice-nature",
-            "rankLabel": "Double SSR Winner"
-        },
-        {
-            "cup": "Sus Cup 18",
-            "trainer": "Agnes",
-            "uma": "Biwa Hayahide",
-            "version": "Original / Default",
-            "url": "https://gametora.com/umamusume/characters/biwa-hayahide",
-            "race": "Kikuka Sho",
-            "date": "20 December 2025, 19:03",
-            "result": "3 L",
-            "umaId": "biwa-hayahide",
-            "rankLabel": "Single SSR Winner"
-        },
-        {
-            "cup": "Sus Cup 19",
-            "trainer": "Cruzi",
-            "uma": "Mayano Top Gun",
-            "rankLabel": "0 Gold Skill Winner"
-        },
-        {
-            "cup": "Sus Cup 19",
-            "trainer": "Ananth",
-            "uma": "Gold City",
-            "rankLabel": "1-2 Gold Skill Winner"
-        },
-        {
-            "cup": "Sus Cup 19",
-            "trainer": "Jiinxye",
-            "uma": "TM Opera O",
-            "rankLabel": "Gold Skill Only Winner"
-        },
-        {
-            "cup": "Sus Cup 20",
-            "trainer": "Ananth",
-            "uma": "Mihono Bourbon",
-            "rankLabel": "Front Winner"
-        },
-        {
-            "cup": "Sus Cup 20",
-            "trainer": "Cyciesta",
-            "uma": "Mejiro McQueen",
-            "rankLabel": "Pace Winner"
-        },
-        {
-            "cup": "Sus Cup 20",
-            "trainer": "Yves",
-            "uma": "Eishin Flash",
-            "rankLabel": "Late Winner"
-        },
-        {
-            "cup": "Sus Cup 20",
-            "trainer": "Yves",
-            "uma": "Mayano Top Gun",
-            "rankLabel": "End Winner"
-        }
-    ],
-    "championships": {
-        "Oguri Cap": 2,
-        "Nice Nature": 1,
-        "Super Creek": 1,
-        "Gold Ship": 1,
-        "Agnes Tachyon": 2,
-        "Grass Wonder": 1,
-        "Seiun Sky": 1
+  "winners": [
+    {
+      "cup": "Sus Cup 11",
+      "trainer": "Cyciesta",
+      "uma": "Narita Taishin",
+      "umaId": "narita-taishin",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/103301-narita-taishin",
+      "race": "Japan Cup",
+      "date": "2025-09-21",
+      "result": "2:21.4"
     },
-    "races": [
+    {
+      "cup": "Sus Cup 6",
+      "trainer": "Cyciesta",
+      "uma": "Gold Ship",
+      "umaId": "gold-ship",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/100101-gold-ship",
+      "race": "UNIQUE EPITHETS / STEAMY SOLIDARITY",
+      "date": "2025-09-03",
+      "result": "2:29.0"
+    },
+    {
+      "cup": "Sus Cup 1",
+      "trainer": "GohanXGAMER",
+      "uma": "Oguri Cap",
+      "umaId": "oguri-cap",
+      "version": "Standard / Original",
+      "url": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+      "race": "G1 Tokyo Yushun (Japanese Derby)",
+      "date": "2025-08-11",
+      "result": "2:22.5"
+    },
+    {
+      "cup": "Sus Cup 3",
+      "trainer": "Yves",
+      "uma": "Oguri Cap",
+      "umaId": "oguri-cap",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+      "race": "Champions Cup",
+      "date": "2025-08-21",
+      "result": "1:48.2"
+    },
+    {
+      "cup": "Sus Cup 4",
+      "trainer": "Yves",
+      "uma": "Nice Nature",
+      "umaId": "nice-nature",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/106001-nice-nature",
+      "race": "Hopeful Stakes",
+      "date": "2025-08-25",
+      "result": "1:56.6"
+    },
+    {
+      "cup": "Sus Cup 5",
+      "trainer": "Agnes",
+      "uma": "Super Creek",
+      "umaId": "super-creek",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/104501-super-creek",
+      "race": "Tenno Sho (Spring)",
+      "date": "2025-08-27",
+      "result": "3:15.6"
+    },
+    {
+      "cup": "Sus Cup 7",
+      "trainer": "Agnes",
+      "uma": "Agnes Tachyon",
+      "umaId": "agnes-tachyon",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
+      "race": "Takarazuka Kinen",
+      "date": "2025-09-06",
+      "result": "2:09.2"
+    },
+    {
+      "cup": "Sus Cup 8",
+      "trainer": "Agnes",
+      "uma": "Agnes Tachyon",
+      "umaId": "agnes-tachyon",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
+      "race": "Osaka Hai",
+      "date": "2025-09-14",
+      "result": "1:56.7"
+    },
+    {
+      "cup": "Sus Cup 9",
+      "trainer": "Cruzi",
+      "uma": "Seiun Sky",
+      "umaId": "seiun-sky",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/102001-seiun-sky",
+      "race": "Japanese Oaks",
+      "date": "2025-09-17",
+      "result": "2:21.4"
+    },
+    {
+      "cup": "Sus Cup 10",
+      "trainer": "Agnes",
+      "uma": "Grass Wonder",
+      "umaId": "grass-wonder",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/101101-grass-wonder",
+      "race": "Tokyo Yushun (Japanese Derby)",
+      "date": "2025-09-19",
+      "result": "2:20.8"
+    },
+    {
+      "cup": "Sus Cup 16",
+      "trainer": "Agnes",
+      "uma": "Vodka",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/vodka",
+      "race": "Oka Sho",
+      "date": "16 November 2025, 18:31",
+      "result": "1:29.9",
+      "umaId": "vodka",
+      "rankLabel": "A+ Winner"
+    },
+    {
+      "cup": "Sus Cup 16",
+      "trainer": "GohanXGAMER",
+      "uma": "Silence Suzuka",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/silence-suzuka",
+      "race": "Oka Sho",
+      "date": "16 November 2025, 18:31",
+      "result": "Neck",
+      "umaId": "silence-suzuka",
+      "rankLabel": "A Winner"
+    },
+    {
+      "cup": "Sus Cup 16",
+      "trainer": "Jiinxye",
+      "uma": "Oguri Cap",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+      "race": "Oka Sho",
+      "date": "16 November 2025, 18:31",
+      "result": "",
+      "umaId": "oguri-cap",
+      "rankLabel": "B+ Winner"
+    },
+    {
+      "cup": "Sus Cup 17",
+      "trainer": "Agnes",
+      "uma": "Symboli Rudolf",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/101701-symboli-rudolf",
+      "race": "Tenno Sho (Autumn)",
+      "date": "08 December 2025, 18:34",
+      "result": "1:57.8",
+      "umaId": "symboli-rudolf",
+      "rankLabel": "Triple Guts Winner"
+    },
+    {
+      "cup": "Sus Cup 17",
+      "trainer": "Cruzi",
+      "uma": "Agnes Digital",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/101901-agnes-digital",
+      "race": "Tenno Sho (Autumn)",
+      "date": "08 December 2025, 18:34",
+      "result": "1 L",
+      "umaId": "agnes-digital",
+      "rankLabel": "Double Guts Winner"
+    },
+    {
+      "cup": "Sus Cup 17",
+      "trainer": "Agnes",
+      "uma": "T.M. Opera O",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/t-m-opera-o",
+      "race": "Tenno Sho (Autumn)",
+      "date": "08 December 2025, 18:34",
+      "result": "Neck",
+      "umaId": "t-m-opera-o",
+      "rankLabel": "Single Guts Winner"
+    },
+    {
+      "cup": "Sus Cup 18",
+      "trainer": "GohanXGAMER",
+      "uma": "Nice Nature",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/nice-nature",
+      "race": "Kikuka Sho",
+      "date": "20 December 2025, 19:03",
+      "result": "3:02.2",
+      "umaId": "nice-nature",
+      "rankLabel": "Triple SSR Winner"
+    },
+    {
+      "cup": "Sus Cup 18",
+      "trainer": "Ananth",
+      "uma": "Nice Nature",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/nice-nature",
+      "race": "Kikuka Sho",
+      "date": "20 December 2025, 19:03",
+      "result": "1 L",
+      "umaId": "nice-nature",
+      "rankLabel": "Double SSR Winner"
+    },
+    {
+      "cup": "Sus Cup 18",
+      "trainer": "Agnes",
+      "uma": "Biwa Hayahide",
+      "version": "Original / Default",
+      "url": "https://gametora.com/umamusume/characters/biwa-hayahide",
+      "race": "Kikuka Sho",
+      "date": "20 December 2025, 19:03",
+      "result": "3 L",
+      "umaId": "biwa-hayahide",
+      "rankLabel": "Single SSR Winner"
+    },
+    {
+      "cup": "Sus Cup 19",
+      "trainer": "Cruzi",
+      "uma": "Mayano Top Gun",
+      "umaId": "mayano-top-gun",
+      "rankLabel": "0 Gold Skill Winner"
+    },
+    {
+      "cup": "Sus Cup 19",
+      "trainer": "Ananth",
+      "uma": "Gold City",
+      "rankLabel": "1-2 Gold Skill Winner",
+      "umaId": "gold-city",
+      "url": "https://gametora.com/umamusume/characters/gold-city"
+    },
+    {
+      "cup": "Sus Cup 19",
+      "trainer": "Jiinxye",
+      "uma": "T.M. Opera O",
+      "umaId": "t-m-opera-o",
+      "rankLabel": "Gold Skill Only Winner"
+    },
+    {
+      "cup": "Sus Cup 20",
+      "trainer": "Ananth",
+      "uma": "Mihono Bourbon",
+      "umaId": "mihono-bourbon",
+      "rankLabel": "Front Winner"
+    },
+    {
+      "cup": "Sus Cup 20",
+      "trainer": "Cyciesta",
+      "uma": "Mejiro McQueen",
+      "umaId": "mejiro-mcqueen",
+      "rankLabel": "Pace Winner"
+    },
+    {
+      "cup": "Sus Cup 20",
+      "trainer": "Yves",
+      "uma": "Eishin Flash",
+      "umaId": "eishin-flash",
+      "rankLabel": "Late Winner"
+    },
+    {
+      "cup": "Sus Cup 20",
+      "trainer": "Yves",
+      "uma": "Mayano Top Gun",
+      "rankLabel": "End Winner",
+      "umaId": "mayano-top-gun",
+      "url": "https://gametora.com/umamusume/characters/mayano-top-gun"
+    },
+    {
+      "cup": "Sus Cup 21",
+      "trainer": "agnes",
+      "uma": "Taiki Shuttle",
+      "umaId": "taiki-shuttle",
+      "rankLabel": "3* spark winner",
+      "race": "Takamatsunomiya Kinen",
+      "result": "1:07.3"
+    },
+    {
+      "cup": "Sus Cup 21",
+      "trainer": "Agnes",
+      "uma": "Taiki Shuttle",
+      "umaId": "taiki-shuttle",
+      "rankLabel": "2* spark winner"
+    },
+    {
+      "cup": "Sus Cup 21",
+      "trainer": "Jiinxye",
+      "uma": "Sakura Bakushin O",
+      "umaId": "sakura-bakushin-o",
+      "rankLabel": "1* spark winner"
+    },
+    {
+      "cup": "Sus Cup 22",
+      "trainer": "guest club member",
+      "uma": "Gold Ship",
+      "umaId": "gold-ship",
+      "rankLabel": "URA Finale scenario winner"
+    },
+    {
+      "cup": "Sus Cup 22",
+      "trainer": "Cyciesta",
+      "uma": "Oguri Cap",
+      "umaId": "oguri-cap",
+      "rankLabel": "Unity Cup scenario winner"
+    },
+    {
+      "cup": "Sus Cup 22",
+      "trainer": "Cyciesta",
+      "uma": "Agnes Tachyon",
+      "umaId": "agnes-tachyon",
+      "rankLabel": "Trackblazer scenario winner"
+    },
+    {
+      "cup": "Sus Cup 23",
+      "trainer": "Jiinxye",
+      "uma": "Narita Taishin",
+      "umaId": "narita-taishin",
+      "rankLabel": "3* winner"
+    },
+    {
+      "cup": "Sus Cup 23",
+      "trainer": "Agnes",
+      "uma": "Air Groove",
+      "umaId": "air-groove",
+      "rankLabel": "2* winner"
+    },
+    {
+      "cup": "Sus Cup 23",
+      "trainer": "Shadow Amber",
+      "uma": "Agnes Tachyon",
+      "rankLabel": "1* winner"
+    },
+    {
+      "cup": "Sus Cup 28",
+      "cupNumber": 28,
+      "date": "2026-08-27",
+      "uma": "Mayano Top Gun",
+      "trainer": "Ananth",
+      "player": "Ananth",
+      "type": "Uma Musume"
+    }
+  ],
+  "championships": {
+    "Oguri Cap": 2,
+    "Nice Nature": 1,
+    "Super Creek": 1,
+    "Gold Ship": 1,
+    "Agnes Tachyon": 2,
+    "Grass Wonder": 1,
+    "Seiun Sky": 1
+  },
+  "races": [
+    {
+      "id": 1,
+      "cupNumber": 1,
+      "cupName": "Sus Cup 1 — The Start",
+      "name": "G1 Tokyo Yushun (Japanese Derby)",
+      "date": "2025-08-11",
+      "images": [
+        "suscupimages1-10/suscup1.1.png",
+        "suscupimages1-10/suscup1.2.png",
+        "suscupimages1-10/suscup1.3.png",
+        "suscupimages1-10/suscup1.4.png"
+      ],
+      "time": "19:06",
+      "roomId": "1662 1798",
+      "course": "Tokyo",
+      "surface": "Turf",
+      "distance": 2400,
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "condition": "Firm",
+      "mood": "Great",
+      "season": "Spring",
+      "restriction": "A Rank Max",
+      "participants": [
         {
-            "id": 1,
-            "cupNumber": "1",
-            "name": "G1 Tokyo Yushun (Japanese Derby)",
-            "date": "2025-08-11",
-            "images": [
-                "suscupimages1-10/suscup1.1.png",
-                "suscupimages1-10/suscup1.2.png",
-                "suscupimages1-10/suscup1.3.png",
-                "suscupimages1-10/suscup1.4.png"
-            ],
-            "time": "19:06",
-            "roomId": "1662 1798",
-            "course": "Tokyo",
-            "surface": "Turf",
-            "distance": 2400,
-            "distanceType": "Medium",
-            "direction": "Left",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "condition": "Firm",
-            "mood": "Great",
-            "season": "Spring",
-            "restriction": "A Rank Max",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Oguri Cap",
-                    "player": "GohanXGAMER",
-                    "number": 7,
-                    "rank": "B+",
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "gap": "2:22.5",
-                    "pop": 8,
-                    "time": "2:22.5"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Mihono Bourbon",
-                    "player": "Jiinxye",
-                    "number": 2,
-                    "rank": "B+",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Front",
-                    "gap": "1\u00be L",
-                    "pop": 7
-                },
-                {
-                    "pos": 3,
-                    "uma": "T.M. Opera O",
-                    "player": "Yves",
-                    "number": 15,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "gap": "1\u00bc L",
-                    "pop": 3
-                },
-                {
-                    "pos": 4,
-                    "uma": "Gold Ship",
-                    "player": "Agnes",
-                    "number": 4,
-                    "rank": "A",
-                    "title": "Unpredictable",
-                    "strategy": "End",
-                    "gap": "3 L",
-                    "pop": 1
-                },
-                {
-                    "pos": 5,
-                    "uma": "Agnes Tachyon",
-                    "player": "Cyciesta",
-                    "number": 17,
-                    "rank": "A",
-                    "title": "Epoch Pioneer",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 5
-                },
-                {
-                    "pos": 6,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Cruzi",
-                    "number": 8,
-                    "rank": "B+",
-                    "title": "Monarch",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 6
-                },
-                {
-                    "pos": 7,
-                    "uma": "Symboli Rudolf",
-                    "player": "Agnes",
-                    "number": 9,
-                    "rank": "A",
-                    "title": "Fan Favorite",
-                    "strategy": "Late",
-                    "gap": "1 L",
-                    "pop": 2
-                },
-                {
-                    "pos": 8,
-                    "uma": "Narita Taishin",
-                    "player": "Cyciesta",
-                    "number": 16,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "End",
-                    "gap": "1 L",
-                    "pop": 4
-                },
-                {
-                    "pos": 9,
-                    "uma": "Revival Lyric",
-                    "player": "NPC",
-                    "number": 1,
-                    "rank": "C+",
-                    "title": "",
-                    "strategy": "Front",
-                    "gap": "\u00be L",
-                    "pop": 14
-                },
-                {
-                    "pos": 10,
-                    "uma": "Marine Seagull",
-                    "player": "NPC",
-                    "number": 13,
-                    "rank": "C+",
-                    "title": "",
-                    "strategy": "Late",
-                    "gap": "\u00be L",
-                    "pop": 17
-                },
-                {
-                    "pos": 11,
-                    "uma": "T.M. Opera O",
-                    "player": "Jiinxye",
-                    "number": 14,
-                    "rank": "B",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "\u00be L",
-                    "pop": 9
-                },
-                {
-                    "pos": 12,
-                    "uma": "Reverent",
-                    "player": "NPC",
-                    "number": 18,
-                    "rank": "C+",
-                    "title": "",
-                    "strategy": "End",
-                    "gap": "\u00be L",
-                    "pop": 15
-                },
-                {
-                    "pos": 13,
-                    "uma": "Cithara Rhythm",
-                    "player": "NPC",
-                    "number": 5,
-                    "rank": "C+",
-                    "title": "",
-                    "strategy": "Pace",
-                    "gap": "1\u00bd L",
-                    "pop": 12
-                },
-                {
-                    "pos": 14,
-                    "uma": "Grass Wonder",
-                    "player": "GohanXGAMER",
-                    "number": 6,
-                    "rank": "B",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "1\u00bc L",
-                    "pop": 10
-                },
-                {
-                    "pos": 15,
-                    "uma": "Silence Suzuka",
-                    "player": "Cruzi",
-                    "number": 11,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "1\u00bc L",
-                    "pop": 11
-                },
-                {
-                    "pos": 16,
-                    "uma": "Bravo Deux",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "C+",
-                    "title": "",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 16
-                },
-                {
-                    "pos": 17,
-                    "uma": "Mejiro McQueen [End of the Skies]",
-                    "player": "Nadav",
-                    "number": 12,
-                    "rank": "C+",
-                    "title": "Tenno Sweep",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 18,
-                    "umaId": "mejiro-mcqueen-end-of-the-skies"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Vodka",
-                    "player": "Nadav",
-                    "number": 3,
-                    "rank": "B",
-                    "title": "Double Tiara",
-                    "strategy": "Pace",
-                    "gap": "8 L",
-                    "pop": 13
-                }
-            ]
+          "pos": 1,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "GohanXGAMER",
+          "number": 7,
+          "rank": "B+",
+          "title": "Ideal Idol",
+          "strategy": "Pace",
+          "time": "2:22.5",
+          "gap": "",
+          "pop": 8
         },
         {
-            "id": 2,
-            "cupNumber": "2",
-            "cupName": "Sus Cup 2",
-            "subtitle": "Mile Front Runners",
-            "images": [
-                "suscupimages1-10/suscup2.1.png",
-                "suscupimages1-10/suscup2.2.png",
-                "suscupimages1-10/suscup2.3.png",
-                "suscupimages1-10/suscup2.4.png"
-            ],
-            "name": "Oka Sho",
-            "date": "2025-08-19",
-            "time": "19:19",
-            "roomId": "6695 4191",
-            "grade": "G1",
-            "course": "Hanshin",
-            "surface": "Turf",
-            "distance": 1600,
-            "distanceType": "Mile",
-            "direction": "Right",
-            "courseLayout": "Outer",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "condition": "Firm",
-            "mood": "Great",
-            "season": "Spring",
-            "restriction": "A Rank",
-            "entryRule": "Maximum 2 entries per person",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Daiwa Scarlet",
-                    "player": "GohanXGAMER",
-                    "number": 1,
-                    "rank": "B+",
-                    "title": "The GOAT",
-                    "strategy": "Front",
-                    "time": "1:30.9",
-                    "pop": 4,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Sakura Bakushin O",
-                    "player": "Agnes",
-                    "number": 15,
-                    "rank": "B+",
-                    "title": "Steam Solidarity",
-                    "strategy": "Front",
-                    "gap": "1 L",
-                    "pop": 7,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105301-sakura-bakushin-o"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Mihono Bourbon",
-                    "player": "Jiinxye",
-                    "number": 16,
-                    "rank": "B+",
-                    "title": "Steam Solidarity",
-                    "strategy": "Front",
-                    "gap": "1 L",
-                    "pop": 2,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Silence Suzuka",
-                    "player": "GohanXGAMER",
-                    "number": 12,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "Head",
-                    "pop": 6,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Venabulum",
-                    "player": "NPC",
-                    "number": 9,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 9,
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "imageUrl": null
-                },
-                {
-                    "pos": 6,
-                    "uma": "Jewel Onyx",
-                    "player": "NPC",
-                    "number": 5,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "Neck",
-                    "pop": 13,
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "imageUrl": null
-                },
-                {
-                    "pos": 7,
-                    "uma": "Maruzensky",
-                    "player": "Cruzi",
-                    "number": 10,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "Nose",
-                    "pop": 8,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100401-maruzensky"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Basal Shoot",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "Neck",
-                    "pop": 15,
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "imageUrl": null
-                },
-                {
-                    "pos": 9,
-                    "uma": "Keyboard Rhythm",
-                    "player": "NPC",
-                    "number": 2,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "Nose",
-                    "pop": 10,
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "imageUrl": null
-                },
-                {
-                    "pos": 10,
-                    "uma": "Hearty Letter",
-                    "player": "NPC",
-                    "number": 4,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "Nose",
-                    "pop": 11,
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "imageUrl": null
-                },
-                {
-                    "pos": 11,
-                    "uma": "Mihono Bourbon",
-                    "player": "Cruzi",
-                    "number": 18,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 5,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Silence Suzuka",
-                    "player": "Jiinxye",
-                    "number": 8,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 14,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Krasnaya",
-                    "player": "NPC",
-                    "number": 7,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "\u00bd L",
-                    "pop": 16,
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "imageUrl": null
-                },
-                {
-                    "pos": 14,
-                    "uma": "Silence Suzuka",
-                    "player": "Agnes",
-                    "number": 6,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "1 L",
-                    "pop": 3,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Maruzensky",
-                    "player": "Cyciesta",
-                    "number": 17,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Front",
-                    "gap": "1\u00bd L",
-                    "pop": 1,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100401-maruzensky"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Mihono Bourbon",
-                    "player": "Nadav",
-                    "number": 13,
-                    "rank": "C+",
-                    "title": "G1 Winner",
-                    "strategy": "Front",
-                    "gap": "1\u00bd L",
-                    "pop": 18,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Daiwa Scarlet",
-                    "player": "Nadav",
-                    "number": 11,
-                    "rank": "C+",
-                    "title": "G1 Winner",
-                    "strategy": "Front",
-                    "gap": "1\u00bd L",
-                    "pop": 17,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Sakura Bakushin O",
-                    "player": "Cyciesta",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "Nose",
-                    "pop": 12,
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105301-sakura-bakushin-o"
-                }
-            ]
+          "pos": 2,
+          "uma": "Mihono Bourbon",
+          "umaId": "mihono-bourbon",
+          "player": "Jiinxye",
+          "number": 2,
+          "rank": "B+",
+          "title": "Steamy Solidarity",
+          "strategy": "Front",
+          "gap": "1 3/4 L",
+          "time": "1 3/4 L",
+          "pop": 7
         },
         {
-            "id": 3,
-            "cupNumber": "3",
-            "cupName": "SUS CUP 3",
-            "subtitle": "MILE DIRT",
-            "images": [
-                "suscupimages1-10/suscup3.1.png",
-                "suscupimages1-10/suscup3.2.png",
-                "suscupimages1-10/suscup3.3.png",
-                "suscupimages1-10/suscup3.4.png"
-            ],
-            "name": "Champions Cup",
-            "date": "2025-08-21",
-            "time": "18:37",
-            "roomId": "9612 9828",
-            "grade": "G1",
-            "course": "Chukyo",
-            "surface": "Dirt",
-            "distance": 1800,
-            "distanceType": "Mile",
-            "direction": "Left",
-            "weather": "Random",
-            "ground": "Random",
-            "condition": "Firm",
-            "mood": "Great",
-            "season": "Not specified",
-            "restriction": "A Rank Max",
-            "entryRule": "2 entries per player",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Oguri Cap",
-                    "player": "Yves",
-                    "number": 15,
-                    "rank": "A",
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "time": "1:48.2",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Smart Falcon",
-                    "player": "Yves",
-                    "number": 8,
-                    "rank": "A",
-                    "title": "Record Holder",
-                    "strategy": "Front",
-                    "gap": "2\u00bd L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104601-smart-falcon"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Taiki Shuttle",
-                    "player": "Agnes",
-                    "number": 11,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "2\u00bd L",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101001-taiki-shuttle"
-                },
-                {
-                    "pos": 4,
-                    "uma": "El Condor Pasa",
-                    "player": "Cruzi",
-                    "number": 12,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Haru Urara",
-                    "player": "Cyciesta",
-                    "number": 9,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "1\u00bd L",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105201-haru-urara"
-                },
-                {
-                    "pos": 6,
-                    "uma": "El Condor Pasa",
-                    "player": "Agnes",
-                    "number": 2,
-                    "rank": "B+",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Late",
-                    "gap": "\u00bd L",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Haru Urara",
-                    "player": "Cruzi",
-                    "number": 5,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "1\u00bc L",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105201-haru-urara"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Dunna",
-                    "player": "NPC",
-                    "number": 4,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "1\u00bc L",
-                    "pop": 13,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Gold Chouchou",
-                    "player": "NPC",
-                    "number": 1,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "\u00be L",
-                    "pop": 11,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Oguri Cap",
-                    "player": "Cyciesta",
-                    "number": 7,
-                    "rank": "A",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Pace",
-                    "gap": "\u00be L",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Oguri Cap",
-                    "player": "GohanXGAMER",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Haru Urara",
-                    "player": "GohanXGAMER",
-                    "number": 6,
-                    "rank": "C+",
-                    "title": "G1 Winner",
-                    "strategy": "Late",
-                    "gap": "1 L",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105201-haru-urara"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Chalemie Rhythm",
-                    "umaId": "chalemie-rhythm",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 12,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Haru Urara",
-                    "player": "Nadav",
-                    "number": 16,
-                    "rank": "C+",
-                    "title": "G1 Winner",
-                    "strategy": "Late",
-                    "gap": "5 L",
-                    "pop": 15,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105201-haru-urara"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Aqua Spring",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "\u00be L",
-                    "pop": 14,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Vodka",
-                    "player": "Nadav",
-                    "number": 13,
-                    "rank": "B",
-                    "title": "Double Tiara",
-                    "strategy": "Pace",
-                    "gap": "Distance",
-                    "pop": 16,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/vodka"
-                }
-            ]
+          "pos": 3,
+          "uma": "T.M. Opera O",
+          "umaId": "tm-opera-o",
+          "player": "Yves",
+          "number": 15,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 3
         },
         {
-            "id": 4,
-            "cupNumber": "4",
-            "cupName": "Sus Cup 4",
-            "subtitle": "1 Runner + 1 Debuffer",
-            "images": [
-                "suscupimages1-10/suscup4.1.png",
-                "suscupimages1-10/suscup4.2.png",
-                "suscupimages1-10/suscup4.3.png",
-                "suscupimages1-10/suscup4.4.png"
-            ],
-            "name": "Hopeful Stakes",
-            "date": "2025-08-25",
-            "time": "18:38",
-            "roomId": "9651 9168",
-            "grade": "G1",
-            "course": "Nakayama",
-            "surface": "Turf",
-            "distance": 2000,
-            "distanceType": "Medium",
-            "direction": "Right-handed / Inner",
-            "weather": "Random",
-            "ground": "Random",
-            "condition": "Firm",
-            "mood": "Great",
-            "season": "Not specified",
-            "restriction": "A Rank Max",
-            "entryRule": "1 Runner + 1 Debuffer",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Nice Nature",
-                    "player": "Yves",
-                    "number": 8,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "time": "1:56.6",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/106001-nice-nature"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Gold Ship",
-                    "player": "Cyciesta",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "End",
-                    "gap": "2\u00bd L",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 3,
-                    "uma": "El Condor Pasa",
-                    "player": "Cruzi",
-                    "number": 4,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "gap": "1\u00be L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Silence Suzuka",
-                    "player": "Agnes",
-                    "number": 6,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Front",
-                    "gap": "Head",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Agnes Tachyon",
-                    "player": "Yves",
-                    "number": 5,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Late",
-                    "gap": "5 L",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Nice Nature",
-                    "player": "Agnes",
-                    "number": 9,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "2 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/106001-nice-nature"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Bridge Comp",
-                    "player": "NPC",
-                    "number": 7,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "1\u00bd L",
-                    "pop": 15,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Muruga",
-                    "player": "NPC",
-                    "number": 11,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "1 L",
-                    "pop": 10,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Mechanical Vapor",
-                    "umaId": "mechanical-vapor",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "Neck",
-                    "pop": 13,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Insight Catch",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "\u00be L",
-                    "pop": 12,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Ribbon Carol",
-                    "player": "NPC",
-                    "number": 1,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "\u00bd L",
-                    "pop": 11,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Symboli Rudolf",
-                    "player": "Cyciesta",
-                    "number": 12,
-                    "rank": "A",
-                    "title": "Way of Kings",
-                    "strategy": "Late",
-                    "gap": "\u00bd L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Super Creek",
-                    "player": "GohanXGAMER",
-                    "number": 2,
-                    "rank": "B",
-                    "title": "Speedy Stayer",
-                    "strategy": "Pace",
-                    "gap": "1\u00bc L",
-                    "pop": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104501-super-creek"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Mayano Top Gun",
-                    "player": "GohanXGAMER",
-                    "number": 13,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "Head",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
-                },
-                {
-                    "pos": 15,
-                    "uma": "King Halo",
-                    "player": "Cruzi",
-                    "number": 15,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "Nose",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/king-halo"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Navigate Light",
-                    "player": "NPC",
-                    "number": 17,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "\u00be L",
-                    "pop": 17,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Mini Lotus",
-                    "player": "NPC",
-                    "number": 18,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "4 L",
-                    "pop": 16,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Summer Bonfire",
-                    "player": "NPC",
-                    "number": 16,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "\u00be L",
-                    "pop": 14,
-                    "participantType": "NPC Uma"
-                }
-            ]
+          "pos": 4,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Agnes",
+          "number": 4,
+          "rank": "A",
+          "title": "Unpredictable",
+          "strategy": "End",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 1
         },
         {
-            "id": 5,
-            "cupNumber": "5",
-            "cupName": "Sus Cup 5",
-            "subtitle": "Gemini Cup Open League Training",
-            "images": [
-                "suscupimages1-10/suscup5.1.png",
-                "suscupimages1-10/suscup5.2.png",
-                "suscupimages1-10/suscup5.3.png",
-                "suscupimages1-10/suscup5.4.png"
-            ],
-            "name": "Tenno Sho (Spring)",
-            "date": "2025-08-27",
-            "time": "18:44",
-            "roomId": "6084 0589",
-            "grade": "",
-            "course": "Kyoto",
-            "surface": "Turf",
-            "distance": 3200,
-            "distanceType": "Long",
-            "direction": "Right-handed / Outer",
-            "weather": "Random",
-            "ground": "Random",
-            "condition": "Random",
-            "mood": "Great",
-            "season": "Not specified",
-            "restriction": "B Rank Max",
-            "entryRule": "2 entries per person",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Super Creek",
-                    "player": "Agnes",
-                    "number": 5,
-                    "rank": "B",
-                    "title": "G1 Hunter",
-                    "strategy": "Pace",
-                    "time": "3:15.6",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104501-super-creek"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Jiinxye",
-                    "number": 1,
-                    "rank": "B",
-                    "title": "Double Crown",
-                    "strategy": "Pace",
-                    "gap": "Distance",
-                    "pop": 1,
-                    "version": "[Beyond the Horizon]",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100301-tokai-teio"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Mejiro McQueen [End of the Skies]",
-                    "player": "Nadav",
-                    "number": 18,
-                    "rank": "C+",
-                    "title": "Tenno Sweep",
-                    "strategy": "Pace",
-                    "gap": "7 L",
-                    "pop": 17,
-                    "version": "[End of the Skies] / Anime Collab",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101302-mejiro-mcqueen",
-                    "umaId": "mejiro-mcqueen-end-of-the-skies"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Marsyas",
-                    "player": "NPC",
-                    "number": 13,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "5 L",
-                    "pop": 11,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Black Tipped",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "\u00be L",
-                    "pop": 8,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Symboli Rudolf",
-                    "player": "Cyciesta",
-                    "number": 11,
-                    "rank": "B",
-                    "title": "G1 Hunter",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 15,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Biwa Hayahide",
-                    "player": "GohanXGAMER",
-                    "number": 4,
-                    "rank": "B",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "1 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/biwa-hayahide"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Breeze Chopper",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 12,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Speechless Hack",
-                    "player": "NPC",
-                    "number": 17,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 7,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 10,
-                    "uma": "T.M. Opera O",
-                    "player": "Jiinxye",
-                    "number": 2,
-                    "rank": "B",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "\u00bd L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101501-tm-opera-o"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Yggdra Valley",
-                    "player": "NPC",
-                    "number": 12,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "1 L",
-                    "pop": 10,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Agnes Tachyon",
-                    "player": "Cruzi",
-                    "number": 8,
-                    "rank": "B",
-                    "title": "G1 Winner",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 13,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Flute Rhythm",
-                    "player": "NPC",
-                    "number": 14,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "2\u00bd L",
-                    "pop": 6,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Cyciesta",
-                    "number": 7,
-                    "rank": "B",
-                    "title": "Turf Terror",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 5,
-                    "version": "Standard / Original",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100301-tokai-teio"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Grass Wonder",
-                    "player": "Agnes",
-                    "number": 15,
-                    "rank": "B",
-                    "title": "G1 Winner",
-                    "strategy": "Pace",
-                    "gap": "1 L",
-                    "pop": 14,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Nice Nature",
-                    "player": "GohanXGAMER",
-                    "number": 16,
-                    "rank": "B",
-                    "title": "December Domination",
-                    "strategy": "Late",
-                    "gap": "Head",
-                    "pop": 16,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Gold Ship",
-                    "player": "Cruzi",
-                    "number": 9,
-                    "rank": "B",
-                    "title": "Silver Collector",
-                    "strategy": "End",
-                    "gap": "8 L",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/106001-nice-nature"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Mihono Bourbon",
-                    "player": "Nadav",
-                    "number": 6,
-                    "rank": "C+",
-                    "title": "G1 Winner",
-                    "strategy": "Front",
-                    "gap": "\u00be L",
-                    "pop": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
-                }
-            ]
+          "pos": 5,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cyciesta",
+          "number": 17,
+          "rank": "A",
+          "title": "Epoch Pioneer",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 5
         },
         {
-            "id": 6,
-            "cupNumber": "SUS CUP 6",
-            "name": "UNIQUE EPITHETS / STEAMY SOLIDARITY",
-            "date": "2025-09-03",
-            "images": [
-                "suscupimages1-10/suscup6.1.png",
-                "suscupimages1-10/suscup6.2.png",
-                "suscupimages1-10/suscup6.3.png",
-                "suscupimages1-10/suscup6.4.png"
-            ],
-            "time": "18:18",
-            "roomId": "9075 4387",
-            "course": "Nakayama Turf",
-            "surface": "Turf",
-            "distance": "2500m",
-            "distanceType": "Long",
-            "direction": "Right-handed / Inner",
-            "weather": "Random",
-            "ground": "Random",
-            "condition": "Great",
-            "mood": "Great",
-            "season": "Random",
-            "restriction": "No rank restriction specified",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Gold Ship",
-                    "player": "Cyciesta",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "End",
-                    "time": "2:29.0",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
-                    "umaId": "gold-ship",
-                    "gap": "2:29.0"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Mejiro McQueen",
-                    "player": "Jiinxye",
-                    "number": 7,
-                    "rank": "B+",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Pace",
-                    "gap": "1 1/4 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
-                    "umaId": "mejiro-mcqueen"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Symboli Rudolf",
-                    "player": "Agnes",
-                    "number": 12,
-                    "rank": "A",
-                    "title": "Emperor",
-                    "strategy": "Pace",
-                    "gap": "1 1/4 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf",
-                    "umaId": "symboli-rudolf"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Gold Ship",
-                    "player": "Yves",
-                    "number": 10,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "End",
-                    "gap": "2 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
-                    "umaId": "gold-ship"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Mayano Top Gun",
-                    "player": "Agnes",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "Free Spirit",
-                    "strategy": "End",
-                    "gap": "3/4 L",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun",
-                    "umaId": "mayano-top-gun"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Keyboard Rhythm",
-                    "player": "NPC",
-                    "number": 8,
-                    "rank": "B",
-                    "title": "Keyboard Rhythm",
-                    "strategy": "End",
-                    "gap": "5 L",
-                    "pop": 11,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "umaId": "Keyboard Rhythm"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Tokai Teio",
-                    "player": "Jiinxye",
-                    "number": 5,
-                    "rank": "A",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Pace",
-                    "gap": "3/4 L",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100302-tokai-teio",
-                    "umaId": "tokai-teio-beyond"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Ogress",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "B",
-                    "title": "Ogress",
-                    "strategy": "End",
-                    "gap": "2 1/2 L",
-                    "pop": 9,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "umaId": "Ogress"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Oguri Cap",
-                    "player": "Cyciesta",
-                    "number": 13,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "umaId": "oguri-cap"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Agnes Tachyon",
-                    "player": "Cruzi",
-                    "number": 15,
-                    "rank": "B+",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Pace",
-                    "gap": "Head",
-                    "pop": 13,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-                    "umaId": "agnes-tachyon"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Ribbon Nocturne",
-                    "player": "NPC",
-                    "number": 9,
-                    "rank": "B",
-                    "title": "Ribbon Nocturne",
-                    "strategy": "Pace",
-                    "gap": "Head",
-                    "pop": 12,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "umaId": "Ribbon Nocturne"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Maleficus",
-                    "player": "NPC",
-                    "number": 4,
-                    "rank": "B",
-                    "title": "Maleficus",
-                    "strategy": "Late",
-                    "gap": "1 3/4 L",
-                    "pop": 15,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "characterUrl": null,
-                    "umaId": "Maleficus"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Nice Nature",
-                    "player": "Yves",
-                    "number": 16,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "5 L",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/106001-nice-nature",
-                    "umaId": "nice-nature"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Oguri Cap",
-                    "player": "GohanXGAMER",
-                    "number": 6,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "2 1/2 L",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "umaId": "oguri-cap"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Super Creek",
-                    "player": "GohanXGAMER",
-                    "number": 2,
-                    "rank": "B",
-                    "title": "Speedy Stayer",
-                    "strategy": "Pace",
-                    "gap": "2 L",
-                    "pop": 16,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104501-super-creek",
-                    "umaId": "super-creek"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Tokai Teio",
-                    "player": "Cruzi",
-                    "number": 11,
-                    "rank": "B+",
-                    "title": "Monarch",
-                    "strategy": "Pace",
-                    "gap": "3/4 L",
-                    "pop": 14,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100302-tokai-teio",
-                    "umaId": "tokai-teio-beyond"
-                }
-            ]
+          "pos": 6,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Cruzi",
+          "number": 8,
+          "rank": "B+",
+          "title": "Monarch",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 6
         },
         {
-            "id": 7,
-            "cupNumber": "SUS CUP 7",
-            "cupName": "Sus Cup 7",
-            "subtitle": "Pace Chaser Medium",
-            "images": [
-                "suscupimages1-10/suscup7.1.png",
-                "suscupimages1-10/suscup7.2.png",
-                "suscupimages1-10/suscup7.3.png",
-                "suscupimages1-10/suscup7.4.png"
-            ],
-            "name": "Takarazuka Kinen",
-            "date": "2025-09-06",
-            "time": "19:11",
-            "roomId": "2184 9318",
-            "course": "Hanshin",
-            "surface": "Turf",
-            "distance": 2200,
-            "distanceType": "Medium",
-            "direction": "Right",
-            "weather": "Random",
-            "ground": "Random",
-            "mood": "Great",
-            "rankLimit": "A Rank Max",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Agnes",
-                    "number": 9,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "2:09.2",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Cyciesta",
-                    "number": 6,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Agnes",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "True Way of Kings",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Cyciesta",
-                    "number": 11,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Pace",
-                    "gap": "3 1/2 L",
-                    "pop": 2,
-                    "version": "[Beyond the Horizon]",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100302-tokai-teio"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "Ananth",
-                    "number": 7,
-                    "rank": "B+",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen"
-                },
-                {
-                    "pos": 6,
-                    "uma": "TM Opera O",
-                    "umaId": "tm-opera-o",
-                    "player": "Jiinxye",
-                    "number": 8,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "1 1/2 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101501-tm-opera-o"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Vihuela Rhythm",
-                    "umaId": "vihuela-rhythm",
-                    "player": "NPC",
-                    "number": 13,
-                    "rank": "B",
-                    "strategy": "End",
-                    "gap": "1 1/2 L",
-                    "pop": 15,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Jiinxye",
-                    "number": 10,
-                    "rank": "A",
-                    "title": "Monarch",
-                    "strategy": "Pace",
-                    "gap": "1/2 L",
-                    "pop": 1,
-                    "version": "[Beyond the Horizon]",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100302-tokai-teio"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Kumbhakarna",
-                    "umaId": "kumbhakarna",
-                    "player": "NPC",
-                    "number": 16,
-                    "rank": "B",
-                    "strategy": "Late",
-                    "gap": "1/2 L",
-                    "pop": 12,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Insight Catch",
-                    "umaId": "insight-catch",
-                    "player": "NPC",
-                    "number": 5,
-                    "rank": "B",
-                    "strategy": "Late",
-                    "gap": "1 L",
-                    "pop": 11,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Clarinet Rhythm",
-                    "umaId": "clarinet-rhythm",
-                    "player": "NPC",
-                    "number": 2,
-                    "rank": "B",
-                    "strategy": "End",
-                    "gap": "3/4 L",
-                    "pop": 16,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Batabata",
-                    "umaId": "batabata",
-                    "player": "NPC",
-                    "number": 12,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "1 L",
-                    "pop": 9,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 13,
-                    "uma": "El Condor Pasa",
-                    "umaId": "el-condor-pasa",
-                    "player": "Agnes",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "Phantom Bird",
-                    "strategy": "Pace",
-                    "gap": "1/2 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Compromise",
-                    "umaId": "compromise",
-                    "player": "NPC",
-                    "number": 4,
-                    "rank": "B",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 14,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Tudor Garden",
-                    "umaId": "tudor-garden",
-                    "player": "NPC",
-                    "number": 18,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 10,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "Cruzi",
-                    "number": 3,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "2 L",
-                    "pop": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/106001-nice-nature"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Tropical Sky",
-                    "umaId": "tropical-sky",
-                    "player": "NPC",
-                    "number": 17,
-                    "rank": "B",
-                    "strategy": "Front",
-                    "gap": "3/4 L",
-                    "pop": 13,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Ananth",
-                    "number": 15,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "Distance",
-                    "pop": 17,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                }
-            ]
+          "pos": 7,
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf",
+          "player": "Agnes",
+          "number": 9,
+          "rank": "A",
+          "title": "Fan Favorite",
+          "strategy": "Late",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 2
         },
         {
-            "id": 8,
-            "cupNumber": "8",
-            "name": "Father-Daughter Duo",
-            "date": "2025-09-14",
-            "time": "18:40",
-            "roomId": "5923 6031",
-            "race": "Osaka Hai",
-            "course": "Hanshin",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Right",
-            "weather": "Random",
-            "ground": "Random",
-            "mood": "Random",
-            "rankLimit": "Rank Max",
-            "specialRule": "Agnes Tachyon and Daiwa Scarlet Only",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Agnes",
-                    "number": 16,
-                    "rank": "A",
-                    "title": "True Way of Kings",
-                    "strategy": "Pace",
-                    "time": "1:56.7",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Jiinxye",
-                    "number": 9,
-                    "rank": "A",
-                    "title": "Way of Kings",
-                    "strategy": "Pace",
-                    "gap": "Head",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "Cyciesta",
-                    "number": 6,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Pace",
-                    "gap": "1 1/4 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "Agnes",
-                    "number": 12,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Front",
-                    "gap": "1 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "Cruzi",
-                    "number": 8,
-                    "rank": "B+",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cruzi",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "1/2 L",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cyciesta",
-                    "number": 4,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Late",
-                    "gap": "1 3/4 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Aquafall",
-                    "umaId": "aquafall",
-                    "player": "NPC",
-                    "number": 5,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "1 3/4 L",
-                    "pop": 9,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Dropping Link",
-                    "umaId": "dropping-link",
-                    "player": "NPC",
-                    "number": 11,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "1 1/4 L",
-                    "pop": 11,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Silver Sazanka",
-                    "umaId": "silver-sazanka",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "Neck",
-                    "pop": 8,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Avec Dream",
-                    "umaId": "avec-dream",
-                    "player": "NPC",
-                    "number": 7,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "1/2 L",
-                    "pop": 15,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "Jiinxye",
-                    "number": 15,
-                    "rank": "A",
-                    "title": "Miss Perfect",
-                    "strategy": "Front",
-                    "gap": "Head",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Breeze Chopper",
-                    "umaId": "breeze-chopper",
-                    "player": "NPC",
-                    "number": 14,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "Nose",
-                    "pop": 13,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Lovely Patricia",
-                    "umaId": "lovely-patricia",
-                    "player": "NPC",
-                    "number": 2,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "3/4 L",
-                    "pop": 12,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Fairies Echo",
-                    "umaId": "fairies-echo",
-                    "player": "NPC",
-                    "number": 13,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 14,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Stenz",
-                    "umaId": "stenz",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 16,
-                    "participantType": "NPC Uma"
-                }
-            ],
-            "images": [
-                "suscupimages1-10/suscup8.1.png",
-                "suscupimages1-10/suscup8.2.png",
-                "suscupimages1-10/suscup8.3.png",
-                "suscupimages1-10/suscup8.4.png"
-            ]
+          "pos": 8,
+          "uma": "Narita Taishin",
+          "umaId": "narita-taishin",
+          "player": "Cyciesta",
+          "number": 16,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "End",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 4
         },
         {
-            "id": 9,
-            "cupNumber": "SUS CUP 9 - GP Round 1/3",
-            "name": "Japanese Oaks",
-            "date": "2025-09-17",
-            "time": "19:00",
-            "roomId": "0000 0000",
-            "race": "Japanese Oaks",
-            "course": "Tokyo Turf",
-            "surface": "Turf",
-            "distance": "2400m",
-            "distanceType": "Medium",
-            "direction": "Left",
-            "weather": "Random",
-            "ground": "Firm",
-            "mood": "Random",
-            "rankLimit": "Rank Max",
-            "specialRule": "None",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "Cruzi",
-                    "number": 4,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "time": "2:21.4",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Agnes",
-                    "number": 13,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Late",
-                    "gap": "Nose",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Cyciesta",
-                    "number": 15,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "gap": "1/2 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Jiinxye",
-                    "number": 17,
-                    "rank": "A",
-                    "title": "Monarch",
-                    "strategy": "Pace",
-                    "gap": "1 1/2 L",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100301-tokai-teio"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cruzi",
-                    "number": 7,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 6,
-                    "uma": "El Condor Pasa",
-                    "umaId": "el-condor-pasa",
-                    "player": "Agnes",
-                    "number": 11,
-                    "rank": "A",
-                    "title": "Phantom Bird",
-                    "strategy": "Late",
-                    "gap": "2 1/2 L",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cyciesta",
-                    "number": 12,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Late",
-                    "gap": "1 1/4 L",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Jewel Coral",
-                    "umaId": "jewel-coral",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "6 L",
-                    "pop": 13,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "T.M. Opera O",
-                    "umaId": "tm-opera-o",
-                    "player": "Jiinxye",
-                    "number": 9,
-                    "rank": "A",
-                    "title": "Undefeated",
-                    "strategy": "Pace",
-                    "gap": "Head",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101501-tm-opera-o"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Duo Targe",
-                    "umaId": "duo-targe",
-                    "player": "NPC",
-                    "number": 8,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 14,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Unknown NPC 1",
-                    "umaId": "unknown-npc-1",
-                    "player": "NPC",
-                    "number": 2,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Unknown NPC 2",
-                    "umaId": "unknown-npc-2",
-                    "player": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Unknown NPC 3",
-                    "umaId": "unknown-npc-3",
-                    "player": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "Ananth",
-                    "number": 1,
-                    "rank": "B+",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "gap": "Nose",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Mini Cactus",
-                    "umaId": "mini-cactus",
-                    "player": "NPC",
-                    "number": 6,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "1 1/2 L",
-                    "pop": 15,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Super Creek",
-                    "umaId": "super-creek",
-                    "player": "GohanXGAMER",
-                    "number": 5,
-                    "rank": "B",
-                    "title": "G1 Winner",
-                    "strategy": "Pace",
-                    "gap": "4 L",
-                    "pop": 17,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104501-super-creek"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "GohanXGAMER",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "2 1/2 L",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Curren Chan",
-                    "umaId": "curren-chan",
-                    "player": "Ananth",
-                    "number": 16,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "Distance",
-                    "pop": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/curren-chan"
-                }
-            ],
-            "images": [
-                "suscupimages1-10/suscup9.1.png",
-                "suscupimages1-10/suscup9.2.png",
-                "suscupimages1-10/suscup9.3.png"
-            ]
+          "pos": 9,
+          "uma": "Revival Lyric",
+          "umaId": "revival-lyric",
+          "player": "NPC",
+          "number": 1,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 14
         },
         {
-            "id": 10,
-            "cupNumber": "SUS CUP 10 - GP Round 2/3",
-            "name": "Tokyo Yushun (Japanese Derby)",
-            "date": "2025-09-19",
-            "time": "19:01",
-            "roomId": "5332 5040",
-            "race": "Tokyo Yushun (Japanese Derby)",
-            "course": "Tokyo Turf",
-            "surface": "Turf",
-            "distance": "2400m",
-            "distanceType": "Medium",
-            "direction": "Left",
-            "weather": "Random",
-            "ground": "Firm",
-            "mood": "Random",
-            "rankLimit": "Rank Max",
-            "specialRule": "None",
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Agnes",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Late",
-                    "time": "2:20.8",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Cyciesta",
-                    "number": 6,
-                    "rank": "A",
-                    "title": "Emperor",
-                    "strategy": "End",
-                    "gap": "3/4 L",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "GohanXGAMER",
-                    "number": 17,
-                    "rank": "A",
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "gap": "3/4 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cruzi",
-                    "number": 10,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin",
-                    "player": "Cyciesta",
-                    "number": 4,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "End",
-                    "gap": "4 L",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "Cruzi",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "1 1/2 L",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky"
-                },
-                {
-                    "pos": 7,
-                    "uma": "El Condor Pasa",
-                    "umaId": "el-condor-pasa",
-                    "player": "Agnes",
-                    "number": 9,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "2 1/2 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Zipangu Applause",
-                    "umaId": "zipangu-applause",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "B",
-                    "strategy": "Front",
-                    "gap": "1 1/4 L",
-                    "pop": 12,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "T.M. Opera O",
-                    "umaId": "tm-opera-o",
-                    "player": "Jiinxye",
-                    "number": 16,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "1 L",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101501-tm-opera-o"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Bridge Comp",
-                    "umaId": "bridge-comp",
-                    "player": "NPC",
-                    "number": 5,
-                    "rank": "B",
-                    "strategy": "Late",
-                    "gap": "1 1/4 L",
-                    "pop": 16,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Jiinxye",
-                    "number": 11,
-                    "rank": "A",
-                    "title": "Monarch",
-                    "strategy": "Pace",
-                    "gap": "3/4 L",
-                    "pop": 6,
-                    "version": "[Beyond the Horizon]",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100302-tokai-teio"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Harp Rhythm",
-                    "umaId": "harp-rhythm",
-                    "player": "NPC",
-                    "number": 13,
-                    "rank": "B",
-                    "strategy": "Late",
-                    "gap": "Neck",
-                    "pop": 11,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Super Creek",
-                    "umaId": "super-creek",
-                    "player": "GohanXGAMER",
-                    "number": 2,
-                    "rank": "B+",
-                    "title": "Double Crown",
-                    "strategy": "Pace",
-                    "gap": "1 L",
-                    "pop": 15,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104501-super-creek"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Lime Chouchou",
-                    "umaId": "lime-chouchou",
-                    "player": "NPC",
-                    "number": 8,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "3 1/2 L",
-                    "pop": 13,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Girly Smile",
-                    "umaId": "girly-smile",
-                    "player": "NPC",
-                    "number": 15,
-                    "rank": "B",
-                    "strategy": "End",
-                    "gap": "Nose",
-                    "pop": 14,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Tetrabiblos",
-                    "umaId": "tetrabiblos",
-                    "player": "NPC",
-                    "number": 18,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "3 1/2 L",
-                    "pop": 17,
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "Ananth",
-                    "number": 7,
-                    "rank": "B+",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Curren Chan",
-                    "umaId": "curren-chan",
-                    "player": "Ananth",
-                    "number": 12,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "Distance",
-                    "pop": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/curren-chan"
-                }
-            ],
-            "images": [
-                "suscupimages1-10/suscup10.1.png",
-                "suscupimages1-10/suscup10.2.png",
-                "suscupimages1-10/suscup10.3.png",
-                "suscupimages1-10/suscup10.4.png"
-            ]
+          "pos": 10,
+          "uma": "Marine Seagull",
+          "umaId": "marine-seagull",
+          "player": "NPC",
+          "number": 13,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 17
         },
         {
-            "id": 11,
-            "cupNumber": "SUS CUP 11 - GP Round 3/3",
-            "name": "Japan Cup",
-            "date": "2025-09-21",
-            "time": "19:03",
-            "roomId": "3936 9926",
-            "race": "Japan Cup",
-            "course": "Tokyo Turf",
-            "surface": "Turf",
-            "distance": "2400m",
-            "distanceType": "Medium",
-            "direction": "Left-handed",
-            "weather": "Random",
-            "ground": "Random",
-            "mood": "Random",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "GP Round 3/3 (Same characters as GP R1 & R2)",
-            "images": [
-                "suscupimages11-20/11.1.png",
-                "suscupimages11-20/11.2.png",
-                "suscupimages11-20/11.3.png",
-                "suscupimages11-20/11.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin",
-                    "player": "Cyciesta",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "End",
-                    "time": "2:21.4",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin",
-                    "gap": "2:21.4"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Cyciesta",
-                    "number": 11,
-                    "rank": "A+",
-                    "title": "Emperor",
-                    "strategy": "Pace",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf",
-                    "gap": "1 1/4 L"
-                },
-                {
-                    "pos": 3,
-                    "uma": "El Condor Pasa",
-                    "umaId": "el-condor-pasa",
-                    "player": "Agnes",
-                    "number": 4,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa",
-                    "gap": "2 L"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Agnes",
-                    "number": 17,
-                    "rank": "A",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Late",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder",
-                    "gap": "1 L"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Jiinxye",
-                    "number": 8,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "pop": 9,
-                    "version": "[Beyond the Horizon]",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100302-tokai-teio",
-                    "gap": "1 1/4 L"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "GohanXGAMER",
-                    "number": 13,
-                    "rank": "A",
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "gap": "1/2 L"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cruzi",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-                    "gap": "4 L"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Super Creek",
-                    "umaId": "super-creek",
-                    "player": "GohanXGAMER",
-                    "number": 5,
-                    "rank": "B+",
-                    "title": "Way of Kings",
-                    "strategy": "Pace",
-                    "pop": 11,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104501-super-creek",
-                    "gap": "3 L"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "Ananth",
-                    "number": 16,
-                    "rank": "B+",
-                    "title": "The GOAT",
-                    "strategy": "Pace",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
-                    "gap": "3/4 L"
-                },
-                {
-                    "pos": 10,
-                    "uma": "T.M. Opera O",
-                    "umaId": "tm-opera-o",
-                    "player": "Jiinxye",
-                    "number": 12,
-                    "rank": "A",
-                    "title": "Undefeated",
-                    "strategy": "Pace",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101501-tm-opera-o",
-                    "gap": "1 1/4 L"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Encore One More",
-                    "player": "NPC",
-                    "number": 9,
-                    "rank": "C+",
-                    "title": "Encore One More",
-                    "strategy": "Pace",
-                    "pop": 16,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "1 3/4 L"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "Cruzi",
-                    "number": 15,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Front",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky",
-                    "gap": "1 L"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Sidecar",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "B",
-                    "title": "Sidecar",
-                    "strategy": "Late",
-                    "pop": 14,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "1/2 L"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Chalemie Rhythm",
-                    "player": "NPC",
-                    "number": 6,
-                    "rank": "C+",
-                    "title": "Chalemie Rhythm",
-                    "strategy": "End",
-                    "pop": 13,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "Head"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Mechanical Vapor",
-                    "player": "NPC",
-                    "number": 18,
-                    "rank": "B",
-                    "title": "Mechanical Vapor",
-                    "strategy": "Front",
-                    "pop": 12,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "1 L"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Aeneas",
-                    "player": "NPC",
-                    "number": 7,
-                    "rank": "C+",
-                    "title": "Aeneas",
-                    "strategy": "Late",
-                    "pop": 17,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "2 L"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Leaf Leaf",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "C+",
-                    "title": "Leaf Leaf",
-                    "strategy": "Pace",
-                    "pop": 15,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "1/2 L"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Curren Chan",
-                    "umaId": "curren-chan",
-                    "player": "Ananth",
-                    "number": 2,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "pop": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/curren-chan",
-                    "gap": "Distance"
-                }
-            ],
-            "cupName": "Sus Cup 11"
+          "pos": 11,
+          "uma": "T.M. Opera O",
+          "umaId": "tm-opera-o",
+          "player": "Jiinxye",
+          "number": 14,
+          "rank": "B",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 9
         },
         {
-            "id": 12,
-            "cupNumber": "SUS CUP 12 - Frontend Race",
-            "cupName": "Sus Cup 12",
-            "name": "Tenno Sho (Autumn)",
-            "date": "2025-09-24",
-            "time": "18:45",
-            "roomId": "7604 2408",
-            "race": "Tenno Sho (Autumn)",
-            "course": "Tokyo Turf",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Left",
-            "weather": "Random",
-            "ground": "Random",
-            "mood": "Random",
-            "rankLimit": "As configured for this race",
-            "specialRule": "All players must use Front Runner and End Closer characters only.",
-            "images": [
-                "suscupimages11-20/12.1.png",
-                "suscupimages11-20/12.2.png",
-                "suscupimages11-20/12.3.png",
-                "suscupimages11-20/12.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin",
-                    "player": "Cyciesta",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "End",
-                    "time": "1:56.1",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin",
-                    "gap": "1:56.1"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Hishi Amazon",
-                    "umaId": "hishi-amazon",
-                    "player": "Jiinxye",
-                    "number": 8,
-                    "rank": "A",
-                    "title": "Record Holder",
-                    "strategy": "End",
-                    "gap": "1 3/4 L",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/hishi-amazon"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Cruzi",
-                    "number": 7,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "End",
-                    "gap": "3/4 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Agnes",
-                    "number": 2,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Front",
-                    "gap": "Nose",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "GohanXGAMER",
-                    "number": 11,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "End",
-                    "gap": "2 L",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "GohanXGAMER",
-                    "number": 16,
-                    "rank": "B+",
-                    "title": "The GOAT",
-                    "strategy": "Front",
-                    "gap": "3/4 L",
-                    "pop": 11,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "Cruzi",
-                    "number": 5,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Front",
-                    "gap": "3/4 L",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Bella Prateria",
-                    "player": "NPC",
-                    "number": 6,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "1 3/4 L",
-                    "pop": 12,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Ananth",
-                    "number": 4,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "1 1/2 L",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Arcade Champ",
-                    "player": "NPC",
-                    "number": 12,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "1/2 L",
-                    "pop": 15,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Agnes",
-                    "number": 17,
-                    "rank": "A",
-                    "title": "Unpredictable",
-                    "strategy": "End",
-                    "gap": "Nose",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Oishii Parfait",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "Head",
-                    "pop": 13,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Ogress",
-                    "player": "NPC",
-                    "number": 9,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "3/4 L",
-                    "pop": 14,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Jiinxye",
-                    "number": 18,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "Nose",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Ribbon Etude",
-                    "player": "NPC",
-                    "number": 15,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "3/4 L",
-                    "pop": 16,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Mihono Bourbon",
-                    "umaId": "mihono-bourbon",
-                    "player": "Cyciesta",
-                    "number": 14,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "1 3/4 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Gray Chouchou",
-                    "player": "NPC",
-                    "number": 13,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "3/4 L",
-                    "pop": 17,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Ananth",
-                    "number": 3,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "Distance",
-                    "pop": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                }
-            ]
+          "pos": 12,
+          "uma": "Reverent",
+          "umaId": "reverent",
+          "player": "NPC",
+          "number": 18,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 15
         },
         {
-            "id": 13,
-            "cupNumber": "SUS CUP 13 - Haru Leading",
-            "cupName": "Sus Cup 13",
-            "name": "Arima Kinen",
-            "date": "2025-10-14",
-            "time": "18:30",
-            "roomId": "7011 0288",
-            "race": "Arima Kinen",
-            "course": "Nakayama Turf",
-            "surface": "Turf",
-            "distance": "2500m",
-            "distanceType": "Long",
-            "direction": "Right / Inner",
-            "weather": "Random",
-            "ground": "Random",
-            "mood": "Random",
-            "rankLimit": "No rank limit",
-            "specialRule": "No Front Runners allowed. Note: No rank limit was enabled accidentally.",
-            "images": [
-                "suscupimages11-20/13.1.png"
-            ],
-            "partialResults": true,
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Cruzi",
-                    "number": 6,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "End",
-                    "time": "2:28.9",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
-                    "gap": "2:28.9"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Agnes",
-                    "number": 9,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Late",
-                    "gap": "1 1/2 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cruzi",
-                    "number": 15,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "1 1/4 L",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "GohanXGAMER",
-                    "number": 4,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Yves",
-                    "number": 11,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "gap": "3/4 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                }
-            ],
-            "submittedEntries": [
-                {
-                    "player": "Agnes",
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder"
-                },
-                {
-                    "player": "Agnes",
-                    "uma": "Super Creek",
-                    "umaId": "super-creek"
-                },
-                {
-                    "player": "Yves",
-                    "uma": "Hishi Amazon",
-                    "umaId": "hishi-amazon"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Special Week",
-                    "umaId": "special-week"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship"
-                },
-                {
-                    "player": "Jiinshi",
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen"
-                },
-                {
-                    "player": "Jiinshi",
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin"
-                },
-                {
-                    "player": "Cyciesta",
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin"
-                },
-                {
-                    "player": "Cyciesta",
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship"
-                }
-            ]
+          "pos": 13,
+          "uma": "Cithara Rhythm",
+          "umaId": "cithara-rhythm",
+          "player": "NPC",
+          "number": 5,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 12
         },
         {
-            "id": 14,
-            "cupNumber": "SUS CUP 14 - Graded Open Leo CM",
-            "cupName": "Sus Cup 14",
-            "name": "Takarazuka Kinen",
-            "date": "02 November 2025, 18:00",
-            "roomId": "45551616",
-            "race": "Takarazuka Kinen",
-            "course": "Hanshin Turf",
-            "surface": "Turf",
-            "distance": "2200m",
-            "distanceType": "Medium",
-            "direction": "Right-handed",
-            "weather": "Random",
-            "ground": "Random",
-            "mood": "Random",
-            "rankLimit": "Max Rank",
-            "specialRule": "3 entries per person maximum",
-            "images": [
-                "suscupimages11-20/14.1.png",
-                "suscupimages11-20/14.2.png",
-                "suscupimages11-20/14.3.png",
-                "suscupimages11-20/14.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Special Week",
-                    "umaId": "special-week",
-                    "player": "GohanXGAMER",
-                    "number": 15,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "time": "2:09.4",
-                    "pop": 11,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/special-week",
-                    "gap": "2:09.4"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "GohanXGAMER",
-                    "number": 11,
-                    "rank": "B+",
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "gap": "2 1/2 L"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Yves",
-                    "number": 13,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "gap": "1 L"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "Yves",
-                    "number": 12,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
-                    "gap": "1 L"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "GohanXGAMER",
-                    "number": 6,
-                    "rank": "B+",
-                    "title": "Record Holder",
-                    "strategy": "Pace",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
-                    "gap": "4 L"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Ananth",
-                    "number": 17,
-                    "rank": "B+",
-                    "title": "Ideal Idol",
-                    "strategy": "Late",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "gap": "1 1/4 L"
-                },
-                {
-                    "pos": 7,
-                    "uma": "T.M. Opera O",
-                    "umaId": "tm-opera-o",
-                    "player": "Agnes",
-                    "number": 16,
-                    "rank": "B+",
-                    "title": "G1 Hunter",
-                    "strategy": "Pace",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101501-tm-opera-o",
-                    "gap": "1 1/2 L"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Unknown NPC",
-                    "player": "NPC",
-                    "number": 4,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "pop": 9,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "3/4 L"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Unknown NPC",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "B",
-                    "strategy": "Late",
-                    "pop": 15,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "2 1/2 L"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Unknown NPC",
-                    "player": "NPC",
-                    "number": 9,
-                    "rank": "B",
-                    "strategy": "End",
-                    "pop": 13,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "Neck"
-                },
-                {
-                    "pos": 11,
-                    "uma": "King Halo",
-                    "umaId": "king-halo",
-                    "player": "Agnes",
-                    "number": 1,
-                    "rank": "B+",
-                    "title": "Double Crown",
-                    "strategy": "Late",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/king-halo",
-                    "gap": "Head"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Unknown NPC",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "B",
-                    "strategy": "Late",
-                    "pop": 10,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "Nose"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Unknown NPC",
-                    "player": "NPC",
-                    "number": 7,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "pop": 16,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "Nose"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Unknown NPC",
-                    "player": "NPC",
-                    "number": 2,
-                    "rank": "B",
-                    "strategy": "End",
-                    "pop": 17,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "1 1/4 L"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Unknown NPC",
-                    "player": "NPC",
-                    "number": 8,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "pop": 12,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "2 L"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Ananth",
-                    "number": 14,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder",
-                    "gap": "1 3/4 L"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "Yves",
-                    "number": 5,
-                    "rank": "B+",
-                    "title": "Double Crown",
-                    "strategy": "Late",
-                    "pop": 14,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/nice-nature",
-                    "gap": "Neck"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Mechanical Vapor",
-                    "player": "NPC",
-                    "number": 18,
-                    "rank": "B",
-                    "strategy": "Front",
-                    "pop": 18,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "6 L"
-                }
-            ]
+          "pos": 14,
+          "uma": "Grass Wonder",
+          "umaId": "grass-wonder",
+          "player": "GohanXGAMER",
+          "number": 6,
+          "rank": "B",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 10
         },
         {
-            "id": 15,
-            "cupNumber": "SUS CUP 15 - Triple Front Runners",
-            "cupName": "Sus Cup 15",
-            "name": "G1 Takarazuka Kinen",
-            "date": "06 November 2025, 18:00",
-            "roomId": "8401 3487",
-            "race": "G1 Takarazuka Kinen",
-            "course": "Hanshin Turf",
-            "surface": "Turf",
-            "distance": "2200m",
-            "distanceType": "Medium",
-            "direction": "Right / Inner",
-            "weather": "Random",
-            "ground": "Random",
-            "mood": "Random",
-            "rankLimit": "Not specified",
-            "specialRule": "Triple Front Runners",
-            "images": [
-                "suscupimages11-20/15.1.png",
-                "suscupimages11-20/15.2.png",
-                "suscupimages11-20/15.3.png",
-                "suscupimages11-20/15.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Agnes",
-                    "number": 9,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Front",
-                    "time": "2:11.1",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka",
-                    "gap": "2:11.1"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Maruzensky",
-                    "umaId": "maruzensky",
-                    "player": "Cyciesta",
-                    "number": 10,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Front",
-                    "gap": "2 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100401-maruzensky"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "Agnes",
-                    "number": 11,
-                    "rank": "A",
-                    "title": "The GOAT",
-                    "strategy": "Front",
-                    "gap": "3/4 L",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "Cyciesta",
-                    "number": 15,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Front",
-                    "gap": "1 3/4 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Ananth",
-                    "number": 14,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "2 1/2 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Agnes",
-                    "number": 3,
-                    "rank": "A",
-                    "title": "Free Spirit",
-                    "strategy": "Front",
-                    "gap": "1 L",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Ribbon Lullaby",
-                    "player": "NPC",
-                    "number": 5,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "7 L",
-                    "pop": 13,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Chalemie Rhythm",
-                    "player": "NPC",
-                    "number": 6,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "1 L",
-                    "pop": 12,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Shout My Name",
-                    "player": "NPC",
-                    "number": 16,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "1/2 L",
-                    "pop": 17,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Weiss Grimoire",
-                    "player": "NPC",
-                    "number": 17,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "1 1/2 L",
-                    "pop": 9,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Mihono Bourbon",
-                    "umaId": "mihono-bourbon",
-                    "player": "Cyciesta",
-                    "number": 8,
-                    "rank": "A+",
-                    "title": "Finals Champion",
-                    "strategy": "Front",
-                    "gap": "1/2 L",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Cymbal Rhythm",
-                    "player": "NPC",
-                    "number": 1,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 11,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Salsa Step",
-                    "player": "NPC",
-                    "number": 2,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "Neck",
-                    "pop": 15,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Thousand Voltaire",
-                    "player": "NPC",
-                    "number": 13,
-                    "rank": "C+",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 8,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Spring Happy",
-                    "player": "NPC",
-                    "number": 4,
-                    "rank": "C+",
-                    "strategy": "Late",
-                    "gap": "1/2 L",
-                    "pop": 16,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Faster than Ray",
-                    "player": "NPC",
-                    "number": 12,
-                    "rank": "C+",
-                    "strategy": "End",
-                    "gap": "Nose",
-                    "pop": 14,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Izcalli",
-                    "player": "NPC",
-                    "number": 7,
-                    "rank": "C+",
-                    "strategy": "Front",
-                    "gap": "Head",
-                    "pop": 18,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Smart Falcon",
-                    "umaId": "smart-falcon",
-                    "player": "Ananth",
-                    "number": 18,
-                    "rank": "B+",
-                    "title": "Sand Falcon",
-                    "strategy": "Front",
-                    "gap": "1/2 L",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104601-smart-falcon"
-                }
-            ]
+          "pos": 15,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "Cruzi",
+          "number": 11,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 11
         },
         {
-            "id": 16,
-            "cupNumber": "SUS CUP 16 - Mixed Class Race",
-            "cupName": "Sus Cup 16",
-            "name": "Oka Sho",
-            "date": "16 November 2025, 18:31",
-            "roomId": "3647 0681",
-            "race": "Oka Sho",
-            "course": "Hanshin Turf",
-            "surface": "Turf",
-            "distance": "1600m",
-            "distanceType": "Mile",
-            "direction": "Right",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "mood": "Good",
-            "rankLimit": "Not specified",
-            "specialRule": "Mixed Class Race",
-            "images": [
-                "suscupimages11-20/16.1.png",
-                "suscupimages11-20/16.2.png",
-                "suscupimages11-20/16.3.png",
-                "suscupimages11-20/16.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Vodka",
-                    "umaId": "vodka",
-                    "player": "Agnes",
-                    "number": 14,
-                    "rank": "A+",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "time": "1:29.9",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/vodka"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "GohanXGAMER",
-                    "number": 5,
-                    "rank": "A+",
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "gap": "1 1/2 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "GohanXGAMER",
-                    "number": 9,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Jiinxye",
-                    "number": 6,
-                    "rank": "B+",
-                    "title": "The GOAT",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Hishi Amazon",
-                    "umaId": "hishi-amazon",
-                    "player": "Yves",
-                    "number": 18,
-                    "rank": "A",
-                    "title": "Queen of the Amazons",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/hishi-amazon"
-                },
-                {
-                    "pos": 6,
-                    "uma": "El Condor Pasa",
-                    "umaId": "el-condor-pasa",
-                    "player": "Cruzi",
-                    "number": 15,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Cruzi",
-                    "number": 12,
-                    "rank": "A+",
-                    "title": "Otherworldly Front-Runner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Sakura Bakushin O",
-                    "umaId": "sakura-bakushin-o",
-                    "player": "Agnes",
-                    "number": 3,
-                    "rank": "B+",
-                    "title": "Undefeated",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105301-sakura-bakushin-o"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Narita Brian",
-                    "umaId": "narita-brian",
-                    "player": "Jiinxye",
-                    "number": 2,
-                    "rank": "A+",
-                    "title": "Way of Kings",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/narita-brian"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Yves",
-                    "number": 8,
-                    "rank": "B+",
-                    "title": "Steamy Solidarity",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Book of Sugar",
-                    "player": "NPC",
-                    "number": 11,
-                    "rank": "B",
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 12,
-                    "uma": "El Condor Pasa",
-                    "umaId": "el-condor-pasa",
-                    "player": "Agnes",
-                    "number": 7,
-                    "rank": "A",
-                    "title": "Phantom Bird",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "GohanXGAMER",
-                    "number": 16,
-                    "rank": "B+",
-                    "title": "Steamy Solidarity",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Smart Falcon",
-                    "umaId": "smart-falcon",
-                    "player": "Yves",
-                    "number": 4,
-                    "rank": "A+",
-                    "title": "Epoch Pioneer",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104601-smart-falcon"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Pan Pacific",
-                    "player": "NPC",
-                    "number": 17,
-                    "rank": "B",
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Cruzi",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Maruzensky (Summer)",
-                    "umaId": "maruzensky-summer",
-                    "player": "Jiinxye",
-                    "number": 10,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "version": "Summer Variant",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100401-maruzensky"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Mihono Bourbon",
-                    "umaId": "mihono-bourbon",
-                    "player": "Ananth",
-                    "number": 13,
-                    "rank": "B+",
-                    "title": "Finals Champion",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
-                }
-            ]
+          "pos": 16,
+          "uma": "Bravo Deux",
+          "umaId": "bravo-deux",
+          "player": "NPC",
+          "number": 10,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 16
         },
         {
-            "id": 17,
-            "cupNumber": "SUS CUP 17",
-            "cupName": "Sus Cup 17 - Gutsy Race",
-            "name": "Tenno Sho (Autumn)",
-            "date": "08 December 2025, 18:34",
-            "roomId": "5621 0016",
-            "race": "Tenno Sho (Autumn)",
-            "course": "Tokyo Turf",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Left",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "1 Single Guts, 1 Double Guts, 1 Triple Guts",
-            "images": [
-                "suscupimages11-20/17.1.png",
-                "suscupimages11-20/17.2.png",
-                "suscupimages11-20/17.3.png",
-                "suscupimages11-20/17.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Agnes",
-                    "number": 4,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Late",
-                    "time": "1:57.8",
-                    "pop": 13,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Agnes Digital",
-                    "umaId": "101901",
-                    "player": "Cruzi",
-                    "number": 7,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "1 L",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101901-agnes-digital"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Cruzi",
-                    "number": 6,
-                    "rank": "A+",
-                    "title": "Dream Team",
-                    "strategy": "Late",
-                    "gap": "1/2 L",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 4,
-                    "uma": "T.M. Opera O",
-                    "umaId": "t-m-opera-o",
-                    "player": "Agnes",
-                    "number": 3,
-                    "rank": "A+",
-                    "title": "Place Perfect",
-                    "strategy": "Pace",
-                    "gap": "Neck",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/t-m-opera-o"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Ananth",
-                    "number": 2,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Pace",
-                    "gap": "3/4 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Narita Brian",
-                    "umaId": "narita-brian",
-                    "player": "Jiinxye",
-                    "number": 16,
-                    "rank": "A",
-                    "title": "Team Player Star Slayer",
-                    "strategy": "Late",
-                    "gap": "3/4 L",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/narita-brian"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "Ananth",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "3/4 L",
-                    "pop": 11,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/nice-nature"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "GohanXGAMER",
-                    "number": 17,
-                    "rank": "A+",
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "gap": "2 L",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Agnes",
-                    "number": 10,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "strategy": "Front",
-                    "gap": "1/2 L",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "Cruzi",
-                    "number": 18,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Front",
-                    "gap": "Nose",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio",
-                    "player": "GohanXGAMER",
-                    "number": 15,
-                    "rank": "A",
-                    "title": "Monarch",
-                    "strategy": "Pace",
-                    "gap": "1/2 L",
-                    "pop": 17,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/tokai-teio"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Agnes Digital",
-                    "umaId": "101901",
-                    "player": "Ananth",
-                    "number": 12,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Pace",
-                    "gap": "3/4 L",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101901-agnes-digital"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Jiinxye",
-                    "number": 11,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "3/4 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Shadow Stalker",
-                    "umaId": "shadow-stalker",
-                    "player": "NPC",
-                    "number": 14,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "1 1/2 L",
-                    "pop": 15,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Gold Chouchou",
-                    "umaId": "gold-chouchou",
-                    "player": "NPC",
-                    "number": 5,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "1/2 L",
-                    "pop": 16,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "GohanXGAMER",
-                    "number": 13,
-                    "rank": "A",
-                    "title": "G1 Hunter",
-                    "strategy": "Late",
-                    "gap": "Nose",
-                    "pop": 12,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/nice-nature"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Jiinxye",
-                    "number": 8,
-                    "rank": "A",
-                    "title": "Team Player Star Slayer",
-                    "strategy": "Late",
-                    "gap": "1/2 L",
-                    "pop": 14,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Frozen Sky",
-                    "umaId": "frozen-sky",
-                    "player": "NPC",
-                    "number": 9,
-                    "rank": "B",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 18,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                }
-            ]
+          "pos": 17,
+          "uma": "Mejiro McQueen [End of the Skies]",
+          "umaId": "mejiro-mcqueen-end-of-the-skies",
+          "player": "Nadav",
+          "number": 12,
+          "rank": "C+",
+          "title": "Tenno Sweep",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 18
         },
         {
-            "id": 18,
-            "cupNumber": "SUS CUP 18",
-            "cupName": "Sus Cup 18 - SSR Race",
-            "name": "Kikuka Sho",
-            "date": "20 December 2025, 19:03",
-            "roomId": "9022 4218",
-            "race": "Kikuka Sho",
-            "course": "Kyoto Turf",
-            "surface": "Turf",
-            "distance": "3000m",
-            "distanceType": "Long",
-            "direction": "Right / Outer",
-            "weather": "Cloudy",
-            "ground": "Good",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "1 Single SSR, 1 Double SSR, 1 Triple SSR",
-            "images": [
-                "suscupimages11-20/18.1.png",
-                "suscupimages11-20/18.2.png",
-                "suscupimages11-20/18.3.png",
-                "suscupimages11-20/18.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "GohanXGAMER",
-                    "number": 7,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "time": "3:02.2",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/nice-nature"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "Ananth",
-                    "number": 13,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "strategy": "Pace",
-                    "gap": "1 L",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/nice-nature"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "Agnes",
-                    "number": 16,
-                    "rank": "A",
-                    "title": "Undefeated",
-                    "strategy": "Late",
-                    "gap": "2 L",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/nice-nature"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Cruzi",
-                    "number": 12,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "End",
-                    "gap": "Nose",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Winning Ticket",
-                    "umaId": "winning-ticket",
-                    "player": "Agnes",
-                    "number": 8,
-                    "rank": "A",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Late",
-                    "gap": "1 1/2 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/winning-ticket"
-                },
-                {
-                    "pos": 6,
-                    "uma": "T.M. Opera O",
-                    "umaId": "t-m-opera-o",
-                    "player": "Yves",
-                    "number": 10,
-                    "rank": "A+",
-                    "title": "G1 Hunter",
-                    "strategy": "Pace",
-                    "gap": "1 1/4 L",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/t-m-opera-o"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Matikanefukukitaru",
-                    "umaId": "matikanefukukitaru",
-                    "player": "GohanXGAMER",
-                    "number": 14,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "Nose",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/matikanefukukitaru"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Cruzi",
-                    "number": 6,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "3/4 L",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Yves",
-                    "number": 4,
-                    "rank": "A",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "4 L",
-                    "pop": 13,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Biwa Hayahide",
-                    "umaId": "biwa-hayahide",
-                    "player": "Agnes",
-                    "number": 1,
-                    "rank": "A",
-                    "title": "Team Player",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 11,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/biwa-hayahide"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Ananth",
-                    "number": 2,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "2 1/2 L",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "101702",
-                    "player": "Yves",
-                    "number": 3,
-                    "rank": "A",
-                    "title": "Legendary Diva",
-                    "strategy": "Pace",
-                    "gap": "3/4 L",
-                    "pop": 14,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101702-symboli-rudolf"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Torch and Book",
-                    "umaId": "torch-and-book",
-                    "player": "NPC",
-                    "number": 9,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "8 L",
-                    "pop": 16,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Set Your Record",
-                    "umaId": "set-your-record",
-                    "player": "NPC",
-                    "number": 18,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "5 L",
-                    "pop": 17,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Ananth",
-                    "number": 17,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "1 L",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Breeze Glider",
-                    "umaId": "breeze-glider",
-                    "player": "NPC",
-                    "number": 5,
-                    "rank": "B",
-                    "strategy": "Front",
-                    "gap": "Head",
-                    "pop": 18,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Cruzi",
-                    "number": 11,
-                    "rank": "A",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "Distance",
-                    "pop": 12,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101702-symboli-rudolf"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Out of Black",
-                    "umaId": "out-of-black",
-                    "player": "NPC",
-                    "number": 15,
-                    "rank": "B",
-                    "strategy": "Front",
-                    "gap": "Head",
-                    "pop": 15,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                }
-            ]
-        },
-        {
-            "id": 19,
-            "cupNumber": "SUS CUP 19",
-            "cupName": "Sus Cup 19 - Gold Skills",
-            "name": "Tenno Sho (Autumn)",
-            "date": "30 December 2025, 18:31",
-            "roomId": "6799 5179",
-            "race": "Tenno Sho (Autumn)",
-            "course": "Tokyo Turf",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Left",
-            "weather": "Rainy",
-            "ground": "Soft",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "0 Gold Skill, 1-2 Gold Skill, Gold Skill Only",
-            "images": [
-                "suscupimages11-20/19.1.png",
-                "suscupimages11-20/19.2.png",
-                "suscupimages11-20/19.3.png",
-                "suscupimages11-20/19.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Gold City",
-                    "umaId": "104002",
-                    "player": "Ananth",
-                    "number": 6,
-                    "rank": "A+",
-                    "title": "Dream Team",
-                    "strategy": "Pace",
-                    "time": "1:56.8",
-                    "pop": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/gold-city"
-                },
-                {
-                    "pos": 2,
-                    "uma": "T.M. Opera O",
-                    "umaId": "t-m-opera-o",
-                    "player": "Jiinxye",
-                    "number": 4,
-                    "rank": "A+",
-                    "title": "Team Player Star Slayer",
-                    "strategy": "Late",
-                    "gap": "3/4 L",
-                    "pop": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/t-m-opera-o"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Agnes",
-                    "number": 13,
-                    "rank": "A+",
-                    "title": "Faster than Light",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Cruzi",
-                    "number": 18,
-                    "rank": "A+",
-                    "title": "Dream Team",
-                    "strategy": "End",
-                    "gap": "Nose",
-                    "pop": 11,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Ananth",
-                    "number": 15,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "End",
-                    "gap": "Neck",
-                    "pop": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Jiinxye",
-                    "number": 12,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "End",
-                    "gap": "Head",
-                    "pop": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Cruzi",
-                    "number": 11,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "1 1/4 L",
-                    "pop": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Jiinxye",
-                    "number": 5,
-                    "rank": "A+",
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "gap": "Head",
-                    "pop": 12,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "Agnes",
-                    "number": 8,
-                    "rank": "A+",
-                    "title": "Miss Perfect",
-                    "strategy": "Front",
-                    "gap": "1 1/2 L",
-                    "pop": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "Cruzi",
-                    "number": 1,
-                    "rank": "A+",
-                    "title": "Dream Team",
-                    "strategy": "Front",
-                    "gap": "Neck",
-                    "pop": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Winning Ticket",
-                    "umaId": "winning-ticket",
-                    "player": "Agnes",
-                    "number": 14,
-                    "rank": "A+",
-                    "title": "Steamy Solidarity",
-                    "strategy": "Late",
-                    "gap": "2 1/2 L",
-                    "pop": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/winning-ticket"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "Ananth",
-                    "number": 7,
-                    "rank": "A+",
-                    "title": "Witness to Legend",
-                    "strategy": "Pace",
-                    "gap": "2 1/2 L",
-                    "pop": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Gray Chouchou",
-                    "umaId": "gray-chouchou",
-                    "player": "NPC",
-                    "number": 2,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "3 L",
-                    "pop": 15,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Jagdplatte",
-                    "umaId": "jagdplatte",
-                    "player": "NPC",
-                    "number": 9,
-                    "rank": "B",
-                    "strategy": "End",
-                    "gap": "1/2 L",
-                    "pop": 16,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Mini Narcissus",
-                    "umaId": "mini-narcissus",
-                    "player": "NPC",
-                    "number": 10,
-                    "rank": "B",
-                    "strategy": "Late",
-                    "gap": "3/4 L",
-                    "pop": 18,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Turcke",
-                    "umaId": "turcke",
-                    "player": "NPC",
-                    "number": 16,
-                    "rank": "B",
-                    "strategy": "Pace",
-                    "gap": "1 1/2 L",
-                    "pop": 14,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Gran Shamal",
-                    "umaId": "gran-shamal",
-                    "player": "NPC",
-                    "number": 17,
-                    "rank": "B",
-                    "strategy": "Late",
-                    "gap": "Nose",
-                    "pop": 13,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Circuit Breaker",
-                    "umaId": "circuit-breaker",
-                    "player": "NPC",
-                    "number": 3,
-                    "rank": "B",
-                    "strategy": "Front",
-                    "gap": "4 L",
-                    "pop": 17,
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                }
-            ]
-        },
-        {
-            "id": 20,
-            "cupNumber": "SUS CUP 20",
-            "cupName": "Sus Cup 20 - All Style",
-            "name": "Tenno Sho (Autumn)",
-            "date": "01 January 2026, 18:51",
-            "roomId": "2003 3988",
-            "race": "Tenno Sho (Autumn)",
-            "course": "Tokyo Turf",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Left",
-            "weather": "Rainy",
-            "ground": "Soft",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "1 runner for each style, Unique runners only, 3 entries per person",
-            "styleWinners": {
-                "Front": {
-                    "player": "Ananth",
-                    "uma": "Mihono Bourbon",
-                    "pos": 11
-                },
-                "Pace": {
-                    "player": "Cyciesta",
-                    "uma": "Mejiro McQueen",
-                    "pos": 1
-                },
-                "Late": {
-                    "player": "Yves",
-                    "uma": "Eishin Flash",
-                    "pos": 2
-                },
-                "End": {
-                    "player": "Yves",
-                    "uma": "Mayano Top Gun",
-                    "pos": 3
-                }
-            },
-            "images": [
-                "suscupimages11-20/20.1.png",
-                "suscupimages11-20/20.2.png",
-                "suscupimages11-20/20.3.png",
-                "suscupimages11-20/20.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "Cyciesta",
-                    "strategy": "Pace",
-                    "title": "Witness to Legend / Pace Style Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
-                    "rank": "A+",
-                    "number": 11,
-                    "time": "1:56.3",
-                    "pop": 6
-                },
-                {
-                    "pos": 2,
-                    "uma": "Eishin Flash",
-                    "umaId": "eishin-flash",
-                    "player": "Yves",
-                    "strategy": "Late",
-                    "title": "Blinding Flash / Late Style Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/eishin-flash",
-                    "rank": "A+",
-                    "number": 4,
-                    "gap": "1/2 L",
-                    "pop": 10
-                },
-                {
-                    "pos": 3,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "102402",
-                    "player": "Yves",
-                    "strategy": "End",
-                    "title": "Witness to Legend / End Style Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun",
-                    "rank": "A+",
-                    "number": 17,
-                    "gap": "1 L",
-                    "pop": 2
-                },
-                {
-                    "pos": 4,
-                    "uma": "Agnes Digital",
-                    "umaId": "101901",
-                    "player": "Cruzi",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101901-agnes-digital",
-                    "rank": "A+",
-                    "number": 3,
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "1 L",
-                    "pop": 5
-                },
-                {
-                    "pos": 5,
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin",
-                    "player": "Cyciesta",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin",
-                    "rank": "S",
-                    "number": 1,
-                    "title": "Witness to Legend",
-                    "strategy": "End",
-                    "gap": "Neck",
-                    "pop": 8
-                },
-                {
-                    "pos": 6,
-                    "uma": "Gold City",
-                    "umaId": "104002",
-                    "player": "Ananth",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/gold-city",
-                    "rank": "A+",
-                    "number": 16,
-                    "title": "Dream Team",
-                    "strategy": "Pace",
-                    "gap": "Head",
-                    "pop": 12
-                },
-                {
-                    "pos": 7,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Cyciesta",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf",
-                    "rank": "S",
-                    "number": 18,
-                    "title": "Witness to Legend",
-                    "strategy": "Late",
-                    "gap": "Head",
-                    "pop": 1
-                },
-                {
-                    "pos": 8,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Agnes",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-                    "rank": "A+",
-                    "number": 5,
-                    "title": "Witness to Legend",
-                    "strategy": "Pace",
-                    "gap": "Head",
-                    "pop": 3
-                },
-                {
-                    "pos": 9,
-                    "uma": "Mejiro Ryan",
-                    "umaId": "mejiro-ryan",
-                    "player": "Ananth",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/mejiro-ryan",
-                    "rank": "A+",
-                    "number": 15,
-                    "title": "Mesmerizing Muscle",
-                    "strategy": "Late",
-                    "gap": "1/2 L",
-                    "pop": 9
-                },
-                {
-                    "pos": 10,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Cruzi",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
-                    "rank": "A+",
-                    "number": 10,
-                    "title": "Witness to Legend",
-                    "strategy": "End",
-                    "gap": "1/2 L",
-                    "pop": 4
-                },
-                {
-                    "pos": 11,
-                    "uma": "Mihono Bourbon",
-                    "umaId": "mihono-bourbon",
-                    "player": "Ananth",
-                    "strategy": "Front",
-                    "title": "Spirit Burst / Front Style Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon",
-                    "rank": "A+",
-                    "number": 2,
-                    "gap": "Neck",
-                    "pop": 14
-                },
-                {
-                    "pos": 12,
-                    "uma": "Meisho Doto",
-                    "umaId": "meisho-doto",
-                    "player": "Yves",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/meisho-doto",
-                    "title": "Finals Champion",
-                    "strategy": "Pace",
-                    "gap": "Head",
-                    "pop": 13
-                },
-                {
-                    "pos": 13,
-                    "uma": "King Halo",
-                    "umaId": "king-halo",
-                    "player": "Agnes",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/king-halo",
-                    "rank": "A+",
-                    "number": 12,
-                    "title": "Spirit Burst",
-                    "strategy": "Late",
-                    "gap": "1 1/4 L",
-                    "pop": 11
-                },
-                {
-                    "pos": 14,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Agnes",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka",
-                    "rank": "A",
-                    "number": 6,
-                    "title": "Legendary Diva",
-                    "strategy": "Front",
-                    "gap": "3/4 L",
-                    "pop": 15
-                },
-                {
-                    "pos": 15,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "Cruzi",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky",
-                    "rank": "A+",
-                    "number": 9,
-                    "title": "Witness to Legend",
-                    "strategy": "Front",
-                    "gap": "1/2 L",
-                    "pop": 7
-                },
-                {
-                    "pos": 16,
-                    "uma": "Neptunus",
-                    "umaId": "neptunus",
-                    "player": "NPC",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "rank": "B",
-                    "number": 14,
-                    "strategy": "End",
-                    "gap": "4 L",
-                    "pop": 18
-                },
-                {
-                    "pos": 17,
-                    "uma": "Maleficus",
-                    "umaId": "maleficus",
-                    "player": "NPC",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "rank": "B",
-                    "number": 8,
-                    "strategy": "Front",
-                    "gap": "4 L",
-                    "pop": 16
-                },
-                {
-                    "pos": 18,
-                    "uma": "Ribbon Virelai",
-                    "umaId": "ribbon-virelai",
-                    "player": "NPC",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "rank": "B",
-                    "number": 13,
-                    "strategy": "Front",
-                    "gap": "1 3/4 L",
-                    "pop": 17
-                }
-            ]
-        },
-        {
-            "id": 21,
-            "cupNumber": "SUS CUP 21",
-            "cupName": "Sus Cup 21 - Spark Race",
-            "name": "Takamatsunomiya Kinen",
-            "date": "Not provided",
-            "roomId": "2818 6716",
-            "race": "Takamatsunomiya Kinen",
-            "course": "Chukyo Turf",
-            "surface": "Turf",
-            "distance": "1200m",
-            "distanceType": "Sprint",
-            "direction": "Left",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "3 entries per participant. Blue Spark format (1x 3\u2605, 1x 2\u2605, 1x 1\u2605)",
-            "sparkWinners": {
-                "3\u2605 Blue Spark": {
-                    "player": "Cyciesta",
-                    "uma": "Curren Chan",
-                    "pos": 2
-                },
-                "2\u2605 Blue Spark": {
-                    "player": "Agnes",
-                    "uma": "Taiki Shuttle",
-                    "pos": 1
-                },
-                "1\u2605 Blue Spark": {
-                    "player": "Jiinxye",
-                    "uma": "Sakura Bakushin O",
-                    "pos": 4
-                }
-            },
-            "images": [
-                "suscupimages21-30/21.1.png",
-                "suscupimages21-30/21.2.png",
-                "suscupimages21-30/21.3.png",
-                "suscupimages21-30/21.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Taiki Shuttle",
-                    "umaId": "taiki-shuttle",
-                    "player": "Agnes",
-                    "strategy": "Pace",
-                    "number": 11,
-                    "title": "2\u2605 Blue Spark Champion",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101001-taiki-shuttle",
-                    "pop": 4
-                },
-                {
-                    "pos": 2,
-                    "uma": "Curren Chan",
-                    "umaId": "curren-chan",
-                    "player": "Cyciesta",
-                    "strategy": "Pace",
-                    "number": 9,
-                    "title": "3\u2605 Blue Spark Champion",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/curren-chan",
-                    "pop": 2
-                },
-                {
-                    "pos": 3,
-                    "uma": "Curren Chan",
-                    "umaId": "curren-chan",
-                    "player": "Jiinxye",
-                    "strategy": "Front",
-                    "number": 15,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/curren-chan",
-                    "pop": 12
-                },
-                {
-                    "pos": 4,
-                    "uma": "Sakura Bakushin O",
-                    "umaId": "sakura-bakushin-o",
-                    "player": "Jiinxye",
-                    "strategy": "Front",
-                    "number": 16,
-                    "title": "1\u2605 Blue Spark Champion",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105301-sakura-bakushin-o",
-                    "pop": 14
-                },
-                {
-                    "pos": 5,
-                    "uma": "Haru Urara",
-                    "umaId": "haru-urara",
-                    "player": "Cyciesta",
-                    "strategy": "Late",
-                    "number": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105201-haru-urara",
-                    "pop": 13
-                },
-                {
-                    "pos": 6,
-                    "uma": "Taiki Shuttle",
-                    "umaId": "taiki-shuttle",
-                    "player": "Cyciesta",
-                    "strategy": "Pace",
-                    "number": 12,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101001-taiki-shuttle",
-                    "pop": 1
-                },
-                {
-                    "pos": 7,
-                    "uma": "Sakura Bakushin O",
-                    "umaId": "sakura-bakushin-o",
-                    "player": "Yves",
-                    "strategy": "Front",
-                    "number": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105301-sakura-bakushin-o",
-                    "pop": 5
-                },
-                {
-                    "pos": 8,
-                    "uma": "Maruzensky",
-                    "umaId": "maruzensky",
-                    "player": "Jiinxye",
-                    "strategy": "Front",
-                    "number": 17,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100401-maruzensky",
-                    "pop": 10
-                },
-                {
-                    "pos": 9,
-                    "uma": "Maruzensky",
-                    "umaId": "maruzensky",
-                    "player": "Cruzi",
-                    "strategy": "Front",
-                    "number": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100401-maruzensky",
-                    "pop": 6
-                },
-                {
-                    "pos": 10,
-                    "uma": "Sakura Bakushin O",
-                    "umaId": "sakura-bakushin-o",
-                    "player": "Agnes",
-                    "strategy": "Front",
-                    "number": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/105301-sakura-bakushin-o",
-                    "pop": 11
-                },
-                {
-                    "pos": 11,
-                    "uma": "Air Groove",
-                    "umaId": "101801",
-                    "player": "Agnes",
-                    "strategy": "Pace",
-                    "number": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101801-air-groove",
-                    "pop": 9
-                },
-                {
-                    "pos": 12,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Cruzi",
-                    "strategy": "Front",
-                    "number": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka",
-                    "pop": 8
-                },
-                {
-                    "pos": 13,
-                    "uma": "Pastime Joy",
-                    "umaId": "pastime-joy",
-                    "player": "NPC",
-                    "strategy": "Pace",
-                    "number": 3,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "pop": 17
-                },
-                {
-                    "pos": 14,
-                    "uma": "Ribbon Virelai",
-                    "umaId": "ribbon-virelai",
-                    "player": "NPC",
-                    "strategy": "Front",
-                    "number": 2,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "pop": 15
-                },
-                {
-                    "pos": 15,
-                    "uma": "Battle of Elah",
-                    "umaId": "battle-of-elah",
-                    "player": "NPC",
-                    "strategy": "End",
-                    "number": 14,
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "pop": 16
-                },
-                {
-                    "pos": 16,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Yves",
-                    "strategy": "Pace",
-                    "number": 13,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "pop": 7
-                },
-                {
-                    "pos": 17,
-                    "uma": "Smart Falcon",
-                    "umaId": "smart-falcon",
-                    "player": "Yves",
-                    "strategy": "Front",
-                    "number": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104601-smart-falcon",
-                    "pop": 18
-                },
-                {
-                    "pos": 18,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "Cruzi",
-                    "strategy": "Pace",
-                    "number": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet",
-                    "pop": 3
-                }
-            ]
-        },
-        {
-            "id": 22,
-            "cupNumber": "SUS CUP 22",
-            "cupName": "Sus Cup 22 - Cross Career Race",
-            "name": "Tenno Sho (Spring)",
-            "date": "15 March 2026, 18:30",
-            "roomId": "8386 3137",
-            "race": "Tenno Sho (Spring)",
-            "course": "Kyoto Turf",
-            "surface": "Turf",
-            "distance": "3200m",
-            "distanceType": "Long",
-            "direction": "Right",
-            "weather": "Rainy",
-            "ground": "Heavy",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "1 URA Finale, 1 Unity Cup, 1 Trackblazer runner. 3 entries per person.",
-            "scenarioWinners": {
-                "URA Finale": {
-                    "player": "ARN",
-                    "uma": "Gold Ship",
-                    "pos": 4
-                },
-                "Unity Cup": {
-                    "player": "Cyciesta",
-                    "uma": "Oguri Cap",
-                    "pos": 3
-                },
-                "Trackblazer": {
-                    "player": "Cyciesta",
-                    "uma": "Agnes Tachyon",
-                    "pos": 1
-                }
-            },
-            "images": [
-                "suscupimages21-30/22.1.png",
-                "suscupimages21-30/22.2.png",
-                "suscupimages21-30/22.3.png",
-                "suscupimages21-30/22.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cyciesta",
-                    "strategy": "Pace",
-                    "number": 18,
-                    "title": "Trackblazer Scenario Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-                    "pop": 8
-                },
-                {
-                    "pos": 2,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "GohanXGAMER",
-                    "strategy": "Pace",
-                    "number": 11,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "pop": 3
-                },
-                {
-                    "pos": 3,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Cyciesta",
-                    "strategy": "Pace",
-                    "number": 10,
-                    "title": "Unity Cup Scenario Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "pop": 6
-                },
-                {
-                    "pos": 4,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "ARN",
-                    "strategy": "End",
-                    "number": 14,
-                    "title": "URA Finale Scenario Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
-                    "pop": 17
-                },
-                {
-                    "pos": 5,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Agnes",
-                    "strategy": "End",
-                    "number": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
-                    "pop": 7
-                },
-                {
-                    "pos": 6,
-                    "uma": "Admire Vega",
-                    "umaId": "admire-vega",
-                    "player": "GohanXGAMER",
-                    "strategy": "End",
-                    "number": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/admire-vega",
-                    "pop": 2
-                },
-                {
-                    "pos": 7,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Yves",
-                    "strategy": "Pace",
-                    "number": 13,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "pop": 15
-                },
-                {
-                    "pos": 8,
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin",
-                    "player": "Yves",
-                    "strategy": "End",
-                    "number": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin",
-                    "pop": 8
-                },
-                {
-                    "pos": 9,
-                    "uma": "Tamamo Cross",
-                    "umaId": "tamamo-cross",
-                    "player": "GohanXGAMER",
-                    "strategy": "End",
-                    "number": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/tamamo-cross",
-                    "pop": 5
-                },
-                {
-                    "pos": 10,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Yves",
-                    "strategy": "Front",
-                    "number": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun",
-                    "pop": 16
-                },
-                {
-                    "pos": 11,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Jiinxye",
-                    "strategy": "Pace",
-                    "number": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100301-tokai-teio",
-                    "pop": 4
-                },
-                {
-                    "pos": 12,
-                    "uma": "T.M. Opera O",
-                    "umaId": "t-m-opera-o",
-                    "player": "Agnes",
-                    "strategy": "Pace",
-                    "number": 15,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/t-m-opera-o",
-                    "pop": 9
-                },
-                {
-                    "pos": 13,
-                    "uma": "Mejiro McQueen",
-                    "umaId": "mejiro-mcqueen",
-                    "player": "ARN",
-                    "strategy": "Pace",
-                    "number": 16,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
-                    "pop": 11
-                },
-                {
-                    "pos": 14,
-                    "uma": "Matikanefukukitaru",
-                    "umaId": "matikanefukukitaru",
-                    "player": "Jiinxye",
-                    "strategy": "Late",
-                    "number": 18,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/matikanefukukitaru",
-                    "pop": 10
-                },
-                {
-                    "pos": 15,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Agnes",
-                    "strategy": "Late",
-                    "number": 12,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder",
-                    "pop": 14
-                },
-                {
-                    "pos": 16,
-                    "uma": "Meisho Doto",
-                    "umaId": "meisho-doto",
-                    "player": "Cyciesta",
-                    "strategy": "Pace",
-                    "number": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/meisho-doto",
-                    "pop": 12
-                },
-                {
-                    "pos": 17,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "ARN",
-                    "strategy": "Front",
-                    "number": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky",
-                    "pop": 13
-                },
-                {
-                    "pos": 18,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "Jiinxye",
-                    "strategy": "Late",
-                    "number": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/nice-nature",
-                    "pop": 18
-                }
-            ]
-        },
-        {
-            "id": 23,
-            "cupNumber": "SUS CUP 23",
-            "cupName": "Sus Cup 23 - Mixed Rarity Race",
-            "name": "Satsuki Sho",
-            "date": "03 April 2026, 18:32",
-            "roomId": "7419 1111",
-            "race": "Satsuki Sho",
-            "course": "Nakayama Turf",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Right",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "1x 1\u2605, 1x 2\u2605, 1x 3\u2605 initial rarity runners. Unique runners only.",
-            "rarityWinners": {
-                "3-Star": {
-                    "player": "Jiinxye",
-                    "uma": "Narita Taishin",
-                    "pos": 1
-                },
-                "2-Star": {
-                    "player": "Agnes",
-                    "uma": "Air Groove",
-                    "pos": 9
-                },
-                "1-Star": {
-                    "player": "Shadow Amber",
-                    "uma": "Agnes Tachyon",
-                    "pos": 2
-                }
-            },
-            "images": [
-                "suscupimages21-30/23.1.png",
-                "suscupimages21-30/23.2.png",
-                "suscupimages21-30/23.3.png",
-                "suscupimages21-30/23.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin",
-                    "player": "Jiinxye",
-                    "strategy": "End",
-                    "number": 16,
-                    "title": "3-Star Initial Rarity Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin",
-                    "pop": 17
-                },
-                {
-                    "pos": 2,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Shadow Amber",
-                    "strategy": "Pace",
-                    "number": 18,
-                    "title": "1-Star Initial Rarity Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-                    "pop": 8
-                },
-                {
-                    "pos": 3,
-                    "uma": "Mihono Bourbon",
-                    "umaId": "mihono-bourbon",
-                    "player": "Cruzi",
-                    "strategy": "Front",
-                    "number": 5,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon",
-                    "pop": 11
-                },
-                {
-                    "pos": 4,
-                    "uma": "King Halo",
-                    "umaId": "king-halo",
-                    "player": "Agnes",
-                    "strategy": "Late",
-                    "number": 1,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/king-halo",
-                    "pop": 7
-                },
-                {
-                    "pos": 5,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "Cyciesta",
-                    "strategy": "Late",
-                    "number": 9,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/nice-nature",
-                    "pop": 3
-                },
-                {
-                    "pos": 6,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cruzi",
-                    "strategy": "Pace",
-                    "number": 6,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-                    "pop": 5
-                },
-                {
-                    "pos": 7,
-                    "uma": "T.M. Opera O",
-                    "umaId": "t-m-opera-o",
-                    "player": "Agnes",
-                    "strategy": "Pace",
-                    "number": 10,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/t-m-opera-o",
-                    "pop": 1
-                },
-                {
-                    "pos": 8,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Shadow Amber",
-                    "strategy": "Pace",
-                    "number": 13,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "pop": 6
-                },
-                {
-                    "pos": 9,
-                    "uma": "Air Groove",
-                    "umaId": "101801",
-                    "player": "Agnes",
-                    "strategy": "Late",
-                    "number": 12,
-                    "title": "2-Star Initial Rarity Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101801-air-groove",
-                    "pop": 16
-                },
-                {
-                    "pos": 10,
-                    "uma": "Eishin Flash",
-                    "umaId": "eishin-flash",
-                    "player": "Ananth",
-                    "strategy": "Pace",
-                    "number": 4,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/eishin-flash",
-                    "pop": 13
-                },
-                {
-                    "pos": 11,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Cruzi",
-                    "strategy": "End",
-                    "number": 11,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
-                    "pop": 9
-                },
-                {
-                    "pos": 12,
-                    "uma": "Vodka",
-                    "umaId": "vodka",
-                    "player": "Jiinxye",
-                    "strategy": "Late",
-                    "number": 14,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/vodka",
-                    "pop": 10
-                },
-                {
-                    "pos": 13,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Cyciesta",
-                    "strategy": "Pace",
-                    "number": 7,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "pop": 4
-                },
-                {
-                    "pos": 14,
-                    "uma": "Grass Wonder",
-                    "umaId": "grass-wonder",
-                    "player": "Cyciesta",
-                    "strategy": "Late",
-                    "number": 15,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder",
-                    "pop": 2
-                },
-                {
-                    "pos": 15,
-                    "uma": "Mejiro Ryan",
-                    "umaId": "mejiro-ryan",
-                    "player": "Haji",
-                    "strategy": "Late",
-                    "number": 8,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/mejiro-ryan",
-                    "pop": 12
-                },
-                {
-                    "pos": 16,
-                    "uma": "Winning Ticket",
-                    "umaId": "winning-ticket",
-                    "player": "Jiinxye",
-                    "strategy": "Late",
-                    "number": 17,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/winning-ticket",
-                    "pop": 14
-                },
-                {
-                    "pos": 17,
-                    "uma": "Special Week",
-                    "umaId": "special-week",
-                    "player": "Haji",
-                    "strategy": "Pace",
-                    "number": 3,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/special-week",
-                    "pop": 15
-                },
-                {
-                    "pos": 18,
-                    "uma": "Super Creek",
-                    "umaId": "super-creek",
-                    "player": "Haji",
-                    "strategy": "Pace",
-                    "number": 2,
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/104501-super-creek",
-                    "pop": 18
-                }
-            ]
-        },
-        {
-            "id": 24,
-            "cupNumber": "SUS CUP 24",
-            "cupName": "Sus Cup 24 - Solo Queue Race",
-            "name": "Satsuki Sho",
-            "date": "05 April 2026, 11:43",
-            "roomId": "8244 6062",
-            "race": "Satsuki Sho",
-            "course": "Nakayama Turf",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Right",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "mood": "Great",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "Solo Queue Race. 1 runner per person. Unique runner only. Taking reservations.",
-            "images": [
-                "suscupimages21-30/24.1.png",
-                "suscupimages21-30/24.2.png",
-                "suscupimages21-30/24.3.png",
-                "suscupimages21-30/24.4.png"
-            ],
-            "registeredRunners": [
-                {
-                    "player": "Agnes",
-                    "uma": "Symboli Rudolf"
-                },
-                {
-                    "player": "Jiinxye",
-                    "uma": "Narita Taishin"
-                },
-                {
-                    "player": "Cyciesta",
-                    "uma": "Oguri Cap"
-                },
-                {
-                    "player": "Ananth",
-                    "uma": "Fuji Kiseki"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Agnes Tachyon"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Admire Vega"
-                }
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Mejiro Dober",
-                    "umaId": "mejiro-dober",
-                    "player": "club member",
-                    "rank": "S",
-                    "number": 9,
-                    "title": "Coolheaded Beauty",
-                    "strategy": "Late",
-                    "time": "1:56.6",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/mejiro-dober",
-                    "pop": 8
-                },
-                {
-                    "pos": 2,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Cyciesta",
-                    "rank": "SS",
-                    "number": 7,
-                    "title": "Leading the Charge",
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "gap": "1 3/4 L",
-                    "pop": 1
-                },
-                {
-                    "pos": 3,
-                    "uma": "Maruzensky",
-                    "umaId": "maruzensky",
-                    "player": "Vilthaar",
-                    "rank": "SS",
-                    "number": 18,
-                    "title": "Leading the Charge",
-                    "strategy": "Front",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100401-maruzensky",
-                    "gap": "1 1/4 L",
-                    "pop": 3
-                },
-                {
-                    "pos": 4,
-                    "uma": "Admire Vega",
-                    "umaId": "admire-vega",
-                    "player": "GohanXGAMER",
-                    "rank": "S+",
-                    "number": 6,
-                    "title": "Leading the Charge",
-                    "strategy": "End",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/admire-vega",
-                    "gap": "3/4 L",
-                    "pop": 4
-                },
-                {
-                    "pos": 5,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cruzi",
-                    "rank": "S+",
-                    "number": 16,
-                    "title": "Leading the Charge",
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
-                    "gap": "Neck",
-                    "pop": 5
-                },
-                {
-                    "pos": 6,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "eviskno",
-                    "rank": "S+",
-                    "number": 2,
-                    "title": "Ideal Idol",
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
-                    "gap": "1 1/4 L",
-                    "pop": 6
-                },
-                {
-                    "pos": 7,
-                    "uma": "Narita Taishin",
-                    "umaId": "narita-taishin",
-                    "player": "Jiinxye",
-                    "rank": "S",
-                    "number": 1,
-                    "title": "Phenomenal",
-                    "strategy": "End",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin",
-                    "gap": "1 L",
-                    "pop": 10
-                },
-                {
-                    "pos": 8,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Agnes",
-                    "rank": "S+",
-                    "number": 11,
-                    "title": "Emperor",
-                    "strategy": "Late",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf",
-                    "gap": "3/4 L",
-                    "pop": 2
-                },
-                {
-                    "pos": 9,
-                    "uma": "Fuji Kiseki",
-                    "umaId": "fuji-kiseki",
-                    "player": "Ananth",
-                    "rank": "S+",
-                    "number": 12,
-                    "title": "Leading the Charge",
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/fuji-kiseki",
-                    "gap": "1 1/2 L",
-                    "pop": 7
-                },
-                {
-                    "pos": 10,
-                    "uma": "Special Week",
-                    "umaId": "special-week",
-                    "player": "Haji",
-                    "rank": "S",
-                    "number": 10,
-                    "title": "Leading the Charge",
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "characterUrl": "https://gametora.com/umamusume/characters/special-week",
-                    "gap": "3/4 L",
-                    "pop": 9
-                },
-                {
-                    "pos": 11,
-                    "uma": "Mini Daisy",
-                    "umaId": "mini-daisy",
-                    "player": "NPC",
-                    "rank": "A",
-                    "number": 17,
-                    "strategy": "Pace",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "4 L",
-                    "pop": 11
-                },
-                {
-                    "pos": 12,
-                    "uma": "Reed Photobook",
-                    "umaId": "reed-photobook",
-                    "player": "NPC",
-                    "rank": "A",
-                    "number": 4,
-                    "strategy": "Pace",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "1/2 L",
-                    "pop": 13
-                },
-                {
-                    "pos": 13,
-                    "uma": "Chief Purser",
-                    "umaId": "chief-purser",
-                    "player": "NPC",
-                    "rank": "A",
-                    "number": 15,
-                    "strategy": "Late",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "Nose",
-                    "pop": 12
-                },
-                {
-                    "pos": 14,
-                    "uma": "Takeoff Plane",
-                    "umaId": "takeoff-plane",
-                    "player": "NPC",
-                    "rank": "A",
-                    "number": 5,
-                    "strategy": "End",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "1/2 L",
-                    "pop": 17
-                },
-                {
-                    "pos": 15,
-                    "uma": "Farm Volition",
-                    "umaId": "farm-volition",
-                    "player": "NPC",
-                    "rank": "A",
-                    "number": 14,
-                    "strategy": "Late",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "Nose",
-                    "pop": 16
-                },
-                {
-                    "pos": 16,
-                    "uma": "Coincidence",
-                    "umaId": "coincidence",
-                    "player": "NPC",
-                    "rank": "A",
-                    "number": 13,
-                    "strategy": "Front",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "Head",
-                    "pop": 15
-                },
-                {
-                    "pos": 17,
-                    "uma": "Waltz Step",
-                    "umaId": "waltz-step",
-                    "player": "NPC",
-                    "rank": "A",
-                    "number": 8,
-                    "strategy": "Pace",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "Neck",
-                    "pop": 14
-                },
-                {
-                    "pos": 18,
-                    "uma": "Missing Nights",
-                    "umaId": "missing-nights",
-                    "player": "NPC",
-                    "rank": "A",
-                    "number": 3,
-                    "strategy": "Front",
-                    "version": "NPC",
-                    "participantType": "NPC Uma",
-                    "gap": "1 1/4 L",
-                    "pop": 18
-                }
-            ]
-        },
-        {
-            "id": 25,
-            "cupNumber": "SUS CUP 25",
-            "cupName": "Sus Cup 25 - Fashion Statement Race",
-            "name": "Satsuki Sho",
-            "date": "12 April 2026, 21:35",
-            "roomId": "7366 5085",
-            "race": "Satsuki Sho",
-            "course": "Nakayama Turf",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Right",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "mood": "Normal",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "Alt Costume Only. 3 runners per person.",
-            "images": [
-                "suscupimages21-30/25.1.png",
-                "suscupimages21-30/25.2.png",
-                "suscupimages21-30/25.3.png",
-                "suscupimages21-30/25.4.png"
-            ],
-            "registeredRunners": [
-                {
-                    "player": "Agnes",
-                    "uma": "Gold City"
-                },
-                {
-                    "player": "Agnes",
-                    "uma": "Super Creek"
-                },
-                {
-                    "player": "Agnes",
-                    "uma": "Special Week"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Seiun Sky"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Special Week"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Biwa Hayahide"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Symboli Rudolf"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Mihono Bourbon"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Mayano Top Gun"
-                },
-                {
-                    "player": "Jiinxye",
-                    "uma": "Tokai Teio"
-                },
-                {
-                    "player": "Jiinxye",
-                    "uma": "El Condor Pasa"
-                },
-                {
-                    "player": "Jiinxye",
-                    "uma": "Gold City"
-                },
-                {
-                    "player": "Ananth",
-                    "uma": "Gold City"
-                },
-                {
-                    "player": "Ananth",
-                    "uma": "Grass Wonder"
-                },
-                {
-                    "player": "Ananth",
-                    "uma": "Air Groove"
-                },
-                {
-                    "player": "Cyciesta",
-                    "uma": "Seiun Sky"
-                },
-                {
-                    "player": "Cyciesta",
-                    "uma": "Rice Shower"
-                },
-                {
-                    "player": "Cyciesta",
-                    "uma": "Oguri Cap"
-                }
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Cyciesta",
-                    "strategy": "Pace",
-                    "time": "1:56.4",
-                    "number": 5,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "1 1/4 L"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "Cyciesta",
-                    "strategy": "Front",
-                    "number": 7,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "3/4 L"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Mihono Bourbon",
-                    "umaId": "mihono-bourbon",
-                    "player": "Cruzi",
-                    "strategy": "Front",
-                    "number": 4,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "1 L"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Symboli Rudolf",
-                    "umaId": "symboli-rudolf",
-                    "player": "Cruzi",
-                    "strategy": "Pace",
-                    "number": 2,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "1 1/2 L"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "GohanXGAMER",
-                    "strategy": "Front",
-                    "number": 1,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "Neck"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Rice Shower",
-                    "umaId": "rice-shower",
-                    "player": "Cyciesta",
-                    "strategy": "Front",
-                    "number": 3,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "1 3/4 L"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Special Week",
-                    "umaId": "special-week",
-                    "player": "Agnes",
-                    "strategy": "Late",
-                    "number": 9,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "3/4 L"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Gold City",
-                    "umaId": "gold-city",
-                    "player": "Jiinxye",
-                    "strategy": "Late",
-                    "number": 12,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "3/4 L"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Super Creek",
-                    "umaId": "super-creek",
-                    "player": "Agnes",
-                    "strategy": "Pace",
-                    "number": 10,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "Neck"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Jiinxye",
-                    "strategy": "Pace",
-                    "number": 15,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "Nose"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Gold City",
-                    "umaId": "gold-city",
-                    "player": "Agnes",
-                    "strategy": "Late",
-                    "number": 8,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "2 L"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Gold City",
-                    "umaId": "gold-city",
-                    "player": "Ananth",
-                    "strategy": "Pace",
-                    "number": 16,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "Nose"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Cruzi",
-                    "strategy": "Pace",
-                    "number": 6,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "Neck"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Air Groove",
-                    "umaId": "101801",
-                    "player": "Ananth",
-                    "strategy": "Pace",
-                    "number": 14,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "1/2 L"
-                },
-                {
-                    "pos": 15,
-                    "uma": "El Condor Pasa",
-                    "umaId": "el-condor-pasa",
-                    "player": "Jiinxye",
-                    "strategy": "Late",
-                    "number": 13,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "Nose"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Special Week",
-                    "umaId": "special-week",
-                    "player": "GohanXGAMER",
-                    "strategy": "Late",
-                    "number": 11,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "Nose"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Biwa Hayahide",
-                    "umaId": "biwa-hayahide",
-                    "player": "GohanXGAMER",
-                    "strategy": "Pace",
-                    "number": 17,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "Neck"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Tamaxchi",
-                    "umaId": "tamaxchi",
-                    "player": "Unknown",
-                    "strategy": "Pace",
-                    "number": 18,
-                    "version": "Alt Costume",
-                    "participantType": "Playable Uma",
-                    "gap": "6 L"
-                }
-            ]
-        },
-        {
-            "id": 26,
-            "cupNumber": "SUS CUP 26",
-            "cupName": "Sus Cup 26 - GRAND LIVE SUSSERY",
-            "name": "Satsuki Sho",
-            "date": "Not provided",
-            "roomId": "5887 5481",
-            "race": "Satsuki Sho",
-            "course": "Nakayama Turf",
-            "surface": "Turf",
-            "distance": "2000m",
-            "distanceType": "Medium",
-            "direction": "Right",
-            "weather": "Sunny",
-            "ground": "Firm",
-            "mood": "Normal",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "3 runners per participant. All trained in Grand Live scenario. Conditions: 1. Speed SSR Agnes Tachyon (No Light Hello) 2. Light Hello (No Speed SSR Agnes Tachyon) 3. Auto Train (No deck restrictions).",
-            "scenarioWinners": {
-                "Speed Tachyon Deck": {
-                    "player": "Agnes",
-                    "uma": "Special Week",
-                    "pos": 1
-                },
-                "Light Hello Deck": {
-                    "player": "Ananth",
-                    "uma": "Oguri Cap",
-                    "pos": 2
-                },
-                "Auto Train": {
-                    "player": "GohanXGAMER",
-                    "uma": "Mejiro Dober",
-                    "pos": 4
-                }
-            },
-            "images": [
-                "suscupimages21-30/26.1.png",
-                "suscupimages21-30/26.2.png",
-                "suscupimages21-30/26.3.png",
-                "suscupimages21-30/26.4.png"
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Special Week",
-                    "umaId": "special-week",
-                    "player": "Agnes",
-                    "title": "Speed Tachyon Deck Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Oguri Cap",
-                    "umaId": "oguri-cap",
-                    "player": "Ananth",
-                    "title": "Light Hello Deck Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Agnes Tachyon",
-                    "umaId": "agnes-tachyon",
-                    "player": "Cruzi",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Mejiro Dober",
-                    "umaId": "mejiro-dober",
-                    "player": "GohanXGAMER",
-                    "title": "Auto Train Winner",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Silence Suzuka",
-                    "umaId": "silence-suzuka",
-                    "player": "Agnes",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Agnes Digital",
-                    "umaId": "101901",
-                    "player": "Cruzi",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Maruzensky",
-                    "umaId": "maruzensky",
-                    "player": "Ananth",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Tokai Teio",
-                    "umaId": "tokai-teio-beyond",
-                    "player": "Jiinxye",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "GohanXGAMER",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Admire Vega",
-                    "umaId": "admire-vega",
-                    "player": "GohanXGAMER",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Mayano Top Gun",
-                    "umaId": "mayano-top-gun",
-                    "player": "Cruzi",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Jiinxye",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 13,
-                    "uma": "T.M. Opera O",
-                    "umaId": "t-m-opera-o",
-                    "player": "Jiinxye",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Air Shakur",
-                    "umaId": "air-shakur",
-                    "player": "Agnes",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Gold City",
-                    "umaId": "gold-city",
-                    "player": "Ananth",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Oishii Parfait",
-                    "umaId": "oishii-parfait",
-                    "player": "NPC",
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Coronet Rhythm",
-                    "umaId": "coronet-rhythm",
-                    "player": "NPC",
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Tropical Sky",
-                    "umaId": "tropical-sky",
-                    "player": "NPC",
-                    "version": "NPC",
-                    "participantType": "NPC Uma"
-                }
-            ]
-        },
-        {
-            "id": 27.1,
-            "cupNumber": "SUS CUP 27",
-            "cupName": "Sus Cup 27 - MULTI CM SUSSING (MILE)",
-            "name": "Asahi Hai Futurity Stakes",
-            "date": "22 August 2026, 12:19",
-            "roomId": "4967 8054",
-            "race": "Asahi Hai Futurity Stakes",
-            "course": "Hanshin Turf",
-            "surface": "Turf",
-            "distance": "1600m",
-            "distanceType": "Mile",
-            "direction": "Right-handed / Outer",
-            "weather": "Cloudy",
-            "ground": "Firm",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "Multi-CM format. 3 runners per person. This is the Mile round (2 Mile runners used per person).",
-            "images": [
-                "suscupimages21-30/mile27.1.png",
-                "suscupimages21-30/mile27.2.png",
-                "suscupimages21-30/mile27.3.png",
-                "suscupimages21-30/mile27.4.png"
-            ],
-            "registeredRunners": [
-                {
-                    "player": "agnes",
-                    "uma": "Fuji Kiseki"
-                },
-                {
-                    "player": "agnes",
-                    "uma": "Taiki Shuttle"
-                },
-                {
-                    "player": "agnes",
-                    "uma": "Eishin Flash"
-                },
-                {
-                    "player": "Jiinxye",
-                    "uma": "Nishino Flower"
-                },
-                {
-                    "player": "Jiinxye",
-                    "uma": "Seeking the Pearl"
-                },
-                {
-                    "player": "Jiinxye",
-                    "uma": "Gold Ship"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Daiwa Scarlet"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Nice Nature"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Seiun Sky"
-                },
-                {
-                    "player": "Vilthaar",
-                    "uma": "Nishino Flower"
-                },
-                {
-                    "player": "Vilthaar",
-                    "uma": "Taiki Shuttle"
-                },
-                {
-                    "player": "Vilthaar",
-                    "uma": "Meisho Doto"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Mihono Bourbon"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Air Groove"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Fine Motion"
-                },
-                {
-                    "player": "Ananth",
-                    "uma": "Kitasan Black"
-                },
-                {
-                    "player": "Ananth",
-                    "uma": "Agnes Digital"
-                },
-                {
-                    "player": "Ananth",
-                    "uma": "Taiki Shuttle"
-                }
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Nishino Flower",
-                    "umaId": "105101",
-                    "player": "Vilthaar",
-                    "title": "",
-                    "rank": "UG4",
-                    "number": 4,
-                    "strategy": "Pace",
-                    "pop": 6,
-                    "gap": "\u2014",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 2,
-                    "uma": "Mihono Bourbon",
-                    "umaId": "mihono-bourbon",
-                    "player": "Cruzi",
-                    "title": "",
-                    "rank": "UG7",
-                    "number": 5,
-                    "strategy": "Front",
-                    "pop": 4,
-                    "gap": "2 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 3,
-                    "uma": "Taiki Shuttle",
-                    "umaId": "taiki-shuttle",
-                    "player": "Agnes",
-                    "title": "",
-                    "rank": "UG5",
-                    "number": 10,
-                    "strategy": "Pace",
-                    "pop": 1,
-                    "gap": "1 1/2 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 4,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "GohanXGAMER",
-                    "title": "",
-                    "rank": "UG6",
-                    "number": 13,
-                    "strategy": "Front",
-                    "pop": 2,
-                    "gap": "Neck",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 5,
-                    "uma": "Taiki Shuttle",
-                    "umaId": "taiki-shuttle",
-                    "player": "Vilthaar",
-                    "title": "",
-                    "rank": "UG8",
-                    "number": 9,
-                    "strategy": "Pace",
-                    "pop": 7,
-                    "gap": "Neck",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 6,
-                    "uma": "Fine Motion",
-                    "umaId": "fine-motion",
-                    "player": "Cruzi",
-                    "title": "",
-                    "rank": "SS",
-                    "number": 14,
-                    "strategy": "Pace",
-                    "pop": 5,
-                    "gap": "1 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 7,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "GohanXGAMER",
-                    "title": "",
-                    "rank": "UG5",
-                    "number": 8,
-                    "strategy": "Late",
-                    "pop": 11,
-                    "gap": "Nose",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 8,
-                    "uma": "Taiki Shuttle",
-                    "umaId": "taiki-shuttle",
-                    "player": "Ananth",
-                    "title": "",
-                    "rank": "UG3",
-                    "number": 16,
-                    "strategy": "Pace",
-                    "pop": 13,
-                    "gap": "3 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 9,
-                    "uma": "Nishino Flower",
-                    "umaId": "105101",
-                    "player": "Jiinxye",
-                    "title": "",
-                    "rank": "UG",
-                    "number": 1,
-                    "strategy": "Pace",
-                    "pop": 15,
-                    "gap": "Neck",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 10,
-                    "uma": "Fuji Kiseki",
-                    "umaId": "fuji-kiseki",
-                    "player": "Agnes",
-                    "title": "",
-                    "rank": "UG7",
-                    "number": 6,
-                    "strategy": "Pace",
-                    "pop": 3,
-                    "gap": "1 1/2 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 11,
-                    "uma": "Agnes Digital",
-                    "umaId": "101901",
-                    "player": "Ananth",
-                    "title": "",
-                    "rank": "SS",
-                    "number": 7,
-                    "strategy": "Pace",
-                    "pop": 14,
-                    "gap": "3/4 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 12,
-                    "uma": "Seeking the Pearl",
-                    "umaId": "104201",
-                    "player": "Jiinxye",
-                    "title": "",
-                    "rank": "SS",
-                    "number": 3,
-                    "strategy": "Pace",
-                    "pop": 9,
-                    "gap": "Nose",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 13,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "GohanXGAMER",
-                    "title": "",
-                    "rank": "SS",
-                    "number": 12,
-                    "strategy": "Front",
-                    "pop": 17,
-                    "gap": "1 1/2 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 14,
-                    "uma": "Air Groove",
-                    "umaId": "101801",
-                    "player": "Cruzi",
-                    "title": "",
-                    "rank": "UG",
-                    "number": 15,
-                    "strategy": "Pace",
-                    "pop": 8,
-                    "gap": "Head",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 15,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Jiinxye",
-                    "title": "",
-                    "rank": "SS",
-                    "number": 2,
-                    "strategy": "End",
-                    "pop": 16,
-                    "gap": "1 1/4 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 16,
-                    "uma": "Kitasan Black",
-                    "umaId": "kitasan-black",
-                    "player": "Ananth",
-                    "title": "",
-                    "rank": "SS",
-                    "number": 18,
-                    "strategy": "Front",
-                    "pop": 12,
-                    "gap": "1 3/4 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 17,
-                    "uma": "Meisho Doto",
-                    "umaId": "meisho-doto",
-                    "player": "Vilthaar",
-                    "title": "",
-                    "rank": "UG4",
-                    "number": 17,
-                    "strategy": "Pace",
-                    "pop": 10,
-                    "gap": "5 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                },
-                {
-                    "pos": 18,
-                    "uma": "Eishin Flash",
-                    "umaId": "eishin-flash",
-                    "player": "Agnes",
-                    "title": "",
-                    "rank": "SS",
-                    "number": 11,
-                    "strategy": "Late",
-                    "pop": 18,
-                    "gap": "2 L",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma"
-                }
-            ]
-        },
-        {
-            "id": 27.2,
-            "cupNumber": "SUS CUP 27",
-            "cupName": "Sus Cup 27 - MULTI CM SUSSING (MEDIUM)",
-            "name": "Queen Elizabeth II Cup",
-            "date": "22 August 2026, 12:19",
-            "roomId": "3009 9804",
-            "race": "Queen Elizabeth II Cup",
-            "course": "Kyoto Turf",
-            "surface": "Turf",
-            "distance": "2200m",
-            "distanceType": "Medium",
-            "direction": "Right-handed / Outer",
-            "weather": "Cloudy",
-            "ground": "Firm",
-            "mood": "Good",
-            "rankLimit": "No Rank Limit",
-            "specialRule": "Multi-CM format. 3 runners per person. This is the Medium round (1 Medium runner used per person).",
-            "images": [
-                "suscupimages21-30/medium27.1.png",
-                "suscupimages21-30/medium27.2.png",
-                "suscupimages21-30/medium27.3.png",
-                "suscupimages21-30/medium27.4.png"
-            ],
-            "registeredRunners": [
-                {
-                    "player": "Agnes",
-                    "uma": "Eishin Flash"
-                },
-                {
-                    "player": "Jiinxye",
-                    "uma": "Nishino Flower"
-                },
-                {
-                    "player": "GohanXGAMER",
-                    "uma": "Seiun Sky"
-                },
-                {
-                    "player": "Vilthaar",
-                    "uma": "Meisho Doto"
-                },
-                {
-                    "player": "Cruzi",
-                    "uma": "Air Groove"
-                },
-                {
-                    "player": "Ananth",
-                    "uma": "Kitasan Black"
-                }
-            ],
-            "participants": [
-                {
-                    "pos": 1,
-                    "uma": "Air Groove",
-                    "umaId": "101801",
-                    "player": "Cruzi",
-                    "title": "The Key to Success",
-                    "rank": "UG",
-                    "number": 11,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 9
-                },
-                {
-                    "pos": 2,
-                    "uma": "Nice Nature",
-                    "umaId": "nice-nature",
-                    "player": "GohanXGAMER",
-                    "title": "Legendary Reprise",
-                    "rank": "UG",
-                    "number": 17,
-                    "strategy": "Late",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 10
-                },
-                {
-                    "pos": 3,
-                    "uma": "Kitasan Black",
-                    "umaId": "kitasan-black",
-                    "player": "Ananth",
-                    "title": "Legendary Reprise",
-                    "rank": "UG",
-                    "number": 5,
-                    "strategy": "Front",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 12
-                },
-                {
-                    "pos": 4,
-                    "uma": "Taiki Shuttle",
-                    "umaId": "taiki-shuttle",
-                    "player": "Ananth",
-                    "title": "Mightiest Miler",
-                    "rank": "UG",
-                    "number": 2,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 13
-                },
-                {
-                    "pos": 5,
-                    "uma": "Gold Ship",
-                    "umaId": "gold-ship",
-                    "player": "Jiinxye",
-                    "title": "Independent Learner",
-                    "rank": "SS",
-                    "number": 1,
-                    "strategy": "End",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 11
-                },
-                {
-                    "pos": 6,
-                    "uma": "Seiun Sky",
-                    "umaId": "seiun-sky",
-                    "player": "GohanXGAMER",
-                    "title": "Legendary Reprise",
-                    "rank": "SS",
-                    "number": 6,
-                    "strategy": "Front",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 14
-                },
-                {
-                    "pos": 7,
-                    "uma": "Agnes Digital",
-                    "umaId": "101901",
-                    "player": "Ananth",
-                    "title": "Independent Learner",
-                    "rank": "SS",
-                    "number": 10,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 8
-                },
-                {
-                    "pos": 8,
-                    "uma": "Eishin Flash",
-                    "umaId": "eishin-flash",
-                    "player": "Agnes",
-                    "title": "True Way of Kings",
-                    "rank": "SS",
-                    "number": 4,
-                    "strategy": "Late",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 4
-                },
-                {
-                    "pos": 9,
-                    "uma": "Fine Motion",
-                    "umaId": "fine-motion",
-                    "player": "Cruzi",
-                    "title": "Legendary Reprise",
-                    "rank": "SS",
-                    "number": 9,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 7
-                },
-                {
-                    "pos": 10,
-                    "uma": "Meisho Doto",
-                    "umaId": "meisho-doto",
-                    "player": "Vilthaar",
-                    "title": "Legendary Reprise",
-                    "rank": "UG",
-                    "number": 15,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 5
-                },
-                {
-                    "pos": 11,
-                    "uma": "Fuji Kiseki",
-                    "umaId": "fuji-kiseki",
-                    "player": "Agnes",
-                    "title": "Sprinter Stayer",
-                    "rank": "UG",
-                    "number": 18,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 3
-                },
-                {
-                    "pos": 12,
-                    "uma": "Mihono Bourbon",
-                    "umaId": "mihono-bourbon",
-                    "player": "Cruzi",
-                    "title": "Legendary Reprise",
-                    "rank": "UG",
-                    "number": 3,
-                    "strategy": "Front",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 2
-                },
-                {
-                    "pos": 13,
-                    "uma": "Daiwa Scarlet",
-                    "umaId": "daiwa-scarlet",
-                    "player": "GohanXGAMER",
-                    "title": "Legendary Reprise",
-                    "rank": "UG",
-                    "number": 14,
-                    "strategy": "Front",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 1
-                },
-                {
-                    "pos": 14,
-                    "uma": "Seeking the Pearl",
-                    "umaId": "104201",
-                    "player": "Jiinxye",
-                    "title": "Independent Learner",
-                    "rank": "SS",
-                    "number": 8,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 16
-                },
-                {
-                    "pos": 15,
-                    "uma": "Taiki Shuttle",
-                    "umaId": "taiki-shuttle",
-                    "player": "Vilthaar",
-                    "title": "Mightiest Miler",
-                    "rank": "UG",
-                    "number": 12,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 6
-                },
-                {
-                    "pos": 16,
-                    "uma": "Nishino Flower",
-                    "umaId": "105101",
-                    "player": "Jiinxye",
-                    "title": "Queen of Dance",
-                    "rank": "UG",
-                    "number": 7,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 17
-                },
-                {
-                    "pos": 17,
-                    "uma": "Taiki Shuttle",
-                    "umaId": "taiki-shuttle",
-                    "player": "Agnes",
-                    "title": "Mightiest Miler",
-                    "rank": "UG",
-                    "number": 16,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 18
-                },
-                {
-                    "pos": 18,
-                    "uma": "Nishino Flower",
-                    "umaId": "105101",
-                    "player": "Vilthaar",
-                    "title": "Legendary Reprise",
-                    "rank": "UG",
-                    "number": 13,
-                    "strategy": "Pace",
-                    "version": "Original / Default",
-                    "participantType": "Playable Uma",
-                    "pop": 15
-                }
-            ]
+          "pos": 18,
+          "uma": "Vodka",
+          "umaId": "vodka",
+          "player": "Nadav",
+          "number": 3,
+          "rank": "B",
+          "title": "Double Tiara",
+          "strategy": "Pace",
+          "gap": "8 L",
+          "time": "8 L",
+          "pop": 13
         }
-    ]
+      ],
+      "title": "G1 Tokyo Yushun (Japanese Derby)"
+    },
+    {
+      "id": 2,
+      "cupNumber": 2,
+      "cupName": "Sus Cup 2 — Mile Front Runners",
+      "subtitle": "Mile Front Runners",
+      "images": [
+        "suscupimages1-10/suscup2.1.png",
+        "suscupimages1-10/suscup2.2.png",
+        "suscupimages1-10/suscup2.3.png",
+        "suscupimages1-10/suscup2.4.png"
+      ],
+      "name": "Oka Sho",
+      "date": "2025-08-19",
+      "time": "19:19",
+      "roomId": "6695 4191",
+      "grade": "G1",
+      "course": "Hanshin",
+      "surface": "Turf",
+      "distance": 1600,
+      "distanceType": "Mile",
+      "direction": "Right",
+      "courseLayout": "Outer",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "condition": "Firm",
+      "mood": "Great",
+      "season": "Spring",
+      "restriction": "A Rank",
+      "entryRule": "Maximum 2 entries per person",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "GohanXGAMER",
+          "number": 1,
+          "rank": "B+",
+          "title": "The GOAT",
+          "strategy": "Front",
+          "time": "1:30.9",
+          "gap": "",
+          "pop": 4
+        },
+        {
+          "pos": 2,
+          "uma": "Sakura Bakushin O",
+          "umaId": "sakura-bakushin-o",
+          "player": "Agnes",
+          "number": 15,
+          "rank": "B+",
+          "title": "Steam Solidarity",
+          "strategy": "Front",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 7
+        },
+        {
+          "pos": 3,
+          "uma": "Mihono Bourbon",
+          "umaId": "mihono-bourbon",
+          "player": "Jiinxye",
+          "number": 16,
+          "rank": "B+",
+          "title": "Steam Solidarity",
+          "strategy": "Front",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 2
+        },
+        {
+          "pos": 4,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "GohanXGAMER",
+          "number": 12,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 6
+        },
+        {
+          "pos": 5,
+          "uma": "Venabulum",
+          "umaId": "venabulum",
+          "player": "NPC",
+          "number": 9,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 9
+        },
+        {
+          "pos": 6,
+          "uma": "Jewel Onyx",
+          "umaId": "jewel-onyx",
+          "player": "NPC",
+          "number": 5,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "End",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 13
+        },
+        {
+          "pos": 7,
+          "uma": "Maruzensky",
+          "umaId": "maruzensky",
+          "player": "Cruzi",
+          "number": 10,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 8
+        },
+        {
+          "pos": 8,
+          "uma": "Basal Shoot",
+          "umaId": "basal-shoot",
+          "player": "NPC",
+          "number": 3,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 15
+        },
+        {
+          "pos": 9,
+          "uma": "Keyboard Rhythm",
+          "umaId": "keyboard-rhythm",
+          "player": "NPC",
+          "number": 2,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 10
+        },
+        {
+          "pos": 10,
+          "uma": "Hearty Letter",
+          "umaId": "hearty-letter",
+          "player": "NPC",
+          "number": 4,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 11
+        },
+        {
+          "pos": 11,
+          "uma": "Mihono Bourbon",
+          "umaId": "mihono-bourbon",
+          "player": "Cruzi",
+          "number": 18,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 5
+        },
+        {
+          "pos": 12,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "Jiinxye",
+          "number": 8,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 14
+        },
+        {
+          "pos": 13,
+          "uma": "Krasnaya",
+          "umaId": "krasnaya",
+          "player": "NPC",
+          "number": 7,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 16
+        },
+        {
+          "pos": 14,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "Agnes",
+          "number": 6,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 3
+        },
+        {
+          "pos": 15,
+          "uma": "Maruzensky",
+          "umaId": "maruzensky",
+          "player": "Cyciesta",
+          "number": 17,
+          "rank": "A",
+          "title": "Legendary Diva",
+          "strategy": "Front",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 1
+        },
+        {
+          "pos": 16,
+          "uma": "Mihono Bourbon",
+          "umaId": "mihono-bourbon",
+          "player": "Nadav",
+          "number": 13,
+          "rank": "C+",
+          "title": "G1 Winner",
+          "strategy": "Front",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 18
+        },
+        {
+          "pos": 17,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Nadav",
+          "number": 11,
+          "rank": "C+",
+          "title": "G1 Winner",
+          "strategy": "Front",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 17
+        },
+        {
+          "pos": 18,
+          "uma": "Sakura Bakushin O",
+          "umaId": "sakura-bakushin-o",
+          "player": "Cyciesta",
+          "number": 14,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 12
+        }
+      ],
+      "title": "Oka Sho"
+    },
+    {
+      "id": 3,
+      "cupNumber": 3,
+      "cupName": "Sus Cup 3 — Mile Dirt",
+      "subtitle": "MILE DIRT",
+      "images": [
+        "suscupimages1-10/suscup3.1.png",
+        "suscupimages1-10/suscup3.2.png",
+        "suscupimages1-10/suscup3.3.png",
+        "suscupimages1-10/suscup3.4.png"
+      ],
+      "name": "Champions Cup",
+      "date": "2025-08-21",
+      "time": "18:37",
+      "roomId": "9612 9828",
+      "grade": "G1",
+      "course": "Chukyo",
+      "surface": "Dirt",
+      "distance": 1800,
+      "distanceType": "Mile",
+      "direction": "Left",
+      "weather": "Random",
+      "ground": "Random",
+      "condition": "Firm",
+      "mood": "Great",
+      "season": "Not specified",
+      "restriction": "A Rank Max",
+      "entryRule": "2 entries per player",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Yves",
+          "number": 15,
+          "rank": "A",
+          "title": "Ideal Idol",
+          "strategy": "Pace",
+          "time": "1:48.2",
+          "gap": "",
+          "pop": 3
+        },
+        {
+          "pos": 2,
+          "uma": "Smart Falcon",
+          "umaId": "smart-falcon",
+          "player": "Yves",
+          "number": 8,
+          "rank": "A",
+          "title": "Record Holder",
+          "strategy": "Front",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 2
+        },
+        {
+          "pos": 3,
+          "uma": "Taiki Shuttle",
+          "umaId": "taiki-shuttle",
+          "player": "Agnes",
+          "number": 11,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 5
+        },
+        {
+          "pos": 4,
+          "uma": "El Condor Pasa",
+          "umaId": "el-condor-pasa",
+          "player": "Cruzi",
+          "number": 12,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 7
+        },
+        {
+          "pos": 5,
+          "uma": "Haru Urara",
+          "umaId": "haru-urara",
+          "player": "Cyciesta",
+          "number": 9,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 1
+        },
+        {
+          "pos": 6,
+          "uma": "El Condor Pasa",
+          "umaId": "el-condor-pasa",
+          "player": "Agnes",
+          "number": 2,
+          "rank": "B+",
+          "title": "Steamy Solidarity",
+          "strategy": "Late",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 8
+        },
+        {
+          "pos": 7,
+          "uma": "Haru Urara",
+          "umaId": "haru-urara",
+          "player": "Cruzi",
+          "number": 5,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 6
+        },
+        {
+          "pos": 8,
+          "uma": "Dunna",
+          "umaId": "dunna",
+          "player": "NPC",
+          "number": 4,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 13
+        },
+        {
+          "pos": 9,
+          "uma": "Gold Chouchou",
+          "umaId": "gold-chouchou",
+          "player": "NPC",
+          "number": 1,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 11
+        },
+        {
+          "pos": 10,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Cyciesta",
+          "number": 7,
+          "rank": "A",
+          "title": "Steamy Solidarity",
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 4
+        },
+        {
+          "pos": 11,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "GohanXGAMER",
+          "number": 14,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 10
+        },
+        {
+          "pos": 12,
+          "uma": "Haru Urara",
+          "umaId": "haru-urara",
+          "player": "GohanXGAMER",
+          "number": 6,
+          "rank": "C+",
+          "title": "G1 Winner",
+          "strategy": "Late",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 9
+        },
+        {
+          "pos": 13,
+          "uma": "Chalemie Rhythm",
+          "umaId": "chalemie-rhythm",
+          "player": "NPC",
+          "number": 3,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 12
+        },
+        {
+          "pos": 14,
+          "uma": "Haru Urara",
+          "umaId": "haru-urara",
+          "player": "Nadav",
+          "number": 16,
+          "rank": "C+",
+          "title": "G1 Winner",
+          "strategy": "Late",
+          "gap": "5 L",
+          "time": "5 L",
+          "pop": 15
+        },
+        {
+          "pos": 15,
+          "uma": "Aqua Spring",
+          "umaId": "aqua-spring",
+          "player": "NPC",
+          "number": 10,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 14
+        },
+        {
+          "pos": 16,
+          "uma": "Vodka",
+          "umaId": "vodka",
+          "player": "Nadav",
+          "number": 13,
+          "rank": "B",
+          "title": "Double Tiara",
+          "strategy": "Pace",
+          "gap": "Distance",
+          "time": "Distance",
+          "pop": 16
+        }
+      ],
+      "title": "Champions Cup"
+    },
+    {
+      "id": 4,
+      "cupNumber": 4,
+      "cupName": "Sus Cup 4 — 1 Runner + 1 Debuffer",
+      "subtitle": "1 Runner + 1 Debuffer",
+      "images": [
+        "suscupimages1-10/suscup4.1.png",
+        "suscupimages1-10/suscup4.2.png",
+        "suscupimages1-10/suscup4.3.png",
+        "suscupimages1-10/suscup4.4.png"
+      ],
+      "name": "Hopeful Stakes",
+      "date": "2025-08-25",
+      "time": "18:38",
+      "roomId": "9651 9168",
+      "grade": "G1",
+      "course": "Nakayama",
+      "surface": "Turf",
+      "distance": 2000,
+      "distanceType": "Medium",
+      "direction": "Right-handed / Inner",
+      "weather": "Random",
+      "ground": "Random",
+      "condition": "Firm",
+      "mood": "Great",
+      "season": "Not specified",
+      "restriction": "A Rank Max",
+      "entryRule": "1 Runner + 1 Debuffer",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Nice Nature",
+          "umaId": "nice-nature",
+          "player": "Yves",
+          "number": 8,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "time": "1:56.6",
+          "gap": "",
+          "pop": 4
+        },
+        {
+          "pos": 2,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Cyciesta",
+          "number": 14,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "End",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 1
+        },
+        {
+          "pos": 3,
+          "uma": "El Condor Pasa",
+          "umaId": "el-condor-pasa",
+          "player": "Cruzi",
+          "number": 4,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "gap": "1 3/4 L",
+          "time": "1 3/4 L",
+          "pop": 7
+        },
+        {
+          "pos": 4,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "Agnes",
+          "number": 6,
+          "rank": "A",
+          "title": "Legendary Diva",
+          "strategy": "Front",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 5
+        },
+        {
+          "pos": 5,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Yves",
+          "number": 5,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Late",
+          "gap": "5 L",
+          "time": "5 L",
+          "pop": 6
+        },
+        {
+          "pos": 6,
+          "uma": "Nice Nature",
+          "umaId": "nice-nature",
+          "player": "Agnes",
+          "number": 9,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "2 L",
+          "time": "2 L",
+          "pop": 2
+        },
+        {
+          "pos": 7,
+          "uma": "Bridge Comp",
+          "umaId": "bridge-comp",
+          "player": "NPC",
+          "number": 7,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "End",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 15
+        },
+        {
+          "pos": 8,
+          "uma": "Muruga",
+          "umaId": "muruga",
+          "player": "NPC",
+          "number": 11,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 10
+        },
+        {
+          "pos": 9,
+          "uma": "Mechanical Vapor",
+          "umaId": "mechanical-vapor",
+          "player": "NPC",
+          "number": 10,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 13
+        },
+        {
+          "pos": 10,
+          "uma": "Insight Catch",
+          "umaId": "insight-catch",
+          "player": "NPC",
+          "number": 3,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 12
+        },
+        {
+          "pos": 11,
+          "uma": "Ribbon Carol",
+          "umaId": "ribbon-carol",
+          "player": "NPC",
+          "number": 1,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 11
+        },
+        {
+          "pos": 12,
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf",
+          "player": "Cyciesta",
+          "number": 12,
+          "rank": "A",
+          "title": "Way of Kings",
+          "strategy": "Late",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 3
+        },
+        {
+          "pos": 13,
+          "uma": "Super Creek",
+          "umaId": "super-creek",
+          "player": "GohanXGAMER",
+          "number": 2,
+          "rank": "B",
+          "title": "Speedy Stayer",
+          "strategy": "Pace",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 18
+        },
+        {
+          "pos": 14,
+          "uma": "Mayano Top Gun",
+          "umaId": "mayano-top-gun",
+          "player": "GohanXGAMER",
+          "number": 13,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 8
+        },
+        {
+          "pos": 15,
+          "uma": "King Halo",
+          "umaId": "king-halo",
+          "player": "Cruzi",
+          "number": 15,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 9
+        },
+        {
+          "pos": 16,
+          "uma": "Navigate Light",
+          "umaId": "navigate-light",
+          "player": "NPC",
+          "number": 17,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 17
+        },
+        {
+          "pos": 17,
+          "uma": "Mini Lotus",
+          "umaId": "mini-lotus",
+          "player": "NPC",
+          "number": 18,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "4 L",
+          "time": "4 L",
+          "pop": 16
+        },
+        {
+          "pos": 18,
+          "uma": "Summer Bonfire",
+          "umaId": "summer-bonfire",
+          "player": "NPC",
+          "number": 16,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 14
+        }
+      ],
+      "title": "Hopeful Stakes"
+    },
+    {
+      "id": 5,
+      "cupNumber": 5,
+      "cupName": "Sus Cup 5 — Gemini Cup Open League Training",
+      "subtitle": "Gemini Cup Open League Training",
+      "images": [
+        "suscupimages1-10/suscup5.1.png",
+        "suscupimages1-10/suscup5.2.png",
+        "suscupimages1-10/suscup5.3.png",
+        "suscupimages1-10/suscup5.4.png"
+      ],
+      "name": "Tenno Sho (Spring)",
+      "date": "2025-08-27",
+      "time": "18:44",
+      "roomId": "6084 0589",
+      "grade": "",
+      "course": "Kyoto",
+      "surface": "Turf",
+      "distance": 3200,
+      "distanceType": "Long",
+      "direction": "Right-handed / Outer",
+      "weather": "Random",
+      "ground": "Random",
+      "condition": "Random",
+      "mood": "Great",
+      "season": "Not specified",
+      "restriction": "B Rank Max",
+      "entryRule": "2 entries per person",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Super Creek",
+          "umaId": "super-creek",
+          "player": "Agnes",
+          "number": 5,
+          "rank": "B",
+          "title": "G1 Hunter",
+          "strategy": "Pace",
+          "time": "3:15.6",
+          "gap": "",
+          "pop": 4
+        },
+        {
+          "pos": 2,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Jiinxye",
+          "number": 1,
+          "rank": "B",
+          "title": "Double Crown",
+          "strategy": "Pace",
+          "gap": "Distance",
+          "time": "Distance",
+          "pop": 1
+        },
+        {
+          "pos": 3,
+          "uma": "Mejiro McQueen [End of the Skies]",
+          "umaId": "mejiro-mcqueen-end-of-the-skies",
+          "player": "Nadav",
+          "number": 18,
+          "rank": "C+",
+          "title": "Tenno Sweep",
+          "strategy": "Pace",
+          "gap": "7 L",
+          "time": "7 L",
+          "pop": 17
+        },
+        {
+          "pos": 4,
+          "uma": "Marsyas",
+          "umaId": "marsyas",
+          "player": "NPC",
+          "number": 13,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "5 L",
+          "time": "5 L",
+          "pop": 11
+        },
+        {
+          "pos": 5,
+          "uma": "Black Tipped",
+          "umaId": "black-tipped",
+          "player": "NPC",
+          "number": 10,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 8
+        },
+        {
+          "pos": 6,
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf",
+          "player": "Cyciesta",
+          "number": 11,
+          "rank": "B",
+          "title": "G1 Hunter",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 15
+        },
+        {
+          "pos": 7,
+          "uma": "Biwa Hayahide",
+          "umaId": "biwa-hayahide",
+          "player": "GohanXGAMER",
+          "number": 4,
+          "rank": "B",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 3
+        },
+        {
+          "pos": 8,
+          "uma": "Breeze Chopper",
+          "umaId": "breeze-chopper",
+          "player": "NPC",
+          "number": 3,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 12
+        },
+        {
+          "pos": 9,
+          "uma": "Speechless Hack",
+          "umaId": "speechless-hack",
+          "player": "NPC",
+          "number": 17,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 7
+        },
+        {
+          "pos": 10,
+          "uma": "T.M. Opera O",
+          "umaId": "tm-opera-o",
+          "player": "Jiinxye",
+          "number": 2,
+          "rank": "B",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 2
+        },
+        {
+          "pos": 11,
+          "uma": "Yggdra Valley",
+          "umaId": "yggdra-valley",
+          "player": "NPC",
+          "number": 12,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 10
+        },
+        {
+          "pos": 12,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cruzi",
+          "number": 8,
+          "rank": "B",
+          "title": "G1 Winner",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 13
+        },
+        {
+          "pos": 13,
+          "uma": "Flute Rhythm",
+          "umaId": "flute-rhythm",
+          "player": "NPC",
+          "number": 14,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 6
+        },
+        {
+          "pos": 14,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Cyciesta",
+          "number": 7,
+          "rank": "B",
+          "title": "Turf Terror",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 5
+        },
+        {
+          "pos": 15,
+          "uma": "Grass Wonder",
+          "umaId": "grass-wonder",
+          "player": "Agnes",
+          "number": 15,
+          "rank": "B",
+          "title": "G1 Winner",
+          "strategy": "Pace",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 14
+        },
+        {
+          "pos": 16,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Cruzi",
+          "number": 9,
+          "rank": "B",
+          "title": "December Domination",
+          "strategy": "End",
+          "gap": "8 L",
+          "time": "8 L",
+          "pop": 9
+        },
+        {
+          "pos": 17,
+          "uma": "Nice Nature",
+          "umaId": "nice-nature",
+          "player": "GohanXGAMER",
+          "number": 16,
+          "rank": "B",
+          "title": "Silver Collector",
+          "strategy": "Late",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 16
+        },
+        {
+          "pos": 18,
+          "uma": "Mihono Bourbon",
+          "umaId": "mihono-bourbon",
+          "player": "Nadav",
+          "number": 6,
+          "rank": "C+",
+          "title": "G1 Winner",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 18
+        }
+      ],
+      "title": "Tenno Sho (Spring)"
+    },
+    {
+      "id": 6,
+      "cupNumber": 6,
+      "cupName": "Sus Cup 6 — Unique Epithets / Steamy Solidarity",
+      "name": "UNIQUE EPITHETS / STEAMY SOLIDARITY",
+      "date": "2025-09-03",
+      "images": [
+        "suscupimages1-10/suscup6.1.png",
+        "suscupimages1-10/suscup6.2.png",
+        "suscupimages1-10/suscup6.3.png",
+        "suscupimages1-10/suscup6.4.png"
+      ],
+      "time": "18:18",
+      "roomId": "9075 4387",
+      "course": "Nakayama Turf Inner",
+      "surface": "Turf",
+      "distance": "2500m",
+      "distanceType": "Long",
+      "direction": "Right-handed / Inner",
+      "weather": "Random",
+      "ground": "Random",
+      "condition": "Great",
+      "mood": "Great",
+      "season": "Random",
+      "restriction": "No rank restriction specified",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Cyclobly",
+          "number": 14,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "End",
+          "time": "2:29.0",
+          "gap": "",
+          "pop": 5
+        },
+        {
+          "pos": 2,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "Jiinxye",
+          "number": 7,
+          "rank": "B+",
+          "title": "Steamy Solidarity",
+          "strategy": "Pace",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 2
+        },
+        {
+          "pos": 3,
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf",
+          "player": "Agnes",
+          "number": 12,
+          "rank": "A",
+          "title": "Emperor",
+          "strategy": "Pace",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 3
+        },
+        {
+          "pos": 4,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Yves",
+          "number": 10,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "End",
+          "gap": "2 L",
+          "time": "2 L",
+          "pop": 7
+        },
+        {
+          "pos": 5,
+          "uma": "Mayano Top Gun",
+          "umaId": "mayano-top-gun",
+          "player": "Agnes",
+          "number": 1,
+          "rank": "A",
+          "title": "Free Spirit",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 6
+        },
+        {
+          "pos": 6,
+          "uma": "Keyboard Rhythm",
+          "umaId": "keyboard-rhythm",
+          "player": "NPC",
+          "number": 8,
+          "rank": "B",
+          "title": "Keyboard Rhythm",
+          "strategy": "End",
+          "gap": "5 L",
+          "time": "5 L",
+          "pop": 11
+        },
+        {
+          "pos": 7,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Jiinxye",
+          "number": 5,
+          "rank": "A",
+          "title": "Steamy Solidarity",
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 4
+        },
+        {
+          "pos": 8,
+          "uma": "Ogress",
+          "umaId": "ogress",
+          "player": "NPC",
+          "number": 3,
+          "rank": "B",
+          "title": "Ogress",
+          "strategy": "End",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 9
+        },
+        {
+          "pos": 9,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Cyclobly",
+          "number": 13,
+          "rank": "A",
+          "title": "Legendary Diva",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 1
+        },
+        {
+          "pos": 10,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cruzi",
+          "number": 15,
+          "rank": "B+",
+          "title": "Steamy Solidarity",
+          "strategy": "Pace",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 13
+        },
+        {
+          "pos": 11,
+          "uma": "Ribbon Nocturne",
+          "umaId": "ribbon-nocturne",
+          "player": "NPC",
+          "number": 9,
+          "rank": "B",
+          "title": "Ribbon Nocturne",
+          "strategy": "Pace",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 12
+        },
+        {
+          "pos": 12,
+          "uma": "Maleficus",
+          "umaId": "maleficus",
+          "player": "NPC",
+          "number": 4,
+          "rank": "B",
+          "title": "Maleficus",
+          "strategy": "Late",
+          "gap": "1 3/4 L",
+          "time": "1 3/4 L",
+          "pop": 15
+        },
+        {
+          "pos": 13,
+          "uma": "Nice Nature",
+          "umaId": "nice-nature",
+          "player": "Yves",
+          "number": 16,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "5 L",
+          "time": "5 L",
+          "pop": 8
+        },
+        {
+          "pos": 14,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "GohanXGAMER",
+          "number": 6,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 10
+        },
+        {
+          "pos": 15,
+          "uma": "Super Creek",
+          "umaId": "super-creek",
+          "player": "GohanXGAMER",
+          "number": 2,
+          "rank": "B",
+          "title": "Speedy Stayer",
+          "strategy": "Pace",
+          "gap": "2 L",
+          "time": "2 L",
+          "pop": 16
+        },
+        {
+          "pos": 16,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Cruzi",
+          "number": 11,
+          "rank": "B+",
+          "title": "Monarch",
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 14
+        }
+      ],
+      "title": "UNIQUE EPITHETS / STEAMY SOLIDARITY"
+    },
+    {
+      "id": 7,
+      "cupNumber": 7,
+      "cupName": "Sus Cup 7 — Pace Chaser Medium",
+      "subtitle": "Pace Chaser Medium",
+      "images": [
+        "suscupimages1-10/suscup7.1.png",
+        "suscupimages1-10/suscup7.2.png",
+        "suscupimages1-10/suscup7.3.png",
+        "suscupimages1-10/suscup7.4.png"
+      ],
+      "name": "Takarazuka Kinen",
+      "date": "2025-09-06",
+      "time": "19:11",
+      "roomId": "2184 9318",
+      "course": "Hanshin",
+      "surface": "Turf",
+      "distance": 2200,
+      "distanceType": "Medium",
+      "direction": "Right",
+      "weather": "Random",
+      "ground": "Random",
+      "mood": "Great",
+      "rankLimit": "A Rank Max",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Agnes",
+          "number": 9,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "time": "2:09.2",
+          "gap": "",
+          "pop": 6
+        },
+        {
+          "pos": 2,
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf",
+          "player": "Cyciesta",
+          "number": 6,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 4
+        },
+        {
+          "pos": 3,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Agnes",
+          "number": 1,
+          "rank": "A",
+          "title": "True Way of Kings",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 5
+        },
+        {
+          "pos": 4,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Cyciesta",
+          "number": 11,
+          "rank": "A",
+          "title": "Legendary Diva",
+          "strategy": "Pace",
+          "gap": "3 1/2 L",
+          "time": "3 1/2 L",
+          "pop": 2
+        },
+        {
+          "pos": 5,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "Ananth",
+          "number": 7,
+          "rank": "B+",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 8
+        },
+        {
+          "pos": 6,
+          "uma": "TM Opera O",
+          "umaId": "tm-opera-o",
+          "player": "Jiinxye",
+          "number": 8,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 3
+        },
+        {
+          "pos": 7,
+          "uma": "Vihuela Rhythm",
+          "umaId": "vihuela-rhythm",
+          "player": "NPC",
+          "number": 13,
+          "rank": "B",
+          "title": "—",
+          "strategy": "End",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 15
+        },
+        {
+          "pos": 8,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Jiinxye",
+          "number": 10,
+          "rank": "A",
+          "title": "Monarch",
+          "strategy": "Pace",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 1
+        },
+        {
+          "pos": 9,
+          "uma": "Kumbhakarna",
+          "umaId": "kumbhakarna",
+          "player": "NPC",
+          "number": 16,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 12
+        },
+        {
+          "pos": 10,
+          "uma": "Insight Catch",
+          "umaId": "insight-catch",
+          "player": "NPC",
+          "number": 5,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 11
+        },
+        {
+          "pos": 11,
+          "uma": "Clarinet Rhythm",
+          "umaId": "clarinet-rhythm",
+          "player": "NPC",
+          "number": 2,
+          "rank": "B",
+          "title": "—",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 16
+        },
+        {
+          "pos": 12,
+          "uma": "Batabata",
+          "umaId": "batabata",
+          "player": "NPC",
+          "number": 12,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 9
+        },
+        {
+          "pos": 13,
+          "uma": "El Condor Pasa",
+          "umaId": "el-condor-pasa",
+          "player": "Agnes",
+          "number": 14,
+          "rank": "A",
+          "title": "Phantom Bird",
+          "strategy": "Pace",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 7
+        },
+        {
+          "pos": 14,
+          "uma": "Compromise",
+          "umaId": "compromise",
+          "player": "NPC",
+          "number": 4,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 14
+        },
+        {
+          "pos": 15,
+          "uma": "Tudor Garden",
+          "umaId": "tudor-garden",
+          "player": "NPC",
+          "number": 18,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 10
+        },
+        {
+          "pos": 16,
+          "uma": "Nice Nature",
+          "umaId": "nice-nature",
+          "player": "Cruzi",
+          "number": 3,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "2 L",
+          "time": "2 L",
+          "pop": 18
+        },
+        {
+          "pos": 17,
+          "uma": "Tropical Sky",
+          "umaId": "tropical-sky",
+          "player": "NPC",
+          "number": 17,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 13
+        },
+        {
+          "pos": 18,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Ananth",
+          "number": 15,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "Distance",
+          "time": "Distance",
+          "pop": 17
+        }
+      ],
+      "title": "Takarazuka Kinen"
+    },
+    {
+      "id": 8,
+      "cupNumber": 8,
+      "cupName": "Sus Cup 8 — Father-Daughter duo",
+      "name": "Father-Daughter Duo",
+      "date": "2025-09-14",
+      "time": "18:40",
+      "roomId": "5923 6031",
+      "race": "Osaka Hai",
+      "course": "Hanshin",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Right",
+      "weather": "Random",
+      "ground": "Random",
+      "mood": "Random",
+      "rankLimit": "Rank Max",
+      "specialRule": "Agnes Tachyon and Daiwa Scarlet Only",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Agnes",
+          "number": 16,
+          "rank": "A",
+          "title": "True Way of Kings",
+          "strategy": "Pace",
+          "time": "1:56.7",
+          "gap": "",
+          "pop": 1
+        },
+        {
+          "pos": 2,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Jiinxye",
+          "number": 9,
+          "rank": "A",
+          "title": "Way of Kings",
+          "strategy": "Pace",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 5
+        },
+        {
+          "pos": 3,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Cyciesta",
+          "number": 6,
+          "rank": "A",
+          "title": "Legendary Diva",
+          "strategy": "Pace",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 2
+        },
+        {
+          "pos": 4,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Agnes",
+          "number": 12,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Front",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 7
+        },
+        {
+          "pos": 5,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Cruzi",
+          "number": 8,
+          "rank": "B+",
+          "title": "Steamy Solidarity",
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 10
+        },
+        {
+          "pos": 6,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cruzi",
+          "number": 1,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 6
+        },
+        {
+          "pos": 7,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cyciesta",
+          "number": 4,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Late",
+          "gap": "1 3/4 L",
+          "time": "1 3/4 L",
+          "pop": 3
+        },
+        {
+          "pos": 8,
+          "uma": "Aquafall",
+          "umaId": "aquafall",
+          "player": "NPC",
+          "number": 5,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "1 3/4 L",
+          "time": "1 3/4 L",
+          "pop": 9
+        },
+        {
+          "pos": 9,
+          "uma": "Dropping Link",
+          "umaId": "dropping-link",
+          "player": "NPC",
+          "number": 11,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 11
+        },
+        {
+          "pos": 10,
+          "uma": "Silver Sazanka",
+          "umaId": "silver-sazanka",
+          "player": "NPC",
+          "number": 10,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 8
+        },
+        {
+          "pos": 11,
+          "uma": "Avec Dream",
+          "umaId": "avec-dream",
+          "player": "NPC",
+          "number": 7,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 15
+        },
+        {
+          "pos": 12,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Jiinxye",
+          "number": 15,
+          "rank": "A",
+          "title": "Miss Perfect",
+          "strategy": "Front",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 4
+        },
+        {
+          "pos": 13,
+          "uma": "Breeze Chopper",
+          "umaId": "breeze-chopper",
+          "player": "NPC",
+          "number": 14,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 13
+        },
+        {
+          "pos": 14,
+          "uma": "Lovely Patricia",
+          "umaId": "lovely-patricia",
+          "player": "NPC",
+          "number": 2,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 12
+        },
+        {
+          "pos": 15,
+          "uma": "Fairies Echo",
+          "umaId": "fairies-echo",
+          "player": "NPC",
+          "number": 13,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 14
+        },
+        {
+          "pos": 16,
+          "uma": "Stenz",
+          "umaId": "stenz",
+          "player": "NPC",
+          "number": 3,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 16
+        }
+      ],
+      "images": [
+        "suscupimages1-10/suscup8.1.png",
+        "suscupimages1-10/suscup8.2.png",
+        "suscupimages1-10/suscup8.3.png",
+        "suscupimages1-10/suscup8.4.png"
+      ],
+      "title": "Father-Daughter Duo"
+    },
+    {
+      "id": 9,
+      "cupNumber": 9,
+      "cupName": "Sus Cup 9 — GP Round 1/3",
+      "name": "Japanese Oaks",
+      "date": "2025-09-17",
+      "time": "19:00",
+      "roomId": "0000 0000",
+      "race": "Japanese Oaks",
+      "course": "Tokyo Turf",
+      "surface": "Turf",
+      "distance": "2400m",
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Random",
+      "ground": "Firm",
+      "mood": "Random",
+      "rankLimit": "Rank Max",
+      "specialRule": "None",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "Cruzi",
+          "number": 4,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "time": "2:21.4",
+          "gap": "",
+          "pop": 7
+        },
+        {
+          "pos": 2,
+          "uma": "Grass Wonder",
+          "umaId": "grass-wonder",
+          "player": "Agnes",
+          "number": 13,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Late",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 2
+        },
+        {
+          "pos": 3,
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf",
+          "player": "Cyciesta",
+          "number": 15,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 3
+        },
+        {
+          "pos": 4,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Jiinxye",
+          "number": 17,
+          "rank": "A",
+          "title": "Monarch",
+          "strategy": "Pace",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 1
+        },
+        {
+          "pos": 5,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cruzi",
+          "number": 7,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 5
+        },
+        {
+          "pos": 6,
+          "uma": "El Condor Pasa",
+          "umaId": "el-condor-pasa",
+          "player": "Agnes",
+          "number": 11,
+          "rank": "A",
+          "title": "Phantom Bird",
+          "strategy": "Late",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 8
+        },
+        {
+          "pos": 7,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cyciesta",
+          "number": 12,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Late",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 6
+        },
+        {
+          "pos": 8,
+          "uma": "Jewel Coral",
+          "umaId": "jewel-coral",
+          "player": "NPC",
+          "number": 10,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "6 L",
+          "time": "6 L",
+          "pop": 13
+        },
+        {
+          "pos": 9,
+          "uma": "T.M. Opera O",
+          "umaId": "tm-opera-o",
+          "player": "Jiinxye",
+          "number": 9,
+          "rank": "A",
+          "title": "Undefeated",
+          "strategy": "Pace",
+          "gap": "Head",
+          "time": "Head",
+          "pop": 4
+        },
+        {
+          "pos": 10,
+          "uma": "Duo Targe",
+          "umaId": "duo-targe",
+          "player": "NPC",
+          "number": 8,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 14
+        },
+        {
+          "pos": 11,
+          "uma": "Unknown NPC 1",
+          "umaId": "unknown-npc-1",
+          "player": "NPC",
+          "number": 2,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "—",
+          "time": "—",
+          "pop": "—"
+        },
+        {
+          "pos": 12,
+          "uma": "Unknown NPC 2",
+          "umaId": "unknown-npc-2",
+          "player": "NPC",
+          "number": "—",
+          "rank": "—",
+          "title": "—",
+          "strategy": "—",
+          "gap": "—",
+          "time": "—",
+          "pop": "—"
+        },
+        {
+          "pos": 13,
+          "uma": "Unknown NPC 3",
+          "umaId": "unknown-npc-3",
+          "player": "NPC",
+          "number": "—",
+          "rank": "—",
+          "title": "—",
+          "strategy": "—",
+          "gap": "—",
+          "time": "—",
+          "pop": "—"
+        },
+        {
+          "pos": 14,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "Ananth",
+          "number": 1,
+          "rank": "B+",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 9
+        },
+        {
+          "pos": 15,
+          "uma": "Mini Cactus",
+          "umaId": "mini-cactus",
+          "player": "NPC",
+          "number": 6,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 15
+        },
+        {
+          "pos": 16,
+          "uma": "Super Creek",
+          "umaId": "super-creek",
+          "player": "GohanXGAMER",
+          "number": 5,
+          "rank": "B",
+          "title": "G1 Winner",
+          "strategy": "Pace",
+          "gap": "4 L",
+          "time": "4 L",
+          "pop": 17
+        },
+        {
+          "pos": 17,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "GohanXGAMER",
+          "number": 14,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 10
+        },
+        {
+          "pos": 18,
+          "uma": "Curren Chan",
+          "umaId": "curren-chan",
+          "player": "Ananth",
+          "number": 16,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "Distance",
+          "time": "Distance",
+          "pop": 18
+        }
+      ],
+      "images": [
+        "suscupimages1-10/suscup9.1.png",
+        "suscupimages1-10/suscup9.2.png",
+        "suscupimages1-10/suscup9.3.png"
+      ],
+      "title": "Japanese Oaks"
+    },
+    {
+      "id": 10,
+      "cupNumber": 10,
+      "cupName": "Sus Cup 10 — GP Round 2/3",
+      "name": "Tokyo Yushun (Japanese Derby)",
+      "date": "2025-09-19",
+      "time": "19:01",
+      "roomId": "5332 5040",
+      "race": "Tokyo Yushun (Japanese Derby)",
+      "course": "Tokyo Turf",
+      "surface": "Turf",
+      "distance": "2400m",
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Random",
+      "ground": "Firm",
+      "mood": "Random",
+      "rankLimit": "Rank Max",
+      "specialRule": "None",
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Grass Wonder",
+          "umaId": "grass-wonder",
+          "player": "Agnes",
+          "number": 1,
+          "rank": "A",
+          "title": "Steamy Solidarity",
+          "strategy": "Late",
+          "time": "2:20.8",
+          "gap": "",
+          "pop": 4
+        },
+        {
+          "pos": 2,
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf",
+          "player": "Cyciesta",
+          "number": 6,
+          "rank": "A",
+          "title": "Emperor",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 9
+        },
+        {
+          "pos": 3,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "GohanXGAMER",
+          "number": 17,
+          "rank": "A",
+          "title": "Ideal Idol",
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 7
+        },
+        {
+          "pos": 4,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cruzi",
+          "number": 10,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 3
+        },
+        {
+          "pos": 5,
+          "uma": "Narita Taishin",
+          "umaId": "narita-taishin",
+          "player": "Cyciesta",
+          "number": 4,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "End",
+          "gap": "4 L",
+          "time": "4 L",
+          "pop": 1
+        },
+        {
+          "pos": 6,
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "Cruzi",
+          "number": 14,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 8
+        },
+        {
+          "pos": 7,
+          "uma": "El Condor Pasa",
+          "umaId": "el-condor-pasa",
+          "player": "Agnes",
+          "number": 9,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 2
+        },
+        {
+          "pos": 8,
+          "uma": "Zipangu Applause",
+          "umaId": "zipangu-applause",
+          "player": "NPC",
+          "number": 3,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Front",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 12
+        },
+        {
+          "pos": 9,
+          "uma": "T.M. Opera O",
+          "umaId": "tm-opera-o",
+          "player": "Jiinxye",
+          "number": 16,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 5
+        },
+        {
+          "pos": 10,
+          "uma": "Bridge Comp",
+          "umaId": "bridge-comp",
+          "player": "NPC",
+          "number": 5,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "1 1/4 L",
+          "time": "1 1/4 L",
+          "pop": 16
+        },
+        {
+          "pos": 11,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio",
+          "player": "Jiinxye",
+          "number": 11,
+          "rank": "A",
+          "title": "Monarch",
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 6
+        },
+        {
+          "pos": 12,
+          "uma": "Harp Rhythm",
+          "umaId": "harp-rhythm",
+          "player": "NPC",
+          "number": 13,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Late",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 11
+        },
+        {
+          "pos": 13,
+          "uma": "Super Creek",
+          "umaId": "super-creek",
+          "player": "GohanXGAMER",
+          "number": 2,
+          "rank": "B+",
+          "title": "Double Crown",
+          "strategy": "Pace",
+          "gap": "1 L",
+          "time": "1 L",
+          "pop": 15
+        },
+        {
+          "pos": 14,
+          "uma": "Lime Chouchou",
+          "umaId": "lime-chouchou",
+          "player": "NPC",
+          "number": 8,
+          "rank": "C+",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "3 1/2 L",
+          "time": "3 1/2 L",
+          "pop": 13
+        },
+        {
+          "pos": 15,
+          "uma": "Girly Smile",
+          "umaId": "girly-smile",
+          "player": "NPC",
+          "number": 15,
+          "rank": "B",
+          "title": "—",
+          "strategy": "End",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 14
+        },
+        {
+          "pos": 16,
+          "uma": "Tetrabiblos",
+          "umaId": "tetrabiblos",
+          "player": "NPC",
+          "number": 18,
+          "rank": "B",
+          "title": "—",
+          "strategy": "Pace",
+          "gap": "3 1/2 L",
+          "time": "3 1/2 L",
+          "pop": 17
+        },
+        {
+          "pos": 17,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "Ananth",
+          "number": 7,
+          "rank": "B+",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "time": "3 L",
+          "pop": 10
+        },
+        {
+          "pos": 18,
+          "uma": "Curren Chan",
+          "umaId": "curren-chan",
+          "player": "Ananth",
+          "number": 12,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "Distance",
+          "time": "Distance",
+          "pop": 18
+        }
+      ],
+      "images": [
+        "suscupimages1-10/suscup10.1.png",
+        "suscupimages1-10/suscup10.2.png",
+        "suscupimages1-10/suscup10.3.png",
+        "suscupimages1-10/suscup10.4.png"
+      ],
+      "title": "Tokyo Yushun (Japanese Derby)"
+    },
+    {
+      "id": 11,
+      "cupNumber": 11,
+      "cupName": "Sus Cup 11",
+      "name": "Japan Cup",
+      "date": "2025-09-21",
+      "time": "19:03",
+      "roomId": "3936 9926",
+      "race": "Japan Cup",
+      "course": "Tokyo Turf",
+      "surface": "Turf",
+      "distance": "2400m",
+      "distanceType": "Medium",
+      "direction": "Left-handed",
+      "weather": "Random",
+      "ground": "Random",
+      "mood": "Random",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "GP Round 3/3 (Same characters as GP R1 & R2)",
+      "images": [
+        "suscupimages11-20/11.1.png",
+        "suscupimages11-20/11.2.png",
+        "suscupimages11-20/11.3.png",
+        "suscupimages11-20/11.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Narita Taishin",
+          "umaId": "narita-taishin",
+          "player": "Cyciesta",
+          "number": 1,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "End",
+          "time": "2:21.4",
+          "pop": 2,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin",
+          "gap": "2:21.4"
+        },
+        {
+          "pos": 2,
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf",
+          "player": "Cyciesta",
+          "number": 11,
+          "rank": "A+",
+          "title": "Emperor",
+          "strategy": "Pace",
+          "pop": 1,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101701-symboli-rudolf",
+          "gap": "1 1/4 L"
+        },
+        {
+          "pos": 3,
+          "uma": "El Condor Pasa",
+          "umaId": "el-condor-pasa",
+          "player": "Agnes",
+          "number": 4,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "pop": 3,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101401-el-condor-pasa",
+          "gap": "2 L"
+        },
+        {
+          "pos": 4,
+          "uma": "Grass Wonder",
+          "umaId": "grass-wonder",
+          "player": "Agnes",
+          "number": 17,
+          "rank": "A",
+          "title": "Steamy Solidarity",
+          "strategy": "Late",
+          "pop": 4,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder",
+          "gap": "1 L"
+        },
+        {
+          "pos": 5,
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio-beyond",
+          "player": "Jiinxye",
+          "number": 8,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "pop": 9,
+          "version": "[Beyond the Horizon]",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100302-tokai-teio",
+          "gap": "1 1/4 L"
+        },
+        {
+          "pos": 6,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "GohanXGAMER",
+          "number": 13,
+          "rank": "A",
+          "title": "Ideal Idol",
+          "strategy": "Pace",
+          "pop": 5,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+          "gap": "1/2 L"
+        },
+        {
+          "pos": 7,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cruzi",
+          "number": 14,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "pop": 7,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon",
+          "gap": "4 L"
+        },
+        {
+          "pos": 8,
+          "uma": "Super Creek",
+          "umaId": "super-creek",
+          "player": "GohanXGAMER",
+          "number": 5,
+          "rank": "B+",
+          "title": "Way of Kings",
+          "strategy": "Pace",
+          "pop": 11,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/104501-super-creek",
+          "gap": "3 L"
+        },
+        {
+          "pos": 9,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "Ananth",
+          "number": 16,
+          "rank": "B+",
+          "title": "The GOAT",
+          "strategy": "Pace",
+          "pop": 10,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
+          "gap": "3/4 L"
+        },
+        {
+          "pos": 10,
+          "uma": "T.M. Opera O",
+          "umaId": "tm-opera-o",
+          "player": "Jiinxye",
+          "number": 12,
+          "rank": "A",
+          "title": "Undefeated",
+          "strategy": "Pace",
+          "pop": 6,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101501-tm-opera-o",
+          "gap": "1 1/4 L"
+        },
+        {
+          "pos": 11,
+          "uma": "Encore One More",
+          "player": "NPC",
+          "number": 9,
+          "rank": "C+",
+          "title": "Encore One More",
+          "strategy": "Pace",
+          "pop": 16,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "1 3/4 L",
+          "umaId": "encore-one-more"
+        },
+        {
+          "pos": 12,
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "Cruzi",
+          "number": 15,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Front",
+          "pop": 8,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky",
+          "gap": "1 L"
+        },
+        {
+          "pos": 13,
+          "uma": "Sidecar",
+          "player": "NPC",
+          "number": 10,
+          "rank": "B",
+          "title": "Sidecar",
+          "strategy": "Late",
+          "pop": 14,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "1/2 L",
+          "umaId": "sidecar"
+        },
+        {
+          "pos": 14,
+          "uma": "Chalemie Rhythm",
+          "player": "NPC",
+          "number": 6,
+          "rank": "C+",
+          "title": "Chalemie Rhythm",
+          "strategy": "End",
+          "pop": 13,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "Head",
+          "umaId": "chalemie-rhythm"
+        },
+        {
+          "pos": 15,
+          "uma": "Mechanical Vapor",
+          "player": "NPC",
+          "number": 18,
+          "rank": "B",
+          "title": "Mechanical Vapor",
+          "strategy": "Front",
+          "pop": 12,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "1 L",
+          "umaId": "mechanical-vapor"
+        },
+        {
+          "pos": 16,
+          "uma": "Aeneas",
+          "player": "NPC",
+          "number": 7,
+          "rank": "C+",
+          "title": "Aeneas",
+          "strategy": "Late",
+          "pop": 17,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "2 L",
+          "umaId": "aeneas"
+        },
+        {
+          "pos": 17,
+          "uma": "Leaf Leaf",
+          "player": "NPC",
+          "number": 3,
+          "rank": "C+",
+          "title": "Leaf Leaf",
+          "strategy": "Pace",
+          "pop": 15,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "1/2 L",
+          "umaId": "leaf-leaf"
+        },
+        {
+          "pos": 18,
+          "uma": "Curren Chan",
+          "umaId": "curren-chan",
+          "player": "Ananth",
+          "number": 2,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "pop": 18,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/curren-chan",
+          "gap": "Distance"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "cupNumber": 12,
+      "cupName": "Sus Cup 12 — Frontend Race",
+      "name": "Tenno Sho (Autumn)",
+      "date": "2025-09-24",
+      "time": "18:45",
+      "roomId": "7604 2408",
+      "race": "Tenno Sho (Autumn)",
+      "course": "Tokyo Turf",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Random",
+      "ground": "Random",
+      "mood": "Random",
+      "rankLimit": "As configured for this race",
+      "specialRule": "All players must use Front Runner and End Closer characters only.",
+      "images": [
+        "suscupimages11-20/12.1.png",
+        "suscupimages11-20/12.2.png",
+        "suscupimages11-20/12.3.png",
+        "suscupimages11-20/12.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Narita Taishin",
+          "umaId": "narita-taishin",
+          "player": "Cyciesta",
+          "number": 1,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "End",
+          "time": "1:56.1",
+          "pop": 1,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/103301-narita-taishin",
+          "gap": "1:56.1"
+        },
+        {
+          "pos": 2,
+          "uma": "Hishi Amazon",
+          "umaId": "hishi-amazon",
+          "player": "Jiinxye",
+          "number": 8,
+          "rank": "A",
+          "title": "Record Holder",
+          "strategy": "End",
+          "gap": "1 3/4 L",
+          "pop": 6,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/hishi-amazon"
+        },
+        {
+          "pos": 3,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Cruzi",
+          "number": 7,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "pop": 7,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
+        },
+        {
+          "pos": 4,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "Agnes",
+          "number": 2,
+          "rank": "A",
+          "title": "Legendary Diva",
+          "strategy": "Front",
+          "gap": "Nose",
+          "pop": 5,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
+        },
+        {
+          "pos": 5,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "GohanXGAMER",
+          "number": 11,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "End",
+          "gap": "2 L",
+          "pop": 10,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
+        },
+        {
+          "pos": 6,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "GohanXGAMER",
+          "number": 16,
+          "rank": "B+",
+          "title": "The GOAT",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "pop": 11,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
+        },
+        {
+          "pos": 7,
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "Cruzi",
+          "number": 5,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "pop": 4,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/102001-seiun-sky"
+        },
+        {
+          "pos": 8,
+          "uma": "Bella Prateria",
+          "player": "NPC",
+          "number": 6,
+          "rank": "B",
+          "strategy": "Pace",
+          "gap": "1 3/4 L",
+          "pop": 12,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "bella-prateria"
+        },
+        {
+          "pos": 9,
+          "uma": "Mayano Top Gun",
+          "umaId": "mayano-top-gun",
+          "player": "Ananth",
+          "number": 4,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "1 1/2 L",
+          "pop": 8,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
+        },
+        {
+          "pos": 10,
+          "uma": "Arcade Champ",
+          "player": "NPC",
+          "number": 12,
+          "rank": "C+",
+          "strategy": "End",
+          "gap": "1/2 L",
+          "pop": 15,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "arcade-champ"
+        },
+        {
+          "pos": 11,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Agnes",
+          "number": 17,
+          "rank": "A",
+          "title": "Unpredictable",
+          "strategy": "End",
+          "gap": "Nose",
+          "pop": 3,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship"
+        },
+        {
+          "pos": 12,
+          "uma": "Oishii Parfait",
+          "player": "NPC",
+          "number": 10,
+          "rank": "C+",
+          "strategy": "Front",
+          "gap": "Head",
+          "pop": 13,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "oishii-parfait"
+        },
+        {
+          "pos": 13,
+          "uma": "Ogress",
+          "player": "NPC",
+          "number": 9,
+          "rank": "C+",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "pop": 14,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "ogress"
+        },
+        {
+          "pos": 14,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "Jiinxye",
+          "number": 18,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "Nose",
+          "pop": 9,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka"
+        },
+        {
+          "pos": 15,
+          "uma": "Ribbon Etude",
+          "player": "NPC",
+          "number": 15,
+          "rank": "C+",
+          "strategy": "End",
+          "gap": "3/4 L",
+          "pop": 16,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "ribbon-etude"
+        },
+        {
+          "pos": 16,
+          "uma": "Mihono Bourbon",
+          "umaId": "mihono-bourbon",
+          "player": "Cyciesta",
+          "number": 14,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "1 3/4 L",
+          "pop": 2,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
+        },
+        {
+          "pos": 17,
+          "uma": "Gray Chouchou",
+          "player": "NPC",
+          "number": 13,
+          "rank": "C+",
+          "strategy": "Late",
+          "gap": "3/4 L",
+          "pop": 17,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "gray-chouchou"
+        },
+        {
+          "pos": 18,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Ananth",
+          "number": 3,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "Distance",
+          "pop": 18,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "cupNumber": 13,
+      "cupName": "Sus Cup 13 — Haru Leading",
+      "name": "Arima Kinen",
+      "date": "2025-10-14",
+      "time": "18:30",
+      "roomId": "7011 0288",
+      "race": "Arima Kinen",
+      "course": "Nakayama Turf Inner",
+      "surface": "Turf",
+      "distance": "2500m",
+      "distanceType": "Long",
+      "direction": "Right / Inner",
+      "weather": "Random",
+      "ground": "Random",
+      "mood": "Random",
+      "rankLimit": "No rank limit",
+      "specialRule": "No Front Runners allowed. Note: No rank limit was enabled accidentally.",
+      "images": [
+        "suscupimages11-20/13.1.png"
+      ],
+      "partialResults": true,
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Cruzi",
+          "number": 6,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "End",
+          "time": "2:28.9",
+          "pop": 6,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
+          "gap": "2:28.9"
+        },
+        {
+          "pos": 2,
+          "uma": "Grass Wonder",
+          "umaId": "grass-wonder",
+          "player": "Agnes",
+          "number": 9,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Late",
+          "gap": "1 1/2 L",
+          "pop": 2,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
+        },
+        {
+          "pos": 3,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cruzi",
+          "number": 15,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "1 1/4 L",
+          "pop": 4,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
+        },
+        {
+          "pos": 4,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "GohanXGAMER",
+          "number": 4,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "pop": 7,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen"
+        },
+        {
+          "pos": 5,
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Yves",
+          "number": 11,
+          "rank": "A",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "gap": "3/4 L",
+          "pop": 3,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
+        }
+      ],
+      "submittedEntries": [
+        {
+          "player": "Agnes",
+          "uma": "Grass Wonder",
+          "umaId": "grass-wonder"
+        },
+        {
+          "player": "Agnes",
+          "uma": "Super Creek",
+          "umaId": "super-creek"
+        },
+        {
+          "player": "Yves",
+          "uma": "Hishi Amazon",
+          "umaId": "hishi-amazon"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Special Week",
+          "umaId": "special-week"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Symboli Rudolf",
+          "umaId": "symboli-rudolf"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Gold Ship",
+          "umaId": "gold-ship"
+        },
+        {
+          "player": "Jiinshi",
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen"
+        },
+        {
+          "player": "Jiinshi",
+          "uma": "Narita Taishin",
+          "umaId": "narita-taishin"
+        },
+        {
+          "player": "Cyciesta",
+          "uma": "Narita Taishin",
+          "umaId": "narita-taishin"
+        },
+        {
+          "player": "Cyciesta",
+          "uma": "Gold Ship",
+          "umaId": "gold-ship"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "cupNumber": 14,
+      "cupName": "Sus Cup 14 — Graded Open Leo CM",
+      "name": "Takarazuka Kinen",
+      "date": "02 November 2025, 18:00",
+      "roomId": "45551616",
+      "race": "Takarazuka Kinen",
+      "course": "Hanshin Turf",
+      "surface": "Turf",
+      "distance": "2200m",
+      "distanceType": "Medium",
+      "direction": "Right-handed",
+      "weather": "Random",
+      "ground": "Random",
+      "mood": "Random",
+      "rankLimit": "Max Rank",
+      "specialRule": "3 entries per person maximum",
+      "images": [
+        "suscupimages11-20/14.1.png",
+        "suscupimages11-20/14.2.png",
+        "suscupimages11-20/14.3.png",
+        "suscupimages11-20/14.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Special Week",
+          "umaId": "special-week",
+          "player": "GohanXGAMER",
+          "number": 15,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "time": "2:09.4",
+          "pop": 11,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/special-week",
+          "gap": "2:09.4"
+        },
+        {
+          "pos": 2,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "GohanXGAMER",
+          "number": 11,
+          "rank": "B+",
+          "title": "Ideal Idol",
+          "strategy": "Pace",
+          "pop": 7,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+          "gap": "2 1/2 L"
+        },
+        {
+          "pos": 3,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Yves",
+          "number": 13,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Pace",
+          "pop": 8,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+          "gap": "1 L"
+        },
+        {
+          "pos": 4,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "Yves",
+          "number": 12,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "pop": 4,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
+          "gap": "1 L"
+        },
+        {
+          "pos": 5,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "GohanXGAMER",
+          "number": 6,
+          "rank": "B+",
+          "title": "Record Holder",
+          "strategy": "Pace",
+          "pop": 2,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen",
+          "gap": "4 L"
+        },
+        {
+          "pos": 6,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Ananth",
+          "number": 17,
+          "rank": "B+",
+          "title": "Ideal Idol",
+          "strategy": "Late",
+          "pop": 6,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100601-oguri-cap",
+          "gap": "1 1/4 L"
+        },
+        {
+          "pos": 7,
+          "uma": "T.M. Opera O",
+          "umaId": "tm-opera-o",
+          "player": "Agnes",
+          "number": 16,
+          "rank": "B+",
+          "title": "G1 Hunter",
+          "strategy": "Pace",
+          "pop": 5,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101501-tm-opera-o",
+          "gap": "1 1/2 L"
+        },
+        {
+          "pos": 8,
+          "uma": "Unknown NPC",
+          "player": "NPC",
+          "number": 4,
+          "rank": "B",
+          "strategy": "Pace",
+          "pop": 9,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "3/4 L",
+          "umaId": "unknown-npc"
+        },
+        {
+          "pos": 9,
+          "uma": "Unknown NPC",
+          "player": "NPC",
+          "number": 10,
+          "rank": "B",
+          "strategy": "Late",
+          "pop": 15,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "2 1/2 L",
+          "umaId": "unknown-npc"
+        },
+        {
+          "pos": 10,
+          "uma": "Unknown NPC",
+          "player": "NPC",
+          "number": 9,
+          "rank": "B",
+          "strategy": "End",
+          "pop": 13,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "Neck",
+          "umaId": "unknown-npc"
+        },
+        {
+          "pos": 11,
+          "uma": "King Halo",
+          "umaId": "king-halo",
+          "player": "Agnes",
+          "number": 1,
+          "rank": "B+",
+          "title": "Double Crown",
+          "strategy": "Late",
+          "pop": 3,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/king-halo",
+          "gap": "Head"
+        },
+        {
+          "pos": 12,
+          "uma": "Unknown NPC",
+          "player": "NPC",
+          "number": 3,
+          "rank": "B",
+          "strategy": "Late",
+          "pop": 10,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "Nose",
+          "umaId": "unknown-npc"
+        },
+        {
+          "pos": 13,
+          "uma": "Unknown NPC",
+          "player": "NPC",
+          "number": 7,
+          "rank": "B",
+          "strategy": "Pace",
+          "pop": 16,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "Nose",
+          "umaId": "unknown-npc"
+        },
+        {
+          "pos": 14,
+          "uma": "Unknown NPC",
+          "player": "NPC",
+          "number": 2,
+          "rank": "B",
+          "strategy": "End",
+          "pop": 17,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "1 1/4 L",
+          "umaId": "unknown-npc"
+        },
+        {
+          "pos": 15,
+          "uma": "Unknown NPC",
+          "player": "NPC",
+          "number": 8,
+          "rank": "B",
+          "strategy": "Pace",
+          "pop": 12,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "2 L",
+          "umaId": "unknown-npc"
+        },
+        {
+          "pos": 16,
+          "uma": "Grass Wonder",
+          "umaId": "grass-wonder",
+          "player": "Ananth",
+          "number": 14,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Late",
+          "pop": 1,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder",
+          "gap": "1 3/4 L"
+        },
+        {
+          "pos": 17,
+          "uma": "Nice Nature",
+          "umaId": "nice-nature",
+          "player": "Yves",
+          "number": 5,
+          "rank": "B+",
+          "title": "Double Crown",
+          "strategy": "Late",
+          "pop": 14,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/nice-nature",
+          "gap": "Neck"
+        },
+        {
+          "pos": 18,
+          "uma": "Mechanical Vapor",
+          "player": "NPC",
+          "number": 18,
+          "rank": "B",
+          "strategy": "Front",
+          "pop": 18,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "gap": "6 L",
+          "umaId": "mechanical-vapor"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "cupNumber": 15,
+      "cupName": "Sus Cup 15 — Triple Front Runners",
+      "name": "G1 Takarazuka Kinen",
+      "date": "06 November 2025, 18:00",
+      "roomId": "8401 3487",
+      "race": "G1 Takarazuka Kinen",
+      "course": "Hanshin Turf",
+      "surface": "Turf",
+      "distance": "2200m",
+      "distanceType": "Medium",
+      "direction": "Right / Inner",
+      "weather": "Random",
+      "ground": "Random",
+      "mood": "Random",
+      "rankLimit": "Not specified",
+      "specialRule": "Triple Front Runners",
+      "images": [
+        "suscupimages11-20/15.1.png",
+        "suscupimages11-20/15.2.png",
+        "suscupimages11-20/15.3.png",
+        "suscupimages11-20/15.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "Agnes",
+          "number": 9,
+          "rank": "A",
+          "title": "Legendary Diva",
+          "strategy": "Front",
+          "time": "2:11.1",
+          "pop": 6,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/silence-suzuka",
+          "gap": "2:11.1"
+        },
+        {
+          "pos": 2,
+          "uma": "Maruzensky",
+          "umaId": "maruzensky",
+          "player": "Cyciesta",
+          "number": 10,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Front",
+          "gap": "2 L",
+          "pop": 3,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100401-maruzensky"
+        },
+        {
+          "pos": 3,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Agnes",
+          "number": 11,
+          "rank": "A",
+          "title": "The GOAT",
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "pop": 1,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
+        },
+        {
+          "pos": 4,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Cyciesta",
+          "number": 15,
+          "rank": "A",
+          "title": "Legendary Diva",
+          "strategy": "Front",
+          "gap": "1 3/4 L",
+          "pop": 2,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/100901-daiwa-scarlet"
+        },
+        {
+          "pos": 5,
+          "uma": "Mayano Top Gun",
+          "umaId": "mayano-top-gun",
+          "player": "Ananth",
+          "number": 14,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "2 1/2 L",
+          "pop": 7,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
+        },
+        {
+          "pos": 6,
+          "uma": "Mayano Top Gun",
+          "umaId": "mayano-top-gun",
+          "player": "Agnes",
+          "number": 3,
+          "rank": "A",
+          "title": "Free Spirit",
+          "strategy": "Front",
+          "gap": "1 L",
+          "pop": 4,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/102401-mayano-top-gun"
+        },
+        {
+          "pos": 7,
+          "uma": "Ribbon Lullaby",
+          "player": "NPC",
+          "number": 5,
+          "rank": "C+",
+          "strategy": "Late",
+          "gap": "7 L",
+          "pop": 13,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "ribbon-lullaby"
+        },
+        {
+          "pos": 8,
+          "uma": "Chalemie Rhythm",
+          "player": "NPC",
+          "number": 6,
+          "rank": "C+",
+          "strategy": "Pace",
+          "gap": "1 L",
+          "pop": 12,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "chalemie-rhythm"
+        },
+        {
+          "pos": 9,
+          "uma": "Shout My Name",
+          "player": "NPC",
+          "number": 16,
+          "rank": "C+",
+          "strategy": "End",
+          "gap": "1/2 L",
+          "pop": 17,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "shout-my-name"
+        },
+        {
+          "pos": 10,
+          "uma": "Weiss Grimoire",
+          "player": "NPC",
+          "number": 17,
+          "rank": "C+",
+          "strategy": "Front",
+          "gap": "1 1/2 L",
+          "pop": 9,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "weiss-grimoire"
+        },
+        {
+          "pos": 11,
+          "uma": "Mihono Bourbon",
+          "umaId": "mihono-bourbon",
+          "player": "Cyciesta",
+          "number": 8,
+          "rank": "A+",
+          "title": "Finals Champion",
+          "strategy": "Front",
+          "gap": "1/2 L",
+          "pop": 5,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/102601-mihono-bourbon"
+        },
+        {
+          "pos": 12,
+          "uma": "Cymbal Rhythm",
+          "player": "NPC",
+          "number": 1,
+          "rank": "C+",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "pop": 11,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "cymbal-rhythm"
+        },
+        {
+          "pos": 13,
+          "uma": "Salsa Step",
+          "player": "NPC",
+          "number": 2,
+          "rank": "C+",
+          "strategy": "Late",
+          "gap": "Neck",
+          "pop": 15,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "salsa-step"
+        },
+        {
+          "pos": 14,
+          "uma": "Thousand Voltaire",
+          "player": "NPC",
+          "number": 13,
+          "rank": "C+",
+          "strategy": "Pace",
+          "gap": "Neck",
+          "pop": 8,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "thousand-voltaire"
+        },
+        {
+          "pos": 15,
+          "uma": "Spring Happy",
+          "player": "NPC",
+          "number": 4,
+          "rank": "C+",
+          "strategy": "Late",
+          "gap": "1/2 L",
+          "pop": 16,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "spring-happy"
+        },
+        {
+          "pos": 16,
+          "uma": "Faster than Ray",
+          "player": "NPC",
+          "number": 12,
+          "rank": "C+",
+          "strategy": "End",
+          "gap": "Nose",
+          "pop": 14,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "faster-than-ray"
+        },
+        {
+          "pos": 17,
+          "uma": "Izcalli",
+          "player": "NPC",
+          "number": 7,
+          "rank": "C+",
+          "strategy": "Front",
+          "gap": "Head",
+          "pop": 18,
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "umaId": "izcalli"
+        },
+        {
+          "pos": 18,
+          "uma": "Smart Falcon",
+          "umaId": "smart-falcon",
+          "player": "Ananth",
+          "number": 18,
+          "rank": "B+",
+          "title": "Sand Falcon",
+          "strategy": "Front",
+          "gap": "1/2 L",
+          "pop": 10,
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/104601-smart-falcon"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "cupNumber": 16,
+      "cupName": "Sus Cup 16 — Mixed Class Race",
+      "name": "G1 Oka Sho",
+      "date": "16 November 2025, 18:31",
+      "roomId": "3647 0681",
+      "race": "Oka Sho",
+      "course": "Hanshin Turf",
+      "surface": "Turf",
+      "distance": "1600m",
+      "distanceType": "Mile",
+      "direction": "Right",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "Not specified",
+      "specialRule": "Mixed Class Race",
+      "images": [
+        "suscupimages11-20/16.1.png",
+        "suscupimages11-20/16.2.png",
+        "suscupimages11-20/16.3.png",
+        "suscupimages11-20/16.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "number": 14,
+          "uma": "Vodka",
+          "player": "Agnes",
+          "strategy": "Late",
+          "time": "1:29.9",
+          "gap": "1:29.9",
+          "pop": 8,
+          "rank": "A+",
+          "title": "",
+          "umaId": "vodka"
+        },
+        {
+          "pos": 2,
+          "number": 5,
+          "uma": "Oguri Cap",
+          "player": "GohanXGAMER",
+          "strategy": "Pace",
+          "time": "1 1/2 L",
+          "gap": "1 1/2 L",
+          "pop": 3,
+          "rank": "A+",
+          "title": "",
+          "umaId": "oguri-cap"
+        },
+        {
+          "pos": 3,
+          "number": 9,
+          "uma": "Silence Suzuka",
+          "player": "GohanXGAMER",
+          "strategy": "Front",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 4,
+          "rank": "A",
+          "title": "",
+          "umaId": "silence-suzuka"
+        },
+        {
+          "pos": 4,
+          "number": 6,
+          "uma": "Oguri Cap",
+          "player": "Jiinxye",
+          "strategy": "Pace",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 16,
+          "rank": "B+",
+          "title": "",
+          "umaId": "oguri-cap"
+        },
+        {
+          "pos": 5,
+          "number": 18,
+          "uma": "Hishi Amazon",
+          "player": "Yves",
+          "strategy": "End",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 5,
+          "rank": "A",
+          "title": "",
+          "umaId": "hishi-amazon"
+        },
+        {
+          "pos": 6,
+          "number": 15,
+          "uma": "El Condor Pasa",
+          "player": "Cruzi",
+          "strategy": "Pace",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 10,
+          "rank": "B+",
+          "title": "",
+          "umaId": "el-condor-pasa"
+        },
+        {
+          "pos": 7,
+          "number": 12,
+          "uma": "Silence Suzuka",
+          "player": "Cruzi",
+          "strategy": "Front",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 1,
+          "rank": "A+",
+          "title": "",
+          "umaId": "silence-suzuka"
+        },
+        {
+          "pos": 8,
+          "number": 3,
+          "uma": "Sakura Bakushin O",
+          "player": "Agnes",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 11,
+          "rank": "B+",
+          "title": "",
+          "umaId": "sakura-bakushin-o"
+        },
+        {
+          "pos": 9,
+          "number": 2,
+          "uma": "Narita Brian",
+          "player": "Jiinxye",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 9,
+          "rank": "A+",
+          "title": "",
+          "umaId": "narita-brian"
+        },
+        {
+          "pos": 10,
+          "number": 8,
+          "uma": "Silence Suzuka",
+          "player": "Yves",
+          "strategy": "Front",
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L",
+          "pop": 12,
+          "rank": "B+",
+          "title": "",
+          "umaId": "silence-suzuka"
+        },
+        {
+          "pos": 11,
+          "number": 11,
+          "uma": "Book of Sugar",
+          "player": "Not shown",
+          "strategy": "Late",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 14,
+          "rank": "B",
+          "title": "",
+          "umaId": "book-of-sugar"
+        },
+        {
+          "pos": 12,
+          "number": 7,
+          "uma": "El Condor Pasa",
+          "player": "Agnes",
+          "strategy": "Late",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 7,
+          "rank": "A",
+          "title": "",
+          "umaId": "el-condor-pasa"
+        },
+        {
+          "pos": 13,
+          "number": 16,
+          "uma": "Grass Wonder",
+          "player": "GohanXGAMER",
+          "strategy": "Late",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 18,
+          "rank": "B+",
+          "title": "",
+          "umaId": "grass-wonder"
+        },
+        {
+          "pos": 14,
+          "number": 4,
+          "uma": "Smart Falcon",
+          "player": "Yves",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 6,
+          "rank": "A+",
+          "title": "",
+          "umaId": "smart-falcon"
+        },
+        {
+          "pos": 15,
+          "number": 17,
+          "uma": "Pan Pacific",
+          "player": "Not shown",
+          "strategy": "Pace",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 15,
+          "rank": "B",
+          "title": "",
+          "umaId": "pan-pacific"
+        },
+        {
+          "pos": 16,
+          "number": 1,
+          "uma": "Grass Wonder",
+          "player": "Cruzi",
+          "strategy": "Late",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 2,
+          "rank": "A",
+          "title": "Witness to Legend",
+          "umaId": "grass-wonder"
+        },
+        {
+          "pos": 17,
+          "number": 10,
+          "uma": "Maruzensky",
+          "player": "Jiinxye",
+          "strategy": "Front",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 13,
+          "rank": "A",
+          "title": "Finals Champion",
+          "umaId": "maruzensky"
+        },
+        {
+          "pos": 18,
+          "number": 13,
+          "uma": "Mihono Bourbon",
+          "player": "Ananth",
+          "strategy": "Front",
+          "time": "1 1/2 L",
+          "gap": "1 1/2 L",
+          "pop": 17,
+          "rank": "B+",
+          "title": "Finals Champion",
+          "umaId": "mihono-bourbon"
+        }
+      ],
+      "details": "Hanshin Turf 1600m (Mile) Right / Outer | Firm",
+      "specialWinners": {
+        "A+ Class Winner": {
+          "player": "Agnes",
+          "uma": "Vodka",
+          "pos": 1
+        },
+        "A Class Winner": {
+          "player": "GohanXGAMER",
+          "uma": "Silence Suzuka",
+          "pos": 3
+        },
+        "B+ Class Winner": {
+          "player": "Jiinxye",
+          "uma": "Oguri Cap",
+          "pos": 4
+        }
+      }
+    },
+    {
+      "id": 17,
+      "cupNumber": 17,
+      "cupName": "Sus Cup 17 — Gutsy Race",
+      "name": "G1 Tenno Sho (Autumn)",
+      "date": "08 December 2025, 18:34",
+      "roomId": "5621 0016",
+      "race": "Tenno Sho (Autumn)",
+      "course": "Tokyo Turf",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "1 Single Guts, 1 Double Guts, 1 Triple Guts",
+      "specialWinners": {
+        "Single Guts": {
+          "player": "Agnes",
+          "uma": "T.M. Opera O",
+          "pos": 4,
+          "umaId": "tm-opera-o"
+        },
+        "Double Guts": {
+          "player": "Cruzi",
+          "uma": "Agnes Digital",
+          "pos": 2,
+          "umaId": "agnes-digital"
+        },
+        "Triple Guts": {
+          "player": "Agnes",
+          "uma": "Symboli Rudolf",
+          "pos": 1,
+          "umaId": "symboli-rudolf"
+        }
+      },
+      "images": [
+        "suscupimages11-20/17.1.png",
+        "suscupimages11-20/17.2.png",
+        "suscupimages11-20/17.3.png",
+        "suscupimages11-20/17.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "number": 7,
+          "uma": "Symboli Rudolf",
+          "player": "GohanXGAMER",
+          "strategy": "Late",
+          "time": "3:02.2",
+          "gap": "3:02.2",
+          "pop": 2,
+          "rank": "A",
+          "title": "",
+          "umaId": "nice-nature"
+        },
+        {
+          "pos": 2,
+          "number": 13,
+          "uma": "Agnes Digital",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 6,
+          "rank": "A+",
+          "title": "",
+          "umaId": "nice-nature"
+        },
+        {
+          "pos": 3,
+          "number": 16,
+          "uma": "Grass Wonder",
+          "player": "Agnes",
+          "strategy": "Late",
+          "time": "2 L",
+          "gap": "2 L",
+          "pop": 9,
+          "rank": "A+",
+          "title": "",
+          "umaId": "nice-nature"
+        },
+        {
+          "pos": 4,
+          "number": 12,
+          "uma": "T.M. Opera O",
+          "player": "Cruzi",
+          "strategy": "End",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 3,
+          "rank": "A+",
+          "title": "",
+          "umaId": "gold-ship"
+        },
+        {
+          "pos": 5,
+          "number": 8,
+          "uma": "Oguri Cap",
+          "player": "Agnes",
+          "strategy": "Late",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 7,
+          "rank": "A+",
+          "title": "",
+          "umaId": "winning-ticket"
+        },
+        {
+          "pos": 6,
+          "number": 10,
+          "uma": "Narita Brian",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L",
+          "pop": 8,
+          "rank": "A",
+          "title": "",
+          "umaId": "t.m.-opera-o"
+        },
+        {
+          "pos": 7,
+          "number": 14,
+          "uma": "Nice Nature",
+          "player": "GohanXGAMER",
+          "strategy": "Late",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 1,
+          "rank": "A",
+          "title": "",
+          "umaId": "matikanefukukitaru"
+        },
+        {
+          "pos": 8,
+          "number": 6,
+          "uma": "Oguri Cap",
+          "player": "Cruzi",
+          "strategy": "Late",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 4,
+          "rank": "A+",
+          "title": "",
+          "umaId": "mayano-top-gun"
+        },
+        {
+          "pos": 9,
+          "number": 4,
+          "uma": "Silence Suzuka",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "4 L",
+          "gap": "4 L",
+          "pop": 13,
+          "rank": "A+",
+          "title": "",
+          "umaId": "mayano-top-gun"
+        },
+        {
+          "pos": 10,
+          "number": 1,
+          "uma": "Seiun Sky",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "3 L",
+          "gap": "3 L",
+          "pop": 11,
+          "rank": "A+",
+          "title": "",
+          "umaId": "biwa-hayahide"
+        },
+        {
+          "pos": 11,
+          "number": 2,
+          "uma": "Tokai Teio",
+          "player": "Ananth",
+          "strategy": "Late",
+          "time": "2 1/2 L",
+          "gap": "2 1/2 L",
+          "pop": 5,
+          "rank": "A",
+          "title": "",
+          "umaId": "agnes-tachyon"
+        },
+        {
+          "pos": 12,
+          "number": 3,
+          "uma": "Agnes Digital",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 14,
+          "rank": "A+",
+          "title": "",
+          "umaId": "symboli-rudolf"
+        },
+        {
+          "pos": 13,
+          "number": 9,
+          "uma": "Grass Wonder",
+          "player": "Not shown",
+          "strategy": "Pace",
+          "time": "8 L",
+          "gap": "8 L",
+          "pop": 16,
+          "rank": "A+",
+          "title": "",
+          "umaId": "torch-and-book"
+        },
+        {
+          "pos": 14,
+          "number": 18,
+          "uma": "Shadow Stalker",
+          "player": "Not shown",
+          "strategy": "Pace",
+          "time": "5 L",
+          "gap": "5 L",
+          "pop": 17,
+          "rank": "B",
+          "title": "",
+          "umaId": "set-your-record"
+        },
+        {
+          "pos": 15,
+          "number": 17,
+          "uma": "Gold Chouchou",
+          "player": "Ananth",
+          "strategy": "Late",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 10,
+          "rank": "B",
+          "title": "",
+          "umaId": "grass-wonder"
+        },
+        {
+          "pos": 16,
+          "number": 5,
+          "uma": "Nice Nature",
+          "player": "Not shown",
+          "strategy": "Front",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 18,
+          "rank": "A",
+          "title": "",
+          "umaId": "breeze-glider"
+        },
+        {
+          "pos": 17,
+          "number": 11,
+          "uma": "Mayano Top Gun",
+          "player": "Cruzi",
+          "strategy": "Late",
+          "time": "Distance",
+          "gap": "Distance",
+          "pop": 12,
+          "rank": "A",
+          "title": "",
+          "umaId": "symboli-rudolf"
+        },
+        {
+          "pos": 18,
+          "number": 15,
+          "uma": "Frozen Sky",
+          "player": "Not shown",
+          "strategy": "Front",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 15,
+          "rank": "B",
+          "title": "",
+          "umaId": "out-of-black"
+        }
+      ],
+      "details": "Tokyo Turf 2000m (Medium) Left | Soft",
+      "guestPlacing": 0
+    },
+    {
+      "id": 18,
+      "cupNumber": 18,
+      "cupName": "Sus Cup 18 — SSR Race",
+      "name": "G1 Kikuka Sho",
+      "date": "20 December 2025, 19:03",
+      "roomId": "9022 4218",
+      "race": "Kikuka Sho",
+      "course": "Kyoto Turf",
+      "surface": "Turf",
+      "distance": "3000m",
+      "distanceType": "Long",
+      "direction": "Right / Outer",
+      "weather": "Cloudy",
+      "ground": "Good",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "1 Single SSR, 1 Double SSR, 1 Triple SSR",
+      "images": [
+        "suscupimages11-20/18.1.png",
+        "suscupimages11-20/18.2.png",
+        "suscupimages11-20/18.3.png",
+        "suscupimages11-20/18.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "number": 7,
+          "uma": "Nice Nature",
+          "player": "GohanXGAMER",
+          "strategy": "Late",
+          "time": "3:02.2",
+          "gap": "3:02.2",
+          "pop": 2,
+          "rank": "A",
+          "title": "",
+          "umaId": "nice-nature"
+        },
+        {
+          "pos": 2,
+          "number": 13,
+          "uma": "Nice Nature",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 6,
+          "rank": "A",
+          "title": "",
+          "umaId": "nice-nature"
+        },
+        {
+          "pos": 3,
+          "number": 16,
+          "uma": "Nice Nature",
+          "player": "Agnes",
+          "strategy": "Late",
+          "time": "2 L",
+          "gap": "2 L",
+          "pop": 9,
+          "rank": "A",
+          "title": "",
+          "umaId": "nice-nature"
+        },
+        {
+          "pos": 4,
+          "number": 12,
+          "uma": "Gold Ship",
+          "player": "Cruzi",
+          "strategy": "End",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 3,
+          "rank": "A+",
+          "title": "",
+          "umaId": "gold-ship"
+        },
+        {
+          "pos": 5,
+          "number": 8,
+          "uma": "Winning Ticket",
+          "player": "Agnes",
+          "strategy": "Late",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 7,
+          "rank": "A",
+          "title": "",
+          "umaId": "winning-ticket"
+        },
+        {
+          "pos": 6,
+          "number": 10,
+          "uma": "T.M. Opera O",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L",
+          "pop": 8,
+          "rank": "A+",
+          "title": "",
+          "umaId": "t-m-opera-o"
+        },
+        {
+          "pos": 7,
+          "number": 14,
+          "uma": "Matikane Fukukitaru",
+          "player": "GohanXGAMER",
+          "strategy": "Late",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 1,
+          "rank": "A+",
+          "title": "",
+          "umaId": "matikanefukukitaru"
+        },
+        {
+          "pos": 8,
+          "number": 6,
+          "uma": "Mayano Top Gun",
+          "player": "Cruzi",
+          "strategy": "Late",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 4,
+          "rank": "A+",
+          "title": "",
+          "umaId": "mayano-top-gun"
+        },
+        {
+          "pos": 9,
+          "number": 4,
+          "uma": "Mayano Top Gun",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "4 L",
+          "gap": "4 L",
+          "pop": 13,
+          "rank": "A",
+          "title": "",
+          "umaId": "mayano-top-gun"
+        },
+        {
+          "pos": 10,
+          "number": 1,
+          "uma": "Biwa Hayahide",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "3 L",
+          "gap": "3 L",
+          "pop": 11,
+          "rank": "A",
+          "title": "",
+          "umaId": "biwa-hayahide"
+        },
+        {
+          "pos": 11,
+          "number": 2,
+          "uma": "Agnes Tachyon",
+          "player": "Ananth",
+          "strategy": "Late",
+          "time": "2 1/2 L",
+          "gap": "2 1/2 L",
+          "pop": 5,
+          "rank": "A+",
+          "title": "",
+          "umaId": "agnes-tachyon"
+        },
+        {
+          "pos": 12,
+          "number": 3,
+          "uma": "Symboli Rudolf",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 14,
+          "rank": "A",
+          "title": "",
+          "umaId": "101702"
+        },
+        {
+          "pos": 13,
+          "number": 9,
+          "uma": "Torch and Book",
+          "player": "Not shown",
+          "strategy": "Pace",
+          "time": "8 L",
+          "gap": "8 L",
+          "pop": 16,
+          "rank": "B",
+          "title": "",
+          "umaId": "torch-and-book"
+        },
+        {
+          "pos": 14,
+          "number": 18,
+          "uma": "Set Your Record",
+          "player": "Not shown",
+          "strategy": "Pace",
+          "time": "5 L",
+          "gap": "5 L",
+          "pop": 17,
+          "rank": "B",
+          "title": "",
+          "umaId": "set-your-record"
+        },
+        {
+          "pos": 15,
+          "number": 17,
+          "uma": "Grass Wonder",
+          "player": "Ananth",
+          "strategy": "Late",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 10,
+          "rank": "A",
+          "title": "",
+          "umaId": "grass-wonder"
+        },
+        {
+          "pos": 16,
+          "number": 5,
+          "uma": "Breeze Glider",
+          "player": "Not shown",
+          "strategy": "Front",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 18,
+          "rank": "B",
+          "title": "",
+          "umaId": "breeze-glider"
+        },
+        {
+          "pos": 17,
+          "number": 11,
+          "uma": "Symboli Rudolf",
+          "player": "Cruzi",
+          "strategy": "Late",
+          "time": "Distance",
+          "gap": "Distance",
+          "pop": 12,
+          "rank": "A",
+          "title": "",
+          "umaId": "symboli-rudolf"
+        },
+        {
+          "pos": 18,
+          "number": 15,
+          "uma": "Out of Black",
+          "player": "Not shown",
+          "strategy": "Front",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 15,
+          "rank": "B",
+          "title": "",
+          "umaId": "out-of-black"
+        }
+      ],
+      "details": "Kyoto Turf 3000m (Long) Right / Outer | Good",
+      "specialWinners": {
+        "Triple SSR": {
+          "player": "GohanXGAMER",
+          "uma": "Nice Nature",
+          "pos": 1,
+          "umaId": "nice-nature"
+        },
+        "Double SSR": {
+          "player": "Ananth",
+          "uma": "Nice Nature",
+          "pos": 2,
+          "umaId": "nice-nature"
+        },
+        "Single SSR": {
+          "player": "Agnes",
+          "uma": "Biwa Hayahide",
+          "pos": 10,
+          "umaId": "biwa-hayahide"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "cupNumber": 19,
+      "cupName": "Sus Cup 19 — Gold Skills",
+      "name": "G1 Tenno Sho (Autumn)",
+      "date": "30 December 2025, 18:31",
+      "roomId": "6799 5179",
+      "race": "Tenno Sho (Autumn)",
+      "course": "Tokyo Turf",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Rainy",
+      "ground": "Soft",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "0 Gold Skill, 1-2 Gold Skill, Gold Skill Only",
+      "images": [
+        "suscupimages11-20/19.1.png",
+        "suscupimages11-20/19.2.png",
+        "suscupimages11-20/19.3.png",
+        "suscupimages11-20/19.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "number": 6,
+          "uma": "Gold City",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "1:56.8",
+          "gap": "1:56.8",
+          "pop": 6,
+          "rank": "A+",
+          "title": "Dream Team",
+          "umaId": "104002"
+        },
+        {
+          "pos": 2,
+          "number": 4,
+          "uma": "T.M. Opera O",
+          "player": "Jiinxye",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 7,
+          "rank": "A+",
+          "title": "Team Player Star Slayer",
+          "umaId": "t-m-opera-o"
+        },
+        {
+          "pos": 3,
+          "number": 13,
+          "uma": "Agnes Tachyon",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "3 L",
+          "gap": "3 L",
+          "pop": 1,
+          "rank": "A+",
+          "title": "Faster than Light",
+          "umaId": "agnes-tachyon"
+        },
+        {
+          "pos": 4,
+          "number": 18,
+          "uma": "Gold Ship",
+          "player": "Cruzi",
+          "strategy": "End",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 11,
+          "rank": "A+",
+          "title": "Dream Team",
+          "umaId": "gold-ship"
+        },
+        {
+          "pos": 5,
+          "number": 15,
+          "uma": "Gold Ship",
+          "player": "Ananth",
+          "strategy": "End",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 8,
+          "rank": "A",
+          "title": "Witness to Legend",
+          "umaId": "gold-ship"
+        },
+        {
+          "pos": 6,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Unknown",
+          "number": 6,
+          "rank": "A+",
+          "title": "Witness to Legend",
+          "strategy": "End",
+          "gap": "Head",
+          "pop": 3,
+          "time": "Head"
+        },
+        {
+          "pos": 7,
+          "uma": "Mayano Top Gun",
+          "umaId": "mayano-top-gun",
+          "player": "Unknown",
+          "number": 7,
+          "rank": "A+",
+          "title": "Witness to Legend",
+          "strategy": "Late",
+          "gap": "1 1/4 L",
+          "pop": 2,
+          "time": "1 1/4 L"
+        },
+        {
+          "pos": 8,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Unknown",
+          "number": 8,
+          "rank": "A+",
+          "title": "Ideal Idol",
+          "strategy": "Pace",
+          "gap": "Head",
+          "pop": 12,
+          "time": "Head"
+        },
+        {
+          "pos": 9,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Unknown",
+          "number": 9,
+          "rank": "A+",
+          "title": "Miss Perfect",
+          "strategy": "Front",
+          "gap": "1 1/2 L",
+          "pop": 10,
+          "time": "1 1/2 L"
+        },
+        {
+          "pos": 10,
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "Unknown",
+          "number": 10,
+          "rank": "A+",
+          "title": "Dream Team",
+          "strategy": "Front",
+          "gap": "Neck",
+          "pop": 4,
+          "time": "Neck"
+        },
+        {
+          "pos": 11,
+          "uma": "Winning Ticket",
+          "umaId": "winning-ticket",
+          "player": "Unknown",
+          "number": 11,
+          "rank": "A",
+          "title": "Steamy Solidarity",
+          "strategy": "Late",
+          "gap": "2 1/2 L",
+          "pop": 9,
+          "time": "2 1/2 L"
+        },
+        {
+          "pos": 12,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "Unknown",
+          "number": 12,
+          "rank": "A",
+          "title": "Witness to Legend",
+          "strategy": "Pace",
+          "gap": "2 1/2 L",
+          "pop": 5,
+          "time": "2 1/2 L"
+        },
+        {
+          "pos": 13,
+          "uma": "Gray Chouchou",
+          "umaId": "gray-chouchou",
+          "player": "NPC",
+          "number": 13,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "pop": 15,
+          "time": "3 L"
+        },
+        {
+          "pos": 14,
+          "uma": "Jagdplaute",
+          "umaId": "jagdplaute",
+          "player": "NPC",
+          "number": 14,
+          "rank": "C+",
+          "title": "",
+          "strategy": "End",
+          "gap": "1/2 L",
+          "pop": 16,
+          "time": "1/2 L"
+        },
+        {
+          "pos": 15,
+          "uma": "Mini Narcissus",
+          "umaId": "mini-narcissus",
+          "player": "NPC",
+          "number": 15,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Late",
+          "gap": "3/4 L",
+          "pop": 18,
+          "time": "3/4 L"
+        },
+        {
+          "pos": 16,
+          "uma": "Turcke",
+          "umaId": "turcke",
+          "player": "NPC",
+          "number": 16,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Pace",
+          "gap": "1 1/2 L",
+          "pop": 14,
+          "time": "1 1/2 L"
+        },
+        {
+          "pos": 17,
+          "uma": "Gran Shamal",
+          "umaId": "gran-shamal",
+          "player": "NPC",
+          "number": 17,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Late",
+          "gap": "Nose",
+          "pop": 13,
+          "time": "Nose"
+        },
+        {
+          "pos": 18,
+          "uma": "Circuit Breaker",
+          "umaId": "circuit-breaker",
+          "player": "NPC",
+          "number": 18,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Front",
+          "gap": "4 L",
+          "pop": 17,
+          "time": "4 L"
+        }
+      ],
+      "details": "Tokyo Turf 2000m (Medium) Left | Soft",
+      "specialWinners": {
+        "0 Gold Skill": {
+          "player": "Cruzi",
+          "uma": "Mayano Top Gun",
+          "pos": 7,
+          "umaId": "mayano-top-gun"
+        },
+        "1-2 Gold Skill": {
+          "player": "Ananth",
+          "uma": "Gold City",
+          "pos": 1,
+          "umaId": "gold-city"
+        },
+        "Gold Skill Only": {
+          "player": "Jiinxye",
+          "uma": "T.M. Opera O",
+          "pos": 2,
+          "umaId": "tm-opera-o"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "cupNumber": 20,
+      "cupName": "Sus Cup 20 — All Style",
+      "name": "G1 Tenno Sho (Autumn)",
+      "date": "01 January 2026, 18:51",
+      "roomId": "2003 3988",
+      "race": "Tenno Sho (Autumn)",
+      "course": "Tokyo Turf",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Rainy",
+      "ground": "Soft",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "1 runner for each style, Unique runners only, 3 entries per person",
+      "styleWinners": {
+        "Front": {
+          "player": "Ananth",
+          "uma": "Mihono Bourbon",
+          "pos": 11
+        },
+        "Pace": {
+          "player": "Cyciesta",
+          "uma": "Mejiro McQueen",
+          "pos": 1
+        },
+        "Late": {
+          "player": "Yves",
+          "uma": "Eishin Flash",
+          "pos": 2
+        },
+        "End": {
+          "player": "Yves",
+          "uma": "Mayano Top Gun",
+          "pos": 3
+        }
+      },
+      "images": [
+        "suscupimages11-20/20.1.png",
+        "suscupimages11-20/20.2.png",
+        "suscupimages11-20/20.3.png",
+        "suscupimages11-20/20.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "number": 11,
+          "uma": "Mejiro McQueen",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "1:56.3",
+          "gap": "1:56.3",
+          "pop": 6,
+          "rank": "A+",
+          "title": "",
+          "umaId": "mejiro-mcqueen"
+        },
+        {
+          "pos": 2,
+          "number": 4,
+          "uma": "Eishin Flash",
+          "player": "Yves",
+          "strategy": "Late",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 10,
+          "rank": "A+",
+          "title": "",
+          "umaId": "eishin-flash"
+        },
+        {
+          "pos": 3,
+          "number": 17,
+          "uma": "Mayano Top Gun",
+          "player": "Yves",
+          "strategy": "End",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 2,
+          "rank": "A+",
+          "title": "",
+          "umaId": "102402"
+        },
+        {
+          "pos": 4,
+          "number": 3,
+          "uma": "Agnes Digital",
+          "player": "Cruzi",
+          "strategy": "Late",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 5,
+          "rank": "A+",
+          "title": "",
+          "umaId": "101901"
+        },
+        {
+          "pos": 5,
+          "number": 1,
+          "uma": "Narita Taishin",
+          "player": "Cyclobly",
+          "strategy": "End",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 8,
+          "rank": "S",
+          "title": "",
+          "umaId": "narita-taishin"
+        },
+        {
+          "pos": 6,
+          "number": 16,
+          "uma": "Gold City",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 12,
+          "rank": "A+",
+          "title": "",
+          "umaId": "104002"
+        },
+        {
+          "pos": 7,
+          "number": 18,
+          "uma": "Symboli Rudolf",
+          "player": "Cyclobly",
+          "strategy": "Late",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 1,
+          "rank": "S",
+          "title": "",
+          "umaId": "symboli-rudolf"
+        },
+        {
+          "pos": 8,
+          "number": 5,
+          "uma": "Agnes Tachyon",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 3,
+          "rank": "A+",
+          "title": "",
+          "umaId": "agnes-tachyon"
+        },
+        {
+          "pos": 9,
+          "number": 15,
+          "uma": "Mejiro Ryan",
+          "player": "Ananth",
+          "strategy": "Late",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 9,
+          "rank": "A+",
+          "title": "",
+          "umaId": "mejiro-ryan"
+        },
+        {
+          "pos": 10,
+          "number": 10,
+          "uma": "Gold Ship",
+          "player": "Cruzi",
+          "strategy": "End",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 4,
+          "rank": "A+",
+          "title": "",
+          "umaId": "gold-ship"
+        },
+        {
+          "pos": 11,
+          "number": 2,
+          "uma": "Mihono Bourbon",
+          "player": "Ananth",
+          "strategy": "Front",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 14,
+          "rank": "A+",
+          "title": "",
+          "umaId": "mihono-bourbon"
+        },
+        {
+          "pos": 12,
+          "number": 12,
+          "uma": "Meisho Doto",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 13,
+          "rank": "A+",
+          "title": "",
+          "umaId": "meisho-doto"
+        },
+        {
+          "pos": 13,
+          "number": 12,
+          "uma": "King Halo",
+          "player": "Agnes",
+          "strategy": "Late",
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L",
+          "pop": 11,
+          "rank": "A+",
+          "title": "",
+          "umaId": "king-halo"
+        },
+        {
+          "pos": 14,
+          "number": 6,
+          "uma": "Silence Suzuka",
+          "player": "Agnes",
+          "strategy": "Front",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 15,
+          "rank": "A+",
+          "title": "",
+          "umaId": "silence-suzuka"
+        },
+        {
+          "pos": 15,
+          "number": 9,
+          "uma": "Seiun Sky",
+          "player": "Cruzi",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 7,
+          "rank": "A+",
+          "title": "",
+          "umaId": "seiun-sky"
+        },
+        {
+          "pos": 16,
+          "number": 14,
+          "uma": "Neptunus",
+          "player": "Not shown",
+          "strategy": "End",
+          "time": "4 L",
+          "gap": "4 L",
+          "pop": 18,
+          "rank": "B",
+          "title": "",
+          "umaId": "neptunus"
+        },
+        {
+          "pos": 17,
+          "number": 8,
+          "uma": "Maleficus",
+          "player": "Not shown",
+          "strategy": "Front",
+          "time": "4 L",
+          "gap": "4 L",
+          "pop": 16,
+          "rank": "B",
+          "title": "",
+          "umaId": "maleficus"
+        },
+        {
+          "pos": 18,
+          "number": 13,
+          "uma": "Ribbon Virelai",
+          "player": "Not shown",
+          "strategy": "Front",
+          "time": "1 3/4 L",
+          "gap": "1 3/4 L",
+          "pop": 17,
+          "rank": "B",
+          "title": "",
+          "umaId": "ribbon-virelai"
+        }
+      ],
+      "details": "Tokyo Turf 2000m (Medium) Left | Soft",
+      "specialWinners": {
+        "Front Winner": {
+          "player": "Ananth",
+          "uma": "Mihono Bourbon",
+          "pos": 11,
+          "umaId": "mihono-bourbon"
+        },
+        "Pace Winner": {
+          "player": "Cyciesta",
+          "uma": "Mejiro McQueen",
+          "pos": 1,
+          "umaId": "mejiro-mcqueen"
+        },
+        "Late Winner": {
+          "player": "Yves",
+          "uma": "Eishin Flash",
+          "pos": 2,
+          "umaId": "eishin-flash"
+        },
+        "End Winner": {
+          "player": "Yves",
+          "uma": "Mayano Top Gun",
+          "pos": 3,
+          "umaId": "mayano-top-gun"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "cupNumber": 21,
+      "cupName": "Sus Cup 21 — Spark Race",
+      "name": "Takamatsunomiya Kinen",
+      "date": "02/02/2026",
+      "roomId": "2818 6716",
+      "race": "Takamatsunomiya Kinen",
+      "course": "Chukyo Turf",
+      "surface": "Turf",
+      "distance": "1200m",
+      "distanceType": "Sprint",
+      "direction": "Left",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "3 entries per participant. Blue Spark format (1x 3★, 1x 2★, 1x 1★)",
+      "sparkWinners": {
+        "3★ Blue Spark": {
+          "player": "Cyciesta",
+          "uma": "Curren Chan",
+          "pos": 2
+        },
+        "2★ Blue Spark": {
+          "player": "Agnes",
+          "uma": "Taiki Shuttle",
+          "pos": 1
+        },
+        "1★ Blue Spark": {
+          "player": "Jiinxye",
+          "uma": "Sakura Bakushin O",
+          "pos": 4
+        }
+      },
+      "images": [
+        "suscupimages21-30/21.1.png",
+        "suscupimages21-30/21.2.png",
+        "suscupimages21-30/21.3.png",
+        "suscupimages21-30/21.4.png"
+      ],
+      "participants": [
+        {
+          "number": 4,
+          "uma": "Taiki Shuttle",
+          "player": "agnes",
+          "strategy": "Pace",
+          "time": "1:07.3",
+          "gap": "1:07.3",
+          "pop": 4,
+          "rank": "A+",
+          "title": "Mightiest Miler",
+          "umaId": "taiki-shuttle",
+          "position": 1,
+          "pos": 1
+        },
+        {
+          "number": 2,
+          "uma": "Curren Chan",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 2,
+          "rank": "S",
+          "title": "Sprint Sweetheart",
+          "umaId": "curren-chan",
+          "position": 2,
+          "pos": 2
+        },
+        {
+          "number": 12,
+          "uma": "Curren Chan",
+          "player": "Jiinxye",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 12,
+          "rank": "A+",
+          "title": "Team Player Star Slayer",
+          "umaId": "curren-chan",
+          "position": 3,
+          "pos": 3
+        },
+        {
+          "number": 14,
+          "uma": "Sakura Bakushin O",
+          "player": "Jiinxye",
+          "strategy": "Front",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 14,
+          "rank": "A+",
+          "title": "Team Player Star Slayer",
+          "umaId": "sakura-bakushin-o",
+          "position": 4,
+          "pos": 4
+        },
+        {
+          "number": 13,
+          "uma": "Haru Urara",
+          "player": "Cyclobly",
+          "strategy": "Late",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 13,
+          "rank": "A+",
+          "title": "Finals Champion",
+          "umaId": "haru-urara",
+          "position": 5,
+          "pos": 5
+        },
+        {
+          "number": 1,
+          "uma": "Taiki Shuttle",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 1,
+          "rank": "S",
+          "title": "Witness to Legend",
+          "umaId": "taiki-shuttle",
+          "position": 6,
+          "pos": 6
+        },
+        {
+          "number": 5,
+          "uma": "Sakura Bakushin O",
+          "player": "Yves",
+          "strategy": "Front",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 5,
+          "rank": "A+",
+          "title": "Witness to Legend",
+          "umaId": "sakura-bakushin-o",
+          "position": 7,
+          "pos": 7
+        },
+        {
+          "number": 10,
+          "uma": "Maruzensky",
+          "player": "Jiinxye",
+          "strategy": "Front",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 10,
+          "rank": "A+",
+          "title": "Team Player Star Slayer",
+          "umaId": "100402-maruzensky",
+          "position": 8,
+          "pos": 8
+        },
+        {
+          "number": 6,
+          "uma": "Maruzensky",
+          "player": "Cruzi",
+          "strategy": "Front",
+          "time": "1 1/2 L",
+          "gap": "1 1/2 L",
+          "pop": 6,
+          "rank": "S",
+          "title": "Dream Team",
+          "umaId": "maruzensky",
+          "position": 9,
+          "pos": 9
+        },
+        {
+          "number": 11,
+          "uma": "Sakura Bakushin O",
+          "player": "agnes",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 11,
+          "rank": "A+",
+          "title": "Finals Champion",
+          "umaId": "sakura-bakushin-o",
+          "position": 10,
+          "pos": 10
+        },
+        {
+          "number": 9,
+          "uma": "Air Groove",
+          "player": "agnes",
+          "strategy": "Pace",
+          "time": "1 3/4 L",
+          "gap": "1 3/4 L",
+          "pop": 9,
+          "rank": "A+",
+          "title": "Triple Tiara",
+          "umaId": "air-groove",
+          "position": 11,
+          "pos": 11
+        },
+        {
+          "number": 8,
+          "uma": "Silence Suzuka",
+          "player": "Cruzi",
+          "strategy": "Front",
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L",
+          "pop": 8,
+          "rank": "A+",
+          "title": "Otherworldly Front-Runner",
+          "umaId": "silence-suzuka",
+          "position": 12,
+          "pos": 12
+        },
+        {
+          "number": 17,
+          "uma": "Pastime Joy",
+          "player": "Mob",
+          "strategy": "Pace",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 17,
+          "rank": "B+",
+          "title": "Not shown",
+          "umaId": "pastime-joy",
+          "position": 13,
+          "pos": 13
+        },
+        {
+          "number": 15,
+          "uma": "Ribbon Virelai",
+          "player": "Mob",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 15,
+          "rank": "B+",
+          "title": "Not shown",
+          "umaId": "ribbon-virelai",
+          "position": 14,
+          "pos": 14
+        },
+        {
+          "number": 16,
+          "uma": "Battle of Elah",
+          "player": "Mob",
+          "strategy": "End",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 16,
+          "rank": "B+",
+          "title": "Not shown",
+          "umaId": "battle-of-elah",
+          "position": 15,
+          "pos": 15
+        },
+        {
+          "number": 7,
+          "uma": "Oguri Cap",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 7,
+          "rank": "A+",
+          "title": "Witness to Legend",
+          "umaId": "oguri-cap",
+          "position": 16,
+          "pos": 16
+        },
+        {
+          "number": 18,
+          "uma": "Smart Falcon",
+          "player": "Yves",
+          "strategy": "Front",
+          "time": "1 3/4 L",
+          "gap": "1 3/4 L",
+          "pop": 18,
+          "rank": "A",
+          "title": "Record Holder",
+          "umaId": "smart-falcon",
+          "position": 17,
+          "pos": 17
+        },
+        {
+          "number": 3,
+          "uma": "Daiwa Scarlet",
+          "player": "Cruzi",
+          "strategy": "Pace",
+          "time": "5 L",
+          "gap": "5 L",
+          "pop": 3,
+          "rank": "S",
+          "title": "Miss Perfect",
+          "umaId": "daiwa-scarlet",
+          "position": 18,
+          "pos": 18
+        }
+      ],
+      "details": "Chukyo Turf 1200m (Sprint) Left | Firm",
+      "guestPlacing": 5,
+      "specialWinners": {
+        "3★ Blue Spark": {
+          "player": "Cyciesta",
+          "uma": "Curren Chan",
+          "pos": 2,
+          "umaId": "curren-chan"
+        },
+        "2★ Blue Spark": {
+          "player": "Agnes",
+          "uma": "Taiki Shuttle",
+          "pos": 1,
+          "umaId": "taiki-shuttle"
+        },
+        "1★ Blue Spark": {
+          "player": "Jiinxye",
+          "uma": "Sakura Bakushin O",
+          "pos": 4,
+          "umaId": "sakura-bakushin-o"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "cupNumber": 22,
+      "cupName": "Sus Cup 22 — Cross Career Race",
+      "name": "G1 Tenno Sho (Spring)",
+      "date": "15 March 2026, 18:30",
+      "roomId": "8386 3137",
+      "race": "Tenno Sho (Spring)",
+      "course": "Kyoto Turf Outer",
+      "surface": "Turf",
+      "distance": "3200m",
+      "distanceType": "Long",
+      "direction": "Right",
+      "weather": "Rainy",
+      "ground": "Heavy",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "1 URA Finale, 1 Unity Cup, 1 Trackblazer runner. 3 entries per person.",
+      "scenarioWinners": {
+        "URA Finale": {
+          "player": "guest club member",
+          "uma": "Gold Ship",
+          "pos": 4,
+          "umaId": "gold-ship"
+        },
+        "Unity Cup": {
+          "player": "Cyciesta",
+          "uma": "Oguri Cap",
+          "pos": 3,
+          "umaId": "100602"
+        },
+        "Trackblazer": {
+          "player": "Cyciesta",
+          "uma": "Agnes Tachyon",
+          "pos": 1,
+          "umaId": "agnes-tachyon"
+        }
+      },
+      "images": [
+        "suscupimages21-30/22.1.png",
+        "suscupimages21-30/22.2.png",
+        "suscupimages21-30/22.3.png",
+        "suscupimages21-30/22.4.png"
+      ],
+            "participants": [
+        {
+          "number": 17,
+          "uma": "Agnes Tachyon",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "3:13.4",
+          "gap": "3:13.4",
+          "pop": 1,
+          "rank": "?",
+          "title": "Leading the Charge",
+          "umaId": "agnes-tachyon",
+          "position": 1,
+          "pos": 1
+        },
+        {
+          "number": 11,
+          "uma": "Oguri Cap",
+          "player": "Yes",
+          "strategy": "Pace",
+          "time": "1 3/4 L",
+          "gap": "1 3/4 L",
+          "pop": 3,
+          "rank": "?",
+          "title": "Leading the Charge",
+          "umaId": "100602",
+          "position": 2,
+          "pos": 2
+        },
+        {
+          "number": 10,
+          "uma": "Oguri Cap",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "3 1/2 L",
+          "gap": "3 1/2 L",
+          "pop": 6,
+          "rank": "?",
+          "title": "Witness to Legend",
+          "umaId": "100602",
+          "position": 3,
+          "pos": 3
+        },
+        {
+          "number": 14,
+          "uma": "Gold Ship",
+          "player": "Arn",
+          "strategy": "End",
+          "time": "1 1/2 L",
+          "gap": "1 1/2 L",
+          "pop": 17,
+          "rank": "?",
+          "title": "The GOAT",
+          "umaId": "gold-ship",
+          "position": 4,
+          "pos": 4
+        },
+        {
+          "number": 2,
+          "uma": "Gold Ship",
+          "player": "agnes",
+          "strategy": "End",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 7,
+          "rank": "?",
+          "title": "Unpredictable",
+          "umaId": "gold-ship",
+          "position": 5,
+          "pos": 5
+        },
+        {
+          "number": 3,
+          "uma": "Admire Vega",
+          "player": "GohanXGAMER",
+          "strategy": "End",
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L",
+          "pop": 2,
+          "rank": "?",
+          "title": "Leading the Charge",
+          "umaId": "admire-vega",
+          "position": 6,
+          "pos": 6
+        },
+        {
+          "number": 13,
+          "uma": "Oguri Cap",
+          "player": "GohanXGAMER",
+          "strategy": "Pace",
+          "time": "4 L",
+          "gap": "4 L",
+          "pop": 15,
+          "rank": "?",
+          "title": "G1 Hunter",
+          "umaId": "100602-oguri-cap",
+          "position": 7,
+          "pos": 7
+        },
+        {
+          "number": 4,
+          "uma": "Narita Taishin",
+          "player": "Yes",
+          "strategy": "End",
+          "time": "5 L",
+          "gap": "5 L",
+          "pop": 8,
+          "rank": "?",
+          "title": "Witness to Legend",
+          "umaId": "narita-taishin",
+          "position": 8,
+          "pos": 8
+        },
+        {
+          "number": 9,
+          "uma": "Tamamo Cross",
+          "player": "GohanXGAMER",
+          "strategy": "End",
+          "time": "2 1/2 L",
+          "gap": "2 1/2 L",
+          "pop": 5,
+          "rank": "?",
+          "title": "Now That's White Lightning!",
+          "umaId": "tamamo-cross",
+          "position": 9,
+          "pos": 9
+        },
+        {
+          "number": 6,
+          "uma": "Mayano Top Gun",
+          "player": "Yes",
+          "strategy": "Front",
+          "time": "2 L",
+          "gap": "2 L",
+          "pop": 16,
+          "rank": "?",
+          "title": "Finals Champion",
+          "umaId": "mayano-top-gun",
+          "position": 10,
+          "pos": 10
+        },
+        {
+          "number": 8,
+          "uma": "Tokai Teio",
+          "player": "Jinxye",
+          "strategy": "Pace",
+          "time": "Head",
+          "gap": "Head",
+          "pop": 4,
+          "rank": "?",
+          "title": "Monarch",
+          "umaId": "100302",
+          "position": 11,
+          "pos": 11
+        },
+        {
+          "number": 15,
+          "uma": "T.M. Opera O",
+          "player": "agnes",
+          "strategy": "Pace",
+          "time": "3 1/2 L",
+          "gap": "3 1/2 L",
+          "pop": 9,
+          "rank": "?",
+          "title": "Centurial Overlord",
+          "umaId": "tm-opera-o",
+          "position": 12,
+          "pos": 12
+        },
+        {
+          "number": 16,
+          "uma": "Mejiro McQueen",
+          "player": "Arn",
+          "strategy": "Pace",
+          "time": "3 1/2 L",
+          "gap": "3 1/2 L",
+          "pop": 11,
+          "rank": "?",
+          "title": "Product Power",
+          "umaId": "101302",
+          "position": 13,
+          "pos": 13
+        },
+        {
+          "number": 18,
+          "uma": "Matikanefukukitaru",
+          "player": "Jinxye",
+          "strategy": "Late",
+          "time": "5 L",
+          "gap": "5 L",
+          "pop": 10,
+          "rank": "?",
+          "title": "Team Player Star Slayer",
+          "umaId": "105602",
+          "position": 14,
+          "pos": 14
+        },
+        {
+          "number": 12,
+          "uma": "Grass Wonder",
+          "player": "agnes",
+          "strategy": "Late",
+          "time": "Distance",
+          "gap": "Distance",
+          "pop": 14,
+          "rank": "?",
+          "title": "Finals Champion",
+          "umaId": "grass-wonder",
+          "position": 15,
+          "pos": 15
+        },
+        {
+          "number": 5,
+          "uma": "Meisho Doto",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 12,
+          "rank": "?",
+          "title": "Legendary Diva",
+          "umaId": "meisho-doto",
+          "position": 16,
+          "pos": 16
+        },
+        {
+          "number": 1,
+          "uma": "Seiun Sky",
+          "player": "Arn",
+          "strategy": "Front",
+          "time": "5 L",
+          "gap": "5 L",
+          "pop": 13,
+          "rank": "?",
+          "title": "Witness to Legend",
+          "umaId": "seiun-sky",
+          "position": 17,
+          "pos": 17
+        },
+        {
+          "number": 7,
+          "uma": "Nice Nature",
+          "player": "Jinxye",
+          "strategy": "Late",
+          "time": "6 L",
+          "gap": "6 L",
+          "pop": 18,
+          "rank": "?",
+          "title": "Next-Gen Grandmaster",
+          "umaId": "nice-nature",
+          "position": 18,
+          "pos": 18
+        }
+      ],
+      "details": "Kyoto Turf Outer 3200m (Long) Right | Heavy\nCondition: Low Stamina",
+      "guestPlacing": 4
+    },
+    {
+      "id": 23,
+      "cupNumber": 23,
+      "cupName": "Sus Cup 23 — Mixed Rarity Race",
+      "name": "G1 Satsuki Sho",
+      "date": "03 April 2026, 18:32",
+      "roomId": "7419 1111",
+      "race": "Satsuki Sho",
+      "course": "Nakayama Turf Inner",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Right",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "1x 1★, 1x 2★, 1x 3★ initial rarity runners. Unique runners only.",
+      "rarityWinners": {
+        "3-Star": {
+          "player": "Jiinxye",
+          "uma": "Narita Taishin",
+          "pos": 1
+        },
+        "2-Star": {
+          "player": "Agnes",
+          "uma": "Air Groove",
+          "pos": 9
+        },
+        "1-Star": {
+          "player": "Shadow Amber",
+          "uma": "Agnes Tachyon",
+          "pos": 2
+        }
+      },
+      "images": [
+        "suscupimages21-30/23.1.png",
+        "suscupimages21-30/23.2.png",
+        "suscupimages21-30/23.3.png",
+        "suscupimages21-30/23.4.png"
+      ],
+      "participants": [
+        {
+            "number": 16,
+            "uma": "Narita Taishin",
+            "player": "Jiinxye",
+            "strategy": "End",
+            "time": "1:56.1",
+            "gap": "1:56.1",
+            "pop": 17,
+            "rank": "SS",
+            "title": "Phenomenal",
+            "umaId": "narita-taishin",
+            "pos": 1
+        },
+        {
+            "number": 18,
+            "uma": "Agnes Tachyon",
+            "player": "Shadow Amber",
+            "strategy": "Pace",
+            "time": "1 L",
+            "gap": "1 L",
+            "pop": 8,
+            "rank": "S",
+            "title": "Leading the Charge",
+            "umaId": "agnes-tachyon",
+            "pos": 2
+        },
+        {
+            "number": 5,
+            "uma": "Mihono Bourbon",
+            "player": "Cruzi",
+            "strategy": "Front",
+            "time": "Head",
+            "gap": "Head",
+            "pop": 11,
+            "rank": "SS",
+            "title": "Leading the Charge",
+            "umaId": "mihono-bourbon",
+            "pos": 3
+        },
+        {
+            "number": 1,
+            "uma": "King Halo",
+            "player": "agnes",
+            "strategy": "Late",
+            "time": "Head",
+            "gap": "Head",
+            "pop": 7,
+            "rank": "S+",
+            "title": "Goddess",
+            "umaId": "king-halo",
+            "pos": 4
+        },
+        {
+            "number": 9,
+            "uma": "Nice Nature",
+            "player": "Cyclobly",
+            "strategy": "Late",
+            "time": "1 1/2 L",
+            "gap": "1 1/2 L",
+            "pop": 3,
+            "rank": "SS",
+            "title": "Leading the Charge",
+            "umaId": "nice-nature",
+            "pos": 5
+        },
+        {
+            "number": 6,
+            "uma": "Agnes Tachyon",
+            "player": "Cruzi",
+            "strategy": "Pace",
+            "time": "Head",
+            "gap": "Head",
+            "pop": 5,
+            "rank": "S+",
+            "title": "Leading the Charge",
+            "umaId": "agnes-tachyon",
+            "pos": 6
+        },
+        {
+            "number": 10,
+            "uma": "T.M. Opera O",
+            "player": "agnes",
+            "strategy": "Pace",
+            "time": "Nose",
+            "gap": "Nose",
+            "pop": 1,
+            "rank": "S+",
+            "title": "Centurial Overlord",
+            "umaId": "tm-opera-o",
+            "pos": 7
+        },
+        {
+            "number": 13,
+            "uma": "Oguri Cap",
+            "player": "Shadow Amber",
+            "strategy": "Pace",
+            "time": "Nose",
+            "gap": "Nose",
+            "pop": 6,
+            "rank": "S",
+            "title": "Ideal Idol",
+            "umaId": "100602-oguri-cap",
+            "pos": 8
+        },
+        {
+            "number": 12,
+            "uma": "Air Groove",
+            "player": "agnes",
+            "strategy": "Late",
+            "time": "Head",
+            "gap": "Head",
+            "pop": 16,
+            "rank": "S",
+            "title": "Empress",
+            "umaId": "air-groove",
+            "pos": 9
+        },
+        {
+            "number": 4,
+            "uma": "Eishin Flash",
+            "player": "Ananth",
+            "strategy": "Pace",
+            "time": "1 L",
+            "gap": "1 L",
+            "pop": 13,
+            "rank": "SS",
+            "title": "Leading the Charge",
+            "umaId": "eishin-flash",
+            "pos": 10
+        },
+        {
+            "number": 11,
+            "uma": "Gold Ship",
+            "player": "Cruzi",
+            "strategy": "End",
+            "time": "3/4 L",
+            "gap": "3/4 L",
+            "pop": 9,
+            "rank": "S",
+            "title": "Unpredictable",
+            "umaId": "gold-ship",
+            "pos": 11
+        },
+        {
+            "number": 14,
+            "uma": "Vodka",
+            "player": "Jiinxye",
+            "strategy": "Late",
+            "time": "Neck",
+            "gap": "Neck",
+            "pop": 10,
+            "rank": "S",
+            "title": "Goddess",
+            "umaId": "vodka",
+            "pos": 12
+        },
+        {
+            "number": 7,
+            "uma": "Oguri Cap",
+            "player": "Cyclobly",
+            "strategy": "Pace",
+            "time": "1/2 L",
+            "gap": "1/2 L",
+            "pop": 4,
+            "rank": "SS",
+            "title": "Leading the Charge",
+            "umaId": "oguri-cap",
+            "pos": 13
+        },
+        {
+            "number": 15,
+            "uma": "Grass Wonder",
+            "player": "Cyclobly",
+            "strategy": "Late",
+            "time": "Nose",
+            "gap": "Nose",
+            "pop": 2,
+            "rank": "SS",
+            "title": "Leading the Charge",
+            "umaId": "grass-wonder",
+            "pos": 14
+        },
+        {
+            "number": 8,
+            "uma": "Mejiro Ryan",
+            "player": "Haji",
+            "strategy": "Late",
+            "time": "1/2 L",
+            "gap": "1/2 L",
+            "pop": 12,
+            "rank": "A+",
+            "title": "Mesmerizing Muscle",
+            "umaId": "mejiro-ryan",
+            "pos": 15
+        },
+        {
+            "number": 17,
+            "uma": "Winning Ticket",
+            "player": "Jiinxye",
+            "strategy": "Late",
+            "time": "3/4 L",
+            "gap": "3/4 L",
+            "pop": 14,
+            "rank": "S",
+            "title": "Herald of a New Age",
+            "umaId": "winning-ticket",
+            "pos": 16
+        },
+        {
+            "number": 3,
+            "uma": "Special Week",
+            "player": "Haji",
+            "strategy": "Pace",
+            "time": "1 3/4 L",
+            "gap": "1 3/4 L",
+            "pop": 15,
+            "rank": "S",
+            "title": "Leading the Charge",
+            "umaId": "special-week",
+            "pos": 17
+        },
+        {
+            "number": 2,
+            "uma": "Super Creek",
+            "player": "Haji",
+            "strategy": "Pace",
+            "time": "1 1/4 L",
+            "gap": "1 1/4 L",
+            "pop": 18,
+            "rank": "A+",
+            "title": "Legendary Diva",
+            "umaId": "super-creek",
+            "pos": 18
+        }
+      ],
+      "details": "Nakayama Turf 2000m (Medium) Right / Inner | Firm",
+      "guestPlacing": 8
+    },
+    {
+      "id": 24,
+      "cupNumber": 24,
+      "cupName": "Sus Cup 24 — Solo Queue Race",
+      "name": "G1 Satsuki Sho",
+      "date": "05 April 2026, 11:43",
+      "roomId": "8244 6062",
+      "race": "Satsuki Sho",
+      "course": "Nakayama Turf Inner",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Right",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Great",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "Solo Queue Race. 1 runner per person. Unique runner only. Taking reservations.",
+      "images": [
+        "suscupimages21-30/24.1.png",
+        "suscupimages21-30/24.2.png",
+        "suscupimages21-30/24.3.png",
+        "suscupimages21-30/24.4.png"
+      ],
+      "registeredRunners": [
+        {
+          "player": "Agnes",
+          "uma": "Symboli Rudolf"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Narita Taishin"
+        },
+        {
+          "player": "Cyciesta",
+          "uma": "Oguri Cap"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Fuji Kiseki"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Agnes Tachyon"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Admire Vega"
+        }
+      ],
+      "participants": [
+        {
+          "number": 11,
+          "uma": "Oguri Cap",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "1:56.4",
+          "gap": "1:56.4",
+          "pop": 5,
+          "rank": "",
+          "title": "",
+          "umaId": "100602",
+          "position": 1
+        },
+        {
+          "number": 2,
+          "uma": "Seiun Sky",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 7,
+          "rank": "",
+          "title": "",
+          "umaId": "seiun-sky",
+          "position": 2
+        },
+        {
+          "number": 17,
+          "uma": "Mihono Bourbon",
+          "player": "Cruzi",
+          "strategy": "Front",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 4,
+          "rank": "",
+          "title": "",
+          "umaId": "102602",
+          "position": 3
+        },
+        {
+          "number": 9,
+          "uma": "Symboli Rudolf",
+          "player": "Cruzi",
+          "strategy": "Pace",
+          "time": "1 1/2 L",
+          "gap": "1 1/2 L",
+          "pop": 2,
+          "rank": "",
+          "title": "",
+          "umaId": "symboli-rudolf",
+          "position": 4
+        },
+        {
+          "number": 5,
+          "uma": "Seiun Sky",
+          "player": "GohanXGAMER",
+          "strategy": "Front",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 1,
+          "rank": "",
+          "title": "",
+          "umaId": "seiun-sky",
+          "position": 5
+        },
+        {
+          "number": 1,
+          "uma": "Rice Shower",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "1 3/4 L",
+          "gap": "1 3/4 L",
+          "pop": 3,
+          "rank": "",
+          "title": "",
+          "umaId": "rice-shower",
+          "position": 6
+        },
+        {
+          "number": 10,
+          "uma": "Special Week",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 9,
+          "rank": "",
+          "title": "",
+          "umaId": "special-week",
+          "position": 7
+        },
+        {
+          "number": 4,
+          "uma": "Gold City",
+          "player": "Jiinxye",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 13,
+          "rank": "",
+          "title": "",
+          "umaId": "104002",
+          "position": 8
+        },
+        {
+          "number": 15,
+          "uma": "Super Creek",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 10,
+          "rank": "",
+          "title": "",
+          "umaId": "super-creek",
+          "position": 9
+        },
+        {
+          "number": 6,
+          "uma": "Tokai Teio",
+          "player": "Jiinxye",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 15,
+          "rank": "",
+          "title": "",
+          "umaId": "100302-tokai-teio",
+          "position": 10
+        },
+        {
+          "number": 18,
+          "uma": "Gold City",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "2 L",
+          "gap": "2 L",
+          "pop": 8,
+          "rank": "",
+          "title": "",
+          "umaId": "104002",
+          "position": 11
+        },
+        {
+          "number": 7,
+          "uma": "Gold City",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 16,
+          "rank": "",
+          "title": "",
+          "umaId": "104002",
+          "position": 12
+        },
+        {
+          "number": 3,
+          "uma": "Mayano Top Gun",
+          "player": "Cruzi",
+          "strategy": "Pace",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 6,
+          "rank": "",
+          "title": "",
+          "umaId": "mayano-top-gun",
+          "position": 13
+        },
+        {
+          "number": 16,
+          "uma": "Air Groove",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 14,
+          "rank": "",
+          "title": "",
+          "umaId": "101802",
+          "position": 14
+        },
+        {
+          "number": 14,
+          "uma": "El Condor Pasa",
+          "player": "Jiinxye",
+          "strategy": "Late",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 13,
+          "rank": "",
+          "title": "",
+          "umaId": "el-condor-pasa",
+          "position": 15
+        },
+        {
+          "number": 12,
+          "uma": "Special Week",
+          "player": "GohanXGAMER",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 11,
+          "rank": "",
+          "title": "",
+          "umaId": "special-week",
+          "position": 16
+        },
+        {
+          "number": 13,
+          "uma": "Biwa Hayahide",
+          "player": "GohanXGAMER",
+          "strategy": "Pace",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 17,
+          "rank": "",
+          "title": "",
+          "umaId": "biwa-hayahide",
+          "position": 17
+        },
+        {
+          "number": 8,
+          "uma": "Tamaxchi",
+          "player": "—",
+          "strategy": "Pace",
+          "time": "6 L",
+          "gap": "6 L",
+          "pop": 18,
+          "rank": "",
+          "title": "",
+          "umaId": "tamaxchi",
+          "position": 18
+        }
+      ],
+      "details": "Nakayama Turf 2000m (Medium) Right / Inner | Firm",
+      "guestPlacing": 7,
+      "url": "https://discord.com/channels/885095339885989942/1389671658905800797/1490350135895523409"
+    },
+    {
+      "id": 25,
+      "cupNumber": 25,
+      "cupName": "Sus Cup 25 — Fashion Statement Race",
+      "name": "G1 Satsuki Sho",
+      "date": "12 April 2026, 21:35",
+      "roomId": "7366 5085",
+      "race": "Satsuki Sho",
+      "course": "Nakayama Turf Inner",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Right",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Normal",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "Alt Costume Only. 3 runners per person.",
+      "images": [
+        "suscupimages21-30/25.1.png",
+        "suscupimages21-30/25.2.png",
+        "suscupimages21-30/25.3.png",
+        "suscupimages21-30/25.4.png"
+      ],
+      "registeredRunners": [
+        {
+          "player": "Agnes",
+          "uma": "Gold City"
+        },
+        {
+          "player": "Agnes",
+          "uma": "Super Creek"
+        },
+        {
+          "player": "Agnes",
+          "uma": "Special Week"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Seiun Sky"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Special Week"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Biwa Hayahide"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Symboli Rudolf"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Mihono Bourbon"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Mayano Top Gun"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Tokai Teio"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "El Condor Pasa"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Gold City"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Gold City"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Grass Wonder"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Air Groove"
+        },
+        {
+          "player": "Cyciesta",
+          "uma": "Seiun Sky"
+        },
+        {
+          "player": "Cyciesta",
+          "uma": "Rice Shower"
+        },
+        {
+          "player": "Cyciesta",
+          "uma": "Oguri Cap"
+        }
+      ],
+      "participants": [
+        {
+          "number": 11,
+          "uma": "Oguri Cap",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "1:56.4",
+          "gap": "1:56.4",
+          "pop": 5,
+          "rank": "",
+          "title": "",
+          "umaId": "100602",
+          "position": 1
+        },
+        {
+          "number": 2,
+          "uma": "Seiun Sky",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 7,
+          "rank": "",
+          "title": "",
+          "umaId": "102002",
+          "position": 2
+        },
+        {
+          "number": 17,
+          "uma": "Mihono Bourbon",
+          "player": "Cruzi",
+          "strategy": "Front",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 4,
+          "rank": "",
+          "title": "",
+          "umaId": "102602",
+          "position": 3
+        },
+        {
+          "number": 9,
+          "uma": "Symboli Rudolf",
+          "player": "Cruzi",
+          "strategy": "Pace",
+          "time": "1 1/2 L",
+          "gap": "1 1/2 L",
+          "pop": 2,
+          "rank": "",
+          "title": "",
+          "umaId": "101702",
+          "position": 4
+        },
+        {
+          "number": 5,
+          "uma": "Seiun Sky",
+          "player": "GohanXGAMER",
+          "strategy": "Front",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 1,
+          "rank": "",
+          "title": "",
+          "umaId": "102002",
+          "position": 5
+        },
+        {
+          "number": 1,
+          "uma": "Rice Shower",
+          "player": "Cyclobly",
+          "strategy": "Pace",
+          "time": "1 3/4 L",
+          "gap": "1 3/4 L",
+          "pop": 3,
+          "rank": "",
+          "title": "",
+          "umaId": "103002",
+          "position": 6
+        },
+        {
+          "number": 10,
+          "uma": "Special Week",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 9,
+          "rank": "",
+          "title": "",
+          "umaId": "100102",
+          "position": 7
+        },
+        {
+          "number": 4,
+          "uma": "Gold City",
+          "player": "Jiinxye",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 13,
+          "rank": "",
+          "title": "",
+          "umaId": "104002",
+          "position": 8
+        },
+        {
+          "number": 15,
+          "uma": "Super Creek",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 10,
+          "rank": "",
+          "title": "",
+          "umaId": "104502",
+          "position": 9
+        },
+        {
+          "number": 6,
+          "uma": "Tokai Teio",
+          "player": "Jiinxye",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 15,
+          "rank": "",
+          "title": "",
+          "umaId": "100302",
+          "position": 10
+        },
+        {
+          "number": 18,
+          "uma": "Gold City",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "2 L",
+          "gap": "2 L",
+          "pop": 8,
+          "rank": "",
+          "title": "",
+          "umaId": "104002",
+          "position": 11
+        },
+        {
+          "number": 7,
+          "uma": "Gold City",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 16,
+          "rank": "",
+          "title": "",
+          "umaId": "104002",
+          "position": 12
+        },
+        {
+          "number": 3,
+          "uma": "Mayano Top Gun",
+          "player": "Cruzi",
+          "strategy": "Pace",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 6,
+          "rank": "",
+          "title": "",
+          "umaId": "102402",
+          "position": 13
+        },
+        {
+          "number": 16,
+          "uma": "Air Groove",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 14,
+          "rank": "",
+          "title": "",
+          "umaId": "101802",
+          "position": 14
+        },
+        {
+          "number": 14,
+          "uma": "El Condor Pasa",
+          "player": "Jiinxye",
+          "strategy": "Late",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 13,
+          "rank": "",
+          "title": "",
+          "umaId": "101402",
+          "position": 15
+        },
+        {
+          "number": 12,
+          "uma": "Special Week",
+          "player": "GohanXGAMER",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 11,
+          "rank": "",
+          "title": "",
+          "umaId": "100102",
+          "position": 16
+        },
+        {
+          "number": 13,
+          "uma": "Biwa Hayahide",
+          "player": "GohanXGAMER",
+          "strategy": "Pace",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 17,
+          "rank": "",
+          "title": "",
+          "umaId": "102302",
+          "position": 17
+        },
+        {
+          "number": 8,
+          "uma": "Tamaxchi",
+          "player": "—",
+          "strategy": "Pace",
+          "time": "6 L",
+          "gap": "6 L",
+          "pop": 18,
+          "rank": "",
+          "title": "",
+          "umaId": "tamaxchi",
+          "position": 18
+        }
+      ],
+      "details": "Nakayama Turf 2000m (Medium) Right / Inner | Firm",
+      "guestPlacing": 7,
+      "url": "https://discord.com/channels/885095339885989942/1389671658905800797/1492919399370461327"
+    },
+    {
+      "id": 26,
+      "cupNumber": 26,
+      "cupName": "Sus Cup 26 — Grand Live Sussery",
+      "name": "Satsuki Sho",
+      "date": "20 April 2026",
+      "roomId": "5887 5481",
+      "race": "Satsuki Sho",
+      "course": "Nakayama Turf Inner",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Right",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Normal",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "3 runners per participant. All trained in Grand Live scenario. Conditions: 1. Speed SSR Agnes Tachyon (No Light Hello) 2. Light Hello (No Speed SSR Agnes Tachyon) 3. Auto Train (No deck restrictions).",
+      "scenarioWinners": {
+        "Speed Tachyon Deck": {
+          "player": "Agnes",
+          "uma": "Special Week",
+          "pos": 1
+        },
+        "Light Hello Deck": {
+          "player": "Ananth",
+          "uma": "Oguri Cap",
+          "pos": 2
+        },
+        "Auto Train": {
+          "player": "GohanXGAMER",
+          "uma": "Mejiro Dober",
+          "pos": 4
+        }
+      },
+      "images": [
+        "suscupimages21-30/26.1.png",
+        "suscupimages21-30/26.2.png",
+        "suscupimages21-30/26.3.png",
+        "suscupimages21-30/26.4.png"
+      ],
+      "participants": [
+        {
+          "uma": "Special Week",
+          "umaId": "special-week",
+          "player": "Agnes",
+          "title": "Derby Dreamer",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 15,
+          "rank": "SS",
+          "style": "Pace",
+          "finish": "1:58.0",
+          "fav": 8,
+          "position": 1
+        },
+        {
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Ananth",
+          "title": "Legendary Reprise",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 9,
+          "rank": "UG",
+          "style": "Pace",
+          "finish": "1 1/2 L",
+          "fav": 1,
+          "position": 2
+        },
+        {
+          "uma": "Agnes Tachyon",
+          "umaId": "agnes-tachyon",
+          "player": "Cruzi",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 14,
+          "rank": "UG",
+          "style": "Pace",
+          "finish": "1 3/4 L",
+          "fav": 10,
+          "title": "Faster than Light",
+          "position": 3
+        },
+        {
+          "uma": "Mejiro Dober",
+          "umaId": "mejiro-dober",
+          "player": "GohanXGAMER",
+          "title": "Independent Learner",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 16,
+          "rank": "SS",
+          "style": "Late",
+          "finish": "1/2 L",
+          "fav": 15,
+          "position": 4
+        },
+        {
+          "uma": "Silence Suzuka",
+          "umaId": "silence-suzuka",
+          "player": "Agnes",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 11,
+          "rank": "SS",
+          "style": "Front",
+          "finish": "Nose",
+          "fav": 2,
+          "title": "Otherworldly Front-Runner",
+          "position": 5
+        },
+        {
+          "uma": "Agnes Digital",
+          "umaId": "101902",
+          "player": "Cruzi",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 18,
+          "rank": "SS",
+          "style": "Pace",
+          "finish": "Neck",
+          "fav": 13,
+          "title": "The Key to Success",
+          "position": 6
+        },
+        {
+          "uma": "Maruzensky",
+          "umaId": "maruzensky",
+          "player": "Ananth",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 6,
+          "rank": "UG",
+          "style": "Front",
+          "finish": "1/2 L",
+          "fav": 3,
+          "title": "The Key to Success",
+          "position": 7
+        },
+        {
+          "uma": "Tokai Teio",
+          "umaId": "tokai-teio-beyond",
+          "player": "Jiinxye",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 3,
+          "rank": "S+",
+          "style": "Pace",
+          "finish": "3/4 L",
+          "fav": 4,
+          "title": "Independent Learner",
+          "position": 8
+        },
+        {
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "GohanXGAMER",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 12,
+          "rank": "SS",
+          "style": "Front",
+          "finish": "1 L",
+          "fav": 12,
+          "title": "The Key to Success",
+          "position": 9
+        },
+        {
+          "uma": "Admire Vega",
+          "umaId": "admire-vega",
+          "player": "GohanXGAMER",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 2,
+          "rank": "UG",
+          "style": "End",
+          "finish": "Nose",
+          "fav": 7,
+          "title": "Brightest Star",
+          "position": 10
+        },
+        {
+          "uma": "Mayano Top Gun",
+          "umaId": "102402",
+          "player": "Cruzi",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 10,
+          "rank": "SS",
+          "style": "Pace",
+          "finish": "2 1/2 L",
+          "fav": 6,
+          "title": "Independent Learner",
+          "position": 11
+        },
+        {
+          "uma": "Gold Ship",
+          "umaId": "100702",
+          "player": "Jiinxye",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 17,
+          "rank": "SS",
+          "style": "End",
+          "finish": "Neck",
+          "fav": 11,
+          "title": "Cool and Composed",
+          "position": 12
+        },
+        {
+          "uma": "T.M. Opera O",
+          "umaId": "t-m-opera-o",
+          "player": "Jiinxye",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 13,
+          "rank": "S+",
+          "style": "Pace",
+          "finish": "1/2 L",
+          "fav": 9,
+          "title": "Queen of Dance",
+          "position": 13
+        },
+        {
+          "uma": "Air Shakur",
+          "umaId": "103601",
+          "player": "Agnes",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "no": 5,
+          "rank": "SS",
+          "style": "End",
+          "finish": "Neck",
+          "fav": 5,
+          "title": "Independent Learner",
+          "position": 14
+        },
+        {
+          "uma": "Gold City",
+          "umaId": "104002",
+          "player": "Ananth",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "characterUrl": "https://gametora.com/umamusume/characters/104001-gold-city",
+          "no": 1,
+          "rank": "S+",
+          "style": "Pace",
+          "finish": "Neck",
+          "fav": 14,
+          "title": "Independent Learner",
+          "position": 15
+        },
+        {
+          "uma": "Oishii Parfait",
+          "umaId": "oishii-parfait",
+          "player": "NPC",
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "no": 4,
+          "rank": "A",
+          "style": "Front",
+          "finish": "5 L",
+          "fav": 17,
+          "position": 16
+        },
+        {
+          "uma": "Coronet Rhythm",
+          "umaId": "coronet-rhythm",
+          "player": "NPC",
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "no": 7,
+          "rank": "A",
+          "style": "Pace",
+          "finish": "1/2 L",
+          "fav": 16,
+          "position": 17
+        },
+        {
+          "uma": "Tropical Sky",
+          "umaId": "tropical-sky",
+          "player": "NPC",
+          "version": "NPC",
+          "participantType": "NPC Uma",
+          "no": 8,
+          "rank": "A",
+          "style": "End",
+          "finish": "Head",
+          "fav": 18,
+          "position": 18
+        }
+      ],
+      "url": "https://discord.com/channels/885095339885989942/1389671658905800797/1531310675006197861"
+    },
+    {
+      "id": 27.1,
+      "cupNumber": 27,
+      "cupName": "Sus Cup 27 — Multi CM Sussing",
+      "name": "Asahi Hai Futurity Stakes",
+      "date": "22 August 2026, 12:19",
+      "roomId": "4967 8054",
+      "race": "Asahi Hai Futurity Stakes",
+      "course": "Hanshin Turf",
+      "surface": "Turf",
+      "distance": "1600m",
+      "distanceType": "Mile",
+      "direction": "Right-handed / Outer",
+      "weather": "Cloudy",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "Multi-CM format. 3 runners per person. This is the Mile round (2 Mile runners used per person).",
+      "images": [
+        "suscupimages21-30/mile27.1.png",
+        "suscupimages21-30/mile27.2.png",
+        "suscupimages21-30/mile27.3.png",
+        "suscupimages21-30/mile27.4.png"
+      ],
+      "registeredRunners": [
+        {
+          "player": "Agnes",
+          "uma": "Fuji Kiseki"
+        },
+        {
+          "player": "Agnes",
+          "uma": "Taiki Shuttle"
+        },
+        {
+          "player": "Agnes",
+          "uma": "Eishin Flash"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Nishino Flower"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Seeking the Pearl"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Gold Ship"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Daiwa Scarlet"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Nice Nature"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Seiun Sky"
+        },
+        {
+          "player": "Vilthaar",
+          "uma": "Nishino Flower"
+        },
+        {
+          "player": "Vilthaar",
+          "uma": "Taiki Shuttle"
+        },
+        {
+          "player": "Vilthaar",
+          "uma": "Meisho Doto"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Mihono Bourbon"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Air Groove"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Fine Motion"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Kitasan Black"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Agnes Digital"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Taiki Shuttle"
+        }
+      ],
+      "participants": [
+        {
+          "uma": "Nishino Flower",
+          "umaId": "105101",
+          "player": "Vilthaar",
+          "title": "",
+          "rank": "UG4",
+          "number": 4,
+          "strategy": "Pace",
+          "pop": 6,
+          "gap": "—",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 1
+        },
+        {
+          "uma": "Mihono Bourbon",
+          "umaId": "102602",
+          "player": "Cruzi",
+          "title": "",
+          "rank": "UG7",
+          "number": 5,
+          "strategy": "Front",
+          "pop": 4,
+          "gap": "2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 2
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "101002",
+          "player": "Agnes",
+          "title": "",
+          "rank": "UG5",
+          "number": 10,
+          "strategy": "Pace",
+          "pop": 1,
+          "gap": "1 1/2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 3
+        },
+        {
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "GohanXGAMER",
+          "title": "",
+          "rank": "UG6",
+          "number": 13,
+          "strategy": "Front",
+          "pop": 2,
+          "gap": "Neck",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 4
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "101002",
+          "player": "Vilthaar",
+          "title": "",
+          "rank": "UG8",
+          "number": 9,
+          "strategy": "Pace",
+          "pop": 7,
+          "gap": "Neck",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 5
+        },
+        {
+          "uma": "Fine Motion",
+          "umaId": "fine-motion",
+          "player": "Cruzi",
+          "title": "",
+          "rank": "SS",
+          "number": 14,
+          "strategy": "Pace",
+          "pop": 5,
+          "gap": "1 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 6
+        },
+        {
+          "uma": "Nice Nature",
+          "umaId": "106002",
+          "player": "GohanXGAMER",
+          "title": "",
+          "rank": "UG5",
+          "number": 8,
+          "strategy": "Late",
+          "pop": 11,
+          "gap": "Nose",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 7
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "101002",
+          "player": "Ananth",
+          "title": "",
+          "rank": "UG3",
+          "number": 16,
+          "strategy": "Pace",
+          "pop": 13,
+          "gap": "3 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 8
+        },
+        {
+          "uma": "Nishino Flower",
+          "umaId": "105101",
+          "player": "Jiinxye",
+          "title": "",
+          "rank": "UG",
+          "number": 1,
+          "strategy": "Pace",
+          "pop": 15,
+          "gap": "Neck",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 9
+        },
+        {
+          "uma": "Fuji Kiseki",
+          "umaId": "fuji-kiseki",
+          "player": "Agnes",
+          "title": "",
+          "rank": "UG7",
+          "number": 6,
+          "strategy": "Pace",
+          "pop": 3,
+          "gap": "1 1/2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 10
+        },
+        {
+          "uma": "Agnes Digital",
+          "umaId": "101902",
+          "player": "Ananth",
+          "title": "",
+          "rank": "SS",
+          "number": 7,
+          "strategy": "Pace",
+          "pop": 14,
+          "gap": "3/4 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 11
+        },
+        {
+          "uma": "Seeking the Pearl",
+          "umaId": "104201",
+          "player": "Jiinxye",
+          "title": "",
+          "rank": "SS",
+          "number": 3,
+          "strategy": "Pace",
+          "pop": 9,
+          "gap": "Nose",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 12
+        },
+        {
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "GohanXGAMER",
+          "title": "",
+          "rank": "SS",
+          "number": 12,
+          "strategy": "Front",
+          "pop": 17,
+          "gap": "1 1/2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 13
+        },
+        {
+          "uma": "Air Groove",
+          "umaId": "101802",
+          "player": "Cruzi",
+          "title": "",
+          "rank": "UG",
+          "number": 15,
+          "strategy": "Pace",
+          "pop": 8,
+          "gap": "Head",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 14
+        },
+        {
+          "uma": "Gold Ship",
+          "umaId": "100702",
+          "player": "Jiinxye",
+          "title": "",
+          "rank": "SS",
+          "number": 2,
+          "strategy": "End",
+          "pop": 16,
+          "gap": "1 1/4 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 15
+        },
+        {
+          "uma": "Kitasan Black",
+          "umaId": "kitasan-black",
+          "player": "Ananth",
+          "title": "",
+          "rank": "SS",
+          "number": 18,
+          "strategy": "Front",
+          "pop": 12,
+          "gap": "1 3/4 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 16
+        },
+        {
+          "uma": "Meisho Doto",
+          "umaId": "meisho-doto",
+          "player": "Vilthaar",
+          "title": "",
+          "rank": "UG4",
+          "number": 17,
+          "strategy": "Pace",
+          "pop": 10,
+          "gap": "5 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 17
+        },
+        {
+          "uma": "Eishin Flash",
+          "umaId": "eishin-flash",
+          "player": "Agnes",
+          "title": "",
+          "rank": "SS",
+          "number": 11,
+          "strategy": "Late",
+          "pop": 18,
+          "gap": "2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 18
+        }
+      ],
+      "url": "https://discord.com/channels/885095339885989942/1389671658905800797/1540696698857197599"
+    },
+    {
+      "id": 27.2,
+      "cupNumber": 27,
+      "cupName": "Sus Cup 27 — Multi CM Sussing",
+      "name": "Queen Elizabeth II Cup",
+      "date": "22 August 2026, 12:19",
+      "roomId": "3009 9804",
+      "race": "Queen Elizabeth II Cup",
+      "course": "Kyoto Turf",
+      "surface": "Turf",
+      "distance": "2200m",
+      "distanceType": "Medium",
+      "direction": "Right-handed / Outer",
+      "weather": "Cloudy",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "Multi-CM format. 3 runners per person. This is the Medium round (1 Medium runner used per person).",
+      "images": [
+        "suscupimages21-30/medium27.1.png",
+        "suscupimages21-30/medium27.2.png",
+        "suscupimages21-30/medium27.3.png",
+        "suscupimages21-30/medium27.4.png"
+      ],
+      "registeredRunners": [
+        {
+          "player": "Agnes",
+          "uma": "Eishin Flash"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Nishino Flower"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Seiun Sky"
+        },
+        {
+          "player": "Vilthaar",
+          "uma": "Meisho Doto"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Air Groove"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Kitasan Black"
+        }
+      ],
+      "participants": [
+        {
+          "uma": "Air Groove",
+          "umaId": "101802",
+          "player": "Cruzi",
+          "title": "The Key to Success",
+          "rank": "UG",
+          "number": 11,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 9,
+          "position": 1
+        },
+        {
+          "uma": "Nice Nature",
+          "umaId": "106002",
+          "player": "GohanXGAMER",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 17,
+          "strategy": "Late",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 10,
+          "position": 2
+        },
+        {
+          "uma": "Kitasan Black",
+          "umaId": "kitasan-black",
+          "player": "Ananth",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 5,
+          "strategy": "Front",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 12,
+          "position": 3
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "taiki-shuttle",
+          "player": "Ananth",
+          "title": "Mightiest Miler",
+          "rank": "UG",
+          "number": 2,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 13,
+          "position": 4
+        },
+        {
+          "uma": "Gold Ship",
+          "umaId": "100702",
+          "player": "Jiinxye",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 1,
+          "strategy": "End",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 11,
+          "position": 5
+        },
+        {
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "GohanXGAMER",
+          "title": "Legendary Reprise",
+          "rank": "SS",
+          "number": 6,
+          "strategy": "Front",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 14,
+          "position": 6
+        },
+        {
+          "uma": "Agnes Digital",
+          "umaId": "101902",
+          "player": "Ananth",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 10,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 8,
+          "position": 7
+        },
+        {
+          "uma": "Eishin Flash",
+          "umaId": "eishin-flash",
+          "player": "Agnes",
+          "title": "True Way of Kings",
+          "rank": "SS",
+          "number": 4,
+          "strategy": "Late",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 4,
+          "position": 8
+        },
+        {
+          "uma": "Fine Motion",
+          "umaId": "fine-motion",
+          "player": "Cruzi",
+          "title": "Legendary Reprise",
+          "rank": "SS",
+          "number": 9,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 7,
+          "position": 9
+        },
+        {
+          "uma": "Meisho Doto",
+          "umaId": "meisho-doto",
+          "player": "Vilthaar",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 15,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 5,
+          "position": 10
+        },
+        {
+          "uma": "Fuji Kiseki",
+          "umaId": "fuji-kiseki",
+          "player": "Agnes",
+          "title": "Sprinter Stayer",
+          "rank": "UG",
+          "number": 18,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 3,
+          "position": 11
+        },
+        {
+          "uma": "Mihono Bourbon",
+          "umaId": "102602",
+          "player": "Cruzi",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 3,
+          "strategy": "Front",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 2,
+          "position": 12
+        },
+        {
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "GohanXGAMER",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 14,
+          "strategy": "Front",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 1,
+          "position": 13
+        },
+        {
+          "uma": "Seeking the Pearl",
+          "umaId": "104201",
+          "player": "Jiinxye",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 8,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 16,
+          "position": 14
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "101002",
+          "player": "Vilthaar",
+          "title": "Mightiest Miler",
+          "rank": "UG",
+          "number": 12,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 6,
+          "position": 15
+        },
+        {
+          "uma": "Nishino Flower",
+          "umaId": "105101",
+          "player": "Jiinxye",
+          "title": "Queen of Dance",
+          "rank": "UG",
+          "number": 7,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 17,
+          "position": 16
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "taiki-shuttle",
+          "player": "Agnes",
+          "title": "Mightiest Miler",
+          "rank": "UG",
+          "number": 16,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 18,
+          "position": 17
+        },
+        {
+          "uma": "Nishino Flower",
+          "umaId": "105101",
+          "player": "Vilthaar",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 13,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 15,
+          "position": 18
+        }
+      ],
+      "url": "https://discord.com/channels/885095339885989942/1389671658905800797/1540696698857197599"
+    },
+    {
+      "id": 28,
+      "cupNumber": 28,
+      "cupName": "Sus Cup 28 — Triple Threat",
+      "name": "Tenno Sho (Autumn)",
+      "date": "2026-08-27",
+      "roomId": "70312406",
+      "race": "Tenno Sho (Autumn)",
+      "course": "Tokyo",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Rainy",
+      "ground": "Soft",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "3 runners per person, all 3 runners must use the same strategy (Triple Threat)",
+      "images": [
+        "suscupimages21-30/28.1.png",
+        "suscupimages21-30/28.2.png",
+        "suscupimages21-30/28.3.png",
+        "suscupimages21-30/28.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "uma": "Mayano Top Gun",
+          "player": "Ananth",
+          "title": "Legendary Reprise",
+          "rank": "SS",
+          "number": 6,
+          "strategy": "Front",
+          "time": "1:57.1",
+          "pop": 13,
+          "umaId": "mayano-top-gun",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 2,
+          "uma": "Oguri Cap",
+          "player": "Vilthaar",
+          "title": "Legendary Reprise",
+          "rank": "UG Rank 9",
+          "number": 5,
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 5,
+          "umaId": "100602",
+          "version": "Ashen Miracle"
+        },
+        {
+          "pos": 3,
+          "uma": "Seiun Sky",
+          "player": "Cruzi",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 18,
+          "strategy": "Front",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 8,
+          "umaId": "seiun-sky",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 4,
+          "uma": "Oguri Cap",
+          "player": "Cyclobly",
+          "title": "The Key to Success",
+          "rank": "UG Rank 3",
+          "number": 9,
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 14,
+          "umaId": "100602",
+          "version": "Ashen Miracle"
+        },
+        {
+          "pos": 5,
+          "uma": "Grass Wonder",
+          "player": "Agnes",
+          "title": "Nepo Uma",
+          "rank": "UG Rank 5",
+          "number": 14,
+          "strategy": "Late",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 6,
+          "umaId": "grass-wonder",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 6,
+          "uma": "Meisho Doto",
+          "player": "Cyclobly",
+          "title": "Legendary Reprise",
+          "rank": "UF Rank 2",
+          "number": 17,
+          "strategy": "Pace",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 1,
+          "umaId": "105802-meisho-doto",
+          "version": "Dot-o'-Lantern"
+        },
+        {
+          "pos": 7,
+          "uma": "Gold Ship",
+          "player": "Jiinxye",
+          "title": "Team Player Star Slayer",
+          "rank": "SS",
+          "number": 1,
+          "strategy": "Pace",
+          "gap": "2 1/2 L",
+          "time": "2 1/2 L",
+          "pop": 16,
+          "umaId": "gold-ship",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 8,
+          "uma": "Mihono Bourbon",
+          "player": "Cruzi",
+          "title": "Legendary Reprise",
+          "rank": "UG Rank 3",
+          "number": 16,
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 9,
+          "umaId": "mihono-bourbon",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 9,
+          "uma": "King Halo",
+          "player": "Agnes",
+          "title": "Queen of Dance",
+          "rank": "UG Rank 3",
+          "number": 3,
+          "strategy": "Late",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 3,
+          "umaId": "king-halo",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 10,
+          "uma": "Maruzensky",
+          "player": "Ananth",
+          "title": "The Key to Success",
+          "rank": "UG",
+          "number": 2,
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 17,
+          "umaId": "maruzensky",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 11,
+          "uma": "Meisho Doto",
+          "player": "Vilthaar",
+          "title": "Legendary Reprise",
+          "rank": "UG Rank 7",
+          "number": 10,
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 4,
+          "umaId": "105802-meisho-doto",
+          "version": "Dot-o'-Lantern"
+        },
+        {
+          "pos": 12,
+          "uma": "Tokai Teio",
+          "player": "Jiinxye",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 8,
+          "strategy": "Pace",
+          "gap": "1/2 L",
+          "time": "1/2 L",
+          "pop": 10,
+          "umaId": "tokai-teio",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 13,
+          "uma": "Special Week",
+          "player": "Agnes",
+          "title": "Powerhouse",
+          "rank": "UG Rank 7",
+          "number": 13,
+          "strategy": "Late",
+          "gap": "Nose",
+          "time": "Nose",
+          "pop": 2,
+          "umaId": "special-week",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 14,
+          "uma": "T.M. Opera O",
+          "player": "Jiinxye",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 11,
+          "strategy": "Pace",
+          "gap": "2 L",
+          "time": "2 L",
+          "pop": 12,
+          "umaId": "tm-opera-o",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 15,
+          "uma": "Kitasan Black",
+          "player": "Ananth",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 15,
+          "strategy": "Front",
+          "gap": "Neck",
+          "time": "Neck",
+          "pop": 15,
+          "umaId": "kitasan-black",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 16,
+          "uma": "Kitasan Black",
+          "player": "Cruzi",
+          "title": "Legendary Reprise",
+          "rank": "SS",
+          "number": 12,
+          "strategy": "Front",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 11,
+          "umaId": "kitasan-black",
+          "version": "Standard / Original"
+        },
+        {
+          "pos": 17,
+          "uma": "Fuji Kiseki",
+          "player": "Vilthaar",
+          "title": "Legendary Reprise",
+          "rank": "UG Rank 5",
+          "number": 7,
+          "strategy": "Pace",
+          "gap": "3/4 L",
+          "time": "3/4 L",
+          "pop": 7,
+          "umaId": "100502-fuji-kiseki",
+          "version": "Succès Étoilé"
+        },
+        {
+          "pos": 18,
+          "uma": "Agnes Tachyon",
+          "player": "Cyclobly",
+          "title": "Witness to Legend",
+          "rank": "S",
+          "number": 4,
+          "strategy": "Pace",
+          "gap": "1 1/2 L",
+          "time": "1 1/2 L",
+          "pop": 18,
+          "umaId": "agnes-tachyon",
+          "version": "Standard / Original"
+        }
+      ]
+    }
+  ]
 };
 
-    const UMA_DATABASE = {"Ogress": { name: "Ogress", type: "NPC Uma", characterUrl: null, imageUrl: null }
+        const NPC_PROFILES = {};
+        const UMA_DATABASE = {
+    "105802-meisho-doto": { id: "105802-meisho-doto", name: "Meisho Doto", type: "Uma Musume", version: "Dot-o'-Lantern", url: "https://gametora.com/umamusume/characters/105802-meisho-doto", image: "https://gametora.com/images/umamusume/characters/chara_stand_1058_105802.png" },
+    "100502-fuji-kiseki": { id: "100502-fuji-kiseki", name: "Fuji Kiseki", type: "Uma Musume", version: "Succès Étoilé", url: "https://gametora.com/umamusume/characters/100502-fuji-kiseki", image: "https://gametora.com/images/umamusume/characters/chara_stand_1005_100502.png" },
+    "101902": { id: "101902", name: "Agnes Digital", type: "Uma Musume", version: "Fanatic♡Jiangshi", url: "https://gametora.com/umamusume/characters/101902-agnes-digital", image: "suscupimages21-30/chara_stand_101902.png" },
+    "101002": { id: "101002", name: "Taiki Shuttle", type: "Uma Musume", version: "Bubblegum☆Memories", url: "https://gametora.com/umamusume/characters/101002-taiki-shuttle", image: "suscupimages21-30/chara_stand_101002.png" },
+    "106002": { id: "106002", name: "Nice Nature", type: "Uma Musume", version: "Run & Win", url: "https://gametora.com/umamusume/characters/106002-nice-nature", image: "suscupimages21-30/chara_stand_106002.png" },
+    "t.m.-opera-o": { id: "t.m.-opera-o", name: "T.M. Opera O", type: "Uma Musume", version: "Standard / Original", url: "https://gametora.com/umamusume/characters/101501-tm-opera-o", image: "https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" },
+    "air-groove": { id: "air-groove", name: "Air Groove", type: "Uma Musume", version: "Original / Default", url: "https://gametora.com/umamusume/characters/101801-air-groove", image: "https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png" },
+    "rice-shower": { id: "rice-shower", name: "Rice Shower", type: "Uma Musume", version: "Original / Default", url: "https://gametora.com/umamusume/characters/103001-rice-shower", image: "https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png" },
+    "mini-daisy": { id: "mini-daisy", name: "Mini Daisy", type: "NPC", url: null, image: null },
+    "takeoff-plane": { id: "takeoff-plane", name: "Takeoff Plane", type: "NPC", url: null, image: null },
+    "pan-pacific": { id: "pan-pacific", name: "Pan Pacific", type: "NPC", url: null, image: null },
+    "not-shown": { id: "not-shown", name: "Not shown", type: "NPC", url: null, image: null },
+    "set-your-record": { id: "set-your-record", name: "Set Your Record", type: "NPC", url: null, image: null },
+    "coincidence": { id: "coincidence", name: "Coincidence", type: "NPC", url: null, image: null },
+    "torch-and-book": { id: "torch-and-book", name: "Torch and Book", type: "NPC", url: null, image: null },
+    "missing-nights": { id: "missing-nights", name: "Missing Nights", type: "NPC", url: null, image: null },
+    "maleficus": { id: "maleficus", name: "Maleficus", type: "NPC", url: null, image: null },
+    "waltz-step": { id: "waltz-step", name: "Waltz Step", type: "NPC", url: null, image: null },
+    "book-of-sugar": { id: "book-of-sugar", name: "Book of Sugar", type: "NPC", url: null, image: null },
+    "chief-purser": { id: "chief-purser", name: "Chief Purser", type: "NPC", url: null, image: null },
+    "reed-photobook": { id: "reed-photobook", name: "Reed Photobook", type: "NPC", url: null, image: null },
+    "out-of-black": { id: "out-of-black", name: "Out of Black", type: "NPC", url: null, image: null },
+    "breeze-glider": { id: "breeze-glider", name: "Breeze Glider", type: "NPC", url: null, image: null },
+    "farm-volition": { id: "farm-volition", name: "Farm Volition", type: "NPC", url: null, image: null },
+    "100602": { id: "100602", name: "Oguri Cap", type: "Uma Musume", version: "Ashen Miracle", url: "https://gametora.com/umamusume/characters/100602-oguri-cap", image: "https://gametora.com/images/umamusume/characters/chara_stand_1006_100602.png" },
+    "102602": { id: "102602", name: "Mihono Bourbon", type: "Uma Musume", version: "CODE: ICING", url: "https://gametora.com/umamusume/characters/102602-mihono-bourbon", image: "suscupimages21-30/chara_stand_102602.png" },
+    "101702": { id: "101702", name: "Symboli Rudolf", type: "Uma Musume", version: "Alternate", url: "https://gametora.com/umamusume/characters/101702-symboli-rudolf", image: "https://gametora.com/images/umamusume/characters/chara_stand_1017_101702.png" },
+    "100302": { id: "100302", name: "Tokai Teio", type: "Uma Musume", version: "Alternate", url: "https://gametora.com/umamusume/characters/100302-tokai-teio", image: "https://gametora.com/images/umamusume/characters/chara_stand_1003_100302.png" },
+    "102002": { id: "102002", name: "Seiun Sky", type: "Uma Musume", version: "Soirée des Chatons", url: "https://gametora.com/umamusume/characters/102002-seiun-sky", image: "https://gametora.com/images/umamusume/characters/chara_stand_1020_102002.png" },
+    "104502": { id: "104502", name: "Super Creek", type: "Uma Musume", version: "Chiffon-Wrapped Mummy", url: "https://gametora.com/umamusume/characters/104502-super-creek", image: "https://gametora.com/images/umamusume/characters/chara_stand_1045_104502.png" },
+    "103002": { id: "103002", name: "Rice Shower", type: "Uma Musume", version: "Vampire Makeover!", url: "https://gametora.com/umamusume/characters/103002-rice-shower", image: "https://gametora.com/images/umamusume/characters/chara_stand_1030_103002.png" },
+    "100102": { id: "100102", name: "Special Week", type: "Uma Musume", version: "Hopp'n♪Happy Heart", url: "https://gametora.com/umamusume/characters/100102-special-week", image: "https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png" },
+    "101402": { id: "101402", name: "El Condor Pasa", type: "Uma Musume", version: "Kukulkan Warrior", url: "https://gametora.com/umamusume/characters/101402-el-condor-pasa", image: "https://gametora.com/images/umamusume/characters/chara_stand_1014_101402.png" },
+    "101802": { id: "101802", name: "Air Groove", type: "Uma Musume", version: "Quercus Civilis", url: "https://gametora.com/umamusume/characters/101802-air-groove", image: "suscupimages21-30/chara_stand_101802.png" },
+    "102302": { id: "102302", name: "Biwa Hayahide", type: "Uma Musume", version: "Rouge Caroler", url: "https://gametora.com/umamusume/characters/102302-biwa-hayahide", image: "https://gametora.com/images/umamusume/characters/chara_stand_1023_102302.png" },
+    "100402": { id: "100402", name: "Maruzensky", type: "Uma Musume", version: "Alternate", url: "https://gametora.com/umamusume/characters/100402-maruzensky", image: "https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png" },
+    "101302": { id: "101302", name: "Mejiro McQueen", type: "Uma Musume", version: "Alternate", url: "https://gametora.com/umamusume/characters/101302-mejiro-mcqueen", image: "https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" },
+    "105602": { id: "105602", name: "Matikanefukukitaru", type: "Uma Musume", version: "Lucky Tidings", url: "https://gametora.com/umamusume/characters/105602-matikanefukukitaru", image: "https://gametora.com/images/umamusume/characters/chara_stand_1056_105602.png" },"Ogress": { name: "Ogress", type: "NPC Uma", characterUrl: null, imageUrl: null }
             ,"Ribbon Nocturne": { name: "Ribbon Nocturne", type: "NPC Uma", characterUrl: null, imageUrl: null }
             ,"Maleficus": { name: "Maleficus", type: "NPC Uma", characterUrl: null, imageUrl: null },
                                     "104201": { id: "104201", name: "Seeking the Pearl", type: "Uma Musume", version: "Original / Default", url: "https://gametora.com/umamusume/characters/104201-seeking-the-pearl", image: "https://gametora.com/images/umamusume/characters/chara_stand_1042_104201.png" },
@@ -7945,15 +8575,17 @@
             "tamamo-cross": { name: "Tamamo Cross", url: "https://gametora.com/umamusume/characters/tamamo-cross", image: "https://gametora.com/images/umamusume/characters/chara_stand_1021_102101.png" },
             "mejiro-dober": { name: "Mejiro Dober", url: "https://gametora.com/umamusume/characters/mejiro-dober", image: "https://gametora.com/images/umamusume/characters/chara_stand_1059_105901.png" },
             "fuji-kiseki": { name: "Fuji Kiseki", url: "https://gametora.com/umamusume/characters/fuji-kiseki", image: "https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" },
-            "tamaxchi": { name: "Tamaxchi", url: "#", image: "https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" },
+            "tamaxchi": { name: "Tamaxchi", url: null, image: null },
             "air-shakur": { name: "Air Shakur", url: "https://gametora.com/umamusume/characters/air-shakur", image: "https://gametora.com/images/umamusume/characters/chara_stand_1025_102501.png" },
-            "oishii-parfait": { name: "Oishii Parfait", url: "#", image: "https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" },
-            "coronet-rhythm": { name: "Coronet Rhythm", url: "#", image: "https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" },
+            "oishii-parfait": { name: "Oishii Parfait", url: "#", image: null },
+            "coronet-rhythm": { name: "Coronet Rhythm", url: "#", image: null },
             "kitasan-black": { name: "Kitasan Black", url: "https://gametora.com/umamusume/characters/kitasan-black", image: "https://gametora.com/images/umamusume/characters/chara_stand_1068_106801.png" },
             "fine-motion": { name: "Fine Motion", url: "https://gametora.com/umamusume/characters/fine-motion", image: "https://gametora.com/images/umamusume/characters/chara_stand_1022_102201.png" },
             "seeking-the-pearl": { name: "Seeking the Pearl", url: "https://gametora.com/umamusume/characters/104201-seeking-the-pearl", image: "https://gametora.com/images/umamusume/characters/chara_stand_1062_106201.png" },
-                "102402": "https://gametora.com/umamusume/characters/102402-mayano-top-gun",
-        "104002": "https://gametora.com/umamusume/characters/104002-gold-city"
+                "102402": { id: "102402", name: "Mayano Top Gun", type: "Uma Musume", version: "Sun Kissed Amour", url: "https://gametora.com/umamusume/characters/102402-mayano-top-gun", image: "https://gametora.com/images/umamusume/characters/chara_stand_1024_102402.png" },
+        "104002": { id: "104002", name: "Gold City", type: "Uma Musume", version: "Autumn Cosmos", url: "https://gametora.com/umamusume/characters/104002-gold-city", image: "suscupimages21-30/chara_stand_104002.png" },
+            "103601": { id: "103601", name: "Air Shakur", type: "Uma Musume", version: "Original / Default", url: "https://gametora.com/umamusume/characters/103601-air-shakur", image: "https://gametora.com/images/umamusume/characters/chara_stand_1025_102501.png" },
+            "100702": { id: "100702", name: "Gold Ship", type: "Uma Musume", version: "RUN! RUIN! LAUNCHER!", url: "https://gametora.com/umamusume/characters/100702-gold-ship", image: "suscupimages21-30/chara_stand_100702.png" }
         };
 
         const App = {
@@ -8012,6 +8644,7 @@
                             const umaId = p.umaId || Object.keys(UMA_DATABASE).find(k => UMA_DATABASE[k].name === p.uma) || "unknown";
                             return {
                                 ...p,
+                                pos: p.pos ?? p.position,
                                 umaId: umaId,
                                 version: UMA_DATABASE[umaId] ? UMA_DATABASE[umaId].version : p.version
                             };
@@ -8050,13 +8683,13 @@
                             const umaId = p.umaId || Object.keys(UMA_DATABASE).find(k => UMA_DATABASE[k].name === p.uma) || "unknown";
                             return {
                                 ...p,
+                                pos: p.pos ?? p.position,
                                 umaId: umaId,
                                 version: UMA_DATABASE[umaId] ? UMA_DATABASE[umaId].version : p.version
                             };
                         });
                     }
                 });
-
                 const seededCups = new Set(INITIAL_DATA.winners.map(winner => winner.cup));
                 const customWinners = (this.data.winners || []).filter(winner => !seededCups.has(winner.cup));
                 this.data.winners = [...INITIAL_DATA.winners.map(winner => JSON.parse(JSON.stringify(winner))), ...customWinners];
@@ -8066,7 +8699,7 @@
                         championships[winner.umaId] = (championships[winner.umaId] || 0) + 1;
                     }
                     return championships;
-                }, {});
+                });
                 this.data.winners = this.data.winners.map(winner => {
                     const umaId = winner.umaId || Object.keys(UMA_DATABASE).find(k => UMA_DATABASE[k].name === winner.uma) || "unknown";
                     return {
@@ -8076,7 +8709,6 @@
                         result: winner.result || (this.data.races.find(r => r.cupName === winner.cup)?.participants.find(p => p.pos === 1)?.gap || "")
                     };
                 });
-                localStorage.setItem('sus_cup_db', JSON.stringify(this.data));
             },
 
             saveData() {
@@ -8190,7 +8822,7 @@
                 Object.values(players).forEach(p => { if (p.runs > maxRuns) maxRuns = p.runs; });
 
                 const sortedPlayers = Object.values(players).map(p => {
-                    const sortedHistory = [...p.history].sort((a, b) => parseInt(a.cup.replace(/\D/g, '')) - parseInt(b.cup.replace(/\D/g, '')));
+                    const sortedHistory = [...p.history].sort((a, b) => parseInt(String(a.cup).replace(/\D/g, '')) - parseInt(String(b.cup).replace(/\D/g, '')));
 
                     let currentWinStreak = 0, maxWinStreak = 0;
                     let currentPodiumStreak = 0, maxPodiumStreak = 0;
@@ -8272,6 +8904,7 @@
                 if (view === 'archive') this.renderArchive();
                 if (view === 'info') this.renderInfo();
                 if (view === 'players') this.renderPlayers();
+                if (view === 'profile') this.renderProfileView();
                 if (view === 'umas') this.renderUmas();
                 window.scrollTo(0, 0);
             },
@@ -8283,6 +8916,20 @@
                 else if (r.includes('A')) cls = 'badge-a';
                 else if (r.includes('B')) cls = 'badge-b';
                 return `<span class="badge ${cls}">${r}</span>`;
+            },
+
+            formatDate(dateStr) {
+                if (!dateStr) return '';
+                try {
+                    const d = new Date(dateStr.split(',')[0].trim());
+                    if (isNaN(d.getTime())) return dateStr.split(',')[0].trim();
+                    const y = d.getFullYear();
+                    const m = String(d.getMonth() + 1).padStart(2, '0');
+                    const day = String(d.getDate()).padStart(2, '0');
+                    return `${y}-${m}-${day}`;
+                } catch(e) {
+                    return dateStr.split(',')[0].trim();
+                }
             },
 
             getInitials(name) { return name.substring(0, 2).toUpperCase(); },
@@ -8306,66 +8953,328 @@
             },
 
             renderDashboard() {
-                const latestRace = [...this.data.races].sort((a, b) => new Date(b.date) - new Date(a.date))[0];
-                const latestWinner = latestRace?.participants.find(p => p.pos === 1);
+                const latestRace = [...this.data.races].sort((a, b) => {
+                    const d1 = new Date(a.date); const d2 = new Date(b.date);
+                    if (isNaN(d1)) return 1; if (isNaN(d2)) return -1;
+                    return d2 - d1;
+                })[0] || this.data.races[this.data.races.length - 1];
+                
+                const latestWinner = latestRace?.participants.find(p => p.position === 1 || p.position === '1');
+                
+                let resultsHtml = '';
+                if (latestRace && latestRace.participants) {
+                    const sortedParticipants = [...latestRace.participants].sort((a,b) => {
+                        let posA = parseInt(a.pos); let posB = parseInt(b.pos);
+                        if(isNaN(posA)) posA = 99; if(isNaN(posB)) posB = 99;
+                        return posA - posB;
+                    });
+                    
+                    resultsHtml = `<div style="margin-top:20px; max-height: 300px; overflow-y: auto; background: var(--bg-alt); padding: 10px; border-radius: 8px;">
+                        <h4 style="margin-bottom: 10px; font-size: 1rem; color: var(--primary);">Latest Race Results</h4>
+                        <table class="table" style="font-size: 0.85rem; width: 100%;">
+                            <thead>
+                                <tr>
+                                    <th>Pos</th>
+                                    <th>Uma</th>
+                                    <th>Player</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${sortedParticipants.map(p => `
+                                    <tr>
+                                        <td><strong>${p.pos || '-'}</strong></td>
+                                        <td>
+                                            <div style="display:flex; align-items:center; gap:8px;">
+                                                ${App.getUmaImage(p.umaId || p.uma).replace('border-radius:4px', 'border-radius:50%; width:30px; height:30px; object-fit:cover;')}
+                                                <span>${p.uma}</span>
+                                            </div>
+                                        </td>
+                                        <td>${p.player}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>`;
+                }
+
                 document.getElementById('latest-cup-summary').innerHTML = `
                     <span class="eyebrow">Latest champion</span>
-                    <h3 style="font-size:1.7rem; margin:15px 0 8px;">${latestRace ? `Sus Cup ${latestRace.cupNumber} / ${latestRace.name}` : 'No races recorded'}</h3>
-                    <p style="font-weight:800; margin-bottom:8px;">${latestWinner?.player || 'Not recorded'} • ${latestWinner?.uma || 'Not recorded'}</p>
-                    <p style="color:var(--text-muted); font-size:.85rem;">${latestRace ? `${latestRace.date} at ${latestRace.time} • ${latestRace.course} ${latestRace.distance}m ${latestRace.surface}` : ''}</p>
+                    <h3 style="font-size:1.7rem; margin:15px 0 8px;">${latestRace ? `Sus Cup ${latestRace.cupNumber || latestRace.id} / ${latestRace.name || ''}` : 'No races recorded'}</h3>
+                    <p style="font-weight:800; margin-bottom:8px;">${latestWinner?.player || 'Not recorded'} &mdash; ${latestWinner?.uma || 'Not recorded'}</p>
+                    <p style="color:var(--text-muted); font-size:.85rem; margin-bottom:15px;">${latestRace ? `${App.formatDate(latestRace.date)} &mdash; ${latestRace.course || ''} ${latestRace.distance || ''} ${latestRace.surface || ''}` : ''}</p>
+                    ${resultsHtml}
                 `;
                 document.getElementById('dash-stats').innerHTML = `
                     <div class="stat-block"><div class="val">${this.stats.totalRaces}</div><div class="lbl">Total Cups</div></div>
                     <div class="stat-block"><div class="val">${this.stats.totalPlayers}</div><div class="lbl">Active Players</div></div>
-                    <div class="stat-block"><div class="val">${this.stats.totalUmas}</div><div class="lbl">Umas Fielded</div></div>
+                    <div class="stat-block"><div class="val">${this.stats.totalUmas}</div><div class="lbl">Total Umas</div></div>
                 `;
 
-                const championshipWinners = this.data.winners.filter(winner => !NPC_PROFILES[winner.uma] && winner.type !== 'NPC Uma');
-                const winnerRows = championshipWinners.map(winner => `
-                    <div><strong>${winner.cup}</strong><span>${winner.date}</span></div>
-                    <div><strong>${winner.trainer}</strong><span>${winner.rankLabel || 'Champion Trainer'}</span></div>
-                    <div><strong>${winner.uma}</strong><span>${winner.version || 'Version not recorded'} / ${this.data.championships[winner.uma] || 0} Championship${this.data.championships[winner.uma] === 1 ? '' : 's'}</span></div>
-                `).join('');
+                const championshipWinners = this.data.winners
+                    .filter(winner => !NPC_PROFILES[winner.uma] && winner.type !== 'NPC Uma')
+                    .map(winner => {
+                        const race = this.data.races.find(r => 'Sus Cup ' + r.cupNumber === winner.cup);
+                        const rawDate = winner.date || (race ? race.date : '');
+                        const cupNumMatch = winner.cup.match(/\d+/);
+                        const cupNum = cupNumMatch ? parseInt(cupNumMatch[0]) : 0;
+                        return {
+                            cup: winner.cup,
+                            dateStr: App.formatDate(rawDate) || 'Not recorded',
+                            playerStr: winner.trainer || winner.player || 'Not recorded',
+                            cupNum: cupNum
+                        };
+                    })
+                    .sort((a, b) => b.cupNum - a.cupNum);
+
+                const maxCupNum = championshipWinners.length > 0 ? championshipWinners[0].cupNum : -1;
+
+                const winnerRows = championshipWinners.map((winner, index) => {
+                    const isLatest = winner.cupNum === maxCupNum && winner.cupNum > 0;
+                    const latestBadge = isLatest ? `<span class="latest-badge">LATEST</span>` : '';
+                    const rowClass = isLatest ? 'champ-row champ-latest' : 'champ-row';
+                    
+                    return `
+                    <div class="${rowClass}">
+                        <div class="champ-cup-name">${winner.cup} ${latestBadge}</div>
+                        <div class="champ-date">${winner.dateStr}</div>
+                        <div class="champ-winner"><i class="fa-solid fa-trophy" style="color:var(--gold); margin-right:6px;"></i> ${winner.playerStr}</div>
+                    </div>
+                    `;
+                }).join('');
+                
                 document.getElementById('championship-record').innerHTML = `
-                    <div class="record-heading"><span class="eyebrow">All-time championship record</span><span class="record-count">${championshipWinners.length} CUP${championshipWinners.length === 1 ? '' : 'S'}</span></div>
-                    <div class="record-winner">${winnerRows}</div>
+                    <style>
+                    .champ-history-container {
+                        width: 100%;
+                    }
+                    .champ-row {
+                        display: grid;
+                        grid-template-columns: minmax(140px, 1fr) minmax(130px, 0.8fr) minmax(180px, 1fr);
+                        align-items: center;
+                        padding: 12px 15px;
+                        border-bottom: 1px solid var(--border-color);
+                        transition: background 0.2s ease;
+                    }
+                    .champ-row:last-child {
+                        border-bottom: none;
+                    }
+                    .champ-row:hover {
+                        background: rgba(0,0,0,0.02);
+                    }
+                    .champ-header {
+                        display: grid;
+                        grid-template-columns: minmax(140px, 1fr) minmax(130px, 0.8fr) minmax(180px, 1fr);
+                        text-transform: uppercase;
+                        font-size: 0.75rem;
+                        letter-spacing: 1px;
+                        color: var(--text-muted);
+                        font-weight: 700;
+                        border-bottom: 2px solid var(--border-color);
+                        padding: 10px 15px;
+                    }
+                    .champ-cup-name {
+                        font-weight: 700;
+                    }
+                    .champ-date {
+                        font-size: 0.85rem;
+                        color: var(--text-muted);
+                    }
+                    .champ-winner {
+                        font-weight: 700;
+                    }
+                    .champ-latest {
+                        background: rgba(212, 175, 55, 0.05);
+                    }
+                    .latest-badge {
+                        font-size: 0.65rem;
+                        background: var(--gold);
+                        color: #000;
+                        padding: 2px 6px;
+                        border-radius: 4px;
+                        margin-left: 8px;
+                        font-weight: 800;
+                        vertical-align: middle;
+                    }
+                    @media (max-width: 768px) {
+                        .champ-row {
+                            grid-template-columns: 1fr;
+                            gap: 5px;
+                            padding: 15px;
+                        }
+                        .champ-header {
+                            display: none;
+                        }
+                        .champ-cup-name {
+                            font-size: 1.1rem;
+                        }
+                        .latest-badge {
+                            vertical-align: top;
+                        }
+                    }
+                    </style>
+                    <h3 style="margin-bottom: 20px;"><i class="fa-solid fa-medal" style="color:var(--gold)"></i> Championship History</h3>
+                    <div class="champ-history-container">
+                        <div class="champ-header">
+                            <div>Cup</div>
+                            <div>Date</div>
+                            <div>Champion</div>
+                        </div>
+                        ${winnerRows}
+                    </div>
                 `;
 
-                // Render Top Players (Pill List)
-                let phtml = '';
-                this.stats.players.slice(0, 5).forEach(p => {
-                    phtml += `
-                        <div class="list-item" onclick="App.showPlayer('${p.name}')">
-                            <div class="avatar-circle" style="background:#f4ece1; color:var(--text-main); font-size:1rem;">#${p.rank}</div>
-                            <div class="item-content">
-                                <div class="item-title">${p.name}</div>
-                                <div class="item-subtitle">${p.w} Wins</div>
-                            </div>
-                            <div class="item-right">
-                                <div class="item-value">${p.w} wins</div>
-                                ${this.getRankHtml(p.diff)}
-                            </div>
-                        </div>`;
-                });
-                document.getElementById('dash-player-list').innerHTML = phtml;
+                const rankingCss = `
+                <style>
+                .ranking-grid-item {
+                    display: grid;
+                    align-items: center;
+                    padding: 16px 20px;
+                    background: #ffffff;
+                    border-radius: var(--radius-md);
+                    margin-bottom: 12px;
+                    border: 1px solid var(--border-color);
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.01);
+                    transition: 0.2s;
+                }
+                .ranking-grid-item:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 6px 15px rgba(0,0,0,0.04);
+                }
+                .player-ranking-row {
+                    grid-template-columns: 48px minmax(0, 1fr) auto auto;
+                    gap: 16px;
+                }
+                .uma-ranking-row {
+                    grid-template-columns: 44px 52px minmax(0, 1fr) auto auto;
+                    gap: 14px;
+                    padding: 12px 18px;
+                }
+                .rank-badge {
+                    font-size: 1.1rem;
+                    font-weight: 800;
+                    color: var(--text-muted);
+                }
+                .rank-badge-1 { color: #d4af37; font-size: 1.25rem; }
+                .rank-badge-2 { color: #a9a9a9; font-size: 1.2rem; }
+                .rank-badge-3 { color: #cd7f32; font-size: 1.15rem; }
+                
+                .ranking-name {
+                    font-weight: 800;
+                    font-size: 1.05rem;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .ranking-stat {
+                    text-align: right;
+                    font-weight: 700;
+                    font-size: 1.1rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    line-height: 1.2;
+                }
+                .ranking-stat span {
+                    font-size: 0.65rem;
+                    text-transform: uppercase;
+                    color: var(--text-muted);
+                    font-weight: 700;
+                    letter-spacing: 0.5px;
+                }
+                
+                .uma-avatar-wrap {
+                    width: 46px;
+                    height: 46px;
+                    min-width: 46px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid rgba(0,0,0,0.08);
+                    background: #f8f8f8;
+                }
+                .uma-avatar-wrap img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    object-fit: cover;
+                }
+                .uma-avatar-wrap .avatar-circle {
+                    width: 100%;
+                    height: 100%;
+                    border: none !important;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                @media (max-width: 768px) {
+                    .player-ranking-row {
+                        grid-template-columns: 40px minmax(0, 1fr);
+                        padding: 14px;
+                        gap: 12px;
+                    }
+                    .player-ranking-row .ranking-name { grid-column: 2; }
+                    .player-ranking-row .ranking-stat {
+                        grid-column: 2;
+                        flex-direction: row;
+                        align-items: baseline;
+                        justify-content: flex-start;
+                        gap: 6px;
+                        font-size: 0.95rem;
+                    }
+                    
+                    .uma-ranking-row {
+                        grid-template-columns: 36px 46px minmax(0, 1fr);
+                        padding: 12px;
+                        gap: 12px;
+                    }
+                    .uma-ranking-row .ranking-stat {
+                        grid-column: 1 / -1;
+                        flex-direction: row;
+                        align-items: baseline;
+                        justify-content: space-between;
+                        font-size: 0.95rem;
+                        border-top: 1px solid var(--border-color);
+                        padding-top: 10px;
+                        margin-top: 4px;
+                    }
+                    .uma-ranking-row .ranking-stat span { margin-left: 6px; }
+                }
+                </style>`;
 
-                // Render Top Umas
-                let uhtml = '';
-                this.stats.umas.filter(u => !NPC_PROFILES[u.name]).slice(0, 5).forEach(u => {
-                    uhtml += `
-                        <div class="list-item" onclick="App.showUma('${u.name}')">
-                            ${this.getUmaImage(u.umaId)}
-                            <div class="item-content">
-                                <div class="item-title">${u.name}</div>
-                                <div class="item-subtitle">Best: ${u.bestPlayer}</div>
+                document.getElementById('dash-player-list').innerHTML = rankingCss + Object.values(this.stats.players)
+                    .sort((a, b) => b.w - a.w || b.runs - a.runs)
+                    .slice(0, 5)
+                    .map((p, i) => {
+                        const rCls = i < 3 ? `rank-badge-${i + 1}` : '';
+                        return `
+                        <div class="ranking-grid-item player-ranking-row">
+                            <div class="rank-badge ${rCls}">#${i + 1}</div>
+                            <div class="ranking-name">${p.name}</div>
+                            <div class="ranking-stat">${p.runs} <span>Races</span></div>
+                            <div class="ranking-stat">${p.w} <span>Wins</span></div>
+                        </div>
+                    `}).join('');
+
+                document.getElementById('dash-uma-list').innerHTML = Object.values(this.stats.umas)
+                    .sort((a, b) => b.w - a.w || b.runs - a.runs)
+                    .slice(0, 5)
+                    .map((u, i) => {
+                        const rCls = i < 3 ? `rank-badge-${i + 1}` : '';
+                        return `
+                        <div class="ranking-grid-item uma-ranking-row">
+                            <div class="rank-badge ${rCls}">#${i + 1}</div>
+                            <div class="uma-avatar-wrap">
+                                ${App.getUmaImage(u.id || u.name)}
                             </div>
-                            <div class="item-right">
-                                <div class="item-value" style="color:var(--primary)">${u.w} Wins</div>
-                                <div class="item-label">${u.winRate}% WR</div>
-                            </div>
-                        </div>`;
-                });
-                document.getElementById('dash-uma-list').innerHTML = uhtml;
+                            <div class="ranking-name">${u.name}</div>
+                            <div class="ranking-stat">${u.runs} <span>Races</span></div>
+                            <div class="ranking-stat">${u.w} <span>Wins</span></div>
+                        </div>
+                    `}).join('');
             },
 
             renderHistory() {
@@ -8380,9 +9289,9 @@
                         winnersHtml = `<p style="margin-top:12px; font-weight:800;">Winner: ${winner?.player || 'Not recorded'} <span style="opacity:0.7">&mdash;</span> ${winner?.uma || 'Not recorded'}</p>`;
                     }
                     return `<div class="timeline-item"><div class="card" style="margin-bottom:0; cursor:pointer;" onclick="App.showRaceDetail(${race.id})">
-                        <span class="badge" style="background:var(--accent-dark);">SUS CUP ${race.cupNumber}</span>
+                        <span class="badge" style="background:var(--accent-dark);">${(race.cupName || `SUS CUP ${race.cupNumber}`).toUpperCase()}</span>
                         <h3 style="font-size:1.35rem; margin:12px 0 5px;">${race.name}</h3>
-                        <p style="color:var(--text-muted); font-weight:700;">${race.date}  ${race.course} ${race.distance}m ${race.surface}</p>
+                        <p style="color:var(--text-muted); font-weight:700;">${App.formatDate(race.date)}  ${race.course} ${race.distance}m ${race.surface}</p>
                         <div style="margin-top:12px;">${winnersHtml}</div>
                     </div></div>`;
                 }).join('');
@@ -8445,8 +9354,8 @@
                     html += `
                         <div class="card" style="cursor:pointer;" onclick="App.showRaceDetail(${race.id})">
                             <div style="display:flex; justify-content:space-between; margin-bottom:15px;">
-                                <span class="badge" style="background:var(--accent-dark)">SUS CUP ${race.cupNumber}</span>
-                                <span style="font-size:0.85rem; font-weight:800; color:var(--text-muted)">${race.date.split(',')[0]}</span>
+                                <span class="badge" style="background:var(--accent-dark)">${(race.cupName || `SUS CUP ${race.cupNumber}`).toUpperCase()}</span>
+                                <span style="font-size:0.85rem; font-weight:800; color:var(--text-muted)">${App.formatDate(race.date)}</span>
                             </div>
                             <h3 style="font-size:1.4rem; margin-bottom:5px;">${race.name}</h3>
                             <p style="font-weight:700; color:var(--text-muted); margin-bottom:20px;">${race.course} ${race.surface} ${race.distance}m</p>
@@ -8467,7 +9376,7 @@
                 if (!race) return;
                 const sorted = [...race.participants].sort((a, b) => a.pos - b.pos);
                 const raceMeta = [
-                    race.date && `${race.date.split(',')[0]}${race.time ? ` / ${race.time}` : ''}`,
+                    race.date && `${App.formatDate(race.date)}`,
                     race.roomId && `ROOM ${race.roomId}`,
                     race.grade,
                     race.distanceType && `${race.distanceType} / ${race.direction || 'Direction not recorded'}`,
@@ -8482,40 +9391,75 @@
 
                 let html = `
                     <div class="card" style="background:var(--accent-dark); color:white;">
-                        <span class="badge" style="background:var(--primary); margin-bottom:10px;">SUS CUP ${race.cupNumber}</span>
+                        <span class="badge" style="background:var(--primary); margin-bottom:10px;">${(race.cupName || `SUS CUP ${race.cupNumber}`).toUpperCase()}</span>
                         <h2 style="font-size:2rem; margin-bottom:10px; color:white;">${race.name}</h2>
                         <p style="font-weight:700; opacity:0.8;">${race.cupName || `SUS CUP ${race.cupNumber}`}${race.subtitle ? ` &mdash; ${race.subtitle}` : ''}</p>
                         <p style="font-weight:700; opacity:0.8; margin-top:6px;">${race.course} ${race.surface} ${race.distance}m</p>
                         <div class="race-meta">${raceMeta.map(item => `<span>${item}</span>`).join('')}</div>
                     </div>
                     ${race.partialResults ? '<div style="background:var(--warning, #f39c12); color:white; padding:10px; border-radius:5px; font-weight:bold; margin-bottom:15px;">⚠️ PARTIAL RESULTS AVAILABLE - Only confirmed top placements are shown below.</div>' : ''}
-                    ${race.images?.length ? `<div class="race-gallery">${race.images.map((image, index) => `<a href="javascript:void(0)" onclick="openGallery('${race.images.join(',')}', ${index})"><img src="${image}" alt="Sus Cup ${race.cupNumber} result screenshot ${index + 1}" loading="lazy" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'><rect width=\'300\' height=\'200\' fill=\'%23eee\'/><text x=\'150\' y=\'100\' font-size=\'16\' text-anchor=\'middle\' fill=\'%23999\'>Screenshot Missing</text></svg>';"></a>`).join('')}</div>` : ''}
+                    ${race.images?.length ? `<div class="race-gallery">${race.images.slice(0, 4).map((image, index) => `<a href="javascript:void(0)" onclick="openGallery('${race.images.join(',')}', ${index})"><img src="${image}" alt="Sus Cup ${race.cupNumber} result screenshot ${index + 1}" loading="lazy" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'><rect width=\'300\' height=\'200\' fill=\'%23eee\'/><text x=\'150\' y=\'100\' font-size=\'16\' text-anchor=\'middle\' fill=\'%23999\'>Screenshot Missing</text></svg>';"></a>`).join('')}</div>` : ''}
                 `;
+
+                const firstPlace = sorted.find(p => p.pos === 1) || sorted[0];
+                const displayWinners = race.scenarioWinners || race.specialWinners || (firstPlace ? { 'Overall Winner': { player: firstPlace.player, uma: firstPlace.uma, pos: firstPlace.position ?? firstPlace.pos } } : null);
+
+                if (displayWinners) {
+                    const blockTitle = (race.scenarioWinners || race.specialWinners) ? 'Special Category Winners' : 'Race Winner';
+                    html += `<div style="margin: 20px 0; background: var(--surface-light); border-radius: 8px; padding: 15px; border-left: 4px solid var(--accent);">
+                        <h3 style="margin-bottom: 12px; font-size: 1.2rem; color: var(--accent);">${blockTitle}</h3>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">`;
+                    
+                    for (const [category, winner] of Object.entries(displayWinners)) {
+                        const participant = race.participants.find(p => p.uma === winner.uma && p.player === winner.player);
+                        const umaId = winner.umaId || (participant ? participant.umaId : '');
+                        const posText = winner.pos ? `${winner.pos}${winner.pos === 1 ? 'st' : winner.pos === 2 ? 'nd' : winner.pos === 3 ? 'rd' : 'th'}` : '';
+                        
+                        html += `
+                            <div style="background: var(--surface); padding: 12px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                                <div style="font-weight: 800; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 5px; text-transform: uppercase;">${category}</div>
+                                <div style="display: flex; align-items: center; gap: 10px;">
+                                    ${this.getUmaImage(umaId).replace('border-radius:4px', 'border-radius:50%')}
+                                    <div>
+                                        <div style="font-weight: 700;">${winner.uma}</div>
+                                        <div style="font-size: 0.85rem; color: var(--text-muted);"><a href="#" onclick="App.showPlayer('${winner.player}'); return false;" style="color:inherit; font-weight:600; text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${winner.player}</a>${posText ? ` &bull; ${posText}` : ''}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    html += `</div></div>`;
+                }
 
                 if (race.partialResults) {
                     html += '<h3 style="margin-bottom:10px; color:var(--primary);">CONFIRMED RESULTS</h3>';
                 }
                 sorted.forEach(p => {
-                    let style = ''; let medal = p.pos;
-                    if (p.pos === 1) { style = 'border-left: 5px solid var(--gold); background: #fffcf0;'; medal = '🥇'; }
-                    else if (p.pos === 2) { style = 'border-left: 5px solid var(--silver);'; medal = '🥈'; }
-                    else if (p.pos === 3) { style = 'border-left: 5px solid var(--bronze);'; medal = '🥉'; }
+                    let pos = p.position ?? p.pos;
+                    let style = ''; let medal = pos;
+                    if (pos === 1) { style = 'border-left: 5px solid var(--gold); background: #fffcf0;'; medal = '🥇'; }
+                    else if (pos === 2) { style = 'border-left: 5px solid var(--silver);'; medal = '🥈'; }
+                    else if (pos === 3) { style = 'border-left: 5px solid var(--bronze);'; medal = '🥉'; }
 
                     html += `
                         <div class="list-item" style="${style}">
                             <div style="font-size:1.8rem; font-weight:900; width:50px; text-align:center; margin-right:15px;">${medal}</div>
-                            <div class="avatar-circle" style="width:45px;height:45px;font-size:1rem;background:#eee;color:#333;">${p.number}</div>
+                            <div class="avatar-circle" style="width:45px;height:45px;font-size:1rem;background:#eee;color:#333;">${p.number || '-'}</div>
                             ${this.getUmaImage(p.umaId)}
                             <div class="item-content">
                                 <div style="display:flex; align-items:center; gap:10px; margin-bottom:4px;">
-                                    <div class="item-title">${p.uma}</div>
+                                    <div class="item-title">
+                                        ${p.characterUrl || (UMA_DATABASE[p.umaId] && UMA_DATABASE[p.umaId].url) ? 
+                                            `<a href="${p.characterUrl || UMA_DATABASE[p.umaId].url}" target="_blank" style="color:inherit; text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${p.uma} <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7em; opacity:0.7;"></i></a>` 
+                                            : p.uma}
+                                    </div>
                                     ${this.getBadge(p.rank)}
                                 </div>
-                                <div class="item-subtitle">${p.player === 'NPC' ? 'NPC / Mob Uma' : `Trainer: ${p.player}`} &bull; ${p.strategy || 'Strategy not recorded'} &bull; ${p.version || (UMA_DATABASE[p.umaId]?.type === 'NPC' ? 'NPC Uma' : UMA_DATABASE[p.umaId]?.version || 'Version not recorded')}</div>
+                                <div class="item-subtitle">${p.player === 'NPC' ? 'NPC / Mob Uma' : `Trainer: <a href="#" onclick="App.showPlayer('${p.player}'); return false;" style="color:inherit; font-weight:600; text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${p.player}</a>`} &bull; ${p.strategy || 'Strategy not recorded'} &bull; ${p.version || (UMA_DATABASE[p.umaId]?.type === 'NPC' ? 'NPC Uma' : UMA_DATABASE[p.umaId]?.version || 'Version not recorded')}</div>
                                 <div class="item-label" style="margin-top:4px;">${p.title ? `TITLE: ${p.title}` : 'NPC / Mob Uma'} &bull; RUNNER NO. ${p.number}</div>
                             </div>
                             <div class="item-right">
-                                <div class="item-value" style="font-size:1.1rem;">${p.gap || p.time || ''}</div>
+                                <div class="item-value" style="font-size:1.1rem;">${p.time || p.finish || p.gap || ''}</div>
                                 <div class="item-label">Fav: ${p.pop}</div>
                             </div>
                         </div>
@@ -8537,20 +9481,17 @@
                     });
                 }
                 
-    const cupWinners = this.data.winners.filter(w => w.cup === `Sus Cup ${race.cupNumber}`);
-    if (cupWinners.length > 1 || (cupWinners.length === 1 && cupWinners[0].rankLabel)) {
-        html += `<div class="card" style="margin-top:20px; background:#fafafa; border:1px solid #eee;">
-            <h3 style="margin-bottom:15px; font-size:1.4rem; display:flex; align-items:center; gap:10px;"><i class="fa-solid fa-trophy" style="color:var(--gold);"></i> Sus Cup ${race.cupNumber} Winners</h3>
-            <div class="grid-3" style="gap:15px;">`;
-        cupWinners.forEach(w => {
-            html += `<div style="background:white; padding:15px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.05); text-align:center;">
-                <div style="font-weight:bold; font-size:1.1rem; color:var(--primary); margin-bottom:5px;">${w.rankLabel || 'Winner'}</div>
-                <div style="font-weight:800; font-size:1.2rem;">${w.trainer}</div>
-                <div style="color:var(--text-muted); margin-top:5px;"><i class="fa-solid fa-horse-head"></i> ${w.uma}</div>
-            </div>`;
-        });
-        html += `</div></div>`;
-    }
+
+
+    const raceIndex = this.data.races.findIndex(r => r.id === id);
+    const prevRace = raceIndex > 0 ? this.data.races[raceIndex - 1] : null;
+    const nextRace = raceIndex < this.data.races.length - 1 ? this.data.races[raceIndex + 1] : null;
+
+    html += `
+    <div style="display: flex; justify-content: space-between; margin-top: 30px; gap: 15px;">
+        ${prevRace ? `<button class="btn btn-primary" onclick="App.showRaceDetail(${prevRace.id})" style="flex: 1; text-align: left; background: var(--accent-dark); border: none;"><i class="fa-solid fa-arrow-left"></i> Previous: ${(prevRace.cupName || ('Sus Cup ' + prevRace.cupNumber)).toUpperCase()}</button>` : '<div style="flex: 1;"></div>'}
+        ${nextRace ? `<button class="btn btn-primary" onclick="App.showRaceDetail(${nextRace.id})" style="flex: 1; text-align: right; background: var(--accent-dark); border: none;">Next: ${(nextRace.cupName || ('Sus Cup ' + nextRace.cupNumber)).toUpperCase()} <i class="fa-solid fa-arrow-right"></i></button>` : '<div style="flex: 1;"></div>'}
+    </div>`;
 
     document.getElementById('race-detail-content').innerHTML = html;
 
@@ -8560,9 +9501,11 @@
             renderPlayers() {
                 const query = (document.getElementById('search-players')?.value || '').toLowerCase();
                 let html = '';
+                let index = 0;
                 this.stats.players.filter(p => p.name.toLowerCase().includes(query)).forEach(p => {
+                    const animDelay = (index * 0.05).toFixed(2);
                     html += `
-                        <div class="list-item" onclick="App.showPlayer('${p.name}')">
+                        <div class="list-item animated-list-item" onclick="App.showPlayer('${p.name}')" style="cursor:pointer; animation-delay:${animDelay}s;">
                             <div class="avatar-circle" style="background:white; border:2px solid #eee;">#${p.rank}</div>
                             <div class="item-content">
                                 <div class="item-title">${p.name}</div>
@@ -8573,6 +9516,7 @@
                                 ${this.getRankHtml(p.diff)}
                             </div>
                         </div>`;
+                    index++;
                 });
                 document.getElementById('full-player-list').innerHTML = html;
             },
@@ -8692,126 +9636,489 @@
                 document.getElementById('trainer-profile-content').innerHTML = html;
                 document.getElementById('trainer-profile-modal').style.display = 'flex';
             },
+        // CSS for Compare Redesign (Injected dynamically)
+        if (!document.getElementById('compare-styles')) {
+            const style = document.createElement('style');
+            style.id = 'compare-styles';
+            style.innerHTML = `
+                :root {
+                    --cp-1: #e63946;
+                    --cp-1-light: rgba(230, 57, 70, 0.1);
+                    --cp-2: #457b9d;
+                    --cp-2-light: rgba(69, 123, 157, 0.1);
+                }
+                
+                .compare-selector-card { margin-bottom: 25px; padding: 25px; }
+                .compare-selector-grid {
+                    display: grid;
+                    grid-template-columns: 1fr 60px 1fr;
+                    gap: 15px;
+                    align-items: center;
+                }
+                .compare-player-select label { font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; display: block; color: var(--text-muted); }
+                .compare-select {
+                    height: 50px;
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    border: 2px solid var(--border-color);
+                    border-radius: var(--radius-md);
+                    cursor: pointer;
+                    transition: all 0.2s;
+                }
+                .compare-player-select.p1 .compare-select:focus { border-color: var(--cp-1); box-shadow: 0 0 0 3px var(--cp-1-light); }
+                .compare-player-select.p2 .compare-select:focus { border-color: var(--cp-2); box-shadow: 0 0 0 3px var(--cp-2-light); }
+                
+                .vs-badge-container { display: flex; justify-content: center; align-items: center; margin-top: 25px; }
+                .vs-badge {
+                    width: 44px; height: 44px; border-radius: 50%;
+                    background: var(--text-color); color: #fff;
+                    display: flex; justify-content: center; align-items: center;
+                    font-weight: 900; font-size: 0.9rem; font-style: italic;
+                    letter-spacing: -0.5px;
+                    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+                    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                }
+                .vs-badge.pulse { transform: scale(1.15); }
+                
+                .compare-cards-grid {
+                    display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-bottom: 25px;
+                }
+                
+                .cp-card {
+                    background: #fff; border-radius: var(--radius-md); border: 1px solid var(--border-color);
+                    padding: 30px 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+                    opacity: 0; transform: translateY(20px);
+                    animation: fadeInUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+                    transition: transform 0.2s, box-shadow 0.2s;
+                }
+                .cp-card:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.06); }
+                .cp-card.p2 { animation-delay: 0.1s; }
+                
+                .cp-header { display: flex; flex-direction: column; align-items: center; margin-bottom: 25px; text-align: center; }
+                .cp-avatar-wrap {
+                    width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+                    font-weight: 800; font-size: 1.8rem; color: #fff; margin-bottom: 15px;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                    overflow: hidden;
+                    position: relative;
+                }
+                .cp-card.p1 .cp-avatar-wrap { background: linear-gradient(135deg, #e63946, #b01b26); }
+                .cp-card.p2 .cp-avatar-wrap { background: linear-gradient(135deg, #457b9d, #1d3557); }
+                
+                .cp-avatar-wrap img {
+                    width: 100%; height: 100%; object-fit: cover;
+                }
 
-            renderCompare() {
-                const p1Select = document.getElementById('compare-p1');
-                const p2Select = document.getElementById('compare-p2');
+                .cp-name { font-size: 1.6rem; font-weight: 800; margin: 0 0 5px 0; color: var(--text-color); }
+                .cp-rank { font-size: 0.9rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+                
+                .cp-stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+                .cp-stat-box {
+                    background: #fcfcfc; border: 1px solid var(--border-color); border-radius: 8px;
+                    padding: 15px; text-align: center; display: flex; flex-direction: column; justify-content: center;
+                    transition: 0.2s;
+                }
+                .cp-stat-box.full-width { grid-column: 1 / -1; }
+                .cp-stat-label { font-size: 0.7rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
+                .cp-stat-value { font-size: 1.4rem; font-weight: 800; color: var(--text-color); display: flex; align-items: baseline; justify-content: center; gap: 2px; }
+                .cp-stat-value span { font-size: 0.9rem; font-weight: 700; color: var(--text-muted); }
+                
+                .cp-stat-box.winner.p1 { background: var(--cp-1-light); border-color: rgba(230, 57, 70, 0.3); }
+                .cp-stat-box.winner.p2 { background: var(--cp-2-light); border-color: rgba(69, 123, 157, 0.3); }
+                .cp-stat-box.winner.p1 .cp-stat-value { color: var(--cp-1); }
+                .cp-stat-box.winner.p2 .cp-stat-value { color: var(--cp-2); }
+                
+                .cp-summary-card { padding: 25px 30px; opacity: 0; transform: translateY(20px); animation: fadeInUp 0.5s ease forwards; animation-delay: 0.2s; margin-bottom: 25px; }
+                .cp-bar-container { margin-bottom: 20px; }
+                .cp-bar-container:last-child { margin-bottom: 0; }
+                .cp-bar-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 8px; }
+                .cp-bar-title { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); letter-spacing: 1px; }
+                .cp-bar-vals { display: flex; font-size: 1.05rem; font-weight: 800; gap: 15px; }
+                .cp-bar-vals .v1 { color: var(--cp-1); }
+                .cp-bar-vals .v2 { color: var(--cp-2); }
+                .cp-bar-track { height: 8px; background: var(--border-color); border-radius: 4px; display: flex; overflow: hidden; }
+                .cp-bar-fill-1 { background: var(--cp-1); height: 100%; transition: width 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
+                .cp-bar-fill-2 { background: var(--cp-2); height: 100%; transition: width 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
+                
+                .cp-chart-card { display: flex; flex-direction: column; opacity: 0; transform: translateY(20px); animation: fadeInUp 0.5s ease forwards; animation-delay: 0.3s; }
+                .cp-insights { background: #fcfcfc; border-top: 1px solid var(--border-color); padding: 20px 25px; border-bottom-left-radius: var(--radius-md); border-bottom-right-radius: var(--radius-md); display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+                .cp-insight-badge { background: #fff; border: 1px solid var(--border-color); padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; display: flex; align-items: center; gap: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+                
+                @media (max-width: 768px) {
+                    .compare-selector-grid { grid-template-columns: 1fr; gap: 10px; }
+                    .vs-badge-container { margin-top: 0; margin-bottom: 10px; }
+                    .compare-cards-grid { grid-template-columns: 1fr; }
+                    .cp-bar-header { flex-direction: column; align-items: center; gap: 5px; }
+                }
+                
+                @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+            `;
+            document.head.appendChild(style);
+        }
 
-                if (p1Select.options.length === 0 && this.stats && this.stats.players) {
-                    const sortedPlayers = [...this.stats.players].sort((a, b) => a.name.localeCompare(b.name));
-                    const optionsHTML = sortedPlayers.map(p => `<option value="${p.name}">${p.name}</option>`).join('');
-                    p1Select.innerHTML = '<option value="">Select Player 1</option>' + optionsHTML;
-                    p2Select.innerHTML = '<option value="">Select Player 2</option>' + optionsHTML;
+        const p1Select = document.getElementById('compare-p1');
+        const p2Select = document.getElementById('compare-p2');
+        const badge = document.getElementById('vs-badge-anim');
+        if (badge) {
+            badge.classList.remove('pulse');
+            void badge.offsetWidth; // trigger reflow
+            badge.classList.add('pulse');
+        }
 
-                    if (sortedPlayers.length >= 2) {
-                        p1Select.value = sortedPlayers[0].name;
-                        p2Select.value = sortedPlayers[1].name;
+        if (p1Select.options.length === 0 && this.stats && this.stats.players) {
+            const sortedPlayers = [...this.stats.players].sort((a, b) => a.name.localeCompare(b.name));
+            const optionsHTML = sortedPlayers.map(p => `<option value="${p.name}">${p.name}</option>`).join('');
+            p1Select.innerHTML = '<option value="">Select Player 1</option>' + optionsHTML;
+            p2Select.innerHTML = '<option value="">Select Player 2</option>' + optionsHTML;
+
+            if (sortedPlayers.length >= 2) {
+                p1Select.value = sortedPlayers[0].name;
+                p2Select.value = sortedPlayers[1].name;
+            }
+        }
+
+        const p1Name = p1Select.value;
+        const p2Name = p2Select.value;
+
+        const p1 = this.stats.players.find(x => x.name === p1Name);
+        const p2 = this.stats.players.find(x => x.name === p2Name);
+
+        const container = document.getElementById('compare-content');
+        if (!p1 || !p2) {
+            container.innerHTML = '<div class="card" style="text-align:center; padding: 50px; color: var(--text-muted); font-weight: 600;">Select two players to compare.</div>';
+            return;
+        }
+
+        // Safe metric calculation helper
+        const getMetrics = (p) => {
+            const r = p.runs || 0;
+            const w = p.w || 0;
+            const winRate = r > 0 ? ((w / r) * 100).toFixed(1) : 0;
+            const pods = p.podiums || 0;
+            const podRate = r > 0 ? ((pods / r) * 100).toFixed(1) : 0;
+            const avgFin = (p.avgFinish === '—' || p.avgFinish === undefined || isNaN(p.avgFinish)) ? '—' : parseFloat(p.avgFinish).toFixed(1);
+            const consis = p.consistencyScore || '—';
+            
+            return { r, w, winRate: parseFloat(winRate), pods, podRate: parseFloat(podRate), avgFin, consis };
+        };
+
+        const m1 = getMetrics(p1);
+        const m2 = getMetrics(p2);
+
+        // Winner determination helper
+        const getWinnerClass = (val1, val2, reverse = false) => {
+            if (val1 === '—' || val2 === '—') return { p1: '', p2: '' };
+            const v1 = parseFloat(val1);
+            const v2 = parseFloat(val2);
+            if (v1 === v2) return { p1: '', p2: '' };
+            if (reverse) {
+                return v1 < v2 ? { p1: 'winner p1', p2: '' } : { p1: '', p2: 'winner p2' };
+            }
+            return v1 > v2 ? { p1: 'winner p1', p2: '' } : { p1: '', p2: 'winner p2' };
+        };
+
+        const winsWin = getWinnerClass(m1.w, m2.w);
+        const winRateWin = getWinnerClass(m1.winRate, m2.winRate);
+        const podWin = getWinnerClass(m1.pods, m2.pods);
+        const podRateWin = getWinnerClass(m1.podRate, m2.podRate);
+        const avgFinWin = getWinnerClass(m1.avgFin, m2.avgFin, true); // lower is better
+        const consisWin = getWinnerClass(m1.consis, m2.consis);
+
+        // Helper for animating numbers
+        window.animateCompareNum = (elId, val, isFloat) => {
+            setTimeout(() => {
+                const el = document.getElementById(elId);
+                if (!el || val === '—') return;
+                const end = parseFloat(val);
+                let start = 0;
+                const duration = 600;
+                const startTime = performance.now();
+                const step = (now) => {
+                    const prog = Math.min((now - startTime) / duration, 1);
+                    const ease = 1 - Math.pow(1 - prog, 3);
+                    const current = (end * ease);
+                    el.innerText = isFloat ? current.toFixed(1) : Math.floor(current);
+                    if (prog < 1) requestAnimationFrame(step);
+                    else el.innerText = val;
+                };
+                requestAnimationFrame(step);
+            }, 50);
+        };
+
+        const generateAvatarHTML = (p) => {
+            // Find most recent top uma for avatar
+            let bestUma = null;
+            let bestWins = -1;
+            if (p.umaStats) {
+                for (const [uma, stats] of Object.entries(p.umaStats)) {
+                    if (stats.w > bestWins) {
+                        bestWins = stats.w;
+                        bestUma = uma;
                     }
                 }
-
-                const p1Name = p1Select.value;
-                const p2Name = p2Select.value;
-
-                const p1 = this.stats.players.find(x => x.name === p1Name);
-                const p2 = this.stats.players.find(x => x.name === p2Name);
-
-                const container = document.getElementById('compare-content');
-                if (!p1 || !p2) {
-                    container.innerHTML = '<p>Select two players to compare.</p>';
-                    return;
+            }
+            
+            if (bestUma) {
+                const umaId = window.getUmaId(bestUma);
+                if (umaId) {
+                    return \`<img src="https://gametora.com/images/umamusume/characters/chara_stand_\${umaId}_1060.png" onerror="this.style.display='none'; this.parentElement.innerText='\${p.name.substring(0,2).toUpperCase()}';" alt="\${bestUma}">\`;
                 }
+            }
+            return p.name.substring(0, 2).toUpperCase();
+        };
 
-                // Generate radar chart for comparison
-                const p1Data = [p1.winRate, p1.top3Rate, p1.consistencyScore, p1.experienceScore, p1.top5Rate, Math.min(100, (p1.podiums / Math.max(1, p1.runs)) * 100)];
-                const p2Data = [p2.winRate, p2.top3Rate, p2.consistencyScore, p2.experienceScore, p2.top5Rate, Math.min(100, (p2.podiums / Math.max(1, p2.runs)) * 100)];
-
-                container.innerHTML = `
-                    <div class="grid-2">
-                        <div class="card" style="text-align:center;">
-                            <div class="avatar-circle" style="width:80px; height:80px; margin:0 auto 10px; font-size:2rem; background:var(--primary); color:white;">
-                                ${p1.name.substring(0, 2).toUpperCase()}
-                            </div>
-                            <h3>${p1.name}</h3>
-                            <p>Rank #${p1.rank}</p>
-                            
-                            <table class="data-table" style="margin-top:20px; text-align:left;">
-                                <tr><td>Races</td><td style="text-align:right;"><strong>${p1.runs}</strong></td></tr>
-                                <tr><td>Wins</td><td style="text-align:right;"><strong>${p1.w}</strong></td></tr>
-                                <tr><td>Win Rate</td><td style="text-align:right;"><strong>${p1.winRate}%</strong></td></tr>
-                                <tr><td>Podiums</td><td style="text-align:right;"><strong>${p1.podiums}</strong></td></tr>
-                                <tr><td>Podium Rate</td><td style="text-align:right;"><strong>${p1.top3Rate}%</strong></td></tr>
-                                <tr><td>Avg Finish</td><td style="text-align:right;"><strong>${p1.avgFinish}</strong></td></tr>
-                                <tr><td>Consistency</td><td style="text-align:right;"><strong>${p1.consistencyScore}</strong></td></tr>
-                            </table>
+        container.innerHTML = `
+            <div class="compare-cards-grid">
+                <!-- Player 1 Card -->
+                <div class="cp-card p1">
+                    <div class="cp-header">
+                        <div class="cp-avatar-wrap">\${generateAvatarHTML(p1)}</div>
+                        <h3 class="cp-name">\${p1.name}</h3>
+                        <div class="cp-rank">Rank #\${p1.rank || '—'}</div>
+                    </div>
+                    <div class="cp-stats-grid">
+                        <div class="cp-stat-box full-width">
+                            <div class="cp-stat-label">Total Races</div>
+                            <div class="cp-stat-value"><span id="anim-r1">\${m1.r}</span></div>
                         </div>
-                        <div class="card" style="text-align:center;">
-                            <div class="avatar-circle" style="width:80px; height:80px; margin:0 auto 10px; font-size:2rem; background:var(--gold); color:white;">
-                                ${p2.name.substring(0, 2).toUpperCase()}
-                            </div>
-                            <h3>${p2.name}</h3>
-                            <p>Rank #${p2.rank}</p>
-                            
-                            <table class="data-table" style="margin-top:20px; text-align:left;">
-                                <tr><td>Races</td><td style="text-align:right;"><strong>${p2.runs}</strong></td></tr>
-                                <tr><td>Wins</td><td style="text-align:right;"><strong>${p2.w}</strong></td></tr>
-                                <tr><td>Win Rate</td><td style="text-align:right;"><strong>${p2.winRate}%</strong></td></tr>
-                                <tr><td>Podiums</td><td style="text-align:right;"><strong>${p2.podiums}</strong></td></tr>
-                                <tr><td>Podium Rate</td><td style="text-align:right;"><strong>${p2.top3Rate}%</strong></td></tr>
-                                <tr><td>Avg Finish</td><td style="text-align:right;"><strong>${p2.avgFinish}</strong></td></tr>
-                                <tr><td>Consistency</td><td style="text-align:right;"><strong>${p2.consistencyScore}</strong></td></tr>
-                            </table>
+                        <div class="cp-stat-box \${winsWin.p1}">
+                            <div class="cp-stat-label">Wins</div>
+                            <div class="cp-stat-value"><span id="anim-w1">\${m1.w}</span></div>
+                        </div>
+                        <div class="cp-stat-box \${winRateWin.p1}">
+                            <div class="cp-stat-label">Win Rate</div>
+                            <div class="cp-stat-value"><span id="anim-wr1">\${m1.winRate}</span><span>%</span></div>
+                        </div>
+                        <div class="cp-stat-box \${podWin.p1}">
+                            <div class="cp-stat-label">Podiums</div>
+                            <div class="cp-stat-value"><span id="anim-p1">\${m1.pods}</span></div>
+                        </div>
+                        <div class="cp-stat-box \${podRateWin.p1}">
+                            <div class="cp-stat-label">Podium Rate</div>
+                            <div class="cp-stat-value"><span id="anim-pr1">\${m1.podRate}</span><span>%</span></div>
+                        </div>
+                        <div class="cp-stat-box \${avgFinWin.p1}">
+                            <div class="cp-stat-label">Avg Finish</div>
+                            <div class="cp-stat-value">\${m1.avgFin}</div>
+                        </div>
+                        <div class="cp-stat-box \${consisWin.p1}">
+                            <div class="cp-stat-label">Consistency</div>
+                            <div class="cp-stat-value">\${m1.consis}</div>
                         </div>
                     </div>
-                    <div class="card" style="margin-top:20px;">
-                        <h3 style="text-align:center; margin-bottom:15px;">Performance Comparison</h3>
-                        <div style="max-width:500px; margin:0 auto;">
-                            <canvas id="compareRadarChart"></canvas>
+                </div>
+                
+                <!-- Player 2 Card -->
+                <div class="cp-card p2">
+                    <div class="cp-header">
+                        <div class="cp-avatar-wrap">\${generateAvatarHTML(p2)}</div>
+                        <h3 class="cp-name">\${p2.name}</h3>
+                        <div class="cp-rank">Rank #\${p2.rank || '—'}</div>
+                    </div>
+                    <div class="cp-stats-grid">
+                        <div class="cp-stat-box full-width">
+                            <div class="cp-stat-label">Total Races</div>
+                            <div class="cp-stat-value"><span id="anim-r2">\${m2.r}</span></div>
+                        </div>
+                        <div class="cp-stat-box \${winsWin.p2}">
+                            <div class="cp-stat-label">Wins</div>
+                            <div class="cp-stat-value"><span id="anim-w2">\${m2.w}</span></div>
+                        </div>
+                        <div class="cp-stat-box \${winRateWin.p2}">
+                            <div class="cp-stat-label">Win Rate</div>
+                            <div class="cp-stat-value"><span id="anim-wr2">\${m2.winRate}</span><span>%</span></div>
+                        </div>
+                        <div class="cp-stat-box \${podWin.p2}">
+                            <div class="cp-stat-label">Podiums</div>
+                            <div class="cp-stat-value"><span id="anim-p2">\${m2.pods}</span></div>
+                        </div>
+                        <div class="cp-stat-box \${podRateWin.p2}">
+                            <div class="cp-stat-label">Podium Rate</div>
+                            <div class="cp-stat-value"><span id="anim-pr2">\${m2.podRate}</span><span>%</span></div>
+                        </div>
+                        <div class="cp-stat-box \${avgFinWin.p2}">
+                            <div class="cp-stat-label">Avg Finish</div>
+                            <div class="cp-stat-value">\${m2.avgFin}</div>
+                        </div>
+                        <div class="cp-stat-box \${consisWin.p2}">
+                            <div class="cp-stat-label">Consistency</div>
+                            <div class="cp-stat-value">\${m2.consis}</div>
                         </div>
                     </div>
-                `;
+                </div>
+            </div>
+            
+            <!-- Comparison Bars Summary -->
+            <div class="card cp-summary-card">
+                <h3 style="margin-bottom: 25px; text-align: center; font-size: 1.2rem;">Head-to-Head Balance</h3>
+                
+                <div class="cp-bar-container">
+                    <div class="cp-bar-header">
+                        <div class="cp-bar-vals"><span class="v1">\${m1.w} W</span></div>
+                        <div class="cp-bar-title">Total Wins</div>
+                        <div class="cp-bar-vals"><span class="v2">\${m2.w} W</span></div>
+                    </div>
+                    <div class="cp-bar-track">
+                        <div class="cp-bar-fill-1" style="width: \${(m1.w / Math.max(1, m1.w + m2.w)) * 100}%"></div>
+                        <div class="cp-bar-fill-2" style="width: \${(m2.w / Math.max(1, m1.w + m2.w)) * 100}%"></div>
+                    </div>
+                </div>
+                
+                <div class="cp-bar-container">
+                    <div class="cp-bar-header">
+                        <div class="cp-bar-vals"><span class="v1">\${m1.winRate}%</span></div>
+                        <div class="cp-bar-title">Win Rate</div>
+                        <div class="cp-bar-vals"><span class="v2">\${m2.winRate}%</span></div>
+                    </div>
+                    <div class="cp-bar-track">
+                        <div class="cp-bar-fill-1" style="width: \${(m1.winRate / Math.max(1, m1.winRate + m2.winRate)) * 100}%"></div>
+                        <div class="cp-bar-fill-2" style="width: \${(m2.winRate / Math.max(1, m1.winRate + m2.winRate)) * 100}%"></div>
+                    </div>
+                </div>
+                
+                <div class="cp-bar-container">
+                    <div class="cp-bar-header">
+                        <div class="cp-bar-vals"><span class="v1">\${m1.pods}</span></div>
+                        <div class="cp-bar-title">Podiums</div>
+                        <div class="cp-bar-vals"><span class="v2">\${m2.pods}</span></div>
+                    </div>
+                    <div class="cp-bar-track">
+                        <div class="cp-bar-fill-1" style="width: \${(m1.pods / Math.max(1, m1.pods + m2.pods)) * 100}%"></div>
+                        <div class="cp-bar-fill-2" style="width: \${(m2.pods / Math.max(1, m1.pods + m2.pods)) * 100}%"></div>
+                    </div>
+                </div>
+            </div>
 
-                // Render Chart
-                if (window.compareRadarInstance) {
-                    window.compareRadarInstance.destroy();
-                }
+            <!-- Radar Chart -->
+            <div class="card cp-chart-card" style="padding: 0; overflow: hidden;">
+                <div style="padding: 30px;">
+                    <h3 style="text-align:center; margin-bottom: 5px;">Performance Radar</h3>
+                    <p style="text-align:center; font-size:0.85rem; color:var(--text-muted); margin-bottom: 25px;">Overall performance across key tournament metrics</p>
+                    <div style="max-width: 600px; margin: 0 auto; min-height: 350px;">
+                        <canvas id="compareRadarChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="cp-insights" id="cp-insights-container">
+                    <!-- Insights injected here -->
+                </div>
+            </div>
+        `;
 
-                const ctx = document.getElementById('compareRadarChart').getContext('2d');
-                window.compareRadarInstance = new Chart(ctx, {
-                    type: 'radar',
-                    data: {
-                        labels: ['Win Rate', 'Podium Rate', 'Consistency', 'Experience', 'Top 5 Rate', 'Podium/Race Ratio'],
-                        datasets: [{
-                            label: p1.name,
-                            data: p1Data,
-                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                            borderColor: 'rgb(255, 99, 132)',
-                            pointBackgroundColor: 'rgb(255, 99, 132)',
-                            pointBorderColor: '#fff',
-                            pointHoverBackgroundColor: '#fff',
-                            pointHoverBorderColor: 'rgb(255, 99, 132)'
-                        }, {
-                            label: p2.name,
-                            data: p2Data,
-                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                            borderColor: 'rgb(54, 162, 235)',
-                            pointBackgroundColor: 'rgb(54, 162, 235)',
-                            pointBorderColor: '#fff',
-                            pointHoverBackgroundColor: '#fff',
-                            pointHoverBorderColor: 'rgb(54, 162, 235)'
-                        }]
+        // Trigger animations
+        window.animateCompareNum('anim-r1', m1.r, false);
+        window.animateCompareNum('anim-w1', m1.w, false);
+        window.animateCompareNum('anim-wr1', m1.winRate, true);
+        window.animateCompareNum('anim-p1', m1.pods, false);
+        window.animateCompareNum('anim-pr1', m1.podRate, true);
+        
+        window.animateCompareNum('anim-r2', m2.r, false);
+        window.animateCompareNum('anim-w2', m2.w, false);
+        window.animateCompareNum('anim-wr2', m2.winRate, true);
+        window.animateCompareNum('anim-p2', m2.pods, false);
+        window.animateCompareNum('anim-pr2', m2.podRate, true);
+
+        // Generate Insights
+        const insights = [];
+        if (m1.w > m2.w) insights.push(`🏆 \${p1.name} leads in total wins`);
+        else if (m2.w > m1.w) insights.push(`🏆 \${p2.name} leads in total wins`);
+        
+        if (m1.avgFin !== '—' && m2.avgFin !== '—') {
+            if (parseFloat(m1.avgFin) < parseFloat(m2.avgFin)) insights.push(`📊 \${p1.name} has a better average finish`);
+            else if (parseFloat(m2.avgFin) < parseFloat(m1.avgFin)) insights.push(`📊 \${p2.name} has a better average finish`);
+        }
+        
+        if (m1.consis !== '—' && m2.consis !== '—') {
+            if (parseFloat(m1.consis) > parseFloat(m2.consis)) insights.push(`🔥 \${p1.name} is a more consistent player`);
+            else if (parseFloat(m2.consis) > parseFloat(m1.consis)) insights.push(`🔥 \${p2.name} is a more consistent player`);
+        }
+        
+        const insightsContainer = document.getElementById('cp-insights-container');
+        if (insights.length > 0) {
+            insightsContainer.innerHTML = insights.map(i => `<div class="cp-insight-badge">\${i}</div>`).join('');
+        } else {
+            insightsContainer.innerHTML = `<div class="cp-insight-badge" style="margin: 0 auto; color: var(--text-muted);">Matches are closely contested</div>`;
+        }
+
+        // Render Chart
+        const p1Data = [p1.winRate || 0, p1.top3Rate || 0, p1.consistencyScore || 0, p1.experienceScore || 0, p1.top5Rate || 0, Math.min(100, ((p1.podiums||0) / Math.max(1, p1.runs||0)) * 100)];
+        const p2Data = [p2.winRate || 0, p2.top3Rate || 0, p2.consistencyScore || 0, p2.experienceScore || 0, p2.top5Rate || 0, Math.min(100, ((p2.podiums||0) / Math.max(1, p2.runs||0)) * 100)];
+
+        if (window.compareRadarInstance) {
+            window.compareRadarInstance.data.datasets[0].label = p1.name;
+            window.compareRadarInstance.data.datasets[0].data = p1Data;
+            window.compareRadarInstance.data.datasets[1].label = p2.name;
+            window.compareRadarInstance.data.datasets[1].data = p2Data;
+            window.compareRadarInstance.update();
+        } else {
+            const ctx = document.getElementById('compareRadarChart').getContext('2d');
+            window.compareRadarInstance = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['Win Rate', 'Podium Rate', 'Consistency', 'Experience', 'Top 5 Rate', 'Podium/Race Ratio'],
+                    datasets: [{
+                        label: p1.name,
+                        data: p1Data,
+                        backgroundColor: 'rgba(230, 57, 70, 0.25)',
+                        borderColor: '#e63946',
+                        pointBackgroundColor: '#e63946',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#e63946',
+                        borderWidth: 2
+                    }, {
+                        label: p2.name,
+                        data: p2Data,
+                        backgroundColor: 'rgba(69, 123, 157, 0.25)',
+                        borderColor: '#457b9d',
+                        pointBackgroundColor: '#457b9d',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#457b9d',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        r: {
+                            angleLines: { color: 'rgba(0,0,0,0.1)' },
+                            grid: { color: 'rgba(0,0,0,0.1)' },
+                            pointLabels: { font: { size: 12, family: "'Inter', sans-serif", weight: 'bold' }, color: '#666' },
+                            ticks: { display: false, min: 0, max: 100 }
+                        }
                     },
-                    options: {
-                        scales: {
-                            r: {
-                                angleLines: { color: 'rgba(0,0,0,0.1)' },
-                                grid: { color: 'rgba(0,0,0,0.1)' },
-                                pointLabels: { font: { size: 12, family: "'Inter', sans-serif" } },
-                                ticks: { display: false, min: 0, max: 100 }
-                            }
-                        },
-                        plugins: { legend: { position: 'top' } }
+                    plugins: { 
+                        legend: { 
+                            position: 'top',
+                            labels: { usePointStyle: true, padding: 20, font: { family: "'Inter', sans-serif", size: 13, weight: 'bold' } }
+                        } 
                     }
-                });
+                }
+            });
+        }
+    }
+
+
+            
+            renderProfileView() {
+                if (document.getElementById('profile-content') && document.getElementById('profile-content').innerHTML.trim() !== '') return;
+                
+                // Generate a select dropdown of all players
+                let html = `
+                    <button class="btn btn-outline" style="margin-bottom:20px; padding: 10px 20px;" onclick="App.navigate('players')"><i class="fa-solid fa-arrow-left"></i> Back to Players</button>
+                    <div class="page-header" style="margin-bottom: 20px;">
+                        <h2>Player Profiles</h2>
+                        <p>Select a player to view their detailed performance statistics</p>
+                        <select id="profile-selector" class="form-control" style="max-width: 300px; margin-top: 15px; font-size: 1.1rem; padding: 10px;" onchange="if(this.value) App.showPlayer(this.value)">
+                            <option value="">-- Select a Player --</option>
+                            ${[...this.stats.players].sort((a,b) => b.w - a.w || a.name.localeCompare(b.name)).map(p => `<option value="${p.name}">${p.name} (${p.w} Wins)</option>`).join('')}
+                        </select>
+                    </div>
+                    <div id="profile-content"></div>
+                `;
+                document.getElementById('view-profile').innerHTML = html;
             },
 
             showPlayer(name) {
@@ -8823,7 +10130,7 @@
                 p.history.forEach(h => {
                     if (!umasUsed[h.umaId]) {
                         umasUsed[h.umaId] = {
-                            umaId: h.umaId, name: h.uma, runs: 0, wins: 0, secondPlaces: 0, thirdPlaces: 0, podiums: 0,
+                            umaId: h.umaId, name: h.uma, runs: 0, w: 0, secondPlaces: 0, thirdPlaces: 0, podiums: 0,
                             sumPos: 0, bestFinish: 99, worstFinish: 0, firstCup: h.cup, latestCup: h.cup
                         };
                     }
@@ -8850,15 +10157,75 @@
 
                 const mostUsedUma = [...umaList].sort((a, b) => b.runs - a.runs || a.avgFinish - b.avgFinish)[0];
 
-                const championships = (this.data.winners || []).filter(w => w.trainer === name && !NPC_PROFILES[w.uma] && w.type !== 'NPC Uma').length;
+                const allTrainerWins = (this.data.winners || []).filter(w => w.trainer === name && !NPC_PROFILES[w.uma] && w.type !== 'NPC Uma');
+                const championships = allTrainerWins.filter(w => !w.rankLabel).length;
+                const criteriaWins = allTrainerWins.filter(w => w.rankLabel);
 
                 // Determine Achievements
                 let achievements = [];
                 if (championships > 0) achievements.push({ icon: '🏆', title: 'Sus Cup Champion', desc: `Won ${championships} Championship${championships > 1 ? 's' : ''}` });
+                criteriaWins.forEach(cw => {
+                    achievements.push({ icon: '🏅', title: 'Criteria Winner', desc: `${cw.rankLabel} in ${cw.cup}` });
+                });
                 if (p.w >= 10) achievements.push({ icon: '🌟', title: 'Decade of Dominance', desc: 'Achieved 10 or more race wins' });
                 if (p.podiums >= 20) achievements.push({ icon: '🥈', title: 'Podium Regular', desc: 'Secured 20 or more podium finishes' });
                 if (p.maxWinStreak >= 3) achievements.push({ icon: '🔥', title: 'Unstoppable', desc: `Achieved a ${p.maxWinStreak}-race win streak` });
                 if (p.uniqueUmasCount >= 10) achievements.push({ icon: '🎭', title: 'Versatile Trainer', desc: 'Fielded 10 or more unique Umas' });
+
+                // Strategy Breakdown
+                const stratStats = { 'Front': { runs: 0, wins: 0 }, 'Pace': { runs: 0, wins: 0 }, 'Late': { runs: 0, wins: 0 }, 'End': { runs: 0, wins: 0 } };
+                p.history.forEach(h => {
+                    let s = h.strategy;
+                    if (s === 'Runner') s = 'Front';
+                    if (s === 'Leader') s = 'Pace';
+                    if (s === 'Betweener') s = 'Late';
+                    if (s === 'Chaser') s = 'End';
+                    if (stratStats[s]) {
+                        stratStats[s].runs++;
+                        if (h.pos === 1) stratStats[s].wins++;
+                    }
+                });
+                
+                let bestStrategy = { name: 'None', wins: 0, winRate: 0, runs: 0 };
+                let mostUsedStrategy = { name: 'None', runs: 0 };
+                let leastUsedStrategy = { name: 'None', runs: 999999 };
+                const finishCounts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, '6+': 0 };
+                let worstFinishOverall = 0;
+                
+                const trackStats = {};
+                p.history.forEach(h => {
+                    if (h.pos >= 1 && h.pos <= 5) finishCounts[h.pos]++;
+                    else finishCounts['6+']++;
+                    
+                    if (h.pos > worstFinishOverall) worstFinishOverall = h.pos;
+                    
+                    if (!trackStats[h.race]) trackStats[h.race] = { runs: 0, wins: 0, sumPos: 0 };
+                    trackStats[h.race].runs++;
+                    trackStats[h.race].sumPos += h.pos;
+                    if (h.pos === 1) trackStats[h.race].wins++;
+                });
+                
+                let bestTrack = { name: 'None', wins: 0, runs: 0, avg: 99 };
+                Object.entries(trackStats).forEach(([name, data]) => {
+                    let avg = data.sumPos / data.runs;
+                    if (data.wins > bestTrack.wins || (data.wins === bestTrack.wins && avg < bestTrack.avg)) {
+                        bestTrack = { name, wins: data.wins, runs: data.runs, avg };
+                    }
+                });
+                const stratColors = { 'Front': '#e74c3c', 'Pace': '#e67e22', 'Late': '#f1c40f', 'End': '#2ecc71' };
+                
+                Object.entries(stratStats).forEach(([name, data]) => {
+                    if (data.runs > mostUsedStrategy.runs) {
+                        mostUsedStrategy = { name, runs: data.runs };
+                    }
+                    if (data.runs > 0 && data.runs < leastUsedStrategy.runs) {
+                        leastUsedStrategy = { name, runs: data.runs };
+                    }
+                    if (data.wins > bestStrategy.wins || (data.wins === bestStrategy.wins && data.wins > 0 && (data.wins/data.runs) > bestStrategy.winRate)) {
+                        bestStrategy = { name, wins: data.wins, winRate: (data.wins/data.runs)*100, runs: data.runs };
+                    }
+                });
+                if (leastUsedStrategy.runs === 999999) leastUsedStrategy = { name: 'None', runs: 0 };
 
                 let html = `
                     <div class="card" style="margin-bottom:20px; display:flex; flex-wrap:wrap; gap:20px; align-items:center;">
@@ -8884,14 +10251,15 @@
                         <div class="card">
                             <h3 style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">Performance Metrics</h3>
                             <div class="grid-2">
-                                <div class="stat-block"><div class="val" style="color:var(--gold)">${p.w}</div><div class="lbl">Wins</div></div>
+                                <div class="stat-block"><div class="val" style="color:var(--gold)">${p.w}</div><div class="lbl">Wins (1st)</div></div>
                                 <div class="stat-block"><div class="val" style="color:var(--silver)">${p.secondPlaces}</div><div class="lbl">2nd Places</div></div>
-                                <div class="stat-block"><div class="val" style="color:var(--bronze)">${p.thirdPlaces}</div><div class="lbl">Third Places</div></div>
-                                <div class="stat-block"><div class="val">${p.podiums}</div><div class="lbl">Total Podiums</div></div>
+                                <div class="stat-block"><div class="val" style="color:var(--bronze)">${p.thirdPlaces}</div><div class="lbl">3rd Places</div></div>
+                                <div class="stat-block"><div class="val">${finishCounts[4]}</div><div class="lbl">4th Places</div></div>
+                                <div class="stat-block"><div class="val">${finishCounts[5]}</div><div class="lbl">5th Places</div></div>
+                                <div class="stat-block"><div class="val">${finishCounts['6+']}</div><div class="lbl">6th+ Places</div></div>
                                 <div class="stat-block"><div class="val">${p.winRate}%</div><div class="lbl">Win Rate</div></div>
-                                <div class="stat-block"><div class="val">${p.top3Rate}%</div><div class="lbl">Podium Rate</div></div>
-                                <div class="stat-block"><div class="val">${p.top5Rate}%</div><div class="lbl">Top 5 Rate</div></div>
-                                <div class="stat-block"><div class="val">${p.avgFinish}</div><div class="lbl">Avg Finish</div></div>
+                                <div class="stat-block"><div class="val">${worstFinishOverall}</div><div class="lbl">Worst Finish</div></div>
+                                <div class="stat-block" style="grid-column: span 2;"><div class="val" style="font-size: 1.2rem;">${bestTrack.name !== 'None' ? bestTrack.name : 'N/A'}</div><div class="lbl">Best Track (${bestTrack.wins}W)</div></div>
                             </div>
                         </div>
 
@@ -8900,6 +10268,27 @@
                             <h3 style="margin-bottom:10px; width:100%; text-align:left;">Sextagram</h3>
                             <div style="position:relative; width:100%; max-width:300px; aspect-ratio:1;">
                                 <canvas id="radarChart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Running Style Evolution -->
+                        <div class="card" style="display:flex; flex-direction:column; justify-content:space-between;">
+                            <h3 style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">Running Style Stats</h3>
+                            <div style="display:flex; flex-direction:column; gap:10px;">
+                                ${Object.entries(stratStats).sort((a,b) => b[1].runs - a[1].runs).map(([name, data]) => `
+                                    <div style="display:flex; justify-content:space-between; align-items:center; background:var(--surface-light); padding:8px 12px; border-radius:6px; border-left: 4px solid ${stratColors[name] || 'var(--text-muted)'}">
+                                        <div style="font-weight:700;">${name}</div>
+                                        <div style="font-size:0.9rem; color:var(--text-muted); text-align:right;">
+                                            <span style="color:var(--primary); font-weight:800;">${data.runs}</span> Runs &bull; 
+                                            <span style="color:var(--gold); font-weight:800;">${data.wins}</span> Wins
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div style="margin-top:15px; padding-top:10px; border-top:1px dashed #eee; display:flex; justify-content:space-between; font-size:0.85rem;">
+                                <div>Best: <strong>${bestStrategy.name !== 'None' ? `${bestStrategy.name} (${bestStrategy.wins}W)` : 'N/A'}</strong></div>
+                                <div>Most Used: <strong>${mostUsedStrategy.name !== 'None' ? `${mostUsedStrategy.name} (${mostUsedStrategy.runs}R)` : 'N/A'}</strong></div>
+                                <div>Least Used: <strong>${leastUsedStrategy.name !== 'None' ? `${leastUsedStrategy.name} (${leastUsedStrategy.runs}R)` : 'N/A'}</strong></div>
                             </div>
                         </div>
                     </div>
@@ -8976,7 +10365,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                ${[...p.history].sort((a, b) => parseInt(b.cup.replace(/\D/g, '')) - parseInt(a.cup.replace(/\D/g, ''))).map(h => `
+                                ${[...p.history].sort((a, b) => parseInt(String(b.cup).replace(/\D/g, '')) - parseInt(String(a.cup).replace(/\D/g, ''))).map(h => `
                                     <tr style="border-bottom:1px solid #f0f0f0; transition:background 0.2s;" onmouseover="this.style.background='#f9f9f9'" onmouseout="this.style.background='transparent'">
                                         <td style="padding:10px;">
                                             <div class="avatar-circle" style="width:30px;height:30px;font-size:0.9rem;background:${h.pos == 1 ? 'var(--gold)' : h.pos == 2 ? 'var(--silver)' : h.pos == 3 ? 'var(--bronze)' : '#eee'}; color:${h.pos <= 3 ? 'white' : '#333'}">${h.pos}</div>
@@ -9002,7 +10391,21 @@
                         </table>
                     </div>
                 `;
-                document.getElementById('profile-content').innerHTML = html;
+                let layoutHtml = `
+                    <button class="btn btn-outline" style="margin-bottom:20px; padding: 10px 20px;" onclick="App.navigate('players')"><i class="fa-solid fa-arrow-left"></i> Back to Players</button>
+                    <div class="page-header" style="margin-bottom: 20px;">
+                        <h2>Player Profiles</h2>
+                        <p>Select a player to view their detailed performance statistics</p>
+                        <select id="profile-selector" class="form-control" style="max-width: 300px; margin-top: 15px; font-size: 1.1rem; padding: 10px;" onchange="if(this.value) App.showPlayer(this.value)">
+                            <option value="">-- Select a Player --</option>
+                            ${[...this.stats.players].sort((a,b) => b.w - a.w || a.name.localeCompare(b.name)).map(pl => `<option value="${pl.name}">${pl.name} (${pl.w} Wins)</option>`).join('')}
+                        </select>
+                    </div>
+                    <div id="profile-content">${html}</div>
+                `;
+                document.getElementById('view-profile').innerHTML = layoutHtml;
+                document.getElementById('profile-selector').value = name;
+        
 
                 // Render Radar Chart
                 if (window.profileRadarInst) window.profileRadarInst.destroy();
@@ -9093,7 +10496,7 @@
                             <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px;">
                                 <div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">First Used</div>
                                 <div style="font-size:1.2rem; font-weight:bold;">${firstUse.player || '-'}</div>
-                                <div style="font-size:0.85rem; opacity:0.9;">Sus Cup ${firstUse.cup || '-'} &bull; ${firstUse.date || ''}</div>
+                                <div style="font-size:0.85rem; opacity:0.9;">Sus Cup ${firstUse.cup || '-'} &bull; ${App.formatDate(firstUse.date)}</div>
                             </div>
                             <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px;">
                                 <div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">Most Used By</div>
@@ -9136,7 +10539,21 @@
                         </div>
                     `;
                 });
-                document.getElementById('profile-content').innerHTML = html;
+                let layoutHtml = `
+                    <button class="btn btn-outline" style="margin-bottom:20px; padding: 10px 20px;" onclick="App.navigate('umas')"><i class="fa-solid fa-arrow-left"></i> Back to Umas</button>
+                    <div class="page-header" style="margin-bottom: 20px;">
+                        <h2>Uma Profiles</h2>
+                        <p>Select an Uma to view their detailed performance statistics</p>
+                        <select id="uma-profile-selector" class="form-control" style="max-width: 300px; margin-top: 15px; font-size: 1.1rem; padding: 10px;" onchange="if(this.value) App.showUma(this.value)">
+                            <option value="">-- Select an Uma --</option>
+                            ${[...this.stats.umas].sort((a,b) => b.w - a.w || a.name.localeCompare(b.name)).map(u => `<option value="${u.name}">${u.name} (${u.w} Wins)</option>`).join('')}
+                        </select>
+                    </div>
+                    <div id="profile-content">${html}</div>
+                `;
+                document.getElementById('view-profile').innerHTML = layoutHtml;
+                document.getElementById('uma-profile-selector').value = name;
+        
 
                 // Initialize Chart.js for Uma
                 if (window.profileChartInst) window.profileChartInst.destroy();
@@ -9339,6 +10756,15 @@ App.calculateStats = function() {
     this.data.races.forEach(race => {
         if (race.course) totalCourses.add(race.course);
         
+        // Normalize participant data for legacy naming
+        if (race.participants) {
+            race.participants.forEach(p => {
+                if (p.position !== undefined && p.pos === undefined) p.pos = p.position;
+                if (p.finish !== undefined && p.time === undefined) p.time = p.finish;
+                if (p.gap !== undefined && p.time === undefined) p.time = p.gap;
+            });
+        }
+        
         const p1 = race.participants.find(p => p.pos === 1);
         const p2 = race.participants.find(p => p.pos === 2);
         if (p1 && p2 && p1.time && p2.time) {
@@ -9454,7 +10880,7 @@ App.calculateStats = function() {
             favTrack: favTrack.name, bestTrack: bestTrack.name,
             favStyle: favStyle.name, leastStyle: leastStyle.name, bestStyle: bestStyle.name
         };
-    }).sort((a, b) => b.points - a.points || b.w - a.w || b.podiums - a.podiums || a.sumPos - b.sumPos);
+    }).sort((a, b) => b.w - a.w || b.podiums - a.podiums || a.sumPos - b.sumPos || b.points - a.points);
 
     sortedPlayers.forEach((p, idx) => { p.rank = idx + 1; p.diff = 0; });
 
@@ -9493,301 +10919,5 @@ App.calculateStats = function() {
     };
 };
 
-App.renderDashboard = function() {
-    document.getElementById('dash-stats').innerHTML = `
-        <div class="stat-block"><div class="val">${this.stats.totalCups}</div><div class="lbl">Total Cups</div></div>
-        <div class="stat-block"><div class="val">${this.stats.totalRaces}</div><div class="lbl">Total Races</div></div>
-        <div class="stat-block"><div class="val">${this.stats.totalPlayers}</div><div class="lbl">Total Players</div></div>
-        <div class="stat-block"><div class="val">${this.stats.totalTracks}</div><div class="lbl">Total Tracks</div></div>
-    `;
-    
-    const rec = this.stats.records;
-    document.getElementById('championship-record').innerHTML = `
-        <div class="record-heading"><span class="eyebrow">All-Time Historical Records</span><span class="record-count"><i class="fa-solid fa-star"></i></span></div>
-        <div class="record-winner" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px; margin-top:15px; background:transparent;">
-            <div style="background:#fafafa; padding:15px; border-radius:5px; border:1px solid #eee;">
-                <div style="font-size:0.8rem; color:#888; text-transform:uppercase; margin-bottom:5px;">Fastest Player/Uma</div>
-                <div style="font-size:1.1rem; font-weight:bold; color:var(--text-main);">${rec.fastestPlayer} - ${rec.fastestUma}</div>
-                <div style="font-size:0.9rem; color:var(--primary); font-weight:bold; margin-top:5px;">${this.formatTime(rec.fastestTime)} on ${rec.fastestCourse}</div>
-            </div>
-            <div style="background:#fafafa; padding:15px; border-radius:5px; border:1px solid #eee;">
-                <div style="font-size:0.8rem; color:#888; text-transform:uppercase; margin-bottom:5px;">Most Successful Player</div>
-                <div style="font-size:1.1rem; font-weight:bold; color:var(--text-main);">${rec.mostWinsPlayer}</div>
-                <div style="font-size:0.9rem; color:var(--primary); font-weight:bold; margin-top:5px;">${rec.mostWins} Wins</div>
-            </div>
-            <div style="background:#fafafa; padding:15px; border-radius:5px; border:1px solid #eee;">
-                <div style="font-size:0.8rem; color:#888; text-transform:uppercase; margin-bottom:5px;">Biggest Winning Margin</div>
-                <div style="font-size:1.1rem; font-weight:bold; color:var(--text-main);">+${rec.biggestMargin > 0 ? rec.biggestMargin.toFixed(1) : '-'}s</div>
-                <div style="font-size:0.9rem; color:var(--primary); font-weight:bold; margin-top:5px;">${rec.biggestMarginRace}</div>
-            </div>
-            <div style="background:#fafafa; padding:15px; border-radius:5px; border:1px solid #eee;">
-                <div style="font-size:0.8rem; color:#888; text-transform:uppercase; margin-bottom:5px;">Closest Finish</div>
-                <div style="font-size:1.1rem; font-weight:bold; color:var(--text-main);">+${rec.closestFinish < 999 ? rec.closestFinish.toFixed(1) : '-'}s</div>
-                <div style="font-size:0.9rem; color:var(--primary); font-weight:bold; margin-top:5px;">${rec.closestFinishRace}</div>
-            </div>
-            <div style="background:#fafafa; padding:15px; border-radius:5px; border:1px solid #eee;">
-                <div style="font-size:0.8rem; color:#888; text-transform:uppercase; margin-bottom:5px;">Most Used Style</div>
-                <div style="font-size:1.1rem; font-weight:bold; color:var(--text-main);">${this.stats.mostGlobalStyle.name}</div>
-                <div style="font-size:0.9rem; color:var(--primary); font-weight:bold; margin-top:5px;">${((this.stats.mostGlobalStyle.runs / this.stats.totalStyleRuns)*100).toFixed(1)}% Usage</div>
-            </div>
-            <div style="background:#fafafa; padding:15px; border-radius:5px; border:1px solid #eee;">
-                <div style="font-size:0.8rem; color:#888; text-transform:uppercase; margin-bottom:5px;">Best Performing Style</div>
-                <div style="font-size:1.1rem; font-weight:bold; color:var(--text-main);">${this.stats.bestGlobalStyle.name}</div>
-                <div style="font-size:0.9rem; color:var(--primary); font-weight:bold; margin-top:5px;">${this.stats.bestGlobalStyle.avg.toFixed(2)} Avg Finish</div>
-            </div>
-        </div>
-    `;
-
-    let phtml = '';
-    this.stats.players.slice(0, 5).forEach(p => {
-        phtml += `
-            <div class="list-item" onclick="App.showPlayer('${p.name}')">
-                <div class="avatar-circle" style="background:#f4ece1; color:var(--text-main); font-size:1rem;">#${p.rank}</div>
-                <div class="item-content">
-                    <div class="item-title">${p.name}</div>
-                    <div class="item-subtitle">${p.w} Wins / ${p.points} Pts</div>
-                </div>
-                <div class="item-right">
-                    <div class="item-value" style="font-size:0.9rem; font-weight:bold; color:var(--primary);">${p.favStyle}</div>
-                    <div class="item-label">Fav: ${p.favTrack}</div>
-                </div>
-            </div>`;
-    });
-    document.getElementById('dash-player-list').innerHTML = phtml;
-};
-
-App.generatePlayerCard = function(name) {
-    const profileContent = document.getElementById('profile-content');
-    if (!profileContent) return;
-
-    // Temporarily apply some styles for a better screenshot
-    const originalBg = profileContent.style.background;
-    const originalPadding = profileContent.style.padding;
-    const originalRadius = profileContent.style.borderRadius;
-    
-    profileContent.style.background = 'var(--bg-color)';
-    profileContent.style.padding = '20px';
-    profileContent.style.borderRadius = '12px';
-
-    html2canvas(profileContent, {
-        backgroundColor: '#f1f1ef',
-        scale: 2, // High resolution
-        useCORS: true
-    }).then(canvas => {
-        // Restore styles
-        profileContent.style.background = originalBg;
-        profileContent.style.padding = originalPadding;
-        profileContent.style.borderRadius = originalRadius;
-
-        // Trigger download
-        const link = document.createElement('a');
-        link.download = `SusCup_Profile_${name}.png`;
-        link.href = canvas.toDataURL('image/png');
-        link.click();
-    }).catch(err => {
-        console.error("Error generating card:", err);
-        // Restore styles in case of error
-        profileContent.style.background = originalBg;
-        profileContent.style.padding = originalPadding;
-        profileContent.style.borderRadius = originalRadius;
-        alert("Failed to generate card.");
-    });
-};
-
-App.showPlayer = function(name) {
-    const p = this.stats.players.find(x => x.name === name);
-    if(!p) return;
-    
-    let styleStatsHtml = '';
-    Object.keys(p.styles).forEach(s => {
-        const data = p.styles[s];
-        if (data.runs > 0) {
-            styleStatsHtml += `
-            <tr>
-                <td style="font-weight:bold;">${s}</td>
-                <td>${data.runs} (${((data.runs/p.runs)*100).toFixed(0)}%)</td>
-                <td>${data.w}</td>
-                <td>${data.pod}</td>
-                <td>${(data.sumPos/data.runs).toFixed(2)}</td>
-                <td>${this.formatTime(data.bestTime)}</td>
-            </tr>`;
-        }
-    });
-
-    let trackStatsHtml = '';
-    Object.keys(p.tracks).forEach(t => {
-        const data = p.tracks[t];
-        trackStatsHtml += `
-        <tr>
-            <td style="font-weight:bold;">${t}</td>
-            <td>${data.runs}</td>
-            <td>${data.w}</td>
-            <td>${data.pod}</td>
-            <td>${(data.sumPos/data.runs).toFixed(2)}</td>
-            <td>${this.formatTime(data.bestTime)}</td>
-        </tr>`;
-    });
-    
-    let evolutionHtml = '<div style="position:relative; padding-left:20px; border-left:3px solid #eee; margin-top:10px;">';
-    const styleColors = {
-        'Front Runner': '#e17055',
-        'Pace Chaser': '#e67e22',
-        'Late Surger': '#00b894',
-        'End Closer': '#0984e3',
-        'Unknown': '#b2bec3'
-    };
-    p.styleEvolution.forEach((e, idx) => {
-        const bg = styleColors[e.style] || styleColors['Unknown'];
-        let rgb_val = '0,0,0';
-        if(bg === '#e17055') rgb_val = '225, 112, 85';
-        else if(bg === '#e67e22') rgb_val = '230, 126, 34';
-        else if(bg === '#00b894') rgb_val = '0, 184, 148';
-        else if(bg === '#0984e3') rgb_val = '9, 132, 227';
-        else if(bg === '#b2bec3') rgb_val = '178, 190, 195';
-
-        evolutionHtml += `
-            <div style="position:relative; margin-bottom:15px; opacity:0; animation: slideInFade 0.4s ease forwards; animation-delay: ${idx * 0.15}s; --rgb-val: ${rgb_val};">
-                <div style="position:absolute; left:-28.5px; top:4px; width:14px; height:14px; background:${bg}; border-radius:50%; border:3px solid #fff; animation: dotPulse 2s infinite; animation-delay: ${idx * 0.15}s;"></div>
-                <div style="font-weight:800; color:var(--text-muted); font-size:0.8rem; text-transform:uppercase;">Sus Cup ${e.cup}</div>
-                <div style="font-weight:bold; font-size:1.05rem; color:${bg};">${e.style}</div>
-            </div>
-        `;
-    });
-    evolutionHtml += '</div>';
-
-    let html = `
-        <div class="card" style="background:var(--accent-dark); color:white; margin-bottom:20px;">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start;">
-                <h2 style="font-size:2.5rem; margin-bottom:15px;">${p.name}</h2>
-                <button onclick="App.generatePlayerCard('${p.name}')" data-html2canvas-ignore style="background:var(--gold); border:none; padding:10px 15px; border-radius:8px; font-weight:bold; cursor:pointer; display:flex; align-items:center; gap:8px;"><i class="fa-solid fa-camera"></i> Generate Card</button>
-            </div>
-            <div class="grid-4" style="gap:15px; margin-top:20px;">
-                <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px;"><div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">Total Points</div><div style="font-size:1.8rem; font-weight:bold; color:var(--gold);">${p.points}</div></div>
-                <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px;"><div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">Races Entered</div><div style="font-size:1.8rem; font-weight:bold;">${p.runs}</div></div>
-                <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px;"><div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">Wins</div><div style="font-size:1.8rem; font-weight:bold;">${p.w} <span style="font-size:1rem; opacity:0.8;">(${p.winRate}%)</span></div></div>
-                <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px;"><div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">Podiums</div><div style="font-size:1.8rem; font-weight:bold;">${p.podiums} <span style="font-size:1rem; opacity:0.8;">(${p.podiumRate}%)</span></div></div>
-                <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px;"><div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">2nd / 3rd</div><div style="font-size:1.8rem; font-weight:bold;">${p.secondPlaces} / ${p.thirdPlaces}</div></div>
-                <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px;"><div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">Avg / Best / Worst</div><div style="font-size:1.8rem; font-weight:bold;">${p.avgFinish} / ${p.bestFinish} / ${p.worstFinish}</div></div>
-                <div style="background:rgba(255,255,255,0.1); padding:15px; border-radius:8px; grid-column: span 2;"><div style="font-size:0.8rem; opacity:0.8; text-transform:uppercase;">Best / Avg Race Time</div><div style="font-size:1.8rem; font-weight:bold;">${this.formatTime(p.bestTime)} / ${this.formatTime(p.avgTime)}</div></div>
-            </div>
-        </div>
-        
-        <div class="card" style="margin-bottom:20px;">
-            <h3 style="margin-bottom:15px; font-size:1.4rem; display:flex; align-items:center; gap:10px;"><i class="fa-solid fa-shoe-prints" style="color:var(--primary);"></i> Running Style Usage</h3>
-            <div style="display:flex; gap:20px; margin-bottom:20px; background:#fafafa; padding:15px; border-radius:8px; border:1px solid #eee;">
-                <div><span style="color:#888; text-transform:uppercase; font-size:0.8rem;">🔥 Most Used</span><br><strong style="font-size:1.1rem;">${p.favStyle}</strong></div>
-                <div><span style="color:#888; text-transform:uppercase; font-size:0.8rem;">📉 Least Used</span><br><strong style="font-size:1.1rem;">${p.leastStyle}</strong></div>
-                <div><span style="color:#888; text-transform:uppercase; font-size:0.8rem;">🏆 Best Performing</span><br><strong style="font-size:1.1rem;">${p.bestStyle}</strong></div>
-            </div>
-            <div class="table-responsive">
-                <table class="table" style="width:100%; border-collapse:collapse; text-align:left;">
-                    <thead style="background:#f4ece1; color:var(--text-main);"><tr><th style="padding:10px;">Style</th><th style="padding:10px;">Usage</th><th style="padding:10px;">Wins</th><th style="padding:10px;">Podiums</th><th style="padding:10px;">Avg Finish</th><th style="padding:10px;">Best Time</th></tr></thead>
-                    <tbody>${styleStatsHtml}</tbody>
-                </table>
-            </div>
-        </div>
-
-        <div class="card" style="margin-bottom:20px;">
-            <h3 style="margin-bottom:15px; font-size:1.4rem; display:flex; align-items:center; gap:10px;"><i class="fa-solid fa-map-location-dot" style="color:var(--gold);"></i> Track Preferences</h3>
-            <div style="display:flex; gap:20px; margin-bottom:20px; background:#fafafa; padding:15px; border-radius:8px; border:1px solid #eee;">
-                <div><span style="color:#888; text-transform:uppercase; font-size:0.8rem;">❤️ Favorite Track</span><br><strong style="font-size:1.1rem;">${p.favTrack}</strong></div>
-                <div><span style="color:#888; text-transform:uppercase; font-size:0.8rem;">🏆 Best Track</span><br><strong style="font-size:1.1rem;">${p.bestTrack}</strong></div>
-            </div>
-            <div class="table-responsive">
-                <table class="table" style="width:100%; border-collapse:collapse; text-align:left;">
-                    <thead style="background:#f4ece1; color:var(--text-main);"><tr><th style="padding:10px;">Track</th><th style="padding:10px;">Runs</th><th style="padding:10px;">Wins</th><th style="padding:10px;">Podiums</th><th style="padding:10px;">Avg Finish</th><th style="padding:10px;">Best Time</th></tr></thead>
-                    <tbody>${trackStatsHtml}</tbody>
-                </table>
-            </div>
-        </div>
-        
-        <div class="card">
-            <h3 style="margin-bottom:15px; font-size:1.4rem; display:flex; align-items:center; gap:10px;"><i class="fa-solid fa-timeline" style="color:var(--accent);"></i> Style Evolution</h3>
-            <div>${evolutionHtml}</div>
-        </div>
-    `;
-    document.getElementById('profile-content').innerHTML = html;
-    this.navigate('profile');
-};
-
-App.showRaceDetail = function(id) {
-    const race = this.data.races.find(r => r.id === id);
-    if (!race) return;
-    const sorted = [...race.participants].sort((a, b) => a.pos - b.pos);
-    
-    const raceMeta = [
-        race.date && `${race.date}${race.time ? ` / ${race.time}` : ''}`,
-        race.roomId && `ROOM ${race.roomId}`,
-        race.grade,
-        race.distanceType && `${race.distanceType} / ${race.direction || 'Direction not recorded'}`,
-        race.courseLayout,
-        race.weather && `WEATHER SETTING: ${race.weather}`,
-        race.ground && `GROUND SETTING: ${race.ground}`,
-        race.condition && `RACE CONDITION: ${race.condition}`,
-        race.mood && `MOOD: ${race.mood}`,
-        race.restriction && `LIMIT: ${race.restriction}`,
-        race.entryRule
-    ].filter(Boolean);
-
-    let html = `
-        <div class="card" style="background:var(--accent-dark); color:white;">
-            <span class="badge" style="background:var(--primary); margin-bottom:10px;">SUS CUP ${race.cupNumber}</span>
-            <h2 style="font-size:2rem; margin-bottom:10px; color:white;">${race.name}</h2>
-            <p style="font-weight:700; opacity:0.8;">${race.cupName || `SUS CUP ${race.cupNumber}`}${race.subtitle ? ` &mdash; ${race.subtitle}` : ''}</p>
-            <p style="font-weight:700; opacity:0.8; margin-top:6px;">${race.course} ${race.surface} ${race.distance}m</p>
-            <div class="race-meta">${raceMeta.map(item => `<span>${item}</span>`).join('')}</div>
-        </div>
-        ${race.images?.length ? `<div class="race-gallery">${race.images.map((image, index) => `<img src="${image}" alt="Sus Cup ${race.cupNumber} result screenshot ${index + 1}" loading="lazy" style="cursor:pointer;" onclick=\'openGalleryModal(${JSON.stringify(race.images)}, ${index})\'>`).join('')}</div>` : ''}
-    `;
-
-    sorted.forEach(p => {
-        let style = ''; let medal = p.pos;
-        if(p.pos===1) { style='background:#fffcf0; border-left:4px solid var(--gold);'; medal='🥇'; }
-        else if(p.pos===2) { style='border-left:4px solid var(--silver);'; medal='🥈'; }
-        else if(p.pos===3) { style='border-left:4px solid var(--bronze);'; medal='🥉'; }
-        
-        html += `
-            <div class="list-item" style="${style}">
-                <div style="font-size:1.5rem; font-weight:800; width:40px; text-align:center;">${medal}</div>
-                ${this.getUmaImage(p.umaId)}
-                <div class="item-content">
-                    <div class="item-title" onclick="App.showPlayer('${p.player}')" style="cursor:pointer; color:var(--primary); text-decoration:underline;">${p.player}</div>
-                    <div class="item-subtitle" style="display:flex; gap:10px;">
-                        <span><i class="fa-solid fa-horse-head"></i> ${p.uma}</span>
-                        <span><i class="fa-solid fa-shoe-prints"></i> ${this.stylesMap[p.strategy] || p.strategy}</span>
-                    </div>
-                </div>
-                <div class="item-right" style="text-align:right;">
-                    <div class="item-value" style="color:var(--primary); font-weight:bold;">${p.gap || '-'}</div>
-                    <div class="item-label" style="color:var(--text-main); font-weight:600; font-size:0.9rem;">${p.number ? '#' + p.number : ''}</div>
-                    <div class="item-label" style="color:var(--text-main); font-weight:600; font-size:0.9rem;">${p.pop ? 'No. ' + p.pop + ' Fav' : ''}</div>
-                </div>
-            </div>`;
-    });
-    
-    const cupWinners = this.data.winners.filter(w => w.cup === `Sus Cup ${race.cupNumber}`);
-    if (cupWinners.length > 1 || (cupWinners.length === 1 && cupWinners[0].rankLabel)) {
-        html += `<div class="card" style="margin-top:20px; background:#fafafa; border:1px solid #eee;">
-            <h3 style="margin-bottom:15px; font-size:1.4rem; display:flex; align-items:center; gap:10px;"><i class="fa-solid fa-trophy" style="color:var(--gold);"></i> Sus Cup ${race.cupNumber} Winners</h3>
-            <div class="grid-3" style="gap:15px;">`;
-        cupWinners.forEach(w => {
-            html += `<div style="background:white; padding:15px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.05); text-align:center;">
-                <div style="font-weight:bold; font-size:1.1rem; color:var(--primary); margin-bottom:5px;">${w.rankLabel || 'Winner'}</div>
-                <div style="font-weight:800; font-size:1.2rem;">${w.trainer}</div>
-                <div style="color:var(--text-muted); margin-top:5px;"><i class="fa-solid fa-horse-head"></i> ${w.uma}</div>
-            </div>`;
-        });
-        html += `</div></div>`;
-    }
-
-    document.getElementById('race-detail-content').innerHTML = html;
-
-    this.navigate('race-detail');
-};
-
-
-        
-        
-
-        document.addEventListener('DOMContentLoaded', () => { App.init(); });
+App.init();
     

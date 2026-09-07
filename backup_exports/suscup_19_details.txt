@@ -1,0 +1,310 @@
+{
+  "races": [
+    {
+      "id": 19,
+      "cupNumber": 19,
+      "cupName": "Sus Cup 19 \u2014 Gold Skills",
+      "name": "G1 Tenno Sho (Autumn)",
+      "date": "30 December 2025, 18:31",
+      "roomId": "6799 5179",
+      "race": "Tenno Sho (Autumn)",
+      "course": "Tokyo Turf",
+      "surface": "Turf",
+      "distance": "2000m",
+      "distanceType": "Medium",
+      "direction": "Left",
+      "weather": "Rainy",
+      "ground": "Soft",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "0 Gold Skill, 1-2 Gold Skill, Gold Skill Only",
+      "images": [
+        "suscupimages11-20/19.1.png",
+        "suscupimages11-20/19.2.png",
+        "suscupimages11-20/19.3.png",
+        "suscupimages11-20/19.4.png"
+      ],
+      "participants": [
+        {
+          "pos": 1,
+          "number": 6,
+          "uma": "Gold City",
+          "player": "Ananth",
+          "strategy": "Pace",
+          "time": "1:56.8",
+          "gap": "1:56.8",
+          "pop": 6,
+          "rank": "A+",
+          "title": "Dream Team",
+          "umaId": "104002"
+        },
+        {
+          "pos": 2,
+          "number": 4,
+          "uma": "T.M. Opera O",
+          "player": "Jiinxye",
+          "strategy": "Pace",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 7,
+          "rank": "A+",
+          "title": "Team Player Star Slayer",
+          "umaId": "t-m-opera-o"
+        },
+        {
+          "pos": 3,
+          "number": 13,
+          "uma": "Agnes Tachyon",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "3 L",
+          "gap": "3 L",
+          "pop": 1,
+          "rank": "A+",
+          "title": "Faster than Light",
+          "umaId": "agnes-tachyon"
+        },
+        {
+          "pos": 4,
+          "number": 18,
+          "uma": "Gold Ship",
+          "player": "Cruzi",
+          "strategy": "End",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 11,
+          "rank": "A+",
+          "title": "Dream Team",
+          "umaId": "gold-ship"
+        },
+        {
+          "pos": 5,
+          "number": 15,
+          "uma": "Gold Ship",
+          "player": "Ananth",
+          "strategy": "End",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 8,
+          "rank": "A",
+          "title": "Witness to Legend",
+          "umaId": "gold-ship"
+        },
+        {
+          "pos": 6,
+          "uma": "Gold Ship",
+          "umaId": "gold-ship",
+          "player": "Unknown",
+          "number": 6,
+          "rank": "A+",
+          "title": "Witness to Legend",
+          "strategy": "End",
+          "gap": "Head",
+          "pop": 3,
+          "time": "Head"
+        },
+        {
+          "pos": 7,
+          "uma": "Mayano Top Gun",
+          "umaId": "mayano-top-gun",
+          "player": "Unknown",
+          "number": 7,
+          "rank": "A+",
+          "title": "Witness to Legend",
+          "strategy": "Late",
+          "gap": "1 1/4 L",
+          "pop": 2,
+          "time": "1 1/4 L"
+        },
+        {
+          "pos": 8,
+          "uma": "Oguri Cap",
+          "umaId": "oguri-cap",
+          "player": "Unknown",
+          "number": 8,
+          "rank": "A+",
+          "title": "Ideal Idol",
+          "strategy": "Pace",
+          "gap": "Head",
+          "pop": 12,
+          "time": "Head"
+        },
+        {
+          "pos": 9,
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "Unknown",
+          "number": 9,
+          "rank": "A+",
+          "title": "Miss Perfect",
+          "strategy": "Front",
+          "gap": "1 1/2 L",
+          "pop": 10,
+          "time": "1 1/2 L"
+        },
+        {
+          "pos": 10,
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "Unknown",
+          "number": 10,
+          "rank": "A+",
+          "title": "Dream Team",
+          "strategy": "Front",
+          "gap": "Neck",
+          "pop": 4,
+          "time": "Neck"
+        },
+        {
+          "pos": 11,
+          "uma": "Winning Ticket",
+          "umaId": "winning-ticket",
+          "player": "Unknown",
+          "number": 11,
+          "rank": "A",
+          "title": "Steamy Solidarity",
+          "strategy": "Late",
+          "gap": "2 1/2 L",
+          "pop": 9,
+          "time": "2 1/2 L"
+        },
+        {
+          "pos": 12,
+          "uma": "Mejiro McQueen",
+          "umaId": "mejiro-mcqueen",
+          "player": "Unknown",
+          "number": 12,
+          "rank": "A",
+          "title": "Witness to Legend",
+          "strategy": "Pace",
+          "gap": "2 1/2 L",
+          "pop": 5,
+          "time": "2 1/2 L"
+        },
+        {
+          "pos": 13,
+          "uma": "Gray Chouchou",
+          "umaId": "gray-chouchou",
+          "player": "NPC",
+          "number": 13,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Pace",
+          "gap": "3 L",
+          "pop": 15,
+          "time": "3 L"
+        },
+        {
+          "pos": 14,
+          "uma": "Jagdplaute",
+          "umaId": "jagdplaute",
+          "player": "NPC",
+          "number": 14,
+          "rank": "C+",
+          "title": "",
+          "strategy": "End",
+          "gap": "1/2 L",
+          "pop": 16,
+          "time": "1/2 L"
+        },
+        {
+          "pos": 15,
+          "uma": "Mini Narcissus",
+          "umaId": "mini-narcissus",
+          "player": "NPC",
+          "number": 15,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Late",
+          "gap": "3/4 L",
+          "pop": 18,
+          "time": "3/4 L"
+        },
+        {
+          "pos": 16,
+          "uma": "Turcke",
+          "umaId": "turcke",
+          "player": "NPC",
+          "number": 16,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Pace",
+          "gap": "1 1/2 L",
+          "pop": 14,
+          "time": "1 1/2 L"
+        },
+        {
+          "pos": 17,
+          "uma": "Gran Shamal",
+          "umaId": "gran-shamal",
+          "player": "NPC",
+          "number": 17,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Late",
+          "gap": "Nose",
+          "pop": 13,
+          "time": "Nose"
+        },
+        {
+          "pos": 18,
+          "uma": "Circuit Breaker",
+          "umaId": "circuit-breaker",
+          "player": "NPC",
+          "number": 18,
+          "rank": "C+",
+          "title": "",
+          "strategy": "Front",
+          "gap": "4 L",
+          "pop": 17,
+          "time": "4 L"
+        }
+      ],
+      "details": "Tokyo Turf 2000m (Medium) Left | Soft",
+      "specialWinners": {
+        "0 Gold Skill": {
+          "player": "Cruzi",
+          "uma": "Mayano Top Gun",
+          "pos": 7,
+          "umaId": "mayano-top-gun"
+        },
+        "1-2 Gold Skill": {
+          "player": "Ananth",
+          "uma": "Gold City",
+          "pos": 1,
+          "umaId": "gold-city"
+        },
+        "Gold Skill Only": {
+          "player": "Jiinxye",
+          "uma": "T.M. Opera O",
+          "pos": 2,
+          "umaId": "tm-opera-o"
+        }
+      }
+    }
+  ],
+  "winners": [
+    {
+      "cup": "Sus Cup 19",
+      "trainer": "Cruzi",
+      "uma": "Mayano Top Gun",
+      "umaId": "mayano-top-gun",
+      "rankLabel": "0 Gold Skill Winner"
+    },
+    {
+      "cup": "Sus Cup 19",
+      "trainer": "Ananth",
+      "uma": "Gold City",
+      "rankLabel": "1-2 Gold Skill Winner",
+      "umaId": "gold-city",
+      "url": "https://gametora.com/umamusume/characters/gold-city"
+    },
+    {
+      "cup": "Sus Cup 19",
+      "trainer": "Jiinxye",
+      "uma": "T.M. Opera O",
+      "umaId": "t-m-opera-o",
+      "rankLabel": "Gold Skill Only Winner"
+    }
+  ]
+}

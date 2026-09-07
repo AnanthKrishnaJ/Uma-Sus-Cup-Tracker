@@ -1,0 +1,243 @@
+﻿
+>             renderDashboard() {
+                  const latestRace = [...this.data.races].sort((a, b) => {
+                      const d1 = new Date(a.date); const d2 = new Date(b.date);
+                      if (isNaN(d1)) return 1; if (isNaN(d2)) return -1;
+                      return d2 - d1;
+                  })[0] || this.data.races[this.data.races.length - 1];
+                  
+                  const latestWinner = latestRace?.participants.find(p => p.position === 1 || p.position === '1');
+                  
+                  let resultsHtml = '';
+                  if (latestRace && latestRace.participants) {
+                      const sortedParticipants = [...latestRace.participants].sort((a,b) => {
+                          let posA = parseInt(a.position); let posB = parseInt(b.position);
+                          if(isNaN(posA)) posA = 99; if(isNaN(posB)) posB = 99;
+                          return posA - posB;
+                      });
+                      
+                      resultsHtml = `<div style="margin-top:20px; max-height: 300px; overflow-y: auto; background: 
+var(--bg-alt); padding: 10px; border-radius: 8px;">
+                          <h4 style="margin-bottom: 10px; font-size: 1rem; color: var(--primary);">Latest Race 
+Results</h4>
+                          <table class="table" style="font-size: 0.85rem; width: 100%;">
+                              <thead>
+                                  <tr>
+                                      <th>Pos</th>
+                                      <th>Uma</th>
+                                      <th>Player</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  ${sortedParticipants.map(p => `
+                                      <tr>
+                                          <td><strong>${p.position || '-'}</strong></td>
+                                          <td>
+                                              <div style="display:flex; align-items:center; gap:8px;">
+                                                  <img src="${App.getUmaImage(p.umaId || p.uma)}" style="width:30px; 
+height:30px; border-radius:50%; object-fit:cover;">
+                                                  <span>${p.uma}</span>
+                                              </div>
+                                          </td>
+                                          <td>${p.player}</td>
+                                      </tr>
+                                  `).join('')}
+                              </tbody>
+                          </table>
+                      </div>`;
+                  }
+  
+                  document.getElementById('latest-cup-summary').innerHTML = `
+                      <span class="eyebrow">Latest champion</span>
+                      <h3 style="font-size:1.7rem; margin:15px 0 8px;">${latestRace ? `Sus Cup ${latestRace.cupNumber 
+|| latestRace.id} / ${latestRace.name || ''}` : 'No races recorded'}</h3>
+                      <p style="font-weight:800; margin-bottom:8px;">${latestWinner?.player || 'Not recorded'} ΓÇö 
+${latestWinner?.uma || 'Not recorded'}</p>
+                      <p style="color:var(--text-muted); font-size:.85rem; margin-bottom:15px;">${latestRace ? 
+`${latestRace.date || ''} ΓÇö ${latestRace.course || ''} ${latestRace.distance || ''} ${latestRace.surface || ''}` : 
+''}</p>
+                      ${resultsHtml}
+                  `;
+                  document.getElementById('dash-stats').innerHTML = `
+                      <div class="stat-block"><div class="val">${this.stats.totalRaces}</div><div class="lbl">Total 
+Cups</div></div>
+                      <div class="stat-block"><div class="val">${this.stats.totalPlayers}</div><div class="lbl">Active 
+Players</div></div>
+                      <div class="stat-block"><div class="val">${this.stats.totalUmas}</div><div class="lbl">Umas 
+Fielded</div></div>
+                  `;
+  
+                  const championshipWinners = this.data.winners.filter(winner => !NPC_PROFILES[winner.uma] && 
+winner.type !== 'NPC Uma');
+                  const winnerRows = championshipWinners.map(winner => `
+                      <div><strong>${winner.cup}</strong><span>${winner.date}</span></div>
+                      <div><strong>${winner.uma}</strong><br><small 
+style="color:var(--text-muted)">${winner.player}</small></div>
+                  `).join('');
+                  document.getElementById('championship-record').innerHTML = `
+                      <h3 style="margin-bottom: 20px;"><i class="fa-solid fa-medal" style="color:var(--gold)"></i> 
+Championship History</h3>
+                      <div class="grid-4" style="gap:15px;">${winnerRows}</div>
+                  `;
+  
+                  document.getElementById('dash-player-list').innerHTML = Object.values(this.stats.players)
+                      .sort((a, b) => b.w - a.w || b.runs - a.runs)
+                      .slice(0, 5)
+                      .map((p, i) => `
+                          <div class="list-item">
+                              <div class="rank">#${i + 1}</div>
+                              <div class="info">
+                                  <strong>${p.name}</strong>
+                                  <span>${p.races} races</span>
+                              </div>
+                              <div class="val">${p.wins} W</div>
+                          </div>
+                      `).join('');
+  
+                  document.getElementById('dash-uma-list').innerHTML = Object.values(this.stats.umas)
+                      .sort((a, b) => b.w - a.w || b.runs - a.runs)
+                      .slice(0, 5)
+                      .map((u, i) => `
+                          <div class="list-item">
+                              <div class="rank">#${i + 1}</div>
+                              <div style="width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;">
+                                  <img src="${App.getUmaImage(u.id || u.name)}" 
+style="width:100%;height:100%;object-fit:cover;">
+                              </div>
+                              <div class="info">
+                                  <strong>${u.name}</strong>
+                                  <span>${u.races} races</span>
+                              </div>
+                              <div class="val">${u.wins} W</div>
+                          </div>
+                      `).join('');
+              },
+  
+              renderHistory() {
+                  const winners = this.data.winners || [];
+                  const html = [...this.data.races].sort((a, b) => new Date(a.date) - new Date(b.date)).map(race => {
+                      const cupWinners = winners.filter(item => item.cup === `Sus Cup ${race.cupNumber}`);
+                      let winnersHtml = '';
+                      if (cupWinners.length > 0) {
+                          winnersHtml = cupWinners.map(w => `<p style="margin-top:4px; font-weight:800; font-size: 
+0.95rem;">${w.rankLabel || 'Winner'}: ${w.trainer} <span style="opacity:0.7">&mdash;</span> ${w.uma}</p>`).join('');
+                      } else {
+                          const winner = race.participants.find(p => p.pos === 1);
+                          winnersHtml = `<p style="margin-top:12px; font-weight:800;">Winner: ${winner?.player || 'Not 
+recorded'} <span style="opacity:0.7">&mdash;</span> ${winner?.uma || 'Not recorded'}</p>`;
+                      }
+                      return `<div class="timeline-item"><div class="card" style="margin-bottom:0; cursor:pointer;" 
+onclick="App.showRaceDetail(${race.id})">
+                          <span class="badge" style="background:var(--accent-dark);">SUS CUP ${race.cupNumber}</span>
+                          <h3 style="font-size:1.35rem; margin:12px 0 5px;">${race.name}</h3>
+                          <p style="color:var(--text-muted); font-weight:700;">${race.date}  ${race.course} 
+${race.distance}m ${race.surface}</p>
+                          <div style="margin-top:12px;">${winnersHtml}</div>
+                      </div></div>`;
+                  }).join('');
+                  document.getElementById('history-timeline').innerHTML = html;
+              },
+  
+              renderInfo() {
+                  document.getElementById('info-content').innerHTML = `
+                      <section class="card info-section"><h3>About Sus Cup</h3>
+                          <p>Sus Cup is a community Uma Musume tournament series where players compete under different 
+race conditions and rules for each event.</p>
+                          <p>Every Sus Cup can feature different:</p><ul><li>Tracks and race 
+distances</li><li>Surfaces, weather, and ground conditions</li><li>Entry formats and rank limits</li><li>Race 
+strategies and tournament rules</li></ul>
+                          <p>Each tournament is recorded individually to preserve its complete history.</p>
+                      </section>
+                      <section class="card info-section"><h3>About the Tracker</h3>
+                          <p>The Sus Cup Tournament Tracker was created to serve as a permanent archive for the 
+tournament series.</p>
+                          <p>It preserves tournament information, player participation, Uma Musume entries, character 
+versions, special dresses/outfits, NPC/Mob Uma runners, complete race results, champions, winning Umas, and all-time 
+records.</p>
+                      </section>
+                      <section class="card info-section"><h3>Why This Was Made</h3>
+                          <p>The Sus Cup Tournament Tracker was created so that every Sus Cup race has a permanent 
+place in history.</p>
+                          <p>Instead of race results being lost after an event, this tracker preserves the full record 
+of each tournament ΓÇö from the race conditions and participants to the final 1st through 18th positions.</p>
+                          <p>It also celebrates the players and Uma Musume that became champions throughout the 
+history of Sus Cup.</p>
+                      </section>
+                      <section class="card info-section"><h3>History</h3><p>Explore the chronological tournament 
+timeline in <a href="#" onclick="event.preventDefault(); App.navigate('history');">Sus Cup History</a>.</p></section>
+                      <section class="card info-section"><h3>Recording Rules</h3>
+                          <p><strong>Actual race results are the primary historical record.</strong></p>
+                          <p>If registered entries differ from the final race result, the actual result is preserved. 
+All 18 finishing positions are preserved whenever available. NPC/Mob Uma runners are part of the official race record, 
+character images must match the correct Uma, special versions are recorded when identifiable, and no results are 
+invented or estimated.</p>
+                      </section>
+                      <section class="card info-section"><h3>Created By</h3><p style="font-size:1.2rem; 
+font-weight:800; color:var(--text-main);">Ananth</p><p>The Sus Cup Tournament Tracker was created and maintained by 
+Ananth as a dedicated historical archive for the Sus Cup tournament series.</p></section>
+                  `;
+              },
+  
+              renderArchive() {
+                  let html = '';
+                  const searchTxt = (document.getElementById('filter-search')?.value || '').toLowerCase();
+                  const filterCourse = document.getElementById('filter-course')?.value || '';
+                  const filterSurface = document.getElementById('filter-surface')?.value || '';
+                  const filterDistance = document.getElementById('filter-distance')?.value || '';
+  
+                  let races = [...this.data.races];
+  
+                  races = races.filter(race => {
+                      if (searchTxt && !race.name.toLowerCase().includes(searchTxt) && 
+!race.cupNumber.toLowerCase().includes(searchTxt)) return false;
+                      if (filterCourse && !race.course.includes(filterCourse)) return false;
+                      if (filterSurface && race.surface !== filterSurface) return false;
+                      if (filterDistance && race.distanceType !== filterDistance) return false;
+                      return true;
+                  });
+  
+                  // Sort chronologically
+                  races.sort((a, b) => {
+                      let da = new Date(a.date);
+                      let db = new Date(b.date);
+                      if (isNaN(da)) da = new Date('2099-01-01');
+                      if (isNaN(db)) db = new Date('2099-01-01');
+                      return da - db;
+                  });
+  
+                  races.forEach(race => {
+                      const winner = race.participants.find(p => p.pos === 1);
+                      html += `
+                          <div class="card" style="cursor:pointer;" onclick="App.showRaceDetail(${race.id})">
+                              <div style="display:flex; justify-content:space-between; margin-bottom:15px;">
+                                  <span class="badge" style="background:var(--accent-dark)">SUS CUP 
+${race.cupNumber}</span>
+                                  <span style="font-size:0.85rem; font-weight:800; 
+color:var(--text-muted)">${race.date.split(',')[0]}</span>
+                              </div>
+                              <h3 style="font-size:1.4rem; margin-bottom:5px;">${race.name}</h3>
+                              <p style="font-weight:700; color:var(--text-muted); margin-bottom:20px;">${race.course} 
+${race.surface} ${race.distance}m</p>
+                              <div class="list-item" style="margin:0; padding:15px; border-color:var(--gold); 
+border-left:4px solid var(--gold);">
+                                  ${this.getUmaImage(winner?.umaId || '')}
+                                  <div class="item-content">
+                                      <div class="item-title" style="font-size:1rem;">${winner?.uma || 'Unknown'}</div>
+                                      <div class="item-subtitle" style="font-size:0.8rem;">${winner?.player || 
+''}${winner?.version ? ` &bull; ${winner.version}` : ''}</div>
+                                  </div>
+                              </div>
+                          </div>`;
+                  });
+                  document.getElementById('archive-grid').innerHTML = html;
+              },
+  
+              showRaceDetail(id) {
+                  const race = this.data.races.find(r => r.id === id);
+                  if (!race) return;
+                  const sorted = [...race.participants].sort((a, b) => a.pos - b.pos);
+                  const raceMeta = [
+                      race.date && `${race.date.split(',')[0]}`,
+                      race.roomId && `ROOM ${race.roomId}`,
+
+

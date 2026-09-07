@@ -1,0 +1,347 @@
+{
+  "races": [
+    {
+      "id": 21,
+      "cupNumber": "SUS CUP 21",
+      "cupName": "Sus Cup 21 - Spark Race",
+      "name": "Takamatsunomiya Kinen",
+      "date": "2026-04-05",
+      "roomId": "2818 6716",
+      "race": "Takamatsunomiya Kinen",
+      "course": "Chukyo Turf",
+      "surface": "Turf",
+      "distance": "1200m",
+      "distanceType": "Sprint",
+      "direction": "Left",
+      "weather": "Sunny",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "3 entries per participant. Blue Spark format (1x 3\u2605, 1x 2\u2605, 1x 1\u2605)",
+      "sparkWinners": {
+        "3\u2605 Blue Spark": {
+          "player": "Cyciesta",
+          "uma": "Curren Chan",
+          "pos": 2
+        },
+        "2\u2605 Blue Spark": {
+          "player": "Agnes",
+          "uma": "Taiki Shuttle",
+          "pos": 1
+        },
+        "1\u2605 Blue Spark": {
+          "player": "Jiinxye",
+          "uma": "Sakura Bakushin O",
+          "pos": 4
+        }
+      },
+      "images": [
+        "suscupimages21-30/21.1.png",
+        "suscupimages21-30/21.2.png",
+        "suscupimages21-30/21.3.png",
+        "suscupimages21-30/21.4.png"
+      ],
+      "participants": [
+        {
+          "number": 4,
+          "uma": "Taiki Shuttle",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "1:07.3",
+          "gap": "1:07.3",
+          "pop": 4,
+          "rank": "A+",
+          "title": "Mightiest Miler",
+          "umaId": "taiki-shuttle",
+          "position": 1,
+          "pos": 1
+        },
+        {
+          "number": 2,
+          "uma": "Curren Chan",
+          "player": "Cyciesta",
+          "strategy": "Pace",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 2,
+          "rank": "S",
+          "title": "Sprint Sweetheart",
+          "umaId": "curren-chan",
+          "position": 2,
+          "pos": 2
+        },
+        {
+          "number": 12,
+          "uma": "Curren Chan",
+          "player": "Jiinxye",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 12,
+          "rank": "A+",
+          "title": "Team Player Star Slayer",
+          "umaId": "curren-chan",
+          "position": 3,
+          "pos": 3
+        },
+        {
+          "number": 14,
+          "uma": "Sakura Bakushin O",
+          "player": "Jiinxye",
+          "strategy": "Front",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 14,
+          "rank": "A+",
+          "title": "Team Player Star Slayer",
+          "umaId": "sakura-bakushin-o",
+          "position": 4,
+          "pos": 4
+        },
+        {
+          "number": 13,
+          "uma": "Haru Urara",
+          "player": "Cyciesta",
+          "strategy": "Late",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 13,
+          "rank": "A+",
+          "title": "Finals Champion",
+          "umaId": "haru-urara",
+          "position": 5,
+          "pos": 5
+        },
+        {
+          "number": 1,
+          "uma": "Taiki Shuttle",
+          "player": "Cyciesta",
+          "strategy": "Pace",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 1,
+          "rank": "S+",
+          "title": "Witness to Legend",
+          "umaId": "taiki-shuttle",
+          "position": 6,
+          "pos": 6
+        },
+        {
+          "number": 5,
+          "uma": "Sakura Bakushin O",
+          "player": "Yves",
+          "strategy": "Front",
+          "time": "3/4 L",
+          "gap": "3/4 L",
+          "pop": 5,
+          "rank": "A+",
+          "title": "Witness to Legend",
+          "umaId": "sakura-bakushin-o",
+          "position": 7,
+          "pos": 7
+        },
+        {
+          "number": 10,
+          "uma": "Maruzensky",
+          "player": "Jiinxye",
+          "strategy": "Front",
+          "time": "1 L",
+          "gap": "1 L",
+          "pop": 10,
+          "rank": "A+",
+          "title": "Team Player Star Slayer",
+          "umaId": "maruzensky",
+          "position": 8,
+          "pos": 8
+        },
+        {
+          "number": 6,
+          "uma": "Maruzensky",
+          "player": "Cruzi",
+          "strategy": "Front",
+          "time": "1 1/2 L",
+          "gap": "1 1/2 L",
+          "pop": 6,
+          "rank": "S+",
+          "title": "Dream Team",
+          "umaId": "maruzensky",
+          "position": 9,
+          "pos": 9
+        },
+        {
+          "number": 11,
+          "uma": "Sakura Bakushin O",
+          "player": "Agnes",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 11,
+          "rank": "A+",
+          "title": "Finals Champion",
+          "umaId": "sakura-bakushin-o",
+          "position": 10,
+          "pos": 10
+        },
+        {
+          "number": 9,
+          "uma": "Air Groove",
+          "player": "Agnes",
+          "strategy": "Pace",
+          "time": "1 3/4 L",
+          "gap": "1 3/4 L",
+          "pop": 9,
+          "rank": "A+",
+          "title": "Triple Tiara",
+          "umaId": "air-groove",
+          "position": 11,
+          "pos": 11
+        },
+        {
+          "number": 8,
+          "uma": "Silence Suzuka",
+          "player": "Cruzi",
+          "strategy": "Front",
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L",
+          "pop": 8,
+          "rank": "A+",
+          "title": "Otherworldly Front-Runner",
+          "umaId": "silence-suzuka",
+          "position": 12,
+          "pos": 12
+        },
+        {
+          "number": 17,
+          "uma": "Pastime Joy",
+          "player": "Mob",
+          "strategy": "Pace",
+          "time": "Neck",
+          "gap": "Neck",
+          "pop": 17,
+          "rank": "B+",
+          "title": "Not shown",
+          "umaId": "pastime-joy",
+          "position": 13,
+          "pos": 13
+        },
+        {
+          "number": 15,
+          "uma": "Ribbon Virelai",
+          "player": "Mob",
+          "strategy": "Front",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 15,
+          "rank": "B+",
+          "title": "Not shown",
+          "umaId": "ribbon-virelai",
+          "position": 14,
+          "pos": 14
+        },
+        {
+          "number": 16,
+          "uma": "Battle of Elah",
+          "player": "Mob",
+          "strategy": "End",
+          "time": "1/2 L",
+          "gap": "1/2 L",
+          "pop": 16,
+          "rank": "B+",
+          "title": "Not shown",
+          "umaId": "battle-of-elah",
+          "position": 15,
+          "pos": 15
+        },
+        {
+          "number": 7,
+          "uma": "Oguri Cap",
+          "player": "Yves",
+          "strategy": "Pace",
+          "time": "Nose",
+          "gap": "Nose",
+          "pop": 7,
+          "rank": "A+",
+          "title": "Witness to Legend",
+          "umaId": "oguri-cap",
+          "position": 16,
+          "pos": 16
+        },
+        {
+          "number": 18,
+          "uma": "Smart Falcon",
+          "player": "Yves",
+          "strategy": "Front",
+          "time": "1 3/4 L",
+          "gap": "1 3/4 L",
+          "pop": 18,
+          "rank": "A",
+          "title": "Record Holder",
+          "umaId": "smart-falcon",
+          "position": 17,
+          "pos": 17
+        },
+        {
+          "number": 3,
+          "uma": "Daiwa Scarlet",
+          "player": "Cruzi",
+          "strategy": "Pace",
+          "time": "5 L",
+          "gap": "5 L",
+          "pop": 3,
+          "rank": "S",
+          "title": "Miss Perfect",
+          "umaId": "daiwa-scarlet",
+          "position": 18,
+          "pos": 18
+        }
+      ],
+      "details": "Chukyo Turf 1200m (Sprint) Left | Firm",
+      "guestPlacing": 5,
+      "specialWinners": {
+        "3\u2605 Blue Spark": {
+          "player": "Cyciesta",
+          "uma": "Curren Chan",
+          "pos": 2,
+          "umaId": "curren-chan"
+        },
+        "2\u2605 Blue Spark": {
+          "player": "Agnes",
+          "uma": "Taiki Shuttle",
+          "pos": 1,
+          "umaId": "taiki-shuttle"
+        },
+        "1\u2605 Blue Spark": {
+          "player": "Jiinxye",
+          "uma": "Sakura Bakushin O",
+          "pos": 4,
+          "umaId": "sakura-bakushin-o"
+        }
+      }
+    }
+  ],
+  "winners": [
+    {
+      "cup": "Sus Cup 21",
+      "trainer": "Agnes",
+      "uma": "Taiki Shuttle",
+      "umaId": "taiki-shuttle",
+      "rankLabel": "3* spark winner",
+      "race": "Takamatsunomiya Kinen",
+      "result": "1:07.3"
+    },
+    {
+      "cup": "Sus Cup 21",
+      "trainer": "Agnes",
+      "uma": "Taiki Shuttle",
+      "umaId": "taiki-shuttle",
+      "rankLabel": "2* spark winner"
+    },
+    {
+      "cup": "Sus Cup 21",
+      "trainer": "Jiinxye",
+      "uma": "Sakura Bakushin O",
+      "umaId": "sakura-bakushin-o",
+      "rankLabel": "1* spark winner"
+    }
+  ]
+}

@@ -34,15 +34,47 @@ showPlayer(name) {
 
                 const mostUsedUma = [...umaList].sort((a, b) => b.runs - a.runs || a.avgFinish - b.avgFinish)[0];
 
-                const championships = (this.data.winners || []).filter(w => w.trainer === name && !NPC_PROFILES[w.uma] && w.type !== 'NPC Uma').length;
+                const allTrainerWins = (this.data.winners || []).filter(w => w.trainer === name && !NPC_PROFILES[w.uma] && w.type !== 'NPC Uma');
+                const championships = allTrainerWins.filter(w => !w.rankLabel).length;
+                const criteriaWins = allTrainerWins.filter(w => w.rankLabel);
 
                 // Determine Achievements
                 let achievements = [];
                 if (championships > 0) achievements.push({ icon: '🏆', title: 'Sus Cup Champion', desc: `Won ${championships} Championship${championships > 1 ? 's' : ''}` });
+                criteriaWins.forEach(cw => {
+                    achievements.push({ icon: '🏅', title: 'Criteria Winner', desc: `${cw.rankLabel} in ${cw.cup}` });
+                });
                 if (p.w >= 10) achievements.push({ icon: '🌟', title: 'Decade of Dominance', desc: 'Achieved 10 or more race wins' });
                 if (p.podiums >= 20) achievements.push({ icon: '🥈', title: 'Podium Regular', desc: 'Secured 20 or more podium finishes' });
                 if (p.maxWinStreak >= 3) achievements.push({ icon: '🔥', title: 'Unstoppable', desc: `Achieved a ${p.maxWinStreak}-race win streak` });
                 if (p.uniqueUmasCount >= 10) achievements.push({ icon: '🎭', title: 'Versatile Trainer', desc: 'Fielded 10 or more unique Umas' });
+
+                // Strategy Breakdown
+                const stratStats = { 'Front': { runs: 0, wins: 0 }, 'Pace': { runs: 0, wins: 0 }, 'Late': { runs: 0, wins: 0 }, 'End': { runs: 0, wins: 0 } };
+                p.history.forEach(h => {
+                    let s = h.strategy;
+                    if (s === 'Runner') s = 'Front';
+                    if (s === 'Leader') s = 'Pace';
+                    if (s === 'Betweener') s = 'Late';
+                    if (s === 'Chaser') s = 'End';
+                    if (stratStats[s]) {
+                        stratStats[s].runs++;
+                        if (h.pos === 1) stratStats[s].wins++;
+                    }
+                });
+                
+                let bestStrategy = { name: 'None', wins: 0, winRate: 0, runs: 0 };
+                let mostUsedStrategy = { name: 'None', runs: 0 };
+                const stratColors = { 'Front': '#e74c3c', 'Pace': '#e67e22', 'Late': '#f1c40f', 'End': '#2ecc71' };
+                
+                Object.entries(stratStats).forEach(([name, data]) => {
+                    if (data.runs > mostUsedStrategy.runs) {
+                        mostUsedStrategy = { name, runs: data.runs };
+                    }
+                    if (data.wins > bestStrategy.wins || (data.wins === bestStrategy.wins && data.wins > 0 && (data.wins/data.runs) > bestStrategy.winRate)) {
+                        bestStrategy = { name, wins: data.wins, winRate: (data.wins/data.runs)*100, runs: data.runs };
+                    }
+                });
 
                 let html = `
                     <div class="card" style="margin-bottom:20px; display:flex; flex-wrap:wrap; gap:20px; align-items:center;">
@@ -54,4 +86,210 @@ showPlayer(name) {
                                 <button onclick="window.generatePlayerCard('${p.name}')" class="btn" style="background:var(--primary); color:white; padding:8px 16px; border-radius:8px; border:none; cursor:pointer; font-weight:bold; box-shadow:0 4px 6px rgba(0,0,0,0.1);"><i class="fa-solid fa-camera"></i> Generate Card</button>
                             </div>
                             <div style="display:flex; flex-wrap:wrap; gap:15px; font-size:0.9rem;">
-           
+                                <div><i class="fa-solid fa-flag-checkered" style="color:var(--text-muted)"></i> <strong>${p.runs}</strong> Races</div>
+                                <div><i class="fa-solid fa-horse-head" style="color:var(--text-muted)"></i> <strong>${p.uniqueUmasCount}</strong> Unique Umas</div>
+                                <div><i class="fa-regular fa-calendar" style="color:var(--text-muted)"></i> Active: Cup <strong>${p.firstCup}</strong> to <strong>${p.latestCup}</strong></div>
+                                <div><i class="fa-solid fa-medal" style="color:var(--text-muted)"></i> Best Finish: <strong>${p.bestFinish}</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; margin-bottom:30px;">
+                        
+                        <!-- Statistics block -->
+                        <div class="card">
+                            <h3 style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">Performance Metrics</h3>
+                            <div class="grid-2">
+                                <div class="stat-block"><div class="val" style="color:var(--gold)">${p.w}</div><div class="lbl">Wins</div></div>
+                                <div class="stat-block"><div class="val" style="color:var(--silver)">${p.secondPlaces}</div><div class="lbl">2nd Places</div></div>
+                                <div class="stat-block"><div class="val" style="color:var(--bronze)">${p.thirdPlaces}</div><div class="lbl">Third Places</div></div>
+                                <div class="stat-block"><div class="val">${p.podiums}</div><div class="lbl">Total Podiums</div></div>
+                                <div class="stat-block"><div class="val">${p.winRate}%</div><div class="lbl">Win Rate</div></div>
+                                <div class="stat-block"><div class="val">${p.top3Rate}%</div><div class="lbl">Podium Rate</div></div>
+                                <div class="stat-block"><div class="val">${p.top5Rate}%</div><div class="lbl">Top 5 Rate</div></div>
+                                <div class="stat-block"><div class="val">${p.avgFinish}</div><div class="lbl">Avg Finish</div></div>
+                            </div>
+                        </div>
+
+                        <!-- Radar Chart -->
+                        <div class="card" style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
+                            <h3 style="margin-bottom:10px; width:100%; text-align:left;">Sextagram</h3>
+                            <div style="position:relative; width:100%; max-width:300px; aspect-ratio:1;">
+                                <canvas id="radarChart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Running Style Evolution -->
+                        <div class="card" style="display:flex; flex-direction:column; justify-content:space-between;">
+                            <h3 style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">Running Style Stats</h3>
+                            <div style="display:flex; flex-direction:column; gap:10px;">
+                                ${Object.entries(stratStats).sort((a,b) => b[1].runs - a[1].runs).map(([name, data]) => `
+                                    <div style="display:flex; justify-content:space-between; align-items:center; background:var(--surface-light); padding:8px 12px; border-radius:6px; border-left: 4px solid ${stratColors[name] || 'var(--text-muted)'}">
+                                        <div style="font-weight:700;">${name}</div>
+                                        <div style="font-size:0.9rem; color:var(--text-muted); text-align:right;">
+                                            <span style="color:var(--primary); font-weight:800;">${data.runs}</span> Runs &bull; 
+                                            <span style="color:var(--gold); font-weight:800;">${data.wins}</span> Wins
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div style="margin-top:15px; padding-top:10px; border-top:1px dashed #eee; display:flex; justify-content:space-between; font-size:0.85rem;">
+                                <div>Best: <strong>${bestStrategy.name !== 'None' ? `${bestStrategy.name} (${bestStrategy.wins}W)` : 'N/A'}</strong></div>
+                                <div>Most Used: <strong>${mostUsedStrategy.name !== 'None' ? `${mostUsedStrategy.name} (${mostUsedStrategy.runs}R)` : 'N/A'}</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    ${achievements.length > 0 ? `
+                    <h3 style="margin-bottom:15px;">Achievements</h3>
+                    <div style="display:flex; flex-wrap:wrap; gap:15px; margin-bottom:30px;">
+                        ${achievements.map(a => `
+                            <div class="card" style="display:flex; align-items:center; gap:15px; padding:15px; flex:1; min-width:250px;">
+                                <div style="font-size:2.5rem;">${a.icon}</div>
+                                <div>
+                                    <div style="font-weight:800; font-size:1.1rem; color:var(--text-main);">${a.title}</div>
+                                    <div style="font-size:0.85rem; color:var(--text-muted);">${a.desc}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>` : ''}
+
+                    <h3 style="margin-bottom:15px; padding-bottom:10px; border-bottom:2px solid var(--border-color);">All Uma Used</h3>
+                    
+                    ${bestUma || mostUsedUma ? `
+                    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; margin-bottom:20px;">
+                        ${bestUma ? `
+                        <div class="card" style="display:flex; align-items:center; gap:15px; background:linear-gradient(to right, #fff, #fff9e6);">
+                            <div style="position:relative;">
+                                ${this.getUmaImage(bestUma.umaId, true)}
+                                <div style="position:absolute; top:-10px; right:-10px; background:var(--gold); color:white; font-size:0.7rem; font-weight:800; padding:2px 6px; border-radius:10px; border:2px solid white;">BEST</div>
+                            </div>
+                            <div style="flex-grow:1;">
+                                <div style="font-size:0.8rem; font-weight:800; color:var(--gold); text-transform:uppercase;">Best Performing</div>
+                                <div style="font-size:1.2rem; font-weight:800;">${bestUma.name}</div>
+                                <div style="font-size:0.9rem; color:var(--text-muted);">${bestUma.w} Wins • ${bestUma.winRate}% WR • Avg ${bestUma.avgFinish}</div>
+                            </div>
+                        </div>` : ''}
+                        
+                        ${mostUsedUma && mostUsedUma.umaId !== bestUma?.umaId ? `
+                        <div class="card" style="display:flex; align-items:center; gap:15px; background:linear-gradient(to right, #fff, #f4f6f8);">
+                            <div style="position:relative;">
+                                ${this.getUmaImage(mostUsedUma.umaId, true)}
+                                <div style="position:absolute; top:-10px; right:-10px; background:var(--primary); color:white; font-size:0.7rem; font-weight:800; padding:2px 6px; border-radius:10px; border:2px solid white;">FAV</div>
+                            </div>
+                            <div style="flex-grow:1;">
+                                <div style="font-size:0.8rem; font-weight:800; color:var(--primary); text-transform:uppercase;">Most Used</div>
+                                <div style="font-size:1.2rem; font-weight:800;">${mostUsedUma.name}</div>
+                                <div style="font-size:0.9rem; color:var(--text-muted);">${mostUsedUma.runs} Races • ${mostUsedUma.podiums} Podiums • Avg ${mostUsedUma.avgFinish}</div>
+                            </div>
+                        </div>` : ''}
+                    </div>` : ''}
+
+                    <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap:15px; margin-bottom:40px;">
+                        ${umaList.map(um => `
+                            <div class="card" style="padding:15px; text-align:center; cursor:pointer;" onclick="App.showUma('${um.name}')">
+                                <div style="margin-bottom:10px;">${this.getUmaImage(um.umaId)}</div>
+                                <div style="font-weight:800; font-size:1rem; margin-bottom:5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${um.name}">${um.name}</div>
+                                <div style="font-size:0.8rem; color:var(--text-muted); display:flex; justify-content:space-around;">
+                                    <span>R: <strong>${um.runs}</strong></span>
+                                    <span>W: <strong>${um.w}</strong></span>
+                                    <span>P: <strong>${um.podiums}</strong></span>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <h3 style="margin-bottom:15px; padding-bottom:10px; border-bottom:2px solid var(--border-color);">Complete Race History</h3>
+                    <div class="card" style="overflow-x:auto;">
+                        <table style="width:100%; border-collapse:collapse; min-width:600px;">
+                            <thead>
+                                <tr style="border-bottom:2px solid #eee; text-align:left;">
+                                    <th style="padding:10px; width:50px;">Pos</th>
+                                    <th style="padding:10px;">Race</th>
+                                    <th style="padding:10px;">Uma Used</th>
+                                    <th style="padding:10px;">Fav</th>
+                                    <th style="padding:10px;">Strat</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${[...p.history].sort((a, b) => parseInt(b.cup.replace(/\D/g, '')) - parseInt(a.cup.replace(/\D/g, ''))).map(h => `
+                                    <tr style="border-bottom:1px solid #f0f0f0; transition:background 0.2s;" onmouseover="this.style.background='#f9f9f9'" onmouseout="this.style.background='transparent'">
+                                        <td style="padding:10px;">
+                                            <div class="avatar-circle" style="width:30px;height:30px;font-size:0.9rem;background:${h.pos == 1 ? 'var(--gold)' : h.pos == 2 ? 'var(--silver)' : h.pos == 3 ? 'var(--bronze)' : '#eee'}; color:${h.pos <= 3 ? 'white' : '#333'}">${h.pos}</div>
+                                        </td>
+                                        <td style="padding:10px;">
+                                            <div style="font-weight:800;">Sus Cup ${h.cup}</div>
+                                            <div style="font-size:0.8rem; color:var(--text-muted);">${h.race}</div>
+                                        </td>
+                                        <td style="padding:10px;">
+                                            <div style="display:flex; align-items:center; gap:10px;">
+                                                ${this.getUmaImage(h.umaId)}
+                                                <div>
+                                                    <div style="font-weight:800;">${h.uma}</div>
+                                                    <div style="font-size:0.8rem; color:var(--text-muted);">${h.version}</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td style="padding:10px; font-weight:800;">${h.pop}</td>
+                                        <td style="padding:10px; font-weight:800;">${h.strategy}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+                document.getElementById('profile-content').innerHTML = html;
+
+                // Render Radar Chart
+                if (window.profileRadarInst) window.profileRadarInst.destroy();
+                const ctx = document.getElementById('radarChart');
+                if (ctx) {
+                    window.profileRadarInst = new Chart(ctx.getContext('2d'), {
+                        type: 'radar',
+                        data: {
+                            labels: ['Win Rate', 'Top 2 Rate', 'Top 3 Rate', 'Top 5 Rate', 'Consistency', 'Experience'],
+                            datasets: [{
+                                label: p.name,
+                                data: [
+                                    parseFloat(p.winRate),
+                                    parseFloat(p.top2Rate),
+                                    parseFloat(p.top3Rate),
+                                    parseFloat(p.top5Rate),
+                                    parseFloat(p.consistencyScore),
+                                    parseFloat(p.experienceScoreScore)
+                                ],
+                                backgroundColor: 'rgba(255, 107, 107, 0.2)',
+                                borderColor: '#ff6b6b',
+                                pointBackgroundColor: '#ff6b6b',
+                                pointBorderColor: '#fff',
+                                pointHoverBackgroundColor: '#fff',
+                                pointHoverBorderColor: '#ff6b6b'
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            scales: {
+                                r: {
+                                    angleLines: { color: 'rgba(0,0,0,0.1)' },
+                                    grid: { color: 'rgba(0,0,0,0.05)' },
+                                    pointLabels: { font: { size: 10, weight: 'bold' } },
+                                    ticks: { display: false, min: 0, max: 100 }
+                                }
+                            },
+                            plugins: {
+                                legend: { display: false },
+                                tooltip: {
+                                    callbacks: {
+                                        label: function (context) {
+                                            return context.label + ': ' + context.raw + (['Win Rate', 'Top 2 Rate', 'Top 3 Rate', 'Top 5 Rate'].includes(context.label) ? '%' : '');
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+
+                this.navigate('profile');
+         

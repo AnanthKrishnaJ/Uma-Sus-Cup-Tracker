@@ -1,0 +1,41 @@
+<USER_REQUEST>
+here update suscup 26 missing values 
+## Sus Cup 26 — Race Number + Favourite Number
+
+| Finish | Uma            | Race No. | Favourite No. |
+| ------ | -------------- | -------: | ------------: |
+| 🥇 1st | Oguri Cap      |   **11** |   **5th Fav** |
+| 🥈 2nd | Seiun Sky      |    **2** |   **7th Fav** |
+| 🥉 3rd | Mihono Bourbon |   **17** |   **4th Fav** |
+| 4th    | Symboli Rudolf |    **9** |   **2nd Fav** |
+| 5th    | Seiun Sky      |    **5** |   **1st Fav** |
+| 6th    | Rice Shower    |    **1** |   **3rd Fav** |
+| 7th    | Special Week   |   **10** |   **9th Fav** |
+| 8th    | Gold City      |    **4** |  **12th Fav** |
+| 9th    | Super Creek    |   **15** |  **10th Fav** |
+| 10th   | Tokai Teio     |    **6** |  **15th Fav** |
+| 11th   | Gold City      |   **18** |   **8th Fav** |
+| 12th   | Gold City      |    **7** |  **16th Fav** |
+| 13th   | Mayano Top Gun |    **3** |   **6th Fav** |
+| 14th   | Air Groove     |   **16** |  **14th Fav** |
+| 15th   | El Condor Pasa |   **14** |  **13th Fav** |
+| 16th   | Special Week   |   **12** |  **11th Fav** |
+| 17th   | Biwa Hayahide  |   **13** |  **17th Fav** |
+| 18th   | Tamaxchi       |    **8** |  **18th Fav** |
+
+**Format:** `Finish — Uma — Race Number — Favourite Rank`
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-28T09:56:29+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\index.html (LANGUAGE_HTML)
+Cursor is on line: 1
+Other open documents:
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py_scripts\check_cup26.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py_scripts\update_cups16_20.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py\add_suscup26.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py\extract_urls.py (LANGUAGE_PYTHON)
+- c:\Users\anant\OneDrive\Desktop\guess\Uma race tracker\py_scripts\check_cup23.py (LANGUAGE_PYTHON)
+</ADDITIONAL_METADATA>

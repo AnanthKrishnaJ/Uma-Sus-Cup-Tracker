@@ -1,0 +1,684 @@
+{
+  "races": [
+    {
+      "id": 27.1,
+      "cupNumber": 27,
+      "cupName": "Sus Cup 27 \u2014 Multi CM Sussing",
+      "name": "Asahi Hai Futurity Stakes",
+      "date": "22 August 2026, 12:19",
+      "roomId": "4967 8054",
+      "race": "Asahi Hai Futurity Stakes",
+      "course": "Hanshin Turf",
+      "surface": "Turf",
+      "distance": "1600m",
+      "distanceType": "Mile",
+      "direction": "Right-handed / Outer",
+      "weather": "Cloudy",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "Multi-CM format. 3 runners per person. This is the Mile round (2 Mile runners used per person).",
+      "images": [
+        "suscupimages21-30/mile27.1.png",
+        "suscupimages21-30/mile27.2.png",
+        "suscupimages21-30/mile27.3.png",
+        "suscupimages21-30/mile27.4.png"
+      ],
+      "registeredRunners": [
+        {
+          "player": "Agnes",
+          "uma": "Fuji Kiseki"
+        },
+        {
+          "player": "Agnes",
+          "uma": "Taiki Shuttle"
+        },
+        {
+          "player": "Agnes",
+          "uma": "Eishin Flash"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Nishino Flower"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Seeking the Pearl"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Gold Ship"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Daiwa Scarlet"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Nice Nature"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Seiun Sky"
+        },
+        {
+          "player": "Vilthaar",
+          "uma": "Nishino Flower"
+        },
+        {
+          "player": "Vilthaar",
+          "uma": "Taiki Shuttle"
+        },
+        {
+          "player": "Vilthaar",
+          "uma": "Meisho Doto"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Mihono Bourbon"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Air Groove"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Fine Motion"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Kitasan Black"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Agnes Digital"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Taiki Shuttle"
+        }
+      ],
+      "participants": [
+        {
+          "uma": "Nishino Flower",
+          "umaId": "105101",
+          "player": "Vilthaar",
+          "title": "",
+          "rank": "UG4",
+          "number": 4,
+          "strategy": "Pace",
+          "pop": 6,
+          "gap": "\u2014",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 1,
+          "time": "1:30:07"
+        },
+        {
+          "uma": "Mihono Bourbon",
+          "umaId": "102602",
+          "player": "Cruzi",
+          "title": "",
+          "rank": "UG7",
+          "number": 5,
+          "strategy": "Front",
+          "pop": 4,
+          "gap": "2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 2
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "101002",
+          "player": "Agnes",
+          "title": "",
+          "rank": "UG5",
+          "number": 10,
+          "strategy": "Pace",
+          "pop": 1,
+          "gap": "1 1/2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 3
+        },
+        {
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "GohanXGAMER",
+          "title": "",
+          "rank": "UG6",
+          "number": 13,
+          "strategy": "Front",
+          "pop": 2,
+          "gap": "Neck",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 4
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "101002",
+          "player": "Vilthaar",
+          "title": "",
+          "rank": "UG8",
+          "number": 9,
+          "strategy": "Pace",
+          "pop": 7,
+          "gap": "Neck",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 5
+        },
+        {
+          "uma": "Fine Motion",
+          "umaId": "fine-motion",
+          "player": "Cruzi",
+          "title": "",
+          "rank": "SS",
+          "number": 14,
+          "strategy": "Pace",
+          "pop": 5,
+          "gap": "1 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 6
+        },
+        {
+          "uma": "Nice Nature",
+          "umaId": "106002",
+          "player": "GohanXGAMER",
+          "title": "",
+          "rank": "UG5",
+          "number": 8,
+          "strategy": "Late",
+          "pop": 11,
+          "gap": "Nose",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 7
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "101002",
+          "player": "Ananth",
+          "title": "",
+          "rank": "UG3",
+          "number": 16,
+          "strategy": "Pace",
+          "pop": 13,
+          "gap": "3 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 8
+        },
+        {
+          "uma": "Nishino Flower",
+          "umaId": "105101",
+          "player": "Jiinxye",
+          "title": "",
+          "rank": "UG",
+          "number": 1,
+          "strategy": "Pace",
+          "pop": 15,
+          "gap": "Neck",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 9
+        },
+        {
+          "uma": "Fuji Kiseki",
+          "umaId": "fuji-kiseki",
+          "player": "Agnes",
+          "title": "",
+          "rank": "UG7",
+          "number": 6,
+          "strategy": "Pace",
+          "pop": 3,
+          "gap": "1 1/2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 10
+        },
+        {
+          "uma": "Agnes Digital",
+          "umaId": "101902",
+          "player": "Ananth",
+          "title": "",
+          "rank": "SS",
+          "number": 7,
+          "strategy": "Pace",
+          "pop": 14,
+          "gap": "3/4 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 11
+        },
+        {
+          "uma": "Seeking the Pearl",
+          "umaId": "104201",
+          "player": "Jiinxye",
+          "title": "",
+          "rank": "SS",
+          "number": 3,
+          "strategy": "Pace",
+          "pop": 9,
+          "gap": "Nose",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 12
+        },
+        {
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "GohanXGAMER",
+          "title": "",
+          "rank": "SS",
+          "number": 12,
+          "strategy": "Front",
+          "pop": 17,
+          "gap": "1 1/2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 13
+        },
+        {
+          "uma": "Air Groove",
+          "umaId": "101802",
+          "player": "Cruzi",
+          "title": "",
+          "rank": "UG",
+          "number": 15,
+          "strategy": "Pace",
+          "pop": 8,
+          "gap": "Head",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 14
+        },
+        {
+          "uma": "Gold Ship",
+          "umaId": "100702",
+          "player": "Jiinxye",
+          "title": "",
+          "rank": "SS",
+          "number": 2,
+          "strategy": "End",
+          "pop": 16,
+          "gap": "1 1/4 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 15
+        },
+        {
+          "uma": "Kitasan Black",
+          "umaId": "kitasan-black",
+          "player": "Ananth",
+          "title": "",
+          "rank": "SS",
+          "number": 18,
+          "strategy": "Front",
+          "pop": 12,
+          "gap": "1 3/4 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 16
+        },
+        {
+          "uma": "Meisho Doto",
+          "umaId": "meisho-doto",
+          "player": "Vilthaar",
+          "title": "",
+          "rank": "UG4",
+          "number": 17,
+          "strategy": "Pace",
+          "pop": 10,
+          "gap": "5 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 17
+        },
+        {
+          "uma": "Eishin Flash",
+          "umaId": "eishin-flash",
+          "player": "Agnes",
+          "title": "",
+          "rank": "SS",
+          "number": 11,
+          "strategy": "Late",
+          "pop": 18,
+          "gap": "2 L",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "position": 18
+        }
+      ],
+      "url": "https://discord.com/channels/885095339885989942/1389671658905800797/1540696698857197599"
+    },
+    {
+      "id": 27.2,
+      "cupNumber": 27,
+      "cupName": "Sus Cup 27 \u2014 Multi CM Sussing",
+      "name": "Queen Elizabeth II Cup",
+      "date": "22 August 2026, 12:19",
+      "roomId": "3009 9804",
+      "race": "Queen Elizabeth II Cup",
+      "course": "Kyoto Turf",
+      "surface": "Turf",
+      "distance": "2200m",
+      "distanceType": "Medium",
+      "direction": "Right-handed / Outer",
+      "weather": "Cloudy",
+      "ground": "Firm",
+      "mood": "Good",
+      "rankLimit": "No Rank Limit",
+      "specialRule": "Multi-CM format. 3 runners per person. This is the Medium round (1 Medium runner used per person).",
+      "images": [
+        "suscupimages21-30/medium27.1.png",
+        "suscupimages21-30/medium27.2.png",
+        "suscupimages21-30/medium27.3.png",
+        "suscupimages21-30/medium27.4.png"
+      ],
+      "registeredRunners": [
+        {
+          "player": "Agnes",
+          "uma": "Eishin Flash"
+        },
+        {
+          "player": "Jiinxye",
+          "uma": "Nishino Flower"
+        },
+        {
+          "player": "GohanXGAMER",
+          "uma": "Seiun Sky"
+        },
+        {
+          "player": "Vilthaar",
+          "uma": "Meisho Doto"
+        },
+        {
+          "player": "Cruzi",
+          "uma": "Air Groove"
+        },
+        {
+          "player": "Ananth",
+          "uma": "Kitasan Black"
+        }
+      ],
+      "participants": [
+        {
+          "uma": "Air Groove",
+          "umaId": "101802",
+          "player": "Cruzi",
+          "title": "The Key to Success",
+          "rank": "UG",
+          "number": 11,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 9,
+          "position": 1,
+          "time": "2:10.5",
+          "gap": "2:10.5"
+        },
+        {
+          "uma": "Nice Nature",
+          "umaId": "106002",
+          "player": "GohanXGAMER",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 17,
+          "strategy": "Late",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 10,
+          "position": 2,
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L"
+        },
+        {
+          "uma": "Kitasan Black",
+          "umaId": "kitasan-black",
+          "player": "Ananth",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 5,
+          "strategy": "Front",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 12,
+          "position": 3,
+          "time": "1 1/2 L",
+          "gap": "1 1/2 L"
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "taiki-shuttle",
+          "player": "Ananth",
+          "title": "Mightiest Miler",
+          "rank": "UG",
+          "number": 2,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 13,
+          "position": 4,
+          "time": "1/2 L",
+          "gap": "1/2 L"
+        },
+        {
+          "uma": "Gold Ship",
+          "umaId": "100702",
+          "player": "Jiinxye",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 1,
+          "strategy": "End",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 11,
+          "position": 5,
+          "time": "Nose",
+          "gap": "Nose"
+        },
+        {
+          "uma": "Seiun Sky",
+          "umaId": "seiun-sky",
+          "player": "GohanXGAMER",
+          "title": "Legendary Reprise",
+          "rank": "SS",
+          "number": 6,
+          "strategy": "Front",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 14,
+          "position": 6,
+          "time": "3 1/2 L",
+          "gap": "3 1/2 L"
+        },
+        {
+          "uma": "Agnes Digital",
+          "umaId": "101902",
+          "player": "Ananth",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 10,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 8,
+          "position": 7,
+          "time": "3/4 L",
+          "gap": "3/4 L"
+        },
+        {
+          "uma": "Eishin Flash",
+          "umaId": "eishin-flash",
+          "player": "Agnes",
+          "title": "True Way of Kings",
+          "rank": "SS",
+          "number": 4,
+          "strategy": "Late",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 4,
+          "position": 8,
+          "time": "3/4 L",
+          "gap": "3/4 L"
+        },
+        {
+          "uma": "Fine Motion",
+          "umaId": "fine-motion",
+          "player": "Cruzi",
+          "title": "Legendary Reprise",
+          "rank": "SS",
+          "number": 9,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 7,
+          "position": 9,
+          "time": "1 L",
+          "gap": "1 L"
+        },
+        {
+          "uma": "Meisho Doto",
+          "umaId": "meisho-doto",
+          "player": "Vilthaar",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 15,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 5,
+          "position": 10,
+          "time": "1 L",
+          "gap": "1 L"
+        },
+        {
+          "uma": "Fuji Kiseki",
+          "umaId": "fuji-kiseki",
+          "player": "Agnes",
+          "title": "Sprinter Stayer",
+          "rank": "UG",
+          "number": 18,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 3,
+          "position": 11,
+          "time": "4 L",
+          "gap": "4 L"
+        },
+        {
+          "uma": "Mihono Bourbon",
+          "umaId": "102602",
+          "player": "Cruzi",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 3,
+          "strategy": "Front",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 2,
+          "position": 12,
+          "time": "1/2 L",
+          "gap": "1/2 L"
+        },
+        {
+          "uma": "Daiwa Scarlet",
+          "umaId": "daiwa-scarlet",
+          "player": "GohanXGAMER",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 14,
+          "strategy": "Front",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 1,
+          "position": 13,
+          "time": "Nose",
+          "gap": "Nose"
+        },
+        {
+          "uma": "Seeking the Pearl",
+          "umaId": "104201",
+          "player": "Jiinxye",
+          "title": "Independent Learner",
+          "rank": "SS",
+          "number": 8,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 16,
+          "position": 14,
+          "time": "1/2 L",
+          "gap": "1/2 L"
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "101002",
+          "player": "Vilthaar",
+          "title": "Mightiest Miler",
+          "rank": "UG",
+          "number": 12,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 6,
+          "position": 15,
+          "time": "Nose",
+          "gap": "Nose"
+        },
+        {
+          "uma": "Nishino Flower",
+          "umaId": "105101",
+          "player": "Jiinxye",
+          "title": "Queen of Dance",
+          "rank": "UG",
+          "number": 7,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 17,
+          "position": 16,
+          "time": "Head",
+          "gap": "Head"
+        },
+        {
+          "uma": "Taiki Shuttle",
+          "umaId": "taiki-shuttle",
+          "player": "Agnes",
+          "title": "Mightiest Miler",
+          "rank": "UG",
+          "number": 16,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 18,
+          "position": 17,
+          "time": "Neck",
+          "gap": "Neck"
+        },
+        {
+          "uma": "Nishino Flower",
+          "umaId": "105101",
+          "player": "Vilthaar",
+          "title": "Legendary Reprise",
+          "rank": "UG",
+          "number": 13,
+          "strategy": "Pace",
+          "version": "Original / Default",
+          "participantType": "Playable Uma",
+          "pop": 15,
+          "position": 18,
+          "time": "1 1/4 L",
+          "gap": "1 1/4 L"
+        }
+      ],
+      "url": "https://discord.com/channels/885095339885989942/1389671658905800797/1540696698857197599"
+    }
+  ],
+  "winners": []
+}

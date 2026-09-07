@@ -1,0 +1,310 @@
+{
+  "id": 20,
+  "cupNumber": 20,
+  "cupName": "Sus Cup 20 — All Style",
+  "name": "G1 Tenno Sho (Autumn)",
+  "date": "01 January 2026, 18:51",
+  "roomId": "2003 3988",
+  "race": "Tenno Sho (Autumn)",
+  "course": "Tokyo Turf",
+  "surface": "Turf",
+  "distance": "2000m",
+  "distanceType": "Medium",
+  "direction": "Left",
+  "weather": "Rainy",
+  "ground": "Soft",
+  "mood": "Good",
+  "rankLimit": "No Rank Limit",
+  "specialRule": "1 runner for each style, Unique runners only, 3 entries per person",
+  "styleWinners": {
+    "Front": {
+      "player": "Ananth",
+      "uma": "Mihono Bourbon",
+      "pos": 11
+    },
+    "Pace": {
+      "player": "Cyciesta",
+      "uma": "Mejiro McQueen",
+      "pos": 1
+    },
+    "Late": {
+      "player": "Yves",
+      "uma": "Eishin Flash",
+      "pos": 2
+    },
+    "End": {
+      "player": "Yves",
+      "uma": "Mayano Top Gun",
+      "pos": 3
+    }
+  },
+  "images": [
+    "suscupimages11-20/20.1.png",
+    "suscupimages11-20/20.2.png",
+    "suscupimages11-20/20.3.png",
+    "suscupimages11-20/20.4.png"
+  ],
+  "participants": [
+    {
+      "pos": 1,
+      "number": 11,
+      "uma": "Mejiro McQueen",
+      "player": "Cyclobly",
+      "strategy": "Pace",
+      "time": "1:56.3",
+      "gap": "1:56.3",
+      "pop": 6,
+      "rank": "A+",
+      "title": "",
+      "umaId": "mejiro-mcqueen"
+    },
+    {
+      "pos": 2,
+      "number": 4,
+      "uma": "Eishin Flash",
+      "player": "Yves",
+      "strategy": "Late",
+      "time": "1/2 L",
+      "gap": "1/2 L",
+      "pop": 10,
+      "rank": "A+",
+      "title": "",
+      "umaId": "eishin-flash"
+    },
+    {
+      "pos": 3,
+      "number": 17,
+      "uma": "Mayano Top Gun",
+      "player": "Yves",
+      "strategy": "End",
+      "time": "1 L",
+      "gap": "1 L",
+      "pop": 2,
+      "rank": "A+",
+      "title": "",
+      "umaId": "102402"
+    },
+    {
+      "pos": 4,
+      "number": 3,
+      "uma": "Agnes Digital",
+      "player": "Cruzi",
+      "strategy": "Late",
+      "time": "1 L",
+      "gap": "1 L",
+      "pop": 5,
+      "rank": "A+",
+      "title": "",
+      "umaId": "101901"
+    },
+    {
+      "pos": 5,
+      "number": 1,
+      "uma": "Narita Taishin",
+      "player": "Cyclobly",
+      "strategy": "End",
+      "time": "Neck",
+      "gap": "Neck",
+      "pop": 8,
+      "rank": "S",
+      "title": "",
+      "umaId": "narita-taishin"
+    },
+    {
+      "pos": 6,
+      "number": 16,
+      "uma": "Gold City",
+      "player": "Ananth",
+      "strategy": "Pace",
+      "time": "Head",
+      "gap": "Head",
+      "pop": 12,
+      "rank": "A+",
+      "title": "",
+      "umaId": "104002"
+    },
+    {
+      "pos": 7,
+      "number": 18,
+      "uma": "Symboli Rudolf",
+      "player": "Cyclobly",
+      "strategy": "Late",
+      "time": "Head",
+      "gap": "Head",
+      "pop": 1,
+      "rank": "S",
+      "title": "",
+      "umaId": "symboli-rudolf"
+    },
+    {
+      "pos": 8,
+      "number": 5,
+      "uma": "Agnes Tachyon",
+      "player": "Agnes",
+      "strategy": "Pace",
+      "time": "Head",
+      "gap": "Head",
+      "pop": 3,
+      "rank": "A+",
+      "title": "",
+      "umaId": "agnes-tachyon"
+    },
+    {
+      "pos": 9,
+      "number": 15,
+      "uma": "Mejiro Ryan",
+      "player": "Ananth",
+      "strategy": "Late",
+      "time": "1/2 L",
+      "gap": "1/2 L",
+      "pop": 9,
+      "rank": "A+",
+      "title": "",
+      "umaId": "mejiro-ryan"
+    },
+    {
+      "pos": 10,
+      "number": 10,
+      "uma": "Gold Ship",
+      "player": "Cruzi",
+      "strategy": "End",
+      "time": "1/2 L",
+      "gap": "1/2 L",
+      "pop": 4,
+      "rank": "A+",
+      "title": "",
+      "umaId": "gold-ship"
+    },
+    {
+      "pos": 11,
+      "number": 2,
+      "uma": "Mihono Bourbon",
+      "player": "Ananth",
+      "strategy": "Front",
+      "time": "Neck",
+      "gap": "Neck",
+      "pop": 14,
+      "rank": "A+",
+      "title": "",
+      "umaId": "mihono-bourbon"
+    },
+    {
+      "pos": 12,
+      "number": 12,
+      "uma": "Meisho Doto",
+      "player": "Yves",
+      "strategy": "Pace",
+      "time": "Head",
+      "gap": "Head",
+      "pop": 13,
+      "rank": "A+",
+      "title": "",
+      "umaId": "meisho-doto"
+    },
+    {
+      "pos": 13,
+      "number": 12,
+      "uma": "King Halo",
+      "player": "Agnes",
+      "strategy": "Late",
+      "time": "1 1/4 L",
+      "gap": "1 1/4 L",
+      "pop": 11,
+      "rank": "A+",
+      "title": "",
+      "umaId": "king-halo"
+    },
+    {
+      "pos": 14,
+      "number": 6,
+      "uma": "Silence Suzuka",
+      "player": "Agnes",
+      "strategy": "Front",
+      "time": "3/4 L",
+      "gap": "3/4 L",
+      "pop": 15,
+      "rank": "A+",
+      "title": "",
+      "umaId": "silence-suzuka"
+    },
+    {
+      "pos": 15,
+      "number": 9,
+      "uma": "Seiun Sky",
+      "player": "Cruzi",
+      "strategy": "Front",
+      "time": "1/2 L",
+      "gap": "1/2 L",
+      "pop": 7,
+      "rank": "A+",
+      "title": "",
+      "umaId": "seiun-sky"
+    },
+    {
+      "pos": 16,
+      "number": 14,
+      "uma": "Neptunus",
+      "player": "Not shown",
+      "strategy": "End",
+      "time": "4 L",
+      "gap": "4 L",
+      "pop": 18,
+      "rank": "B",
+      "title": "",
+      "umaId": "neptunus"
+    },
+    {
+      "pos": 17,
+      "number": 8,
+      "uma": "Maleficus",
+      "player": "Not shown",
+      "strategy": "Front",
+      "time": "4 L",
+      "gap": "4 L",
+      "pop": 16,
+      "rank": "B",
+      "title": "",
+      "umaId": "maleficus"
+    },
+    {
+      "pos": 18,
+      "number": 13,
+      "uma": "Ribbon Virelai",
+      "player": "Not shown",
+      "strategy": "Front",
+      "time": "1 3/4 L",
+      "gap": "1 3/4 L",
+      "pop": 17,
+      "rank": "B",
+      "title": "",
+      "umaId": "ribbon-virelai"
+    }
+  ],
+  "details": "Tokyo Turf 2000m (Medium) Left | Soft",
+  "specialWinners": {
+    "Front Winner": {
+      "player": "Ananth",
+      "uma": "Mihono Bourbon",
+      "pos": 11,
+      "umaId": "mihono-bourbon"
+    },
+    "Pace Winner": {
+      "player": "Cyciesta",
+      "uma": "Mejiro McQueen",
+      "pos": 1,
+      "umaId": "mejiro-mcqueen"
+    },
+    "Late Winner": {
+      "player": "Yves",
+      "uma": "Eishin Flash",
+      "pos": 2,
+      "umaId": "eishin-flash"
+    },
+    "End Winner": {
+      "player": "Yves",
+      "uma": "Mayano Top Gun",
+      "pos": 3,
+      "umaId": "mayano-top-gun"
+    }
+  }
+}

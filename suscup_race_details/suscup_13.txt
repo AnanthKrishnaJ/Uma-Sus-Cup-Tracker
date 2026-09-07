@@ -1,0 +1,159 @@
+{
+  "id": 13,
+  "cupNumber": 13,
+  "cupName": "Sus Cup 13 — Haru Leading",
+  "name": "Arima Kinen",
+  "date": "2025-10-14",
+  "time": "18:30",
+  "roomId": "7011 0288",
+  "race": "Arima Kinen",
+  "course": "Nakayama Turf",
+  "surface": "Turf",
+  "distance": "2500m",
+  "distanceType": "Long",
+  "direction": "Right / Inner",
+  "weather": "Random",
+  "ground": "Random",
+  "mood": "Random",
+  "rankLimit": "No rank limit",
+  "specialRule": "No Front Runners allowed. Note: No rank limit was enabled accidentally.",
+  "images": [
+    "suscupimages11-20/13.1.png"
+  ],
+  "partialResults": true,
+  "participants": [
+    {
+      "pos": 1,
+      "uma": "Gold Ship",
+      "umaId": "gold-ship",
+      "player": "Cruzi",
+      "number": 6,
+      "rank": "A",
+      "title": "Finals Champion",
+      "strategy": "End",
+      "time": "2:28.9",
+      "pop": 6,
+      "version": "Original / Default",
+      "participantType": "Playable Uma",
+      "characterUrl": "https://gametora.com/umamusume/characters/100101-gold-ship",
+      "gap": "2:28.9"
+    },
+    {
+      "pos": 2,
+      "uma": "Grass Wonder",
+      "umaId": "grass-wonder",
+      "player": "Agnes",
+      "number": 9,
+      "rank": "A",
+      "title": "The GOAT",
+      "strategy": "Late",
+      "gap": "1 1/2 L",
+      "pop": 2,
+      "version": "Original / Default",
+      "participantType": "Playable Uma",
+      "characterUrl": "https://gametora.com/umamusume/characters/101101-grass-wonder"
+    },
+    {
+      "pos": 3,
+      "uma": "Agnes Tachyon",
+      "umaId": "agnes-tachyon",
+      "player": "Cruzi",
+      "number": 15,
+      "rank": "A",
+      "title": "Finals Champion",
+      "strategy": "Pace",
+      "gap": "1 1/4 L",
+      "pop": 4,
+      "version": "Original / Default",
+      "participantType": "Playable Uma",
+      "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
+    },
+    {
+      "pos": 4,
+      "uma": "Mejiro McQueen",
+      "umaId": "mejiro-mcqueen",
+      "player": "GohanXGAMER",
+      "number": 4,
+      "rank": "B+",
+      "title": "Finals Champion",
+      "strategy": "Pace",
+      "gap": "3 L",
+      "pop": 7,
+      "version": "Original / Default",
+      "participantType": "Playable Uma",
+      "characterUrl": "https://gametora.com/umamusume/characters/101301-mejiro-mcqueen"
+    },
+    {
+      "pos": 5,
+      "uma": "Agnes Tachyon",
+      "umaId": "agnes-tachyon",
+      "player": "Yves",
+      "number": 11,
+      "rank": "A",
+      "title": "Finals Champion",
+      "strategy": "Late",
+      "gap": "3/4 L",
+      "pop": 3,
+      "version": "Original / Default",
+      "participantType": "Playable Uma",
+      "characterUrl": "https://gametora.com/umamusume/characters/103201-agnes-tachyon"
+    }
+  ],
+  "submittedEntries": [
+    {
+      "player": "Agnes",
+      "uma": "Grass Wonder",
+      "umaId": "grass-wonder"
+    },
+    {
+      "player": "Agnes",
+      "uma": "Super Creek",
+      "umaId": "super-creek"
+    },
+    {
+      "player": "Yves",
+      "uma": "Hishi Amazon",
+      "umaId": "hishi-amazon"
+    },
+    {
+      "player": "GohanXGAMER",
+      "uma": "Special Week",
+      "umaId": "special-week"
+    },
+    {
+      "player": "GohanXGAMER",
+      "uma": "Symboli Rudolf",
+      "umaId": "symboli-rudolf"
+    },
+    {
+      "player": "Cruzi",
+      "uma": "Agnes Tachyon",
+      "umaId": "agnes-tachyon"
+    },
+    {
+      "player": "Cruzi",
+      "uma": "Gold Ship",
+      "umaId": "gold-ship"
+    },
+    {
+      "player": "Jiinshi",
+      "uma": "Mejiro McQueen",
+      "umaId": "mejiro-mcqueen"
+    },
+    {
+      "player": "Jiinshi",
+      "uma": "Narita Taishin",
+      "umaId": "narita-taishin"
+    },
+    {
+      "player": "Cyciesta",
+      "uma": "Narita Taishin",
+      "umaId": "narita-taishin"
+    },
+    {
+      "player": "Cyciesta",
+      "uma": "Gold Ship",
+      "umaId": "gold-ship"
+    }
+  ]
+}

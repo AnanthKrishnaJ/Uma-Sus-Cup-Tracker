@@ -1,0 +1,230 @@
+﻿
+> index.html:1221:        <div id="view-dashboard" class="view-section active">
+  index.html:1222:            <div class="dashboard-container">
+  index.html:1223:                <div class="page-header" style="margin-bottom: 25px; display: flex; justify-content: 
+space-between; align-items: flex-end; flex-wrap: wrap; gap: 15px;">
+  index.html:1224:                    <div>
+  index.html:1225:                        <h2>Overview</h2>
+  index.html:1226:                        <p style="color: var(--text-muted);">Track the complete history, champions, 
+records, and rivalries of the Sus Cup.</p>
+  index.html:1227:                    </div>
+  index.html:1228:                    <div id="dash-status-pill" style="font-size: 0.9rem; font-weight: 700; color: 
+var(--text-muted); background: var(--surface); padding: 5px 12px; border-radius: 20px; border: 1px solid 
+var(--border);">
+  index.html:1229:                        Loading...
+  index.html:1230:                    </div>
+  index.html:1231:                </div>
+  index.html:1232:
+  index.html:1233:                <!-- SECTION 2: HERO -->
+  index.html:1234:                <div id="dash-hero" style="margin-bottom: 40px;"></div>
+  index.html:1235:
+  index.html:1236:                <!-- SECTION 3: STATISTICS GRID -->
+  index.html:1237:                <div class="dash-stats-grid" id="dash-stats" style="margin-bottom: 40px;"></div>
+  index.html:1238:
+  index.html:1239:                <!-- SECTION 4: HISTORY AND RESULTS -->
+  index.html:1240:                <div class="dash-history-grid" style="margin-bottom: 40px;">
+  index.html:1241:                    <div class="card" style="margin-bottom: 0; display: flex; flex-direction: 
+column;">
+  index.html:1242:                        <h3 style="margin-bottom: 15px; font-size: 1.2rem;"><i class="fa-solid 
+fa-list-ol" style="color:var(--primary); margin-right:8px;"></i> Latest Race Results</h3>
+  index.html:1243:                        <div id="dash-latest-results" style="flex: 1;"></div>
+  index.html:1244:                    </div>
+  index.html:1245:                    <div class="card" style="margin-bottom: 0; display: flex; flex-direction: 
+column;">
+  index.html:1246:                        <h3 style="margin-bottom: 15px; font-size: 1.2rem;"><i class="fa-solid 
+fa-medal" style="color:var(--gold); margin-right:8px;"></i> Championship History</h3>
+  index.html:1247:                        <div id="dash-championship-history" style="flex: 1;"></div>
+  index.html:1248:                    </div>
+  index.html:1249:                </div>
+  index.html:1250:
+  index.html:1251:                <!-- SECTION 5: RANKINGS -->
+  index.html:1252:                <div class="dash-rankings-grid" style="margin-bottom: 40px;">
+  index.html:1253:                    <div class="card" style="margin-bottom: 0;">
+  index.html:1254:                        <div style="display:flex; justify-content:space-between; align-items:center; 
+margin-bottom: 20px;">
+  index.html:1255:                            <h3 style="margin:0; font-size: 1.2rem;"><i class="fa-solid fa-trophy" 
+style="color:var(--primary); margin-right:8px;"></i> Player Rankings</h3>
+  index.html:1256:                            <a href="#" onclick="App.navigate('players'); return false;" 
+class="view-all-link">View All &rarr;</a>
+  index.html:1257:                        </div>
+  index.html:1258:                        <div id="dash-player-list" class="ranking-list"></div>
+  index.html:1259:                    </div>
+  index.html:1260:                    <div class="card" style="margin-bottom: 0;">
+  index.html:1261:                        <div style="display:flex; justify-content:space-between; align-items:center; 
+margin-bottom: 20px;">
+  index.html:1262:                            <h3 style="margin:0; font-size: 1.2rem;"><i class="fa-solid fa-star" 
+style="color:var(--gold); margin-right:8px;"></i> Top Umas</h3>
+  index.html:1263:                            <a href="#" onclick="App.navigate('umas'); return false;" 
+class="view-all-link">View All &rarr;</a>
+  index.html:1264:                        </div>
+  index.html:1265:                        <div id="dash-uma-list" class="ranking-list"></div>
+  index.html:1266:                    </div>
+  index.html:1267:                </div>
+  index.html:1268:
+  index.html:1269:                <!-- SECTION 6: CTA -->
+  index.html:1270:                <section class="card archive-cta" style="text-align: center; padding: 40px 20px; 
+background: linear-gradient(145deg, var(--surface), var(--bg-main));">
+  index.html:1271:                    <h3 style="font-size:1.8rem; margin-bottom: 10px; color: 
+var(--text-main);">Explore the Complete Sus Cup Archive</h3>
+  index.html:1272:                    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 
+25px;">Every race. Every Uma. Every champion.</p>
+  index.html:1273:                    <button class="btn btn-outline" style="font-size: 1rem; padding: 12px 24px; 
+border-radius: 8px;" onclick="App.navigate('archive')">Browse Race Archive <i class="fa-solid fa-arrow-right" 
+style="margin-left: 8px;"></i></button>
+  index.html:1274:                </section>
+  index.html:1275:            </div>
+  index.html:1276:        </div>
+  index.html:1277:
+  index.html:1278:        <!-- SUS CUP HISTORY VIEW -->
+  index.html:1279:        <div id="view-history" class="view-section">
+  index.html:1280:            <div class="page-header">
+  index.html:1281:                <div>
+  index.html:1282:                    <h2>Sus Cup History</h2>
+  index.html:1283:                    <p>Every tournament, preserved in chronological order</p>
+  index.html:1284:                </div>
+  index.html:1285:            </div>
+  index.html:1286:            <div class="timeline" id="history-timeline"></div>
+  index.html:1287:        </div>
+  index.html:1288:
+  index.html:1289:        <!-- RACE ARCHIVE VIEW -->
+  index.html:1290:        <div id="view-archive" class="view-section">
+  index.html:1291:            <div class="page-header">
+  index.html:1292:                <div>
+  index.html:1293:                    <h2>Race Archive</h2>
+  index.html:1294:                    <p>Complete history of all Sus Cup events</p>
+  index.html:1295:                </div>
+  index.html:1296:            </div>
+  index.html:1297:            <div class="card" style="margin-bottom: 20px;">
+  index.html:1298:                <div class="grid-4" style="gap: 15px;">
+  index.html:1299:                    <div class="form-group" style="margin-bottom:0;">
+  index.html:1300:                        <label style="font-size:0.8rem; margin-bottom:5px;">Search</label>
+  index.html:1301:                        <input type="text" id="filter-search" class="form-control" 
+style="padding:10px;"
+  index.html:1302:                            placeholder="Search..." oninput="App.renderArchive()">
+  index.html:1303:                    </div>
+  index.html:1304:                    <div class="form-group" style="margin-bottom:0;">
+  index.html:1305:                        <label style="font-size:0.8rem; margin-bottom:5px;">Course</label>
+  index.html:1306:                        <select id="filter-course" class="form-control" style="padding:10px;"
+  index.html:1307:                            onchange="App.renderArchive()">
+  index.html:1308:                            <option value="">All</option>
+  index.html:1309:                            <option value="Tokyo">Tokyo</option>
+  index.html:1310:                            <option value="Nakayama">Nakayama</option>
+  index.html:1311:                            <option value="Hanshin">Hanshin</option>
+  index.html:1312:                            <option value="Kyoto">Kyoto</option>
+  index.html:1313:                            <option value="Chukyo">Chukyo</option>
+  index.html:1314:                            <option value="Ohi">Ohi</option>
+  index.html:1315:                        </select>
+  index.html:1316:                    </div>
+  index.html:1317:                    <div class="form-group" style="margin-bottom:0;">
+  index.html:1318:                        <label style="font-size:0.8rem; margin-bottom:5px;">Surface</label>
+  index.html:1319:                        <select id="filter-surface" class="form-control" style="padding:10px;"
+  index.html:1320:                            onchange="App.renderArchive()">
+  index.html:1321:                            <option value="">All</option>
+  index.html:1322:                            <option value="Turf">Turf</option>
+  index.html:1323:                            <option value="Dirt">Dirt</option>
+  index.html:1324:                        </select>
+  index.html:1325:                    </div>
+  index.html:1326:                    <div class="form-group" style="margin-bottom:0;">
+  index.html:1327:                        <label style="font-size:0.8rem; margin-bottom:5px;">Distance</label>
+  index.html:1328:                        <select id="filter-distance" class="form-control" style="padding:10px;"
+  index.html:1329:                            onchange="App.renderArchive()">
+  index.html:1330:                            <option value="">All</option>
+  index.html:1331:                            <option value="Sprint">Sprint</option>
+  index.html:1332:                            <option value="Mile">Mile</option>
+  index.html:1333:                            <option value="Medium">Medium</option>
+  index.html:1334:                            <option value="Long">Long</option>
+  index.html:1335:                        </select>
+  index.html:1336:                    </div>
+  index.html:1337:                </div>
+  index.html:1338:            </div>
+  index.html:1339:            <div class="grid-2" id="archive-grid"></div>
+  index.html:1340:        </div>
+  index.html:1341:
+  index.html:1342:        <!-- INFO VIEW -->
+  index.html:1343:        <div id="view-info" class="view-section">
+  index.html:1344:            <div class="page-header">
+  index.html:1345:                <div>
+  index.html:1346:                    <h2>About Sus Cup</h2>
+  index.html:1347:                    <p>The record behind the races</p>
+  index.html:1348:                </div>
+  index.html:1349:            </div>
+  index.html:1350:            <div id="info-content"></div>
+  index.html:1351:        </div>
+  index.html:1352:
+  index.html:1353:        <!-- RACE DETAIL VIEW -->
+  index.html:1354:        <div id="view-race-detail" class="view-section">
+  index.html:1355:            <button class="btn btn-outline" style="margin-bottom:20px; padding: 10px 20px;"
+  index.html:1356:                onclick="App.navigate('archive')"><i class="fa-solid fa-arrow-left"></i> 
+Back</button>
+  index.html:1357:            <div id="race-detail-content"></div>
+  index.html:1358:        </div>
+  index.html:1359:
+  index.html:1360:        <!-- PLAYERS VIEW -->
+  index.html:1361:        <div id="view-players" class="view-section">
+  index.html:1362:            <div class="page-header">
+  index.html:1363:                <h2>Player Profiles</h2>
+  index.html:1364:                <p>Overall player standings & profiles</p>
+  index.html:1365:                <input type="text" id="search-players" class="form-control" style="margin-top:15px; 
+width:100%;"
+  index.html:1366:                    placeholder="Search trainers..." oninput="App.renderPlayers()">
+  index.html:1367:            </div>
+  index.html:1368:            <div id="full-player-list"></div>
+  index.html:1369:        </div>
+  index.html:1370:
+  index.html:1371:        <!-- UMAS VIEW -->
+  index.html:1372:        <div id="view-umas" class="view-section">
+  index.html:1373:            <div class="page-header">
+  index.html:1374:                <h2>Uma Database</h2>
+  index.html:1375:                <p>Performance statistics by character</p>
+  index.html:1376:                <div style="display: flex; gap: 10px; margin-top: 15px;">
+  index.html:1377:                    <input type="text" id="search-umas" class="form-control" style="flex: 1;"
+  index.html:1378:                        placeholder="Search Umas..." oninput="App.renderUmas()">
+  index.html:1379:                    <select id="filter-uma-type" class="form-control" style="width: 170px;" 
+onchange="App.renderUmas()">
+  index.html:1380:                        <option value="playable">Real Umas Only</option>
+  index.html:1381:                        <option value="npc">NPC Umas</option>
+  index.html:1382:                        <option value="all">All</option>
+  index.html:1383:                    </select>
+  index.html:1384:                </div>
+  index.html:1385:            </div>
+  index.html:1386:            <div id="full-uma-list"></div>
+  index.html:1387:        </div>
+  index.html:1388:
+  index.html:1389:        <!-- PROFILE VIEW -->
+  index.html:1390:        <div id="view-profile" class="view-section">
+  index.html:1391:            <button class="btn btn-outline" style="margin-bottom:20px; padding: 10px 20px;"
+  index.html:1392:                onclick="App.navigate('dashboard')"><i class="fa-solid fa-arrow-left"></i> 
+Back</button>
+  index.html:1393:            <div id="profile-content"></div>
+  index.html:1394:        </div>
+  index.html:1395:
+  index.html:1396:        <!-- COMPARE VIEW -->
+  index.html:1397:        <div id="view-compare" class="view-section">
+  index.html:1398:            <div class="page-header">
+  index.html:1399:                <h2>Compare Players</h2>
+  index.html:1400:                <p>Side-by-side performance comparison</p>
+  index.html:1401:            </div>
+  index.html:1402:            <div class="card" style="margin-bottom:20px;">
+  index.html:1403:                <div class="grid-2">
+  index.html:1404:                    <div>
+  index.html:1405:                        <label class="form-label">Player 1</label>
+  index.html:1406:                        <select class="form-control" id="compare-p1" 
+onchange="App.renderCompare()"></select>
+  index.html:1407:                    </div>
+  index.html:1408:                    <div>
+  index.html:1409:                        <label class="form-label">Player 2</label>
+  index.html:1410:                        <select class="form-control" id="compare-p2" 
+onchange="App.renderCompare()"></select>
+  index.html:1411:                    </div>
+  index.html:1412:                </div>
+  index.html:1413:            </div>
+  index.html:1414:            <div id="compare-content"></div>
+  index.html:1415:        </div>
+  index.html:1416:
+  index.html:1417:        <!-- ADD RACE VIEW -->
+  index.html:1418:        <div id="view-add-race" class="view-section">
+  index.html:1419:            <div class="card">
+  index.html:1420:                <form id="form-add-race">
+  index.html:1421:                    <div class="grid-4">
+
+
