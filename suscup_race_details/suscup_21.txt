@@ -1,6 +1,6 @@
 {
   "id": 21,
-  "cupNumber": "SUS CUP 21",
+  "cupNumber": 21,
   "cupName": "Sus Cup 21 - Spark Race",
   "name": "Takamatsunomiya Kinen",
   "date": "2026-04-05",

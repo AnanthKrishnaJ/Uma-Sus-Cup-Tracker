@@ -1,6 +1,6 @@
 {
   "id": 22,
-  "cupNumber": "SUS CUP 22",
+  "cupNumber": 22,
   "cupName": "Sus Cup 22 - Cross Career Race",
   "name": "G1 Satsuki Sho",
   "date": "15 March 2026, 18:30",
