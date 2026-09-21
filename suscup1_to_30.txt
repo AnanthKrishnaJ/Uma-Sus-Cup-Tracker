@@ -1,0 +1,601 @@
+
+Sus Cup 1 — The Start
+1 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: B+
+2 - Mihono Bourbon (Jiinxye) - Strategy: Front - Rank: B+
+3 - T.M. Opera O (Yves) - Strategy: Pace - Rank: A
+4 - Gold Ship (Agnes) - Strategy: End - Rank: A
+5 - Agnes Tachyon (Cyciesta) - Strategy: Pace - Rank: A
+6 - Tokai Teio (Cruzi) - Strategy: Pace - Rank: B+
+7 - Symboli Rudolf (Agnes) - Strategy: Late - Rank: A
+8 - Narita Taishin (Cyciesta) - Strategy: End - Rank: A
+9 - Revival Lyric (NPC) - Strategy: Front - Rank: C+
+10 - Marine Seagull (NPC) - Strategy: Late - Rank: C+
+11 - T.M. Opera O (Jiinxye) - Strategy: Pace - Rank: B
+12 - Reverent (NPC) - Strategy: End - Rank: C+
+13 - Cithara Rhythm (NPC) - Strategy: Pace - Rank: C+
+14 - Grass Wonder (GohanXGAMER) - Strategy: Late - Rank: B
+15 - Silence Suzuka (Cruzi) - Strategy: Front - Rank: B+
+16 - Bravo Deux (NPC) - Strategy: Front - Rank: C+
+17 - Mejiro McQueen [End of the Skies] (Nadav) - Strategy: Pace - Rank: C+
+18 - Vodka (Nadav) - Strategy: Pace - Rank: B
+
+Sus Cup 2 — Mile Front Runners
+1 - Daiwa Scarlet (GohanXGAMER) - Strategy: Front - Rank: B+
+2 - Sakura Bakushin O (Agnes) - Strategy: Front - Rank: B+
+3 - Mihono Bourbon (Jiinxye) - Strategy: Front - Rank: B+
+4 - Silence Suzuka (GohanXGAMER) - Strategy: Front - Rank: B+
+5 - Venabulum (NPC) - Strategy: Pace - Rank: C+
+6 - Jewel Onyx (NPC) - Strategy: End - Rank: C+
+7 - Maruzensky (Cruzi) - Strategy: Front - Rank: B+
+8 - Basal Shoot (NPC) - Strategy: Late - Rank: C+
+9 - Keyboard Rhythm (NPC) - Strategy: Pace - Rank: C+
+10 - Hearty Letter (NPC) - Strategy: Front - Rank: C+
+11 - Mihono Bourbon (Cruzi) - Strategy: Front - Rank: A
+12 - Silence Suzuka (Jiinxye) - Strategy: Front - Rank: B+
+13 - Krasnaya (NPC) - Strategy: Front - Rank: C+
+14 - Silence Suzuka (Agnes) - Strategy: Front - Rank: B+
+15 - Maruzensky (Cyciesta) - Strategy: Front - Rank: A
+16 - Mihono Bourbon (Nadav) - Strategy: Front - Rank: C+
+17 - Daiwa Scarlet (Nadav) - Strategy: Front - Rank: C+
+18 - Sakura Bakushin O (Cyciesta) - Strategy: Front - Rank: A
+
+Sus Cup 3 — Mile Dirt
+1 - Oguri Cap (Yves) - Strategy: Pace - Rank: A
+2 - Smart Falcon (Yves) - Strategy: Front - Rank: A
+3 - Taiki Shuttle (Agnes) - Strategy: Pace - Rank: A
+4 - El Condor Pasa (Cruzi) - Strategy: Pace - Rank: A
+5 - Haru Urara (Cyciesta) - Strategy: Late - Rank: A
+6 - El Condor Pasa (Agnes) - Strategy: Late - Rank: B+
+7 - Haru Urara (Cruzi) - Strategy: Late - Rank: B+
+8 - Dunna (NPC) - Strategy: Pace - Rank: C+
+9 - Gold Chouchou (NPC) - Strategy: End - Rank: C+
+10 - Oguri Cap (Cyciesta) - Strategy: Pace - Rank: A
+11 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: A
+12 - Haru Urara (GohanXGAMER) - Strategy: Late - Rank: C+
+13 - Chalemie Rhythm (NPC) - Strategy: Pace - Rank: C+
+14 - Haru Urara (Nadav) - Strategy: Late - Rank: C+
+15 - Aqua Spring (NPC) - Strategy: Front - Rank: C+
+16 - Vodka (Nadav) - Strategy: Pace - Rank: B
+
+Sus Cup 4 — 1 Runner + 1 Debuffer
+1 - Nice Nature (Yves) - Strategy: Pace - Rank: A
+2 - Gold Ship (Cyciesta) - Strategy: End - Rank: A
+3 - El Condor Pasa (Cruzi) - Strategy: Pace - Rank: A
+4 - Silence Suzuka (Agnes) - Strategy: Front - Rank: A
+5 - Agnes Tachyon (Yves) - Strategy: Late - Rank: A
+6 - Nice Nature (Agnes) - Strategy: Late - Rank: B+
+7 - Bridge Comp (NPC) - Strategy: End - Rank: C+
+8 - Muruga (NPC) - Strategy: Pace - Rank: C+
+9 - Mechanical Vapor (NPC) - Strategy: Late - Rank: C+
+10 - Insight Catch (NPC) - Strategy: Front - Rank: C+
+11 - Ribbon Carol (NPC) - Strategy: Pace - Rank: B
+12 - Symboli Rudolf (Cyciesta) - Strategy: Late - Rank: A
+13 - Super Creek (GohanXGAMER) - Strategy: Pace - Rank: B
+14 - Mayano Top Gun (GohanXGAMER) - Strategy: Front - Rank: B+
+15 - King Halo (Cruzi) - Strategy: Late - Rank: B+
+16 - Navigate Light (NPC) - Strategy: Front - Rank: C+
+17 - Mini Lotus (NPC) - Strategy: Front - Rank: C+
+18 - Summer Bonfire (NPC) - Strategy: End - Rank: C+
+
+Sus Cup 5 — Gemini Cup Open League Training
+1 - Super Creek (Agnes) - Strategy: Pace - Rank: B
+2 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: B
+3 - Mejiro McQueen [End of the Skies] (Nadav) - Strategy: Pace - Rank: C+
+4 - Marsyas (NPC) - Strategy: Late - Rank: C+
+5 - Black Tipped (NPC) - Strategy: End - Rank: C+
+6 - Symboli Rudolf (Cyciesta) - Strategy: Pace - Rank: B
+7 - Biwa Hayahide (GohanXGAMER) - Strategy: Pace - Rank: B
+8 - Breeze Chopper (NPC) - Strategy: Front - Rank: C+
+9 - Speechless Hack (NPC) - Strategy: Pace - Rank: C+
+10 - T.M. Opera O (Jiinxye) - Strategy: Pace - Rank: B
+11 - Yggdra Valley (NPC) - Strategy: Late - Rank: C+
+12 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: B
+13 - Flute Rhythm (NPC) - Strategy: Front - Rank: C+
+14 - Tokai Teio (Cyciesta) - Strategy: Pace - Rank: B
+15 - Grass Wonder (Agnes) - Strategy: Pace - Rank: B
+16 - Gold Ship (Cruzi) - Strategy: End - Rank: B
+17 - Nice Nature (GohanXGAMER) - Strategy: Late - Rank: B
+18 - Mihono Bourbon (Nadav) - Strategy: Front - Rank: C+
+
+Sus Cup 6 — Unique Epithets / Steamy Solidarity
+1 - Gold Ship (Cyciesta) - Strategy: End - Rank: A
+2 - Mejiro McQueen (Jiinxye) - Strategy: Pace - Rank: B+
+3 - Symboli Rudolf (Agnes) - Strategy: Pace - Rank: A
+4 - Gold Ship (Yves) - Strategy: End - Rank: A
+5 - Mayano Top Gun (Agnes) - Strategy: End - Rank: A
+6 - Keyboard Rhythm (NPC) - Strategy: End - Rank: B
+7 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: A
+8 - Ogress (NPC) - Strategy: End - Rank: B
+9 - Oguri Cap (Cyciesta) - Strategy: Pace - Rank: A
+10 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: B+
+11 - Ribbon Nocturne (NPC) - Strategy: Pace - Rank: B
+12 - Maleficus (NPC) - Strategy: Late - Rank: B
+13 - Nice Nature (Yves) - Strategy: Late - Rank: A
+14 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: A
+15 - Super Creek (GohanXGAMER) - Strategy: Pace - Rank: B
+16 - Tokai Teio (Cruzi) - Strategy: Pace - Rank: B+
+
+Sus Cup 7 — Pace Chaser Medium
+1 - Agnes Tachyon (Agnes) - Strategy: Pace - Rank: B+
+2 - Symboli Rudolf (Cyciesta) - Strategy: Pace - Rank: A
+3 - Agnes Tachyon (Agnes) - Strategy: Pace - Rank: A
+4 - Tokai Teio (Cyciesta) - Strategy: Pace - Rank: A
+5 - Mejiro McQueen (Ananth) - Strategy: Pace - Rank: B+
+6 - TM Opera O (Jiinxye) - Strategy: Pace - Rank: A
+7 - Vihuela Rhythm (NPC) - Strategy: End - Rank: B
+8 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: A
+9 - Kumbhakarna (NPC) - Strategy: Late - Rank: B
+10 - Insight Catch (NPC) - Strategy: Late - Rank: B
+11 - Clarinet Rhythm (NPC) - Strategy: End - Rank: B
+12 - Batabata (NPC) - Strategy: Pace - Rank: C+
+13 - El Condor Pasa (Agnes) - Strategy: Pace - Rank: A
+14 - Compromise (NPC) - Strategy: Front - Rank: B
+15 - Tudor Garden (NPC) - Strategy: Pace - Rank: B
+16 - Nice Nature (Cruzi) - Strategy: Pace - Rank: B+
+17 - Tropical Sky (NPC) - Strategy: Front - Rank: B
+18 - Oguri Cap (Ananth) - Strategy: Pace - Rank: B+
+
+Sus Cup 8 — Father-Daughter duo
+1 - Agnes Tachyon (Agnes) - Strategy: Pace - Rank: A
+2 - Agnes Tachyon (Jiinxye) - Strategy: Pace - Rank: A
+3 - Daiwa Scarlet (Cyciesta) - Strategy: Pace - Rank: A
+4 - Daiwa Scarlet (Agnes) - Strategy: Front - Rank: A
+5 - Daiwa Scarlet (Cruzi) - Strategy: Front - Rank: B+
+6 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: A
+7 - Agnes Tachyon (Cyciesta) - Strategy: Late - Rank: A
+8 - Aquafall (NPC) - Strategy: Pace - Rank: B
+9 - Dropping Link (NPC) - Strategy: Late - Rank: C+
+10 - Silver Sazanka (NPC) - Strategy: Late - Rank: C+
+11 - Avec Dream (NPC) - Strategy: Front - Rank: C+
+12 - Daiwa Scarlet (Jiinxye) - Strategy: Front - Rank: A
+13 - Breeze Chopper (NPC) - Strategy: Pace - Rank: B
+14 - Lovely Patricia (NPC) - Strategy: Front - Rank: C+
+15 - Fairies Echo (NPC) - Strategy: Front - Rank: C+
+16 - Stenz (NPC) - Strategy: Pace - Rank: C+
+
+Sus Cup 9 — GP Round 1/3
+1 - Seiun Sky (Cruzi) - Strategy: Front - Rank: A
+2 - Grass Wonder (Agnes) - Strategy: Late - Rank: A
+3 - Symboli Rudolf (Cyciesta) - Strategy: Pace - Rank: A
+4 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: A
+5 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: A
+6 - El Condor Pasa (Agnes) - Strategy: Late - Rank: A
+7 - Agnes Tachyon (Cyciesta) - Strategy: Late - Rank: A
+8 - Jewel Coral (NPC) - Strategy: Late - Rank: C+
+9 - T.M. Opera O (Jiinxye) - Strategy: Pace - Rank: A
+10 - Duo Targe (NPC) - Strategy: Pace - Rank: B
+11 - Unknown NPC 1 (NPC) - Strategy: Pace - Rank: B
+12 - Unknown NPC 2 (NPC) - Strategy: — - Rank: —
+13 - Unknown NPC 3 (NPC) - Strategy: — - Rank: —
+14 - Mejiro McQueen (Ananth) - Strategy: Pace - Rank: B+
+15 - Mini Cactus (NPC) - Strategy: Pace - Rank: C+
+16 - Super Creek (GohanXGAMER) - Strategy: Pace - Rank: B
+17 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: A
+18 - Curren Chan (Ananth) - Strategy: Pace - Rank: B+
+
+Sus Cup 10 — GP Round 2/3
+1 - Grass Wonder (Agnes) - Strategy: Late - Rank: A
+2 - Symboli Rudolf (Cyciesta) - Strategy: End - Rank: A
+3 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: A
+4 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: A
+5 - Narita Taishin (Cyciesta) - Strategy: End - Rank: A
+6 - Seiun Sky (Cruzi) - Strategy: Front - Rank: A
+7 - El Condor Pasa (Agnes) - Strategy: Late - Rank: A
+8 - Zipangu Applause (NPC) - Strategy: Front - Rank: B
+9 - T.M. Opera O (Jiinxye) - Strategy: Pace - Rank: A
+10 - Bridge Comp (NPC) - Strategy: Late - Rank: B
+11 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: A
+12 - Harp Rhythm (NPC) - Strategy: Late - Rank: B
+13 - Super Creek (GohanXGAMER) - Strategy: Pace - Rank: B+
+14 - Lime Chouchou (NPC) - Strategy: Pace - Rank: C+
+15 - Girly Smile (NPC) - Strategy: End - Rank: B
+16 - Tetrabiblos (NPC) - Strategy: Pace - Rank: B
+17 - Mejiro McQueen (Ananth) - Strategy: Pace - Rank: B+
+18 - Curren Chan (Ananth) - Strategy: Late - Rank: B+
+
+Sus Cup 11
+1 - Narita Taishin (Cyciesta) - Strategy: End - Rank: A
+2 - Symboli Rudolf (Cyciesta) - Strategy: Pace - Rank: A+
+3 - El Condor Pasa (Agnes) - Strategy: Late - Rank: A
+4 - Grass Wonder (Agnes) - Strategy: Late - Rank: A
+5 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: A
+6 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: A
+7 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: A
+8 - Super Creek (GohanXGAMER) - Strategy: Pace - Rank: B+
+9 - Mejiro McQueen (Ananth) - Strategy: Pace - Rank: B+
+10 - T.M. Opera O (Jiinxye) - Strategy: Pace - Rank: A
+11 - Encore One More (NPC) - Strategy: Pace - Rank: C+
+12 - Seiun Sky (Cruzi) - Strategy: Front - Rank: A
+13 - Sidecar (NPC) - Strategy: Late - Rank: B
+14 - Chalemie Rhythm (NPC) - Strategy: End - Rank: C+
+15 - Mechanical Vapor (NPC) - Strategy: Front - Rank: B
+16 - Aeneas (NPC) - Strategy: Late - Rank: C+
+17 - Leaf Leaf (NPC) - Strategy: Pace - Rank: C+
+18 - Curren Chan (Ananth) - Strategy: Front - Rank: B+
+
+Sus Cup 12 — Frontend Race
+1 - Narita Taishin (Cyciesta) - Strategy: End - Rank: A
+2 - Hishi Amazon (Jiinxye) - Strategy: End - Rank: A
+3 - Gold Ship (Cruzi) - Strategy: End - Rank: A
+4 - Silence Suzuka (Agnes) - Strategy: Front - Rank: A
+5 - Gold Ship (GohanXGAMER) - Strategy: End - Rank: B+
+6 - Silence Suzuka (GohanXGAMER) - Strategy: Front - Rank: B+
+7 - Seiun Sky (Cruzi) - Strategy: Front - Rank: A
+8 - Bella Prateria (NPC) - Strategy: Pace - Rank: B
+9 - Mayano Top Gun (Ananth) - Strategy: Front - Rank: B+
+10 - Arcade Champ (NPC) - Strategy: End - Rank: C+
+11 - Gold Ship (Agnes) - Strategy: End - Rank: A
+12 - Oishii Parfait (NPC) - Strategy: Front - Rank: C+
+13 - Ogress (NPC) - Strategy: Front - Rank: C+
+14 - Silence Suzuka (Jiinxye) - Strategy: Front - Rank: A
+15 - Ribbon Etude (NPC) - Strategy: End - Rank: C+
+16 - Mihono Bourbon (Cyciesta) - Strategy: Front - Rank: A
+17 - Gray Chouchou (NPC) - Strategy: Late - Rank: C+
+18 - Oguri Cap (Ananth) - Strategy: Late - Rank: B+
+
+Sus Cup 13 — Haru Leading
+1 - Gold Ship (Cruzi) - Strategy: End - Rank: A
+2 - Grass Wonder (Agnes) - Strategy: Late - Rank: A
+3 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: A
+4 - Mejiro McQueen (GohanXGAMER) - Strategy: Pace - Rank: B+
+5 - Agnes Tachyon (Yves) - Strategy: Late - Rank: A
+
+Sus Cup 14 — Graded Open Leo CM
+1 - Special Week (GohanXGAMER) - Strategy: Pace - Rank: B+
+2 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: B+
+3 - Oguri Cap (Yves) - Strategy: Pace - Rank: B+
+4 - Mejiro McQueen (Yves) - Strategy: Front - Rank: B+
+5 - Mejiro McQueen (GohanXGAMER) - Strategy: Pace - Rank: B+
+6 - Oguri Cap (Ananth) - Strategy: Late - Rank: B+
+7 - T.M. Opera O (Agnes) - Strategy: Pace - Rank: B+
+8 - Unknown NPC (NPC) - Strategy: Pace - Rank: B
+9 - Unknown NPC (NPC) - Strategy: Late - Rank: B
+10 - Unknown NPC (NPC) - Strategy: End - Rank: B
+11 - King Halo (Agnes) - Strategy: Late - Rank: B+
+12 - Unknown NPC (NPC) - Strategy: Late - Rank: B
+13 - Unknown NPC (NPC) - Strategy: Pace - Rank: B
+14 - Unknown NPC (NPC) - Strategy: End - Rank: B
+15 - Unknown NPC (NPC) - Strategy: Pace - Rank: B
+16 - Grass Wonder (Ananth) - Strategy: Late - Rank: B+
+17 - Nice Nature (Yves) - Strategy: Late - Rank: B+
+18 - Mechanical Vapor (NPC) - Strategy: Front - Rank: B
+
+Sus Cup 15 — Triple Front Runners
+1 - Silence Suzuka (Agnes) - Strategy: Front - Rank: A
+2 - Maruzensky (Cyciesta) - Strategy: Front - Rank: A
+3 - Daiwa Scarlet (Agnes) - Strategy: Front - Rank: A
+4 - Daiwa Scarlet (Cyciesta) - Strategy: Front - Rank: A
+5 - Mayano Top Gun (Ananth) - Strategy: Front - Rank: B+
+6 - Mayano Top Gun (Agnes) - Strategy: Front - Rank: A
+7 - Ribbon Lullaby (NPC) - Strategy: Late - Rank: C+
+8 - Chalemie Rhythm (NPC) - Strategy: Pace - Rank: C+
+9 - Shout My Name (NPC) - Strategy: End - Rank: C+
+10 - Weiss Grimoire (NPC) - Strategy: Front - Rank: C+
+11 - Mihono Bourbon (Cyciesta) - Strategy: Front - Rank: A+
+12 - Cymbal Rhythm (NPC) - Strategy: Pace - Rank: C+
+13 - Salsa Step (NPC) - Strategy: Late - Rank: C+
+14 - Thousand Voltaire (NPC) - Strategy: Pace - Rank: C+
+15 - Spring Happy (NPC) - Strategy: Late - Rank: C+
+16 - Faster than Ray (NPC) - Strategy: End - Rank: C+
+17 - Izcalli (NPC) - Strategy: Front - Rank: C+
+18 - Smart Falcon (Ananth) - Strategy: Front - Rank: B+
+
+Sus Cup 16 — Mixed Class Race
+1 - Vodka (Agnes) - Strategy: Late - Rank: A+
+2 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: A+
+3 - Silence Suzuka (GohanXGAMER) - Strategy: Front - Rank: A
+4 - Oguri Cap (Jiinxye) - Strategy: Pace - Rank: B+
+5 - Hishi Amazon (Yves) - Strategy: End - Rank: A
+6 - El Condor Pasa (Cruzi) - Strategy: Pace - Rank: B+
+7 - Silence Suzuka (Cruzi) - Strategy: Front - Rank: A+
+8 - Sakura Bakushin O (Agnes) - Strategy: Front - Rank: B+
+9 - Narita Brian (Jiinxye) - Strategy: Pace - Rank: A+
+10 - Silence Suzuka (Yves) - Strategy: Front - Rank: B+
+11 - Book of Sugar (Not shown) - Strategy: Late - Rank: B
+12 - El Condor Pasa (Agnes) - Strategy: Late - Rank: A
+13 - Grass Wonder (GohanXGAMER) - Strategy: Late - Rank: B+
+14 - Smart Falcon (Yves) - Strategy: Front - Rank: A+
+15 - Pan Pacific (Not shown) - Strategy: Pace - Rank: B
+16 - Grass Wonder (Cruzi) - Strategy: Late - Rank: A
+17 - Maruzensky (Jiinxye) - Strategy: Front - Rank: A
+18 - Mihono Bourbon (Ananth) - Strategy: Front - Rank: B+
+
+Sus Cup 17 — Gutsy Race
+1 - Symboli Rudolf (GohanXGAMER) - Strategy: Late - Rank: A
+2 - Agnes Digital (Ananth) - Strategy: Pace - Rank: A+
+3 - Grass Wonder (Agnes) - Strategy: Late - Rank: A+
+4 - T.M. Opera O (Cruzi) - Strategy: End - Rank: A+
+5 - Oguri Cap (Agnes) - Strategy: Late - Rank: A+
+6 - Narita Brian (Yves) - Strategy: Pace - Rank: A
+7 - Nice Nature (GohanXGAMER) - Strategy: Late - Rank: A
+8 - Oguri Cap (Cruzi) - Strategy: Late - Rank: A+
+9 - Silence Suzuka (Yves) - Strategy: Pace - Rank: A+
+10 - Seiun Sky (Agnes) - Strategy: Pace - Rank: A+
+11 - Tokai Teio (Ananth) - Strategy: Late - Rank: A
+12 - Agnes Digital (Yves) - Strategy: Pace - Rank: A+
+13 - Grass Wonder (Not shown) - Strategy: Pace - Rank: A+
+14 - Shadow Stalker (Not shown) - Strategy: Pace - Rank: B
+15 - Gold Chouchou (Ananth) - Strategy: Late - Rank: B
+16 - Nice Nature (Not shown) - Strategy: Front - Rank: A
+17 - Mayano Top Gun (Cruzi) - Strategy: Late - Rank: A
+18 - Frozen Sky (Not shown) - Strategy: Front - Rank: B
+
+Sus Cup 18 — SSR Race
+1 - Nice Nature (GohanXGAMER) - Strategy: Late - Rank: A
+2 - Nice Nature (Ananth) - Strategy: Pace - Rank: A
+3 - Nice Nature (Agnes) - Strategy: Late - Rank: A
+4 - Gold Ship (Cruzi) - Strategy: End - Rank: A+
+5 - Winning Ticket (Agnes) - Strategy: Late - Rank: A
+6 - T.M. Opera O (Yves) - Strategy: Pace - Rank: A+
+7 - Matikane Fukukitaru (GohanXGAMER) - Strategy: Late - Rank: A+
+8 - Mayano Top Gun (Cruzi) - Strategy: Late - Rank: A+
+9 - Mayano Top Gun (Yves) - Strategy: Pace - Rank: A
+10 - Biwa Hayahide (Agnes) - Strategy: Pace - Rank: A
+11 - Agnes Tachyon (Ananth) - Strategy: Late - Rank: A+
+12 - Symboli Rudolf (Yves) - Strategy: Pace - Rank: A
+13 - Torch and Book (Not shown) - Strategy: Pace - Rank: B
+14 - Set Your Record (Not shown) - Strategy: Pace - Rank: B
+15 - Grass Wonder (Ananth) - Strategy: Late - Rank: A
+16 - Breeze Glider (Not shown) - Strategy: Front - Rank: B
+17 - Symboli Rudolf (Cruzi) - Strategy: Late - Rank: A
+18 - Out of Black (Not shown) - Strategy: Front - Rank: B
+
+Sus Cup 19 — Gold Skills
+1 - Gold City (Ananth) - Strategy: Pace - Rank: A+
+2 - T.M. Opera O (Jiinxye) - Strategy: Pace - Rank: A+
+3 - Agnes Tachyon (Agnes) - Strategy: Pace - Rank: A+
+4 - Gold Ship (Cruzi) - Strategy: End - Rank: A+
+5 - Gold Ship (Ananth) - Strategy: End - Rank: A
+6 - Gold Ship (Unknown) - Strategy: End - Rank: A+
+7 - Mayano Top Gun (Unknown) - Strategy: Late - Rank: A+
+8 - Oguri Cap (Unknown) - Strategy: Pace - Rank: A+
+9 - Daiwa Scarlet (Unknown) - Strategy: Front - Rank: A+
+10 - Seiun Sky (Unknown) - Strategy: Front - Rank: A+
+11 - Winning Ticket (Unknown) - Strategy: Late - Rank: A
+12 - Mejiro McQueen (Unknown) - Strategy: Pace - Rank: A
+13 - Gray Chouchou (NPC) - Strategy: Pace - Rank: C+
+14 - Jagdplaute (NPC) - Strategy: End - Rank: C+
+15 - Mini Narcissus (NPC) - Strategy: Late - Rank: C+
+16 - Turcke (NPC) - Strategy: Pace - Rank: C+
+17 - Gran Shamal (NPC) - Strategy: Late - Rank: C+
+18 - Circuit Breaker (NPC) - Strategy: Front - Rank: C+
+
+Sus Cup 20 — All Style
+1 - Mejiro McQueen (Cyciesta) - Strategy: Pace - Rank: A+
+2 - Eishin Flash (Yves) - Strategy: Late - Rank: A+
+3 - Mayano Top Gun (Yves) - Strategy: End - Rank: A+
+4 - Agnes Digital (Cruzi) - Strategy: Late - Rank: A+
+5 - Narita Taishin (Cyciesta) - Strategy: End - Rank: S
+6 - Gold City (Ananth) - Strategy: Pace - Rank: A+
+7 - Symboli Rudolf (Cyciesta) - Strategy: Late - Rank: S
+8 - Agnes Tachyon (Agnes) - Strategy: Pace - Rank: A+
+9 - Mejiro Ryan (Ananth) - Strategy: Late - Rank: A+
+10 - Gold Ship (Cruzi) - Strategy: End - Rank: A+
+11 - Mihono Bourbon (Ananth) - Strategy: Front - Rank: A+
+12 - Meisho Doto (Yves) - Strategy: Pace - Rank: A+
+13 - King Halo (Agnes) - Strategy: Late - Rank: A+
+14 - Silence Suzuka (Agnes) - Strategy: Front - Rank: A+
+15 - Seiun Sky (Cruzi) - Strategy: Front - Rank: A+
+16 - Neptunus (Not shown) - Strategy: End - Rank: B
+17 - Maleficus (Not shown) - Strategy: Front - Rank: B
+18 - Ribbon Virelai (Not shown) - Strategy: Front - Rank: B
+
+Sus Cup 21 - Spark Race
+1 - Taiki Shuttle (Agnes) - Strategy: Pace - Rank: A+
+2 - Curren Chan (Cyciesta) - Strategy: Pace - Rank: S
+3 - Curren Chan (Jiinxye) - Strategy: Front - Rank: A+
+4 - Sakura Bakushin O (Jiinxye) - Strategy: Front - Rank: A+
+5 - Haru Urara (Cyciesta) - Strategy: Late - Rank: A+
+6 - Taiki Shuttle (Cyciesta) - Strategy: Pace - Rank: S+
+7 - Sakura Bakushin O (Yves) - Strategy: Front - Rank: A+
+8 - Maruzensky (Jiinxye) - Strategy: Front - Rank: A+
+9 - Maruzensky (Cruzi) - Strategy: Front - Rank: S+
+10 - Sakura Bakushin O (Agnes) - Strategy: Front - Rank: A+
+11 - Air Groove (Agnes) - Strategy: Pace - Rank: A+
+12 - Silence Suzuka (Cruzi) - Strategy: Front - Rank: A+
+13 - Pastime Joy (Mob) - Strategy: Pace - Rank: B+
+14 - Ribbon Virelai (Mob) - Strategy: Front - Rank: B+
+15 - Battle of Elah (Mob) - Strategy: End - Rank: B+
+16 - Oguri Cap (Yves) - Strategy: Pace - Rank: A+
+17 - Smart Falcon (Yves) - Strategy: Front - Rank: A
+18 - Daiwa Scarlet (Cruzi) - Strategy: Pace - Rank: S
+
+Sus Cup 22 - Cross Career Race
+1 - Agnes Tachyon (Cyciesta) - Strategy: Pace - Rank: S
+2 - Oguri Cap (GohanXGAMER) - Strategy: Pace - Rank: S
+3 - Oguri Cap (Cyciesta) - Strategy: Pace - Rank: S
+4 - Gold Ship (ARN) - Strategy: End - Rank: A
+5 - Gold Ship (Agnes) - Strategy: End - Rank: S
+6 - Admire Vega (GohanXGAMER) - Strategy: End - Rank: S
+7 - Oguri Cap (Yves) - Strategy: Pace - Rank: A
+8 - Narita Taishin (Yves) - Strategy: End - Rank: A+
+9 - Tamamo Cross (GohanXGAMER) - Strategy: End - Rank: S
+10 - Mayano Top Gun (Yves) - Strategy: Front - Rank: A
+11 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: S
+12 - T.M. Opera O (Agnes) - Strategy: Pace - Rank: A+
+13 - Mejiro McQueen (ARN) - Strategy: Pace - Rank: A
+14 - Matikanefukukitaru (Jiinxye) - Strategy: Late - Rank: A+
+15 - Grass Wonder (Agnes) - Strategy: Late - Rank: A
+16 - Meisho Doto (Cyciesta) - Strategy: Pace - Rank: A+
+17 - Seiun Sky (ARN) - Strategy: Front - Rank: A+
+18 - Nice Nature (Jiinxye) - Strategy: Late - Rank: B+
+
+Sus Cup 23 — Mixed Rarity Race
+1 - Narita Taishin (Jiinxye) - Strategy: End - Rank: SS
+2 - Agnes Tachyon (Shadow Amber) - Strategy: Pace - Rank: S
+3 - Mihono Bourbon (Cruzi) - Strategy: Front - Rank: SS
+4 - King Halo (Agnes) - Strategy: Late - Rank: S+
+5 - Nice Nature (Cyciesta) - Strategy: Late - Rank: SS
+6 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: S+
+7 - T.M. Opera O (Agnes) - Strategy: Pace - Rank: S+
+8 - Oguri Cap (Shadow Amber) - Strategy: Pace - Rank: S
+9 - Air Groove (Agnes) - Strategy: Late - Rank: S
+10 - Eishin Flash (Ananth) - Strategy: Pace - Rank: SS
+11 - Gold Ship (Cruzi) - Strategy: End - Rank: S
+12 - Vodka (Jiinxye) - Strategy: Late - Rank: S
+13 - Oguri Cap (Cyciesta) - Strategy: Pace - Rank: SS
+14 - Grass Wonder (Cyciesta) - Strategy: Late - Rank: SS
+15 - Mejiro Ryan (Haji) - Strategy: Late - Rank: A+
+16 - Winning Ticket (Jiinxye) - Strategy: Late - Rank: S
+17 - Special Week (Haji) - Strategy: Pace - Rank: S
+18 - Super Creek (Haji) - Strategy: Pace - Rank: A+
+
+Sus Cup 24 — Solo Queue Race
+1 - Mejiro Dober (jayreative) - Strategy: Late - Rank: S
+2 - Oguri Cap (Christmas) (Cyciesta) - Strategy: Pace - Rank: SS
+3 - Maruzensky (Summer) (Vilthaar) - Strategy: Front - Rank: SS
+4 - Admire Vega (GohanXGAMER) - Strategy: End - Rank: S+
+5 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: S+
+6 - Oguri Cap (eviskno) - Strategy: Pace - Rank: S+
+7 - Narita Taishin (Jiinxye) - Strategy: End - Rank: S
+8 - Symboli Rudolf (Agnes) - Strategy: Late - Rank: S+
+9 - Fuji Kiseki (Ananth) - Strategy: Pace - Rank: S+
+10 - Special Week (Haji) - Strategy: Pace - Rank: S
+11 - Mini Daisy (NPC Uma) - Strategy: Pace - Rank: A
+12 - Reed Photobook (NPC Uma) - Strategy: Pace - Rank: A
+13 - Chief Purser (NPC Uma) - Strategy: Late - Rank: A
+14 - Takeoff Plane (NPC Uma) - Strategy: End - Rank: A
+15 - Farm Volition (NPC Uma) - Strategy: Late - Rank: A
+16 - Coincidence (NPC Uma) - Strategy: Front - Rank: A
+17 - Waltz Step (NPC Uma) - Strategy: Pace - Rank: A
+18 - Missing Nights (NPC Uma) - Strategy: Front - Rank: A
+
+Sus Cup 25 — Fashion Statement Race
+1 - Oguri Cap (Cyciesta) - Strategy: Pace - Rank: SS
+2 - Seiun Sky (Cyciesta) - Strategy: Pace - Rank: S+
+3 - Mihono Bourbon (Cruzi) - Strategy: Front - Rank: SS
+4 - Symboli Rudolf (Cruzi) - Strategy: Pace - Rank: SS
+5 - Seiun Sky (GohanXGAMER) - Strategy: Front - Rank: S+
+6 - Rice Shower (Cyciesta) - Strategy: Pace - Rank: SS
+7 - Special Week (Agnes) - Strategy: Pace - Rank: S+
+8 - Gold City (Jiinxye) - Strategy: Pace - Rank: S
+9 - Super Creek (Agnes) - Strategy: Pace - Rank: S
+10 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: S
+11 - Gold City (Agnes) - Strategy: Pace - Rank: S
+12 - Gold City (Ananth) - Strategy: Pace - Rank: S
+13 - Mayano Top Gun (Cruzi) - Strategy: Pace - Rank: SS
+14 - Air Groove (Ananth) - Strategy: Pace - Rank: S
+15 - El Condor Pasa (Jiinxye) - Strategy: Late - Rank: S
+16 - Special Week (GohanXGAMER) - Strategy: Pace - Rank: S
+17 - Biwa Hayahide (GohanXGAMER) - Strategy: Pace - Rank: A+
+18 - Tamaxchi (—) - Strategy: Pace - Rank: B+
+
+Sus Cup 26 — Grand Live Sussery
+Unknown - Special Week (Agnes) - Strategy: Unknown - Rank: SS
+Unknown - Oguri Cap (Ananth) - Strategy: Unknown - Rank: UG
+Unknown - Agnes Tachyon (Cruzi) - Strategy: Unknown - Rank: UG
+Unknown - Mejiro Dober (GohanXGAMER) - Strategy: Unknown - Rank: SS
+Unknown - Silence Suzuka (Agnes) - Strategy: Unknown - Rank: SS
+Unknown - Agnes Digital (Cruzi) - Strategy: Unknown - Rank: SS
+Unknown - Maruzensky (Ananth) - Strategy: Unknown - Rank: UG
+Unknown - Tokai Teio (Jiinxye) - Strategy: Unknown - Rank: S+
+Unknown - Seiun Sky (GohanXGAMER) - Strategy: Unknown - Rank: SS
+Unknown - Admire Vega (GohanXGAMER) - Strategy: Unknown - Rank: UG
+Unknown - Mayano Top Gun (Cruzi) - Strategy: Unknown - Rank: SS
+Unknown - Gold Ship (Jiinxye) - Strategy: Unknown - Rank: SS
+Unknown - T.M. Opera O (Jiinxye) - Strategy: Unknown - Rank: S+
+Unknown - Air Shakur (Agnes) - Strategy: Unknown - Rank: SS
+Unknown - Gold City (Ananth) - Strategy: Unknown - Rank: S+
+Unknown - Oishii Parfait (NPC) - Strategy: Unknown - Rank: A
+Unknown - Coronet Rhythm (NPC) - Strategy: Unknown - Rank: A
+Unknown - Tropical Sky (NPC) - Strategy: Unknown - Rank: A
+
+Sus Cup 27 — Multi CM Sussing
+Unknown - Nishino Flower (Vilthaar) - Strategy: Pace - Rank: UG4
+Unknown - Mihono Bourbon (Cruzi) - Strategy: Front - Rank: UG7
+Unknown - Taiki Shuttle (Agnes) - Strategy: Pace - Rank: UG5
+Unknown - Daiwa Scarlet (GohanXGAMER) - Strategy: Front - Rank: UG6
+Unknown - Taiki Shuttle (Vilthaar) - Strategy: Pace - Rank: UG8
+Unknown - Fine Motion (Cruzi) - Strategy: Pace - Rank: SS
+Unknown - Nice Nature (GohanXGAMER) - Strategy: Late - Rank: UG5
+Unknown - Taiki Shuttle (Ananth) - Strategy: Pace - Rank: UG3
+Unknown - Nishino Flower (Jiinxye) - Strategy: Pace - Rank: UG
+Unknown - Fuji Kiseki (Agnes) - Strategy: Pace - Rank: UG7
+Unknown - Agnes Digital (Ananth) - Strategy: Pace - Rank: SS
+Unknown - Seeking the Pearl (Jiinxye) - Strategy: Pace - Rank: SS
+Unknown - Seiun Sky (GohanXGAMER) - Strategy: Front - Rank: SS
+Unknown - Air Groove (Cruzi) - Strategy: Pace - Rank: UG
+Unknown - Gold Ship (Jiinxye) - Strategy: End - Rank: SS
+Unknown - Kitasan Black (Ananth) - Strategy: Front - Rank: SS
+Unknown - Meisho Doto (Vilthaar) - Strategy: Pace - Rank: UG4
+Unknown - Eishin Flash (Agnes) - Strategy: Late - Rank: SS
+
+Sus Cup 27 — Multi CM Sussing
+Unknown - Air Groove (Cruzi) - Strategy: Pace - Rank: UG
+Unknown - Nice Nature (GohanXGAMER) - Strategy: Late - Rank: UG
+Unknown - Kitasan Black (Ananth) - Strategy: Front - Rank: UG
+Unknown - Taiki Shuttle (Ananth) - Strategy: Pace - Rank: UG
+Unknown - Gold Ship (Jiinxye) - Strategy: End - Rank: SS
+Unknown - Seiun Sky (GohanXGAMER) - Strategy: Front - Rank: SS
+Unknown - Agnes Digital (Ananth) - Strategy: Pace - Rank: SS
+Unknown - Eishin Flash (Agnes) - Strategy: Late - Rank: SS
+Unknown - Fine Motion (Cruzi) - Strategy: Pace - Rank: SS
+Unknown - Meisho Doto (Vilthaar) - Strategy: Pace - Rank: UG
+Unknown - Fuji Kiseki (Agnes) - Strategy: Pace - Rank: UG
+Unknown - Mihono Bourbon (Cruzi) - Strategy: Front - Rank: UG
+Unknown - Daiwa Scarlet (GohanXGAMER) - Strategy: Front - Rank: UG
+Unknown - Seeking the Pearl (Jiinxye) - Strategy: Pace - Rank: SS
+Unknown - Taiki Shuttle (Vilthaar) - Strategy: Pace - Rank: UG
+Unknown - Nishino Flower (Jiinxye) - Strategy: Pace - Rank: UG
+Unknown - Taiki Shuttle (Agnes) - Strategy: Pace - Rank: UG
+Unknown - Nishino Flower (Vilthaar) - Strategy: Pace - Rank: UG
+
+Sus Cup 28 — Triple Threat
+1 - Mayano Top Gun (Ananth) - Strategy: Front - Rank: SS
+2 - Oguri Cap (Vilthaar) - Strategy: Pace - Rank: UG Rank 9
+3 - Seiun Sky (Cruzi) - Strategy: Front - Rank: SS
+4 - Oguri Cap (Cyciesta) - Strategy: Pace - Rank: UG Rank 3
+5 - Grass Wonder (Agnes) - Strategy: Late - Rank: UG Rank 5
+6 - Meisho Doto (Cyciesta) - Strategy: Pace - Rank: UF Rank 2
+7 - Gold Ship (Jiinxye) - Strategy: Pace - Rank: SS
+8 - Mihono Bourbon (Cruzi) - Strategy: Front - Rank: UG Rank 3
+9 - King Halo (Agnes) - Strategy: Late - Rank: UG Rank 3
+10 - Maruzensky (Ananth) - Strategy: Front - Rank: UG
+11 - Meisho Doto (Vilthaar) - Strategy: Pace - Rank: UG Rank 7
+12 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: SS
+13 - Special Week (Agnes) - Strategy: Late - Rank: UG Rank 7
+14 - T.M. Opera O (Jiinxye) - Strategy: Pace - Rank: SS
+15 - Kitasan Black (Ananth) - Strategy: Front - Rank: UG
+16 - Kitasan Black (Cruzi) - Strategy: Front - Rank: SS
+17 - Fuji Kiseki (Vilthaar) - Strategy: Pace - Rank: UG Rank 5
+18 - Agnes Tachyon (Cyciesta) - Strategy: Pace - Rank: S
+
+Sus Cup 29 - RGB Race
+1 - Oguri Cap (Cyciesta) - Strategy: Pace - Rank: UG3
+2 - Silence Suzuka (agnes) - Strategy: Front - Rank: UG1
+3 - Grass Wonder (Cruzi) - Strategy: Late - Rank: UG
+4 - Nice Nature (Cruzi) - Strategy: Late - Rank: UG2
+5 - Silence Suzuka (Cyciesta) - Strategy: Front - Rank: UG8
+6 - Eishin Flash (Ananth) - Strategy: Pace - Rank: UG6
+7 - Agnes Tachyon (Cruzi) - Strategy: Pace - Rank: UG2
+8 - Grass Wonder (Ananth) - Strategy: Pace - Rank: UG7
+9 - Grass Wonder (agnes) - Strategy: Late - Rank: UG4
+10 - Mejiro McQueen (agnes) - Strategy: Pace - Rank: UG
+11 - Sunset Groom (Not shown) - Strategy: Pace - Rank: A+
+12 - Yggdra Valley (Not shown) - Strategy: End - Rank: A+
+13 - Aqua Oasis (Not shown) - Strategy: Late - Rank: A+
+14 - Shadow Stalker (Not shown) - Strategy: End - Rank: A+
+15 - Tide and Flow (Not shown) - Strategy: End - Rank: A+
+16 - Code of Heart (Not shown) - Strategy: Pace - Rank: A+
+17 - Agnes Tachyon (Cyciesta) - Strategy: End - Rank: S+
+18 - Maruzensky (Ananth) - Strategy: Front - Rank: UF3
+
+Sus Cup 30 - Polar Bear in Arlington Texas
+1 - Meisho Doto (Cyciesta) - Strategy: Pace - Rank: UG1
+2 - Special Week (agnes) - Strategy: Late - Rank: UG7
+3 - Mihono Bourbon (Vilthaar) - Strategy: Front - Rank: UG5
+4 - Symboli Rudolf (Jiinxye) - Strategy: Pace - Rank: UG6
+5 - Nakayama Festa (agnes) - Strategy: Late - Rank: UG2
+6 - Mejiro Ardan (Ananth) - Strategy: Pace - Rank: UG9
+7 - Seiun Sky (Vilthaar) - Strategy: Front - Rank: UG7
+8 - Narita Taishin (Jiinxye) - Strategy: End - Rank: SS
+9 - Admire Vega (GohanXGAMER) - Strategy: End - Rank: UG1
+10 - Kitasan Black (Ananth) - Strategy: Front - Rank: UG1
+11 - Seiun Sky (GohanXGAMER) - Strategy: Front - Rank: SS+
+12 - Agnes Tachyon (Ananth) - Strategy: Pace - Rank: UG
+13 - Tamamo Cross (Cyciesta) - Strategy: Pace - Rank: UG9
+14 - Agnes Tachyon (Cyciesta) - Strategy: End - Rank: S+
+15 - Meisho Doto (Vilthaar) - Strategy: Pace - Rank: UG7
+16 - Tamamo Cross (GohanXGAMER) - Strategy: End - Rank: SS+
+17 - T.M. Opera O (agnes) - Strategy: Pace - Rank: UG5
+18 - Tokai Teio (Jiinxye) - Strategy: Pace - Rank: SS
